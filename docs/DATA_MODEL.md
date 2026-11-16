@@ -19,3 +19,16 @@ Each entry has `edition_id`, `track_id`, `card_number` (string), `game_year` (in
 Use an explicitly assigned stable model ID and a deterministic note GUID derived from a stable study identity, never from mutable artist or title text. If the same recording has conflicting game years, preserve separate study identities or expose the difference explicitly. Use tags for edition membership; shared notes must not be assumed to belong to several decks at once. Verify overlapping package imports before publishing global and regional builds.
 
 Keep local media separate from source data, and select playback implementations after platform testing. Do not commit media or private imports.
+
+## Disposable playback prototype
+
+`prototype/sample.json` is a single technical fixture outside `data/`. It adds
+an explicit immutable `study_id` and `game_year`; it does not populate or change
+the catalogue schema. Its Anki fields are StudyID, TrackID, Artist, Title,
+GameYear and Audio, in that order, with a single Recognition template.
+
+The prototype reserves model ID `1735068211` and deck ID `1735068212`. Its GUID
+uses a prototype-specific namespace and StudyID. Production IDs, memberships,
+conflicting edition-year identities and overlapping package imports remain
+unimplemented. See [the playback experiment](PLAYBACK_DECISION.md) before
+designing the full export format.
