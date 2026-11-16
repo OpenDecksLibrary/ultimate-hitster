@@ -15,20 +15,13 @@ jobs:
           python-version: '3.12'
       - run: |
           python - <<'PY'
-          import urllib.request, re
-          from urllib.parse import urljoin
-          def get(url):
-              return urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"UltimateHitster/0.3 (+https://github.com/OpenDecksLibrary/ultimate-hitster)"}),timeout=30).read().decode()
-          for url in ("https://hitify.app/_astro/QRScanner.C158KhD_.js", "https://www.hitster4all.com/play"):
-              page=get(url)
-              print("PAGE",url,"APIS",re.findall(r'.{0,120}(?:/api/|hitstergame|\.json|/hitster/).{0,200}',page)[:60])
-              scripts=set(re.findall(r'["\x27]([^"\x27\s]+\.js)["\x27]',page))
-              print("MODULES",scripts)
-              for script in list(scripts)[:12]:
-                  if "cloudflare" in script: continue
-                  try:
-                      js=get(urljoin(url,script))
-                      matches=re.findall(r'.{0,100}(?:/api/|hitstergame|\.json|/hitster/).{0,160}',js,re.I)
-                      if matches: print("JS",script,"APIS",matches[:35])
-                  except Exception as error: print("ERROR",script,error)
+          import urllib.request, json
+          def get(path):
+              url="https://www.hitster4all.com/data/playlists/"+path+".json"
+              return json.load(urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"UltimateHitster/0.3 (+https://github.com/OpenDecksLibrary/ultimate-hitster)"}),timeout=30))
+          index=get("all")
+          print("INDEX TYPE",type(index).__name__,"SAMPLE",str(index)[:2200])
+          for name in ("hitster-fr-refresh", "hitster-fr"):
+              data=get(name)
+              print("EDITION",name,"TYPE",type(data).__name__,"SAMPLE",str(data)[:4200])
           PY
