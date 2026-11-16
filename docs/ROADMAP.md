@@ -15,8 +15,8 @@
 - [ ] Generate and import a test package; verify a second import preserves review history.
 
 The automated engine update test passes; GUI and device update checks remain
-open. See [the test record](PROTOTYPE_TESTING.md). Production IDs and schema are
-not frozen; current IDs belong only to the disposable playback experiment.
+open. See [the test record](PROTOTYPE_TESTING.md). Prototype IDs are separate
+from the stable production identities defined in schema v1.
 
 ## 0.2 — First edition
 
@@ -25,9 +25,10 @@ not frozen; current IDs belong only to the disposable playback experiment.
 - [x] Define schema-v1 production IDs and deduplicate exact recordings/study facts.
 - [x] Build full online/offline validation packages; test real mode-switch imports.
 - [ ] Manually validate the complete edition and reviewed version labels.
-- [ ] Collect and verify the French Original catalogue and edition years.
-- [ ] Implement repeatable validation and package generation.
-- [ ] Publish a tested release with installation and update instructions.
+- [x] Collect the French Original catalogue; retain its years and document their verification limits.
+- [x] Implement repeatable validation and package generation.
+- [x] Automate beta publication with tests, full Anki imports, checksums and download checks.
+- [ ] Complete manual edition/client validation before a stable release.
 
 ## 0.3 — Multi-edition support
 
