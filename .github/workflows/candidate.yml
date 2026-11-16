@@ -1,0 +1,58 @@
+name: Validate multi-edition candidate
+on:
+  push:
+    branches: [feature/universal-editions]
+    paths-ignore: [docs/**, '*.md']
+  pull_request:
+    paths-ignore: [docs/**, '*.md']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: candidate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: |
+            build/provider-cache
+            build/album-cache
+            build/media
+            build/sources
+          key: selected-import-v1
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python -m pip install -e . -r prototype/requirements-test.txt
+      - name: Test, decode MP3s and prepare selected candidate APKGs
+        run: python tools/prepare_release.py prepare --plan release-candidate.json
+      - name: Validate actual published-beta upgrade and successive full-edition imports
+        run: python tools/validate_multi_imports.py
+      - name: Include upgrade evidence in the candidate checksum manifest
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from tools.prepare_release import asset_names, release_plan, write_checksums
+          root=Path("dist")
+          report=json.loads((root/"validation.json").read_text())
+          report["successive_imports"]=json.loads((root/"successive-imports.json").read_text())
+          (root/"validation.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
+          (root/"successive-imports.json").unlink()
+          write_checksums(root,asset_names(release_plan(Path("release-candidate.json"))))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: v0.3.0-beta.1-candidate
+          path: dist/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7

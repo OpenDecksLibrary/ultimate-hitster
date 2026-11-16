@@ -17,17 +17,16 @@ config alongside the code; this is not distributed as a standalone wheel.
 ## Import all cards and exact references
 
 ~~~sh
-python -m ultimate_hitster refresh-references --albums
-python -m ultimate_hitster import-hitify --html data/sources/original-france.hitify.html
+python -m ultimate_hitster refresh-references --references data/sources/original-france.references.csv --albums
+python -m ultimate_hitster import-hitify --references data/sources/original-france.references.csv --reviews data/sources/original-france.reviews.json --html data/sources/original-france.hitify.html
 python -m ultimate_hitster check-audio
 python -m ultimate_hitster validate
 ~~~
 
 The importer has no ten-card cap. It validates all expected card numbers,
 duplicate rows, table structure and exact reference-map coverage. Without
---html it retrieves the edition URL. --expected-count is explicit; France
-defaults to 308. The pure importer also accepts other edition definitions,
-but this branch imports no other edition.
+--html it retrieves the edition URL. --expected-count is an optional additional assertion. Any registered compatible edition can be selected with --edition; its count
+comes from the registry. See MULTI_EDITION.md for the selected import plan.
 
 Direct Hitify HTTP access returned 403 in this environment. The committed
 HTML is explicitly a normalized table snapshot reconstructed from public page
@@ -49,7 +48,7 @@ python -m ultimate_hitster build --mode offline --output build/ultimate-hitster-
 
 configs/original-france.json selects edition IDs, a stable deck ID and name.
 Later selections can contain several editions; shared study IDs produce only
-one note. The current canonical dataset contains Original France only.
+one note. See data/reports/catalogue.json for the current imported editions and counts.
 
 Online uses direct MP3 URLs and requires internet. Offline packages the same
 checked MP3 bytes for playback after import/media sync. The front contains
@@ -84,8 +83,8 @@ A changed provider ID/title invalidates the review.
 ## Verify and renew URLs
 
 ~~~sh
-python -m ultimate_hitster refresh-references --refresh --albums
-python -m ultimate_hitster import-hitify --html data/sources/original-france.hitify.html
+python -m ultimate_hitster refresh-references --references data/sources/original-france.references.csv --refresh --albums
+python -m ultimate_hitster import-hitify --references data/sources/original-france.references.csv --reviews data/sources/original-france.reviews.json --html data/sources/original-france.hitify.html
 python -m ultimate_hitster check-audio --refresh
 python -m ultimate_hitster build --mode online --output build/ultimate-hitster-original-france-online.apkg --missing-policy error
 ~~~

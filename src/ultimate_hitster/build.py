@@ -122,7 +122,9 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
             media[name] = str(path)
         else:
             missing.extend({"edition_id": member["edition_id"], "card_number": member["card_number"],
-                            "title": track["title"], "reason": audio.get("reason", audio["status"])}
+                            "title": track["title"], "reason": (member["reference"]["status"]
+                                if member["reference"]["status"] not in ("verified", "reviewed")
+                                else audio.get("reason", audio["status"]))}
                            for member in item["memberships"])
             if missing_policy == "error":
                 raise ValueError("Unverified or unavailable audio; use include only for a documented validation build")
@@ -139,6 +141,8 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
         tags.extend("card::" + member["edition_id"] + "::" + member["card_number"] for member in tag_members)
         if any(member["reference"]["status"] == "reviewed" for member in item["memberships"]):
             tags.append("reference::reviewed")
+        if any(m["reference"]["status"] not in ("verified", "reviewed") for m in tag_members):
+            tags.append("reference::uncertain")
         if not available:
             tags.append("audio::missing")
         values = [study_id, track["recording_id"], html.escape(track["artist"]), html.escape(track["title"]),

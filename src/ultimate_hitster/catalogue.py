@@ -147,6 +147,10 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
     by_provider = {provider: track for track in recordings.values()
                    for provider in track["providers"]["spotify"]}
     old_members = {(member["edition_id"], member["card_number"]): member for member in result["memberships"]}
+    origins = {}
+    edition_order = {e["edition_id"]: i for i, e in enumerate(result["editions"])}
+    for member in sorted(result["memberships"], key=lambda m: edition_order[m["edition_id"]]):
+        origins.setdefault(member["recording_id"], member["edition_id"])
     studies = {(member["recording_id"], member["catalogue_year"]): member["study_id"] for member in result["memberships"]}
     added_members = []
     for row in rows:
@@ -160,7 +164,8 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
         if track is None:
             track = {"recording_id": stable_id("rec", "spotify:" + provider) if provider else unresolved_id,
                      "artist": row["artist"], "title": row["title"], "album": None,
-                     "providers": {"spotify": [provider] if provider else []}}
+                     "providers": {"spotify": [provider] if provider else []},
+                     "catalogue_origin": edition_id}
             recordings[track["recording_id"]] = track
             if provider:
                 by_provider[provider] = track
@@ -207,7 +212,10 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
                                             **({"review": review["reason"]} if review else {})}})
     # A corrected spelling in the same edition must not depend on provider text.
     for row, member in zip(rows, added_members):
-        if (edition_id, row["card_number"]) in old_members:
+        track = recordings[member["recording_id"]]
+        origin = track.get("catalogue_origin", origins.get(track["recording_id"], edition_id))
+        track["catalogue_origin"] = origin
+        if (edition_id, row["card_number"]) in old_members and origin == edition_id:
             recordings[member["recording_id"]]["artist"] = row["artist"]
             recordings[member["recording_id"]]["title"] = row["title"]
     result["recordings"] = sorted(recordings.values(), key=lambda track: track["recording_id"])

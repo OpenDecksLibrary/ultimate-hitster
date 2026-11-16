@@ -85,3 +85,23 @@ build/anki-build-epoch.txt, preventing same-second mode builds from tying
 Anki's update-if-newer check. Library callers supply a newer explicit timestamp.
 APKG bytes are not guaranteed reproducible; IDs, source data and audio hashes
 are the stable contract.
+
+## Backward-compatible multi-edition metadata
+
+The v0.3 implementation retains schema v1 and all published identities. Optional
+edition metadata adds family, revision and languages. Memberships add
+catalogue_artist and catalogue_title so edition-specific labels are preserved
+without duplicating recording entities. catalogue_origin identifies the edition
+that owns a recording's canonical display labels.
+
+data/registry.json is a separate discovery registry, including unimported
+editions. It does not create membership/recording entities until explicitly
+imported. Reference states additionally include source_conflict and unresolved.
+An unresolved row has spotify_id null, an empty provider list and a deterministic
+recording ID anchored to its immutable membership. Its player is unavailable;
+resolving its identity is an explicit review, not an automatic title match.
+
+New universal packages use deck ID 1735079200 / Ultimate Hitster. The published
+Original France deck ID/name remain unchanged. Existing cards keep their user's
+deck during later imports. All edition memberships are represented by tags;
+conflicting-year study facts stay separate and share media. See MULTI_EDITION.md.

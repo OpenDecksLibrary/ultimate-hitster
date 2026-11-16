@@ -1,64 +1,36 @@
 name: Import selected catalogue editions
 on:
-  push:
-    branches: [feature/universal-editions]
-    paths:
-      - configs/import-v0.3.json
-      - tools/import_catalogue.py
-      - .github/workflows/import-selected.yml
+  workflow_dispatch:
+    inputs:
+      plan:
+        description: Explicit import plan in configs/
+        default: configs/import-v0.3.json
+        required: true
+        type: string
 permissions:
   contents: read
-concurrency:
-  group: selected-edition-import
-  cancel-in-progress: false
 jobs:
   import:
-    if: github.ref == 'refs/heads/feature/universal-editions'
     runs-on: ubuntu-latest
     timeout-minutes: 35
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          ref: feature/universal-editions
+          persist-credentials: false
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
-      - uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
-        with:
-          path: |
-            build/provider-cache
-            build/album-cache
-            build/media
-            build/sources
-          key: selected-import-v1
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python -m pip install -e . -r prototype/requirements-test.txt
-      - name: Import only the two explicitly selected editions and verify MP3s
-        run: python tools/import_catalogue.py --check-audio
+      - name: Import only explicitly selected editions and verify audio
+        env:
+          IMPORT_PLAN: ${{ inputs.plan }}
+        run: python tools/import_catalogue.py --plan "$IMPORT_PLAN" --check-audio
       - run: python -m unittest discover -s tests -v
-      - name: Save source snapshots and catalogue data on the feature branch
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data
-          if ! git diff --cached --quiet; then
-            git commit -m 'Import Original Refresh and Guilty Pleasures France with source evidence'
-            git push origin HEAD:feature/universal-editions
-          fi
-      - uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
-        if: always()
-        with:
-          path: |
-            build/provider-cache
-            build/album-cache
-            build/media
-            build/sources
-          key: selected-import-v1
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        if: failure()
         with:
-          name: selected-import-checkpoint
-          path: data
+          name: imported-catalogue-review
+          path: data/
           retention-days: 7
+# Inspect and commit the artifact on a review branch; this workflow never pushes
+# canonical data or imports editions outside the selected plan.
