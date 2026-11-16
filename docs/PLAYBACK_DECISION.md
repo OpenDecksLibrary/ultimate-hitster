@@ -26,8 +26,10 @@ pixels high; the reference deck's 80-pixel player is a legacy layout.
 
 - One note and one recognition card. Recall artist, title and game-card year
   together; optional difficulty modes are deferred.
-- The front includes only neutral instructions and the Audio field. The back
+- The front includes only the Audio field, with no branding or instructions. The back
   reveals Artist, Title and GameYear. No answer is hidden in CSS on the front.
+- Album is planned as optional answer-side information in the future model;
+  the current six-field schema stays unchanged for standard prototype updates.
 - Audio contains the entire `[sound:filename]` reference, allowing Anki's media
   checker to find it. Filenames contain a prefix and SHA-256, not answer text.
 - `FrontSide` retains the question on the back without automatically replaying

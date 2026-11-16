@@ -4,7 +4,13 @@ Use versioned JSON source files and immutable identifiers. These conventions are
 
 ## Tracks (`data/tracks.json`)
 
-Each entry has `track_id` (immutable opaque ID), `artist`, `title`, optional `recording_year`, optional `isrc` / `musicbrainz_recording_id`, and optional `providers` with provider-specific track IDs. Distinct recordings, covers and remixes remain separate even when titles match.
+Each entry has `track_id` (immutable opaque ID), `artist`, `title`, optional `album`, optional `recording_year`, optional `isrc` / `musicbrainz_recording_id`, and optional `providers` with provider-specific track IDs. Distinct recordings, covers and remixes remain separate even when titles match.
+
+Album is planned as optional supplementary information on the answer side,
+not a required recall target. Record the album associated with the selected
+recording when verified; leave it empty when unknown. It is not yet a field in
+the disposable prototype. Adding it to the eventual note schema requires an
+explicit migration test, since standard imports reject conflicting note types.
 
 ## Editions (`data/editions.json`)
 

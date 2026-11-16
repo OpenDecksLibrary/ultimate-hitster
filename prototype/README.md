@@ -16,7 +16,7 @@ python prototype/build.py
 ```
 
 Import `build/playback-prototype.apkg` into a disposable Anki profile. The
-question shows a native audio replay control and neutral instructions. The
+question shows only a native audio replay control, with no headings or instructions. The
 answer shows artist, title and year. No add-on or account is required by the
 template. Audio playback in each client is still subject to manual validation.
 

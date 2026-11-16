@@ -26,6 +26,12 @@ The generated WAV was separately decoded successfully with FFmpeg; FFprobe
 reported exactly 3.000000 seconds. This confirms decodable bytes, not audible
 output through Anki's native player.
 
+The minimal-front revision was also imported over the previous six-field
+prototype after recording a review. Rendered question content contained only
+the replay control; the existing card, scheduling state and review history
+were preserved. The note schema was kept unchanged. Album remains planned
+for the future schema, rather than introducing an incompatible field addition.
+
 CI runs these import/update tests and a sample build. It publishes no release
 or generated media. Build-time dependencies are pinned separately from the
 optional Anki test dependency.

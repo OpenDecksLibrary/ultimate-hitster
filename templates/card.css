@@ -16,11 +16,7 @@
   border-radius: 18px;
   background: #ffffff;
 }
-.eyebrow { font-size: 11px; letter-spacing: 0.12em; color: #64748b; }
-h1 { font-size: 26px; margin: 22px 0 10px; }
-.prompt { color: #475569; }
-.audio { margin: 28px 0; }
-.help { font-size: 13px; color: #64748b; }
+.audio { margin: 0; }
 .hitster-answer { margin-top: 16px; border-top: 4px solid #0f766e; }
 .year { font-size: 52px; font-weight: 700; color: #0f766e; margin: 0 0 12px; }
 h2 { font-size: 24px; margin: 12px 0; overflow-wrap: anywhere; }
@@ -30,5 +26,5 @@ h2 { font-size: 24px; margin: 12px 0; overflow-wrap: anywhere; }
 .night_mode .hitster-card, .night_mode .hitster-answer {
   background: #1e293b; border-color: #475569;
 }
-.nightMode .prompt, .nightMode .artist, .night_mode .prompt, .night_mode .artist { color: #cbd5e1; }
+.nightMode .artist, .night_mode .artist { color: #cbd5e1; }
 .nightMode .year, .night_mode .year { color: #5eead4; }
