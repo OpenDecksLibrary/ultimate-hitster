@@ -2,7 +2,7 @@
 
 Community-maintained Anki collections for music recognition and release-year recall, organized around Hitster editions worldwide.
 
-**Status: early development. No deck release is available yet.**
+**Status: Original France validation build available. No stable release yet.**
 
 ## Goals
 
@@ -13,6 +13,13 @@ Community-maintained Anki collections for music recognition and release-year rec
 - Generate downloadable `.apkg` packages from validated, versioned source data.
 
 ## Getting started
+
+The full [Original France edition](docs/ORIGINAL_FRANCE_VALIDATION.md) contains
+308 cards with checked MP3 previews and albums. The
+[production workflow](docs/PRODUCTION_WORKFLOW.md) imports the complete catalogue
+and builds online/offline alternatives with shared, stable production identities.
+See [schema v1](docs/DATA_MODEL.md) and the seven explicit version-label reviews
+before validating the full deck. Other editions have not been imported.
 
 Start with the [one-card native audio prototype](prototype/README.md). It generates an importable APKG with a three-second synthetic clip and tests stable updates through Anki's engine. This is a playback experiment, not a populated Hitster edition.
 
@@ -30,6 +37,9 @@ See [the roadmap](docs/ROADMAP.md) and [data model](docs/DATA_MODEL.md). The ini
 ## Downloads
 
 Future builds will be published under [Releases](https://github.com/OpenDecksLibrary/ultimate-hitster/releases).
+
+Current APKGs are validation artifacts, not a published stable release. Online
+and offline update the same production deck; prototypes remain separate.
 
 ## Contributing
 

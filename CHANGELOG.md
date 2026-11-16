@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Import all 308 Original France catalogue cards into production schema v1.
+- Separate recordings, editions and memberships with exact-reference deduplication,
+  immutable study identities, reviewed version labels and optional albums.
+- Verify all 308 MP3s and generate online/offline validation APKGs with shared
+  production identities, content-addressed media and URL renewal commands.
+- Add production validation/import/update tests and a full validation record;
+  preserve all prototypes and publish no stable release.
 - Replace the failing remote AAC previews with MP3 previews for the exact
   Spotify playlist recordings; preserve existing remote note identities.
 - Reproduce the AAC/MP3 difference in Qt WebEngine and add remote-source

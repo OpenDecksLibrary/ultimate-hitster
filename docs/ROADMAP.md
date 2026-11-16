@@ -20,6 +20,11 @@ not frozen; current IDs belong only to the disposable playback experiment.
 
 ## 0.2 — First edition
 
+- [x] Import all 308 Original France catalogue rows and exact source references.
+- [x] Verify MP3 previews and retrieve albums; document explicit label reviews.
+- [x] Define schema-v1 production IDs and deduplicate exact recordings/study facts.
+- [x] Build full online/offline validation packages; test real mode-switch imports.
+- [ ] Manually validate the complete edition and reviewed version labels.
 - [ ] Collect and verify the French Original catalogue and edition years.
 - [ ] Implement repeatable validation and package generation.
 - [ ] Publish a tested release with installation and update instructions.
