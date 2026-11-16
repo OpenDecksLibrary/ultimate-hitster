@@ -1,0 +1,29 @@
+{
+  "tag": "v0.3.0-beta.1",
+  "prerelease": true,
+  "publish": false,
+  "notes": "docs/releases/v0.3.0-beta.1.md",
+  "missing_policy": "include",
+  "packages": [
+    {
+      "stem": "ultimate-hitster-original-france",
+      "config": "configs/original-france.json"
+    },
+    {
+      "stem": "ultimate-hitster-original-refresh-france",
+      "config": "configs/original-refresh-france.json"
+    },
+    {
+      "stem": "ultimate-hitster-guilty-pleasures-france",
+      "config": "configs/guilty-pleasures-france.json"
+    },
+    {
+      "stem": "ultimate-hitster-original-family",
+      "config": "configs/original-family.json"
+    },
+    {
+      "stem": "ultimate-hitster-imported-catalogue",
+      "config": "configs/imported-catalogue.json"
+    }
+  ]
+}

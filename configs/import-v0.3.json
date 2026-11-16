@@ -7,9 +7,9 @@
       "reference_market": "FR"
     },
     {
-      "edition_id": "hitster-radio-contact-belgium",
-      "reference_name_contains": "Radio Contact",
-      "reference_market": "BE",
+      "edition_id": "hitster-guilty-pleasures-france",
+      "reference_name_contains": "Guilty Pleasures (FR)",
+      "reference_market": "FR",
       "languages": [
         "fr"
       ]
