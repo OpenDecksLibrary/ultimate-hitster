@@ -1,1 +1,27 @@
-[]
+{
+  "schema_version": 1,
+  "editions": [
+    {
+      "edition_id": "hitster-original-france",
+      "name": "Hitster Original France",
+      "region": "FR",
+      "language": "fr",
+      "card_count": 308,
+      "year_kind": "catalogue_release_year",
+      "printed_years_verified": false,
+      "anki_deck_id": 1735079101,
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-france",
+          "retrieved_on": "2026-11-16",
+          "snapshot": "original-france.hitify.html",
+          "sha256": "3bb44dcddabf7cdcb68ea90d971eaabeef3c0b13daf7b2acd318f173c267d574"
+        },
+        {
+          "url": "https://github.com/oleuml/musicminds-hitster-playlists/blob/main/hitster-aaaa0004-fr.csv",
+          "sha256": "5a26063cd5d00407f3933ffaf65f404a7b00f4da7d076faed567900dc53b21f3"
+        }
+      ]
+    }
+  ]
+}

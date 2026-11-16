@@ -1,0 +1,44 @@
+{
+  "58": {
+    "spotify_id": "60nZcImufyMA1MKQY3dcCH",
+    "catalogue_title": "Happy",
+    "provider_title": "Happy - From \"Despicable Me 2\"",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The same ID is independently present at this card position in the Hitify public playlist prefix. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "80": {
+    "spotify_id": "2fuCquhmrzHpu5xcA1ci9x",
+    "catalogue_title": "Under Pressure",
+    "provider_title": "Under Pressure - Remastered 2011",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The same ID is independently present at this card position in the Hitify public playlist prefix. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "110": {
+    "spotify_id": "2aEeghgUcnu75tzcolFMfs",
+    "catalogue_title": "La Bamba",
+    "provider_title": "La Bamba - Single Version",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "170": {
+    "spotify_id": "2Foc5Q5nqNiosCNqttzHof",
+    "catalogue_title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+    "provider_title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "198": {
+    "spotify_id": "2YWjW3wwQIBLNhxWKBQd16",
+    "catalogue_title": "Lean On (feat. MØ & DJ Snake)",
+    "provider_title": "Lean On",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "263": {
+    "spotify_id": "6UEfyhyfhYQsyipxOd95Ie",
+    "catalogue_title": "The Ketchup Song (Aserejé)",
+    "provider_title": "The Ketchup Song (Aserejé) - Spanglish Version",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  },
+  "292": {
+    "spotify_id": "6QfS2wq5sSC1xAJCQsTSlj",
+    "catalogue_title": "Shallow",
+    "provider_title": "Shallow - Radio Edit",
+    "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+  }
+}
