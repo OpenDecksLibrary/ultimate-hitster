@@ -3,6 +3,12 @@
 Status: **provisional experiment**, 2026-11-16. This is not a production
 architecture decision or a statement of mobile compatibility.
 
+Update: the user reported the native prototype works in Anki, and PR #1 was
+merged. Client version and mobile behavior were not recorded. The separate
+[ten-song HTML5/native experiment](../prototype/COMPARISON.md) now tests real
+previews without changing the original prototype. It does not establish a
+production playback choice.
+
 ## Comparison
 
 | Approach | Blind question side | Offline / media | Dependencies and limitations | Evidence so far |

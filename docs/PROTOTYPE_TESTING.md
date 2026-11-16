@@ -6,7 +6,9 @@ personal Anki profiles.
 
 ## Automated results
 
-`python -m unittest discover -s tests -v` — **6 tests passed**:
+Original prototype regression checks — **6 tests passed**. The current combined
+suite has 14 tests; see [the comparison record](../prototype/COMPARISON.md).
+Run all checks with `python -m unittest discover -s tests -v`.
 
 1. Package has one note, one card, exactly one correctly mapped media file,
    reserved IDs and no included review history.
@@ -36,12 +38,22 @@ CI runs these import/update tests and a sample build. It publishes no release
 or generated media. Build-time dependencies are pinned separately from the
 optional Anki test dependency.
 
+## User-reported manual result
+
+On 2026-11-16, the user confirmed that the native prototype was imported and
+worked in Anki. This is a positive manual playback result. The client version,
+operating system, offline behavior, sync, night mode and update workflow were
+not separately recorded; do not mark those checks as passed. Neither mobile
+client was validated by this report. PR #1 was merged before the second
+experiment started.
+
 ## Compatibility matrix
 
 | Surface | Import / update | Playback / replay / layout | Status |
 | --- | --- | --- | --- |
 | Anki engine 26.9.4, Linux | Passed | Audio tag resolution and rendered HTML passed | Automated backend evidence only |
-| Anki Desktop GUI | Pending | Pending | No usable local graphical display; attempted headless Chromium layout check was blocked by socket restrictions |
+| User's Anki client, version not recorded | Import and playback reported working | Positive user report; detailed replay/layout checks not recorded | Native one-card prototype only |
+| Agent-side Anki Desktop GUI | Pending | Pending | No usable local graphical display; attempted headless Chromium layout check was blocked by socket restrictions |
 | AnkiDroid | Pending | Pending | Device test required |
 | AnkiMobile | Pending | Pending | Device test required |
 | Spotify embed inside Anki | Not implemented | Pending | Reference template inspected only |
