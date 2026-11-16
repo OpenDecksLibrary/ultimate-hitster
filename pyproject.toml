@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ultimate-hitster"
+version = "0.1.0"
+description = "Versioned Hitster catalogue and Anki generation"
+requires-python = ">=3.12"
+dependencies = ["genanki==0.13.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,5 +1,8 @@
 # Hitify catalogue investigation
 
+This records the earlier ten-card investigation. The full production catalogue
+and importer are now documented in [the production workflow](PRODUCTION_WORKFLOW.md).
+
 Observed on 2026-11-16. This investigation stores only a ten-card sample;
 `data/tracks.json` and `data/editions.json` remain unpopulated.
 

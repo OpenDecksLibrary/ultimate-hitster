@@ -1,0 +1,611 @@
+{
+  "checked_at": "2026-11-16T20:13:45+00:00",
+  "cards": 308,
+  "recordings": 308,
+  "studies": 308,
+  "reference_status": {
+    "verified": 301,
+    "reviewed": 7
+  },
+  "audio_status": {
+    "verified": 308
+  },
+  "albums": 308,
+  "issues": [],
+  "explicit_label_reviews": [
+    {
+      "card_number": "58",
+      "catalogue_title": "Happy",
+      "provider_title": "Happy - From \"Despicable Me 2\"",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The same ID is independently present at this card position in the Hitify public playlist prefix. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "80",
+      "catalogue_title": "Under Pressure",
+      "provider_title": "Under Pressure - Remastered 2011",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The same ID is independently present at this card position in the Hitify public playlist prefix. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "110",
+      "catalogue_title": "La Bamba",
+      "provider_title": "La Bamba - Single Version",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "170",
+      "catalogue_title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+      "provider_title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "198",
+      "catalogue_title": "Lean On (feat. MØ & DJ Snake)",
+      "provider_title": "Lean On",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "263",
+      "catalogue_title": "The Ketchup Song (Aserejé)",
+      "provider_title": "The Ketchup Song (Aserejé) - Spanglish Version",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    },
+    {
+      "card_number": "292",
+      "catalogue_title": "Shallow",
+      "provider_title": "Shallow - Radio Edit",
+      "reason": "Retain the exact card-to-Spotify ID from the pinned reference CSV; no replacement or title search. The catalogue label is shorter/differently formatted; the provider version label below is explicitly retained in this audit. Physical-card/audio comparison remains a validation step."
+    }
+  ],
+  "provider_date_differences": [
+    {
+      "card_number": "5",
+      "catalogue_year": 2015,
+      "provider_release_date": "2016-04-01T00:00:00Z"
+    },
+    {
+      "card_number": "11",
+      "catalogue_year": 1969,
+      "provider_release_date": "1970-05-08T00:00:00Z"
+    },
+    {
+      "card_number": "13",
+      "catalogue_year": 1986,
+      "provider_release_date": "2004-10-08T00:00:00Z"
+    },
+    {
+      "card_number": "14",
+      "catalogue_year": 1986,
+      "provider_release_date": "2009-01-26T00:00:00Z"
+    },
+    {
+      "card_number": "17",
+      "catalogue_year": 1984,
+      "provider_release_date": "1999-12-31T00:00:00Z"
+    },
+    {
+      "card_number": "19",
+      "catalogue_year": 2017,
+      "provider_release_date": "2018-03-02T00:00:00Z"
+    },
+    {
+      "card_number": "23",
+      "catalogue_year": 1974,
+      "provider_release_date": "2003-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "31",
+      "catalogue_year": 2009,
+      "provider_release_date": "2010-02-24T00:00:00Z"
+    },
+    {
+      "card_number": "32",
+      "catalogue_year": 1966,
+      "provider_release_date": "2013-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "34",
+      "catalogue_year": 1974,
+      "provider_release_date": "1975-01-15T00:00:00Z"
+    },
+    {
+      "card_number": "41",
+      "catalogue_year": 1994,
+      "provider_release_date": "1995-04-10T00:00:00Z"
+    },
+    {
+      "card_number": "43",
+      "catalogue_year": 1982,
+      "provider_release_date": "2004-12-03T00:00:00Z"
+    },
+    {
+      "card_number": "47",
+      "catalogue_year": 1973,
+      "provider_release_date": "1974-02-04T00:00:00Z"
+    },
+    {
+      "card_number": "48",
+      "catalogue_year": 1998,
+      "provider_release_date": "1999-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "51",
+      "catalogue_year": 1929,
+      "provider_release_date": "2012-10-10T00:00:00Z"
+    },
+    {
+      "card_number": "56",
+      "catalogue_year": 2005,
+      "provider_release_date": "2004-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "57",
+      "catalogue_year": 1996,
+      "provider_release_date": "2003-02-28T00:00:00Z"
+    },
+    {
+      "card_number": "58",
+      "catalogue_year": 2013,
+      "provider_release_date": "2014-03-03T00:00:00Z"
+    },
+    {
+      "card_number": "60",
+      "catalogue_year": 2014,
+      "provider_release_date": "2015-01-12T00:00:00Z"
+    },
+    {
+      "card_number": "61",
+      "catalogue_year": 1971,
+      "provider_release_date": "1998-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "64",
+      "catalogue_year": 1979,
+      "provider_release_date": "1978-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "65",
+      "catalogue_year": 2014,
+      "provider_release_date": "2015-03-02T00:00:00Z"
+    },
+    {
+      "card_number": "67",
+      "catalogue_year": 2000,
+      "provider_release_date": "2001-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "70",
+      "catalogue_year": 1981,
+      "provider_release_date": "2004-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "74",
+      "catalogue_year": 1958,
+      "provider_release_date": "2011-08-30T00:00:00Z"
+    },
+    {
+      "card_number": "76",
+      "catalogue_year": 1908,
+      "provider_release_date": "2011-10-24T00:00:00Z"
+    },
+    {
+      "card_number": "77",
+      "catalogue_year": 2018,
+      "provider_release_date": "2019-05-10T00:00:00Z"
+    },
+    {
+      "card_number": "79",
+      "catalogue_year": 1980,
+      "provider_release_date": "2005-02-01T00:00:00Z"
+    },
+    {
+      "card_number": "80",
+      "catalogue_year": 1981,
+      "provider_release_date": "1982-05-03T00:00:00Z"
+    },
+    {
+      "card_number": "81",
+      "catalogue_year": 1971,
+      "provider_release_date": "1993-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "84",
+      "catalogue_year": 1986,
+      "provider_release_date": "2010-04-22T00:00:00Z"
+    },
+    {
+      "card_number": "88",
+      "catalogue_year": 2014,
+      "provider_release_date": "2015-11-06T00:00:00Z"
+    },
+    {
+      "card_number": "90",
+      "catalogue_year": 1953,
+      "provider_release_date": "2009-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "93",
+      "catalogue_year": 1990,
+      "provider_release_date": "2000-12-25T00:00:00Z"
+    },
+    {
+      "card_number": "102",
+      "catalogue_year": 1992,
+      "provider_release_date": "2001-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "104",
+      "catalogue_year": 1992,
+      "provider_release_date": "1993-12-24T00:00:00Z"
+    },
+    {
+      "card_number": "105",
+      "catalogue_year": 1957,
+      "provider_release_date": "1958-03-21T00:00:00Z"
+    },
+    {
+      "card_number": "106",
+      "catalogue_year": 1980,
+      "provider_release_date": "2002-07-09T00:00:00Z"
+    },
+    {
+      "card_number": "108",
+      "catalogue_year": 1978,
+      "provider_release_date": "2004-01-19T00:00:00Z"
+    },
+    {
+      "card_number": "110",
+      "catalogue_year": 1958,
+      "provider_release_date": "1959-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "111",
+      "catalogue_year": 1964,
+      "provider_release_date": "1996-10-17T00:00:00Z"
+    },
+    {
+      "card_number": "114",
+      "catalogue_year": 1958,
+      "provider_release_date": "1959-07-01T00:00:00Z"
+    },
+    {
+      "card_number": "116",
+      "catalogue_year": 1960,
+      "provider_release_date": "1962-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "119",
+      "catalogue_year": 1969,
+      "provider_release_date": "2007-11-07T00:00:00Z"
+    },
+    {
+      "card_number": "120",
+      "catalogue_year": 1965,
+      "provider_release_date": "2020-04-03T00:00:00Z"
+    },
+    {
+      "card_number": "126",
+      "catalogue_year": 1987,
+      "provider_release_date": "2009-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "128",
+      "catalogue_year": 1980,
+      "provider_release_date": "1975-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "129",
+      "catalogue_year": 2001,
+      "provider_release_date": "2002-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "131",
+      "catalogue_year": 1984,
+      "provider_release_date": "2011-07-25T00:00:00Z"
+    },
+    {
+      "card_number": "133",
+      "catalogue_year": 2005,
+      "provider_release_date": "2006-04-11T00:00:00Z"
+    },
+    {
+      "card_number": "135",
+      "catalogue_year": 1993,
+      "provider_release_date": "1994-10-10T00:00:00Z"
+    },
+    {
+      "card_number": "136",
+      "catalogue_year": 1998,
+      "provider_release_date": "2013-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "144",
+      "catalogue_year": 1968,
+      "provider_release_date": "2009-04-06T00:00:00Z"
+    },
+    {
+      "card_number": "146",
+      "catalogue_year": 1963,
+      "provider_release_date": "1962-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "147",
+      "catalogue_year": 1958,
+      "provider_release_date": "1994-04-19T00:00:00Z"
+    },
+    {
+      "card_number": "157",
+      "catalogue_year": 1999,
+      "provider_release_date": "2000-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "158",
+      "catalogue_year": 1989,
+      "provider_release_date": "2000-12-25T00:00:00Z"
+    },
+    {
+      "card_number": "165",
+      "catalogue_year": 1988,
+      "provider_release_date": "1989-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "173",
+      "catalogue_year": 1977,
+      "provider_release_date": "1993-05-14T00:00:00Z"
+    },
+    {
+      "card_number": "175",
+      "catalogue_year": 1974,
+      "provider_release_date": "1998-01-18T00:00:00Z"
+    },
+    {
+      "card_number": "176",
+      "catalogue_year": 1974,
+      "provider_release_date": "2001-07-16T00:00:00Z"
+    },
+    {
+      "card_number": "177",
+      "catalogue_year": 2019,
+      "provider_release_date": "2020-03-20T00:00:00Z"
+    },
+    {
+      "card_number": "181",
+      "catalogue_year": 2012,
+      "provider_release_date": "2013-08-23T00:00:00Z"
+    },
+    {
+      "card_number": "189",
+      "catalogue_year": 1970,
+      "provider_release_date": "2012-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "190",
+      "catalogue_year": 1964,
+      "provider_release_date": "1962-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "192",
+      "catalogue_year": 1993,
+      "provider_release_date": "2003-03-03T00:00:00Z"
+    },
+    {
+      "card_number": "193",
+      "catalogue_year": 2013,
+      "provider_release_date": "2014-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "200",
+      "catalogue_year": 1960,
+      "provider_release_date": "2012-07-10T00:00:00Z"
+    },
+    {
+      "card_number": "201",
+      "catalogue_year": 1997,
+      "provider_release_date": "1998-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "202",
+      "catalogue_year": 1985,
+      "provider_release_date": "2010-01-22T00:00:00Z"
+    },
+    {
+      "card_number": "207",
+      "catalogue_year": 1962,
+      "provider_release_date": "2013-10-04T00:00:00Z"
+    },
+    {
+      "card_number": "209",
+      "catalogue_year": 1998,
+      "provider_release_date": "1997-10-03T00:00:00Z"
+    },
+    {
+      "card_number": "210",
+      "catalogue_year": 1956,
+      "provider_release_date": "2001-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "211",
+      "catalogue_year": 1992,
+      "provider_release_date": "1993-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "216",
+      "catalogue_year": 1988,
+      "provider_release_date": "2010-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "219",
+      "catalogue_year": 1996,
+      "provider_release_date": "2003-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "220",
+      "catalogue_year": 1975,
+      "provider_release_date": "2004-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "222",
+      "catalogue_year": 2009,
+      "provider_release_date": "2020-10-30T00:00:00Z"
+    },
+    {
+      "card_number": "223",
+      "catalogue_year": 1964,
+      "provider_release_date": "2010-12-07T00:00:00Z"
+    },
+    {
+      "card_number": "226",
+      "catalogue_year": 1987,
+      "provider_release_date": "2004-07-13T00:00:00Z"
+    },
+    {
+      "card_number": "227",
+      "catalogue_year": 1965,
+      "provider_release_date": "2010-03-15T00:00:00Z"
+    },
+    {
+      "card_number": "228",
+      "catalogue_year": 1968,
+      "provider_release_date": "1990-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "236",
+      "catalogue_year": 2011,
+      "provider_release_date": "2012-10-09T00:00:00Z"
+    },
+    {
+      "card_number": "238",
+      "catalogue_year": 1973,
+      "provider_release_date": "1997-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "248",
+      "catalogue_year": 1962,
+      "provider_release_date": "1993-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "252",
+      "catalogue_year": 1986,
+      "provider_release_date": "1998-11-09T00:00:00Z"
+    },
+    {
+      "card_number": "255",
+      "catalogue_year": 1967,
+      "provider_release_date": "2000-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "260",
+      "catalogue_year": 1970,
+      "provider_release_date": "1971-09-01T00:00:00Z"
+    },
+    {
+      "card_number": "261",
+      "catalogue_year": 1955,
+      "provider_release_date": "1959-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "262",
+      "catalogue_year": 1995,
+      "provider_release_date": "1996-05-22T00:00:00Z"
+    },
+    {
+      "card_number": "267",
+      "catalogue_year": 2003,
+      "provider_release_date": "2004-02-23T00:00:00Z"
+    },
+    {
+      "card_number": "269",
+      "catalogue_year": 1965,
+      "provider_release_date": "1966-02-01T00:00:00Z"
+    },
+    {
+      "card_number": "270",
+      "catalogue_year": 1967,
+      "provider_release_date": "1999-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "273",
+      "catalogue_year": 1972,
+      "provider_release_date": "1984-09-17T00:00:00Z"
+    },
+    {
+      "card_number": "276",
+      "catalogue_year": 1974,
+      "provider_release_date": "2013-03-18T00:00:00Z"
+    },
+    {
+      "card_number": "277",
+      "catalogue_year": 2006,
+      "provider_release_date": "2005-12-30T00:00:00Z"
+    },
+    {
+      "card_number": "281",
+      "catalogue_year": 1972,
+      "provider_release_date": "2003-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "284",
+      "catalogue_year": 1971,
+      "provider_release_date": "1998-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "286",
+      "catalogue_year": 1979,
+      "provider_release_date": "2012-10-17T00:00:00Z"
+    },
+    {
+      "card_number": "287",
+      "catalogue_year": 2008,
+      "provider_release_date": "2009-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "288",
+      "catalogue_year": 1979,
+      "provider_release_date": "2007-04-04T00:00:00Z"
+    },
+    {
+      "card_number": "289",
+      "catalogue_year": 1979,
+      "provider_release_date": "2018-11-30T00:00:00Z"
+    },
+    {
+      "card_number": "293",
+      "catalogue_year": 2009,
+      "provider_release_date": "2010-12-01T00:00:00Z"
+    },
+    {
+      "card_number": "295",
+      "catalogue_year": 1991,
+      "provider_release_date": "1978-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "298",
+      "catalogue_year": 1977,
+      "provider_release_date": "1998-02-06T00:00:00Z"
+    },
+    {
+      "card_number": "302",
+      "catalogue_year": 1966,
+      "provider_release_date": "1987-08-04T00:00:00Z"
+    },
+    {
+      "card_number": "303",
+      "catalogue_year": 1959,
+      "provider_release_date": "2004-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "304",
+      "catalogue_year": 1975,
+      "provider_release_date": "2004-01-01T00:00:00Z"
+    },
+    {
+      "card_number": "307",
+      "catalogue_year": 1958,
+      "provider_release_date": "1964-08-01T00:00:00Z"
+    },
+    {
+      "card_number": "308",
+      "catalogue_year": 2011,
+      "provider_release_date": "2012-01-01T00:00:00Z"
+    }
+  ]
+}
