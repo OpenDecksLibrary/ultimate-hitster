@@ -77,6 +77,10 @@ def run(plan, root, refresh=False, audio=False):
                                    "status": "matched" if not mismatches else "conflict"}
             except (OSError, ValueError, KeyError) as error:
                 playlist_checks = {"source_url": playlist_url, "status": "fetch_failed", "error": str(error)}
+        for number in playlist_checks.get("mismatches", []):
+            if number in refs:
+                refs[number]["playlist_conflict"] = True
+        write_json(root / "sources" / f"{slug}.references.json", refs)
         ids = [ref["spotify_track_id"] for ref in refs.values() if ref["spotify_track_id"]]
         metadata = resolve_recordings(ids, ROOT / "build/provider-cache", refresh=refresh, progress=progress)
         albums = resolve_albums(ids, ROOT / "build/album-cache", progress=progress, refresh=refresh)

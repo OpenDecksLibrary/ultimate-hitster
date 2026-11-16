@@ -49,6 +49,21 @@ class SourceTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 public_references(bad, rows, "https://source.example/edition.json")
 
+    def test_url_refresh_keeps_source_conflicts_and_provenance(self):
+        rows, refs, edition, meta = fixture(count=1)
+        refs["1"].update(source_checks={"title": False, "artist": True},
+                         source_markets=["FR"], source_url="https://source.example/edition.json#card-1")
+        c = import_edition(empty(), rows, refs, edition, meta)
+        self.assertEqual(c["memberships"][0]["reference"]["status"], "source_conflict")
+        self.assertEqual(c["recordings"][0]["audio"]["status"], "unavailable")
+        meta["A" * 22]["preview_url"] = "https://p.scdn.co/mp3-preview/" + "9" * 40
+        updated = import_edition(c, rows, refs, edition, meta)
+        self.assertEqual(updated["memberships"][0]["reference"]["status"], "source_conflict")
+        self.assertEqual(updated["memberships"][0]["study_id"], c["memberships"][0]["study_id"])
+        self.assertEqual(updated["memberships"][0]["reference"]["source_checks"], refs["1"]["source_checks"])
+        refs["1"].update(source_checks={"title": True, "artist": True}, playlist_conflict=True)
+        self.assertEqual(import_edition(empty(), rows, refs, edition, meta)["memberships"][0]["reference"]["status"], "source_conflict")
+
     def test_shared_player_does_not_change_with_selected_edition_label_conflict(self):
         from ultimate_hitster.build import selected_notes
         from test_production import make

@@ -185,6 +185,10 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
                     or review["provider_title"] != evidence.get("title") or not matches["artist"]):
                 raise ValueError("A recording review no longer matches the exact reference/title/artist")
             verified, status = True, "reviewed"
+        source_checks = reference.get("source_checks")
+        source_conflict = source_checks is not None and not all(source_checks.values())
+        if provider and (source_conflict or reference.get("playlist_conflict")):
+            verified, status = False, "source_conflict"
         if verified or "provider_metadata" not in track:
             track["provider_metadata"] = {key: value for key, value in evidence.items() if key != "preview_url"}
         album = (albums or {}).get(provider, {}).get("album")
@@ -208,7 +212,7 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
                               "catalogue_artist": row["artist"], "catalogue_title": row["title"],
                               "reference": {"spotify_id": provider, "qr_url": reference.get("qr_code_value"),
                                             "status": status, "checks": matches,
-                                            **({"source_url": reference["source_url"]} if reference.get("source_url") else {}),
+                                            **({key: reference[key] for key in ("source_url", "source_checks", "source_markets", "playlist_conflict") if key in reference}),
                                             **({"review": review["reason"]} if review else {})}})
     # A corrected spelling in the same edition must not depend on provider text.
     for row, member in zip(rows, added_members):
