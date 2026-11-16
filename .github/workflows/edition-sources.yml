@@ -1,0 +1,35 @@
+name: Inspect edition sources
+on:
+  push:
+    branches: [feature/universal-editions]
+    paths: [.github/workflows/edition-sources.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Inspect public catalogue markup
+        run: |
+          python - <<'PY'
+          import urllib.request, re
+          for slug in ("", "/original-refresh-france", "/radio-contact-belgium", "/guilty-pleasures-france"):
+              url = "https://hitify.app/en/hitster-editions" + slug
+              html = urllib.request.urlopen(url, timeout=40).read().decode()
+              print("URL",url,"BYTES",len(html))
+              if not slug:
+                  i = html.find("Original France")
+                  print(html[max(0,i-500):i+500])
+                  print("EDITION LINKS", re.findall(r'<a[^>]*href="[^"]*/hitster-editions/[^"]*"[^>]*>.*?</a>',html,re.S)[:4])
+                  print("HEADINGS", re.findall(r'<h[23][^>]*>.*?</h[23]>',html,re.S)[:12])
+              else:
+                  print("SCRIPTS", re.findall(r'<script[^>]*src="([^"]+)"',html))
+                  print("PLAYLISTS", re.findall(r'https://open.spotify.com/[^"<> ]+',html)[:8])
+                  i=html.find("<table")
+                  print("TABLE",html[i:i+2800])
+                  print("TRACK IDS",re.findall(r'(?:track/|spotify:track:)([a-zA-Z0-9]{22})',html)[:12])
+          PY
