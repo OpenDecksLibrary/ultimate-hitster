@@ -1,0 +1,4314 @@
+{
+  "1": {
+    "spotify_track_id": "3kzqnTxs9hpnjugtRYuQ4H",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-1",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Oh ! Chéri Chéri... - Remasterisé en 2024",
+    "source_artist": "Karen Cheryl",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "2": {
+    "spotify_track_id": "7idH9AnDtl02fve6bb0w4v",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-2",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "L'autre Finistère",
+    "source_artist": "Les Innocents",
+    "source_release_date": "1992",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "3": {
+    "spotify_track_id": "7AWpedX4n4wFBlgNT9VPFI",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-3",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Flash (2024 Remastered)",
+    "source_artist": "Stephanie",
+    "source_release_date": "1986",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "4": {
+    "spotify_track_id": "4vMuhbY7HbRTmBVSfZT3T6",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-4",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "J'ai bien mangé , j'ai bien bu",
+    "source_artist": "Topaloff",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "5": {
+    "spotify_track_id": "3rfDjFBGWeDW88inQfLzmm",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-5",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Nue",
+    "source_artist": "Clara Luciani",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "6": {
+    "spotify_track_id": "7BKLCZ1jbUBVqRi2FVlTVw",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-6",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Closer",
+    "source_artist": "The Chainsmokers;Halsey",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "7": {
+    "spotify_track_id": "7r7BLG1FiZTNYtFuyLMtFa",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-7",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fergalicious",
+    "source_artist": "Fergie;will.i.am",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "8": {
+    "spotify_track_id": "71Hr6zysZCc50WLsjZxQn4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-8",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Aucune Fille Au Monde - Radio Edit",
+    "source_artist": "G Squad",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "9": {
+    "spotify_track_id": "6mz1fBdKATx6qP4oP1I65G",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-9",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Pony",
+    "source_artist": "Ginuwine",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "10": {
+    "spotify_track_id": "2kulOHR2XY6YDZCWXb38hn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-10",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Wanna Be Startin' Somethin'",
+    "source_artist": "Michael Jackson",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "11": {
+    "spotify_track_id": "6feRXBskplLVuNov74Rep3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-11",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Allô maman bobo",
+    "source_artist": "Alain Souchon",
+    "source_release_date": "1977",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "12": {
+    "spotify_track_id": "0bYg9bo50gSsH3LtXe2SQn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-12",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "All I Want for Christmas Is You",
+    "source_artist": "Mariah Carey",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "13": {
+    "spotify_track_id": "1t1w5z8EDRcNEhiv4Py3ju",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-13",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Goodbye Marylou",
+    "source_artist": "Michel Polnareff",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "14": {
+    "spotify_track_id": "4DhapD9hNxw9vAT7RKbWZH",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-14",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Joue pas",
+    "source_artist": "François Feldman;Joniece Jamison",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "15": {
+    "spotify_track_id": "3GfOAdcoc3X5GPiiXmpBjK",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-15",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Song 2",
+    "source_artist": "Blur",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "16": {
+    "spotify_track_id": "5RzFJd6W40SDTyZkX6xx45",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-16",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I Know You Want Me (Calle Ocho)",
+    "source_artist": "Pitbull",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "17": {
+    "spotify_track_id": "1uQBpCIQSmZAKSImsyBiHn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-17",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La vie la nuit",
+    "source_artist": "Début De Soirée",
+    "source_release_date": "1989",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "18": {
+    "spotify_track_id": "3ZpQiJ78LKINrW9SQTgbXd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-18",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "All I Wanna Do",
+    "source_artist": "Sheryl Crow",
+    "source_release_date": "1993",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "19": {
+    "spotify_track_id": "3wJVBz7gvGTwTWVAxFa6ny",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-19",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fever",
+    "source_artist": "Dua Lipa;Angèle",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "20": {
+    "spotify_track_id": "63xdwScd1Ai1GigAwQxE8y",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-20",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Let's Stay Together",
+    "source_artist": "Al Green",
+    "source_release_date": "1972",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "21": {
+    "spotify_track_id": "7uCLrBdy5FH6T7vcJzqRd7",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-21",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "1,2,3",
+    "source_artist": "Amel Bent;Hatik",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "22": {
+    "spotify_track_id": "7vLSr5xZgifxkAle3HrLdr",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-22",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je joue de la musique",
+    "source_artist": "Calogero",
+    "source_release_date": "2017",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "23": {
+    "spotify_track_id": "4ZOmgxC7Uf3YrjeDrSWytk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-23",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Forever And Ever",
+    "source_artist": "Demis Roussos",
+    "source_release_date": "1983",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "24": {
+    "spotify_track_id": "47IcfW83MnhrIsZWEVSmDs",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-24",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Homeless",
+    "source_artist": "Marina Kaye",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "25": {
+    "spotify_track_id": "7sUzkDEQVDowGyLgyjTuDv",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-25",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Y' a pas d'arrangement",
+    "source_artist": "Zebda",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "26": {
+    "spotify_track_id": "7gQAFGUyHPcY0cQNPsjMf0",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-26",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Crying at the Discoteque - Radio Edit",
+    "source_artist": "Alcazar",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "27": {
+    "spotify_track_id": "5MYDvUdIBOCX3a42L85kM3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-27",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les planètes",
+    "source_artist": "M. Pokora",
+    "source_release_date": "2019",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "28": {
+    "spotify_track_id": "6XqTYVJ5ycOQcjGaggJByi",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-28",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Bioman",
+    "source_artist": "Bernard Minet",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "29": {
+    "spotify_track_id": "7BcMn8CVTKaVCYTmcaiIvD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-29",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les Blancs Ne Savent Pas Danser",
+    "source_artist": "James Deano",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "30": {
+    "spotify_track_id": "7i6VLLVRwLSXgqWlvjyyOy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-30",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Comme toi",
+    "source_artist": "Jean-Jacques Goldman",
+    "source_release_date": "1982",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "31": {
+    "spotify_track_id": "0IkKz2J93C94Ei4BvDop7P",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-31",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Party Rock Anthem",
+    "source_artist": "LMFAO;Lauren Bennett;GoonRock",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "32": {
+    "spotify_track_id": "1bp2IO61zbQrbWNmKKxg3f",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-32",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Joker",
+    "source_artist": "Steve Miller Band",
+    "source_release_date": "1973",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "33": {
+    "spotify_track_id": "75rMuRwVOUQ6pyVJsUOY5C",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-33",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je marche seul",
+    "source_artist": "Jean-Jacques Goldman",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "34": {
+    "spotify_track_id": "2DaAogJhLRyVqvpazcVXj7",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-34",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Il Est Libre Max",
+    "source_artist": "Hervé Cristiani",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "35": {
+    "spotify_track_id": "4J9OX2smyJreVDRXBICymS",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-35",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ma gueule",
+    "source_artist": "Johnny Hallyday",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "36": {
+    "spotify_track_id": "0gNkBJ8M4S5pKaxEJuQEI5",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-36",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le parking des anges",
+    "source_artist": "Marc Lavoine",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "37": {
+    "spotify_track_id": "5bxQHscWvyaQbm37igKP4K",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-37",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La solitudine",
+    "source_artist": "Laura Pausini",
+    "source_release_date": "1993",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "38": {
+    "spotify_track_id": "1QdFzktmKiB9IK96EAQfl8",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-38",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Johnny, Johnny",
+    "source_artist": "Jeanne Mas",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "39": {
+    "spotify_track_id": "5Avuw1VgE07ZSTWMMbcjF4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-39",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ma fiancée, elle est partie",
+    "source_artist": "Dany Brillant",
+    "source_release_date": "1991",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "40": {
+    "spotify_track_id": "11UDrpTFwBClfSQNHHk4QF",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-40",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Encore",
+    "source_artist": "Kendji Girac;Florent Pagny",
+    "source_release_date": "2022",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "41": {
+    "spotify_track_id": "6sxptembJVty4sNtcPMAVz",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-41",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Man! I Feel Like A Woman!",
+    "source_artist": "Shania Twain",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "42": {
+    "spotify_track_id": "3hrQ9zkmESuPoXGO3dMwAh",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-42",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Darla Dirladada",
+    "source_artist": "Les Fêtards",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "43": {
+    "spotify_track_id": "1NzowVFBeKuGBEO3tGY6Jj",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-43",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "C'est la ouate - Extended Version",
+    "source_artist": "Caroline Loeb",
+    "source_release_date": "1987",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "44": {
+    "spotify_track_id": "7MEvMhZkzGDZJEQGr4JBdb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-44",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Docteur Renaud, Mister Renard",
+    "source_artist": "Renaud",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "45": {
+    "spotify_track_id": "4JfuiOWlWCkjP6OKurHjSn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-45",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Walk This Way",
+    "source_artist": "Aerosmith",
+    "source_release_date": "1975",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "46": {
+    "spotify_track_id": "7vPyLb2HzPaZxv1egWvWMo",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-46",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ta main",
+    "source_artist": "Grégoire",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "47": {
+    "spotify_track_id": "1wAfRQ0q2FlWaKPpqedjUR",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-47",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "D.I.S.C.O.",
+    "source_artist": "Ottawan",
+    "source_release_date": "1980",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "48": {
+    "spotify_track_id": "5zLYcM10jaWx8Hw0ToyVZd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-48",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Raphael",
+    "source_artist": "Carla Bruni",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "49": {
+    "spotify_track_id": "4eHbdreAnSOrDDsFfc4Fpm",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-49",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I Will Always Love You",
+    "source_artist": "Whitney Houston",
+    "source_release_date": "1992",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "50": {
+    "spotify_track_id": "1vrd6UOGamcKNGnSHJQlSt",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-50",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Love Story",
+    "source_artist": "Taylor Swift",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "51": {
+    "spotify_track_id": "37IUoAxYqcWr1VXQvmWYEZ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-51",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Only You (And You Alone)",
+    "source_artist": "The Platters",
+    "source_release_date": "1986",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "52": {
+    "spotify_track_id": "3CIyK1V4JEJkg02E4EJnDl",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-52",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Enemy (with JID) - from the series Arcane League of Legends",
+    "source_artist": "Imagine Dragons;JID;Arcane;League of Legends",
+    "source_release_date": "2022",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "53": {
+    "spotify_track_id": "6nGeLlakfzlBcFdZXteDq7",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-53",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Love Story",
+    "source_artist": "Indila",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "54": {
+    "spotify_track_id": "2QfDao5OLzoZsu4BYeVBgD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-54",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "C'est lundi",
+    "source_artist": "Jesse Garon",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "55": {
+    "spotify_track_id": "6XfxmT5QNCXvpZA6PKfWVL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-55",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Sorry Seems To Be The Hardest Word",
+    "source_artist": "Elton John",
+    "source_release_date": "1976",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "56": {
+    "spotify_track_id": "0ByMNEPAPpOR5H69DVrTNy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-56",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Don't Stop The Music",
+    "source_artist": "Rihanna",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "57": {
+    "spotify_track_id": "47BBI51FKFwOMlIiX6m8ya",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-57",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I Want It That Way",
+    "source_artist": "Backstreet Boys",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "58": {
+    "spotify_track_id": "1lzRxwbdl86iJlYMz48KoD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-58",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "J'ai cherché",
+    "source_artist": "Amir",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "59": {
+    "spotify_track_id": "1Ce1iMiU2Wx1CHeni5RTqn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-59",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Uptown Girl - Radio Edit",
+    "source_artist": "Westlife",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "60": {
+    "spotify_track_id": "6Dkb4sANTPgy9F2lRcDzH3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-60",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Papa",
+    "source_artist": "Bigflo & Oli;Fabian Ordonez",
+    "source_release_date": "2017",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "61": {
+    "spotify_track_id": "6ztstiyZL6FXzh4aG46ZPD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-61",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Boogie Wonderland (with The Emotions)",
+    "source_artist": "Earth, Wind & Fire;The Emotions",
+    "source_release_date": "1979",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "62": {
+    "spotify_track_id": "66yRVzcBc0revPtKR2jfMj",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-62",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le zizi",
+    "source_artist": "Pierre Perret",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "63": {
+    "spotify_track_id": "4ppCvHojT0OJu6XMMW5yco",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-63",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mon coeur te dit je t'aime",
+    "source_artist": "Frédéric François",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "64": {
+    "spotify_track_id": "4y1LsJpmMti1PfRQV9AWWe",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-64",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Girls Just Want to Have Fun",
+    "source_artist": "Cyndi Lauper",
+    "source_release_date": "1983",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "65": {
+    "spotify_track_id": "1P17dC1amhFzptugyAO7Il",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-65",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Look What You Made Me Do",
+    "source_artist": "Taylor Swift",
+    "source_release_date": "2017",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "66": {
+    "spotify_track_id": "03UrZgTINDqvnUMbbIMhql",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-66",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Gangnam Style (강남스타일)",
+    "source_artist": "PSY",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "67": {
+    "spotify_track_id": "6j3MV6TuybbmOKwId3DEEG",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-67",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Entre nous",
+    "source_artist": "Chimène Badi",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "68": {
+    "spotify_track_id": "7zrpoAJte9o12TzawqgdD0",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-68",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Con Te Partirò",
+    "source_artist": "Andrea Bocelli",
+    "source_release_date": "1995",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "69": {
+    "spotify_track_id": "3TCauNPqFiniaYHBvEVoHG",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-69",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Beautiful",
+    "source_artist": "Christina Aguilera",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "70": {
+    "spotify_track_id": "0G4cF37deqbR5aBlRyo8oC",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-70",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Tombé pour la France",
+    "source_artist": "Étienne Daho",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "71": {
+    "spotify_track_id": "0n4bITAu0Y0nigrz3MFJMb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-71",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Blurred Lines",
+    "source_artist": "Robin Thicke;T.I.;Pharrell Williams",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "72": {
+    "spotify_track_id": "5HOpkTTVcmZHnthgyxrIL8",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-72",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Fox (What Does the Fox Say?)",
+    "source_artist": "Ylvis",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "73": {
+    "spotify_track_id": "2xwJmtyYt3tJNl4Ql9DmmW",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-73",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Besoin de rien, envie de toi",
+    "source_artist": "Peter & Sloane",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "74": {
+    "spotify_track_id": "27hhIs2fp6w06N5zx4Eaa5",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-74",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dream A Little Dream Of Me",
+    "source_artist": "The Mamas & The Papas",
+    "source_release_date": "1968",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "75": {
+    "spotify_track_id": "2uKSr1uiKa0AcvcdlyVV3L",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-75",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Elsa",
+    "source_artist": "Didier Barbelivien",
+    "source_release_date": "1991",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "76": {
+    "spotify_track_id": "5wIG8ErNz5P0zJ5IceTcOt",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-76",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Brave Margot",
+    "source_artist": "Georges Brassens",
+    "source_release_date": "1953",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "77": {
+    "spotify_track_id": "6r6nk82xSKVf9SoJTY1w2p",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-77",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Derrière le brouillard",
+    "source_artist": "Grand Corps Malade;Louane",
+    "source_release_date": "2021",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "78": {
+    "spotify_track_id": "2RzJwBCXsS1VnjDm2jKKAa",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-78",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I Believe I Can Fly",
+    "source_artist": "R. Kelly",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "79": {
+    "spotify_track_id": "5ICKbSPyUvzYhJOT5ho90Y",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-79",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "New-York avec toi",
+    "source_artist": "Téléphone",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "80": {
+    "spotify_track_id": "6MShyf3EUHqQ04kJzovIni",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-80",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "3e sexe",
+    "source_artist": "Indochine",
+    "source_release_date": "1985",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "81": {
+    "spotify_track_id": "6YRQWL0F3L0kQuEIEqu2Mu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-81",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Besoin d'amour",
+    "source_artist": "France Gall",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "82": {
+    "spotify_track_id": "2yPoXCs7BSIUrucMdK5PzV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-82",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Umbrella",
+    "source_artist": "Rihanna;JAŸ-Z",
+    "source_release_date": "2007",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "83": {
+    "spotify_track_id": "64Ny7djQ6rNJspquof2KoX",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-83",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Hound Dog",
+    "source_artist": "Elvis Presley",
+    "source_release_date": "1958",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "84": {
+    "spotify_track_id": "49l4Fv41jWi2TGCsPmseKY",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-84",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "A nos actes manqués",
+    "source_artist": "Carole Fredericks;Jean-Jacques Goldman;Michael Jones",
+    "source_release_date": "1990",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "85": {
+    "spotify_track_id": "0TK2YIli7K1leLovkQiNik",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-85",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Señorita",
+    "source_artist": "Shawn Mendes;Camila Cabello",
+    "source_release_date": "2019",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "86": {
+    "spotify_track_id": "7GUpeUSeUckEBW8bcXrzj0",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-86",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Même pas fatigué !!!",
+    "source_artist": "Kore;Magic System;Khaled",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "87": {
+    "spotify_track_id": "545ayeyCcluI7HcTAixnoT",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-87",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le Manque A Donner - Version 2000",
+    "source_artist": "David Hallyday",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "88": {
+    "spotify_track_id": "5lIWdGXGaONC43UiUIbDiN",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-88",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ma jolie",
+    "source_artist": "Claudio Capéo",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "89": {
+    "spotify_track_id": "3LL6dYLac79BJ2UVY493x0",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-89",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le petit bonhomme en mousse - Live",
+    "source_artist": "Patrick Sébastien",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "90": {
+    "spotify_track_id": "39eqOHMUw2e4EYkFTUcQ9t",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-90",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Amsterdam - Live, Olympia / 1964",
+    "source_artist": "Jacques Brel",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "91": {
+    "spotify_track_id": "5nzzuKxdfAl6PjGmSyMUl9",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-91",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Etienne",
+    "source_artist": "Guesch Patti",
+    "source_release_date": "1987",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "92": {
+    "spotify_track_id": "59qPfUOkd0sboUlhQfR5Rd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-92",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Tout",
+    "source_artist": "Lara Fabian",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "93": {
+    "spotify_track_id": "5Oq2IERUIdr6nOMXkTncsd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-93",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Avant de partir",
+    "source_artist": "Roch Voisine",
+    "source_release_date": "1989",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "94": {
+    "spotify_track_id": "3XIEWK1V9n25PS9Vb6axj5",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-94",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Born to Be Alive - The Original",
+    "source_artist": "Patrick Hernandez",
+    "source_release_date": "1978",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "95": {
+    "spotify_track_id": "3mgFUpTSGwwyZL11YTu8cw",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-95",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Respect (feat. Vinia Mojica)",
+    "source_artist": "Alliance Ethnik;Vinia Mojica",
+    "source_release_date": "1995",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "96": {
+    "spotify_track_id": "5wBW66HrSGHYz7DnDyq2mS",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-96",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "J'attends l'amour",
+    "source_artist": "Jenifer",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "97": {
+    "spotify_track_id": "3MjUtNVVq3C8Fn0MP3zhXa",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-97",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "...Baby One More Time",
+    "source_artist": "Britney Spears",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "98": {
+    "spotify_track_id": "1Bhm5HNO1cq8olDbBmokyL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-98",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Copines",
+    "source_artist": "Aya Nakamura",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "99": {
+    "spotify_track_id": "1BpV8IGf4XsRRJf4Xuui9q",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-99",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Just Like a Pill",
+    "source_artist": "P!nk",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "100": {
+    "spotify_track_id": "1Eg6Q5KlzU6ZHqyM9USX3Q",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-100",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La parisienne",
+    "source_artist": "Marie-Paule Belle",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "101": {
+    "spotify_track_id": "6x53YxdtkR2rGLptZCLgUx",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-101",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les passants",
+    "source_artist": "Zaz",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "102": {
+    "spotify_track_id": "2W3uIX1I9qGOsBLWpEpMch",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-102",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Tombé du ciel",
+    "source_artist": "Jacques Higelin",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "103": {
+    "spotify_track_id": "1uTFgjLNNUjUjaPgmxohfx",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-103",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Repenti",
+    "source_artist": "Renan Luce",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "104": {
+    "spotify_track_id": "5Xy34zjhxjZb6ABuWx9keO",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-104",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Baïla",
+    "source_artist": "Boys Band Generation",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "105": {
+    "spotify_track_id": "79JldwTZxGilhRuQlECrz2",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-105",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les élucubrations d'Antoine",
+    "source_artist": "Antoine",
+    "source_release_date": "1993",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "106": {
+    "spotify_track_id": "7BP5Ia6Qiwn8nakIF2PPgb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-106",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Cho Ka Ka O",
+    "source_artist": "Annie Cordy",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "107": {
+    "spotify_track_id": "0rRboI6IRuGx56Dq3UdYY4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-107",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Because I Got High",
+    "source_artist": "Afroman",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "108": {
+    "spotify_track_id": "2ZYjUp1JiVpqdi4sP9EfOL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-108",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Hou la menteuse",
+    "source_artist": "Dorothée",
+    "source_release_date": "1982",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "109": {
+    "spotify_track_id": "7woW97CfcWaKtuC6W5BP2K",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-109",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Heal the World",
+    "source_artist": "Michael Jackson",
+    "source_release_date": "1991",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "110": {
+    "spotify_track_id": "6kjDLNGtvnbYIXAMsc6iiu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-110",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Emmenez-moi",
+    "source_artist": "Charles Aznavour",
+    "source_release_date": "1967",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "111": {
+    "spotify_track_id": "725PsGr5yXLJl8uENrVXPa",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-111",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fais comme l'oiseau",
+    "source_artist": "Michel Fugain & Le Big Bazar",
+    "source_release_date": "1972",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "112": {
+    "spotify_track_id": "4cz2iE5LTbWykMKJ7m07XL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-112",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "À la folie",
+    "source_artist": "Adèle Castillon",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "113": {
+    "spotify_track_id": "7fa9MBXhVfQ8P8Df9OEbD8",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-113",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Girls Like You (feat. Cardi B) - Cardi B Version",
+    "source_artist": "Maroon 5;Cardi B",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "114": {
+    "spotify_track_id": "5vMTfupz6z7wlNiz0xVb4j",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-114",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "It's A Man's, Man's, Man's World - Single Version / Mono",
+    "source_artist": "James Brown",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "115": {
+    "spotify_track_id": "37DnQQzvedZUOhtjEEaHQT",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-115",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Clic clic pan pan",
+    "source_artist": "Yanns",
+    "source_release_date": "2021",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "116": {
+    "spotify_track_id": "1Pao4DTLMB4gJPTnqmLgSQ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-116",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "You Can Get It If You Really Want",
+    "source_artist": "Jimmy Cliff",
+    "source_release_date": "1972",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "117": {
+    "spotify_track_id": "3Fcfwhm8oRrBvBZ8KGhtea",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-117",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Viva La Vida",
+    "source_artist": "Coldplay",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "118": {
+    "spotify_track_id": "4cluDES4hQEUhmXj6TXkSo",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-118",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "What Makes You Beautiful",
+    "source_artist": "One Direction",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "119": {
+    "spotify_track_id": "0aWA84zzPPadF7I0N9tSRb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-119",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Où sont les femmes",
+    "source_artist": "Patrick Juvet",
+    "source_release_date": "1977",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "120": {
+    "spotify_track_id": "3mWpUEBYnv9SIFWfixSJFx",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-120",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Can't Get Enough Of Your Love, Babe",
+    "source_artist": "Barry White",
+    "source_release_date": "1974",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "121": {
+    "spotify_track_id": "0qp6Mwx4Gwq3S67YKmo2eE",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-121",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Danser",
+    "source_artist": "Lisandro Cuxi",
+    "source_release_date": "2017",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "122": {
+    "spotify_track_id": "0SNDzKQtOyVULvtVkpTBDX",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-122",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Chuis Bo!",
+    "source_artist": "PZK",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "123": {
+    "spotify_track_id": "0gAbf0NL9no1Urk1Wj8Uui",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-123",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ti Amo",
+    "source_artist": "Umberto Tozzi",
+    "source_release_date": "1977",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "124": {
+    "spotify_track_id": "52op1vAuHGc0DLLhexfbUw",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-124",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Sweet Darling",
+    "source_artist": "Fréro Delavega",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "125": {
+    "spotify_track_id": "65yITjGxvWTNI8oefXFbQU",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-125",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Une histoire d'amour - Love Story",
+    "source_artist": "Mireille Mathieu",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "126": {
+    "spotify_track_id": "6R1BYGCTmuY9BJQB9aouVk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-126",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Alice ca glisse",
+    "source_artist": "Francky Vincent",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "127": {
+    "spotify_track_id": "26wpcLqBHEfOL00i1rdbun",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-127",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Milkshake",
+    "source_artist": "Kelis",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "128": {
+    "spotify_track_id": "3ypMsqUwfNFMiooMLVHfkp",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-128",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "YMCA",
+    "source_artist": "Village People",
+    "source_release_date": "1980",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "129": {
+    "spotify_track_id": "3BpG9sHDW5egxpoAvBFtx4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-129",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le mur du son",
+    "source_artist": "Willy Denzey",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "130": {
+    "spotify_track_id": "6WkYKtfEuQEYphUUzigFBa",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-130",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Prince Ali",
+    "source_artist": "Richard Darbois",
+    "source_release_date": "1992",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "131": {
+    "spotify_track_id": "27vx6k0f8PbuXgBepw8BNT",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-131",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Un enfant de toi",
+    "source_artist": "Phil Barney",
+    "source_release_date": "1991",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "132": {
+    "spotify_track_id": "0gpXeyth12BXqwHFzfNR2S",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-132",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Divine idylle",
+    "source_artist": "Vanessa Paradis",
+    "source_release_date": "2007",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "133": {
+    "spotify_track_id": "4prNHQCgqVpmGJRulNK4zg",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-133",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Belle demoiselle",
+    "source_artist": "Christophe Maé",
+    "source_release_date": "2007",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "134": {
+    "spotify_track_id": "3ha3BkWiDChNZ2YDtoKvRw",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-134",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Tombé pour elle - L'île aux oiseaux",
+    "source_artist": "Pascal Obispo",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "135": {
+    "spotify_track_id": "709Vk4ahhCM6ENgRVTTYw6",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-135",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Léa",
+    "source_artist": "Louise Attaque",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "136": {
+    "spotify_track_id": "3mdfBcdD8C3NbJ0SUBjA5i",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-136",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Plantation",
+    "source_artist": "Kana",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "137": {
+    "spotify_track_id": "1uI848raFaNWwe9HjHpjQ5",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-137",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Boys - Summertime Love",
+    "source_artist": "Sabrina",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "138": {
+    "spotify_track_id": "6IcsbETuviVu6UTiBTcxY4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-138",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Imagine",
+    "source_artist": "Carbonne",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "139": {
+    "spotify_track_id": "1FkoVC85Ds3mFoK0fVqEqP",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-139",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Self Esteem",
+    "source_artist": "The Offspring",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "140": {
+    "spotify_track_id": "4ZYfCFSG2XeCUmEC1TSghe",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-140",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I'm Gonna Be (500 Miles) - 2011 Remaster",
+    "source_artist": "The Proclaimers",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "141": {
+    "spotify_track_id": "0bdhH65xZdscxkATgDQlSS",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-141",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mourir demain",
+    "source_artist": "Natasha St-Pier;Pascal Obispo",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "142": {
+    "spotify_track_id": "0HfK6NPVb69533dKqTPokh",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-142",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Vois sur ton chemin",
+    "source_artist": "Bruno Coulais;La Maîtrise de Saint Marc - LES CHORISTES",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "143": {
+    "spotify_track_id": "0ITqkmf62Q0Izdyo3PkNeU",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-143",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Marie",
+    "source_artist": "Johnny Hallyday",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "144": {
+    "spotify_track_id": "5psp37RuKYrzMRHgcgg5Ue",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-144",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Brigitte Bardot",
+    "source_artist": "Dario Moreno",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "145": {
+    "spotify_track_id": "5T37zS90GkaMHRj5uNaJpb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-145",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le chemin (feat. Sita)",
+    "source_artist": "Kyo;Sita",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "146": {
+    "spotify_track_id": "1rqAGSxLhTFApfFwZ778dV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-146",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "L'amour en France",
+    "source_artist": "Alain Chamfort",
+    "source_release_date": "1973",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "147": {
+    "spotify_track_id": "2obi4sPO32ZkIiNwejVLRq",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-147",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Il est mort le soleil",
+    "source_artist": "Nicoletta",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "148": {
+    "spotify_track_id": "4QIH0XYnCLoCl1WZIV08Pn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-148",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La symphonie des éclairs",
+    "source_artist": "Zaho de Sagazan",
+    "source_release_date": "2023",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "149": {
+    "spotify_track_id": "7LyJFHgMO5nYwsHZmVzj5W",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-149",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Nous on sait",
+    "source_artist": "Pierre Garnier",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "150": {
+    "spotify_track_id": "2UB3omkSNti7Fj9pbscaiR",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-150",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je te déteste",
+    "source_artist": "Vianney",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "151": {
+    "spotify_track_id": "33NTeQz7sVYLmkJ1k8GsVR",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-151",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Bim Bam toi",
+    "source_artist": "Carla",
+    "source_release_date": "2019",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "152": {
+    "spotify_track_id": "1zwJikF2MYUwqcVnqtGxVj",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-152",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Et c'est parti... (feat. Smartzee)",
+    "source_artist": "Nâdiya;Smartzee",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "153": {
+    "spotify_track_id": "0vg4WnUWvze6pBOJDTq99k",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-153",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "You're Beautiful",
+    "source_artist": "James Blunt",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "154": {
+    "spotify_track_id": "5prTs2HAw2G4idHZyeFp8o",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-154",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Total Eclipse of the Heart",
+    "source_artist": "Bonnie Tyler",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "155": {
+    "spotify_track_id": "6tRx0UrBpgXhr6XkKq173U",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-155",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Flashdance (What a Feeling) (Remastered 2022) (Rerecording)",
+    "source_artist": "Irene Cara",
+    "source_release_date": "1983",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "156": {
+    "spotify_track_id": "60C7aSm75sQ0sO7gvR4dqT",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-156",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Comme toi",
+    "source_artist": "Tayc",
+    "source_release_date": "2021",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "157": {
+    "spotify_track_id": "4iVpylB55RQJYl6QxqdBbt",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-157",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Trackin'",
+    "source_artist": "Billy Crawford",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "158": {
+    "spotify_track_id": "5Ui48l2ViRrnssgzipXNPc",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-158",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Shame on U",
+    "source_artist": "Ophélie Winter",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "159": {
+    "spotify_track_id": "7o7E1nrHWncYY7PY94gCiX",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-159",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Video Killed The Radio Star",
+    "source_artist": "The Buggles",
+    "source_release_date": "1980",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "160": {
+    "spotify_track_id": "3EYOJ48Et32uATr9ZmLnAo",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-160",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Roxanne",
+    "source_artist": "The Police",
+    "source_release_date": "1978",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "161": {
+    "spotify_track_id": "5uy4BD0WnBUCIRN4gPG0pC",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-161",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Si j'étais président",
+    "source_artist": "Gérard Lenorman",
+    "source_release_date": "1980",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "162": {
+    "spotify_track_id": "7vrT8EJk9UhRzVoL2qH3W4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-162",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ba Moin En Ti Bo",
+    "source_artist": "La Compagnie Créole",
+    "source_release_date": "1984",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "163": {
+    "spotify_track_id": "1B75hgRqe7A4fwee3g3Wmu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-163",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "U Can't Touch This",
+    "source_artist": "MC Hammer",
+    "source_release_date": "1990",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "164": {
+    "spotify_track_id": "1N7fTkwZhrjfaQvZne8HCk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-164",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Daniela",
+    "source_artist": "Elmer Food Beat",
+    "source_release_date": "1990",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "165": {
+    "spotify_track_id": "4GSDTaYhG2VVQ6VrGk1brl",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-165",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Pas d'ami (comme toi)",
+    "source_artist": "Stephan Eicher",
+    "source_release_date": "1991",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "166": {
+    "spotify_track_id": "7aE5WXu5sFeNRh3Z05wwu4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-166",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Wish You Were Here - 2011 Remaster",
+    "source_artist": "Pink Floyd",
+    "source_release_date": "1975",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "167": {
+    "spotify_track_id": "6O20JhBJPePEkBdrB5sqRx",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-167",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Diamonds",
+    "source_artist": "Rihanna",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "168": {
+    "spotify_track_id": "7jVR2gSVYg6GNwbE4FbI33",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-168",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La carioca",
+    "source_artist": "Philippe Chany;Alain Chabat;Gérard Darmon",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "169": {
+    "spotify_track_id": "5Mmk2ii6laakqfeCT7OnVD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-169",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Thong Song",
+    "source_artist": "Sisqo",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "170": {
+    "spotify_track_id": "0CJ31BEjjl1tPIj0CKi9kH",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-170",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Sapés comme jamais (feat. Niska) - Pilule bleue",
+    "source_artist": "GIMS;Niska",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "171": {
+    "spotify_track_id": "01XFgRZfZI7oBagNf1Loml",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-171",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Harlem Shake",
+    "source_artist": "Baauer",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "172": {
+    "spotify_track_id": "2v3eOG8Mh2xJNAOsB78HM9",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-172",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Comme une ombre",
+    "source_artist": "De Palmas",
+    "source_release_date": "1994",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "173": {
+    "spotify_track_id": "10hnzFqOkWifT35HfvbaNc",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-173",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le Mambo Du Décalco",
+    "source_artist": "Richard Gotainer",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "174": {
+    "spotify_track_id": "1nwFBPaHBNQsL0h7cBTTyQ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-174",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le Renouveau - De \"La Reine des Neiges\"/Bande Originale Française",
+    "source_artist": "Emmylou Homs;Anaïs Delva",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "175": {
+    "spotify_track_id": "2IAq7NOjlLVe6bnu0YwdOV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-175",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Résiste",
+    "source_artist": "France Gall",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "176": {
+    "spotify_track_id": "62GYoGszQfROZswLee6W3O",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-176",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Give Me the Night",
+    "source_artist": "George Benson",
+    "source_release_date": "1981",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "177": {
+    "spotify_track_id": "6IyY7st5UooM84lDO3odza",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-177",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Popcorn Salé",
+    "source_artist": "SANTA",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "178": {
+    "spotify_track_id": "1O9XGxtkYQTJn6sYB9MEON",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-178",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le grand secret (feat. Melissa Auf der Maur)",
+    "source_artist": "Indochine;Melissa Auf der Maur",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "179": {
+    "spotify_track_id": "4U4bafpNegAv1OcAJ423OW",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-179",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ça mousse",
+    "source_artist": "Superbus",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "180": {
+    "spotify_track_id": "783vFwxaUzpGYAOEcGok9w",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-180",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Elle et l'autre",
+    "source_artist": "Jul",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "181": {
+    "spotify_track_id": "7rUJX9xP2YcL62uJvtaeJd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-181",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Paradis Perdus",
+    "source_artist": "Christine and the Queens",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "182": {
+    "spotify_track_id": "5OBdN1F98YEtrRoW8YLYVu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-182",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Une étincelle",
+    "source_artist": "L5",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "183": {
+    "spotify_track_id": "6T27IN7Ai94BeDv6PPCmoC",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-183",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Turn Me On (feat. Nicki Minaj)",
+    "source_artist": "David Guetta;Nicki Minaj",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "184": {
+    "spotify_track_id": "26a8faUxZFqjFItxQnswRk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-184",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Toujours debout",
+    "source_artist": "Renaud",
+    "source_release_date": "2016",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "185": {
+    "spotify_track_id": "5wJMAT8aulMmSBOC503JfM",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-185",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Baby Come Back",
+    "source_artist": "Worlds Apart",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "186": {
+    "spotify_track_id": "5qrVEJLwzDbASSVcfpMJO4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-186",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Prière païenne",
+    "source_artist": "Céline Dion",
+    "source_release_date": "1995",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "187": {
+    "spotify_track_id": "0zGYn8nDSKS6jftZ6lurXt",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-187",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "À l'horizontale",
+    "source_artist": "Keen' V",
+    "source_release_date": "2008",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "188": {
+    "spotify_track_id": "0k2GOhqsrxDTAbFFSdNJjT",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-188",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Temperature",
+    "source_artist": "Sean Paul",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "189": {
+    "spotify_track_id": "5ubvP9oKmxLUVq506fgLhk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-189",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Stayin Alive",
+    "source_artist": "Bee Gees",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "190": {
+    "spotify_track_id": "78cMFFLufKTehA0WL0pKEs",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-190",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les p'tites femmes de Pigalle",
+    "source_artist": "Serge Lama",
+    "source_release_date": "1973",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "191": {
+    "spotify_track_id": "12x3erRdPdMLrCY4vPMLq1",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-191",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Aimer - Roméo & Juliette, Les enfants de Vérone",
+    "source_artist": "Damien Sargue;Joy Esther",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "192": {
+    "spotify_track_id": "2MPWT0QPx9lrnp51Emu3Hn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-192",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "(Un, Dos, Tres) Maria - Original",
+    "source_artist": "Pop Royals",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "193": {
+    "spotify_track_id": "4B0JvthVoAAuygILe3n4Bs",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-193",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "What Do You Mean?",
+    "source_artist": "Justin Bieber",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "194": {
+    "spotify_track_id": "3iXhLi33EpUfcOwasC8un1",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-194",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ta reine",
+    "source_artist": "Angèle",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "195": {
+    "spotify_track_id": "4e4uOOxqr7zwmzSkEhH5ZA",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-195",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mauvaise foi nocturne (feat. Vitoo)",
+    "source_artist": "Fatal Bazooka;Vitoo",
+    "source_release_date": "2007",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "196": {
+    "spotify_track_id": "6Ao6nHW7cPibIEOLytVUxn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-196",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Color Gitano",
+    "source_artist": "Kendji Girac",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "197": {
+    "spotify_track_id": "5t5LFepMdws4nudg1EiWdd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-197",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "We're All In This Together",
+    "source_artist": "High School Musical Cast;Disney",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "198": {
+    "spotify_track_id": "1EIhcoMZ3See5L28kNvuFe",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-198",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Kid",
+    "source_artist": "Eddy de Pretto",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "199": {
+    "spotify_track_id": "4kPICgch9AxUI6InGKIRpv",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-199",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "On The Road Again",
+    "source_artist": "Bernard Lavilliers",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "200": {
+    "spotify_track_id": "1XUKItaRs2494LclJwHhl8",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-200",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fire and Rain",
+    "source_artist": "James Taylor",
+    "source_release_date": "1976",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "201": {
+    "spotify_track_id": "0xLWMbuXHlW2O1DouU57AK",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-201",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Jeune et con",
+    "source_artist": "Saez",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "202": {
+    "spotify_track_id": "6mYrhCAGWzTdF8QnKuchXM",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-202",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "If I Could Turn Back Time",
+    "source_artist": "Cher",
+    "source_release_date": "1989",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "203": {
+    "spotify_track_id": "5lCxlSBFyP5g4EhVypAoOu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-203",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Au DD",
+    "source_artist": "PNL",
+    "source_release_date": "2019",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "204": {
+    "spotify_track_id": "6kYle4kd0FRjQYILF6rupn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-204",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je t'attends",
+    "source_artist": "Axelle Red",
+    "source_release_date": "1993",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "205": {
+    "spotify_track_id": "7j5TIXPi0cCbSSqItmbyZy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-205",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Vogue",
+    "source_artist": "Madonna",
+    "source_release_date": "1990",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "206": {
+    "spotify_track_id": "1KSFqVqZm5QQXr9FLsppSL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-206",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Viens on s’aime",
+    "source_artist": "Slimane",
+    "source_release_date": "2018",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "207": {
+    "spotify_track_id": "2YUpDuMZ7fneXJ22Ap2Fiz",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-207",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Taka takata (La femme du toréro)",
+    "source_artist": "Joe Dassin",
+    "source_release_date": "1972",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "208": {
+    "spotify_track_id": "5NCMxJCTeHBdbv7QWjiGi4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-208",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Question De Survie",
+    "source_artist": "L5",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "209": {
+    "spotify_track_id": "4dzreTCcGVgeF1vCcd22AC",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-209",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Don't Stop Movin'",
+    "source_artist": "S Club",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "210": {
+    "spotify_track_id": "0fmByDb1tHKTdz0YkEqG17",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-210",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Céline",
+    "source_artist": "Hugues Aufray",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "211": {
+    "spotify_track_id": "5N6M8yDiMV32T6Rkzh8EbW",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-211",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Boom, Boom, Boom, Boom!!",
+    "source_artist": "Vengaboys",
+    "source_release_date": "1999",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "212": {
+    "spotify_track_id": "6WRusZV6hS3PlqCMTPh3ke",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-212",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Chanter",
+    "source_artist": "Florent Pagny",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "213": {
+    "spotify_track_id": "1oU43KVXyLzRW3hlWyQTLm",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-213",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "L'amour est un soleil",
+    "source_artist": "Hélène Ségara",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "214": {
+    "spotify_track_id": "5NsOnvpjvH9sCz8TyVOmOz",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-214",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Désolé",
+    "source_artist": "Sexion d'Assaut",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "215": {
+    "spotify_track_id": "5Vk5Y2qy3a5GwG0yOoZS0a",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-215",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Aimer jusqu'à l'impossible",
+    "source_artist": "Tina Arena;Duck Blackwell;P. Guardiani",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "216": {
+    "spotify_track_id": "08hGU2oAtPcVVNWKFI0CYI",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-216",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Seras-tu là - Remasterisé en 2002",
+    "source_artist": "Michel Berger",
+    "source_release_date": "1975",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "217": {
+    "spotify_track_id": "6JymsaWDHk2Yj4e0yNBIFH",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-217",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Jump Around",
+    "source_artist": "House Of Pain",
+    "source_release_date": "1992",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "218": {
+    "spotify_track_id": "6iNBM60VQtPUUhkKfwa5KV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-218",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "It's My Life",
+    "source_artist": "Bon Jovi",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "219": {
+    "spotify_track_id": "7MRyru6giOwdtFYL5KQEVq",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-219",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Seul",
+    "source_artist": "Garou",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "220": {
+    "spotify_track_id": "2Cdvbe2G4hZsnhNMKyGrie",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-220",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "I Love Rock 'N Roll",
+    "source_artist": "Joan Jett & the Blackhearts",
+    "source_release_date": "1981",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "221": {
+    "spotify_track_id": "3de9qG6m9dXJEAn7ukU5wh",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-221",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Jamais nous",
+    "source_artist": "Elsa Lunghini",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": false
+    }
+  },
+  "222": {
+    "spotify_track_id": "6EhPXpRYkwGwg8lx3XiGTI",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-222",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Tacata",
+    "source_artist": "Tacabro",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "223": {
+    "spotify_track_id": "1E1fwQ5Wmls13iEf4QjL9y",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-223",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Message personnel - Remasterisé en 2013",
+    "source_artist": "Françoise Hardy",
+    "source_release_date": "1973",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "224": {
+    "spotify_track_id": "3Dq2FHZ73hBUG815MoapQu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-224",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Men In Black - From \"Men In Black\" Soundtrack",
+    "source_artist": "Will Smith",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "225": {
+    "spotify_track_id": "5rb9QrpfcKFHM1EUbSIurX",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-225",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Yeah! (feat. Lil Jon & Ludacris)",
+    "source_artist": "USHER;Lil Jon;Ludacris",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": false,
+      "artist": true
+    }
+  },
+  "226": {
+    "spotify_track_id": "6Csall4X1K1hfJEvzQzHzp",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-226",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Regrets - Mix 2001",
+    "source_artist": "Mylène Farmer;Jean-Louis Murat",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "227": {
+    "spotify_track_id": "4VvTGipG8YaF09z0kfGqaD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-227",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Paroles… paroles…",
+    "source_artist": "Dalida;Alain Delon",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "228": {
+    "spotify_track_id": "40riOy7x9W7GXjyGp4pjAv",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-228",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Hotel California - 2013 Remaster",
+    "source_artist": "Eagles",
+    "source_release_date": "1976",
+    "source_checks": {
+      "title": false,
+      "artist": true
+    }
+  },
+  "229": {
+    "spotify_track_id": "42cilxJKOCm18NsOc8Ljdf",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-229",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Summer 2015",
+    "source_artist": "L.E.J",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "230": {
+    "spotify_track_id": "6EASD1db7vlAlzVUXaoSAQ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-230",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Faut pas pleurer comme ça",
+    "source_artist": "Daniel Guichard",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "231": {
+    "spotify_track_id": "4yCVC5CuKyj1Kv4hVhbjWh",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-231",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "France Télécom - Live",
+    "source_artist": "Tryo",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "232": {
+    "spotify_track_id": "0VjXdkUtVGj0J91l75cFoO",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-232",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "French Cancan",
+    "source_artist": "Inna MODJA",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "233": {
+    "spotify_track_id": "4TGVOqH1nMbnnu7qJdkJqF",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-233",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Plus forte que l'océan",
+    "source_artist": "Jeanne Mas",
+    "source_release_date": "1986",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "234": {
+    "spotify_track_id": "0Bo5fjMtTfCD8vHGebivqc",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-234",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Axel F",
+    "source_artist": "Crazy Frog",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "235": {
+    "spotify_track_id": "3x5ZzNhmXSgKjM3wl0UGgD",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-235",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Plus grandir",
+    "source_artist": "Mylène Farmer",
+    "source_release_date": "1986",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "236": {
+    "spotify_track_id": "5jrdCoLpJSvHHorevXBATy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-236",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dark Horse",
+    "source_artist": "Katy Perry;Juicy J",
+    "source_release_date": "2013",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "237": {
+    "spotify_track_id": "4XX1pFUkQOZTYp6Hb6a6Ae",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-237",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Venus",
+    "source_artist": "Bananarama",
+    "source_release_date": "1986",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "238": {
+    "spotify_track_id": "22MpysBy1FI7PJpWAZnE23",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-238",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Monday, Tuesday... Laissez-moi danser",
+    "source_artist": "Dalida",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "239": {
+    "spotify_track_id": "1QhSB9L9M5eZQhW4RNOhXK",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-239",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Tide Is High - Radio Mix",
+    "source_artist": "Atomic Kitten",
+    "source_release_date": "2002",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "240": {
+    "spotify_track_id": "2KFTpVuEIVXGbZZXEoh23A",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-240",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Oh Les Filles !",
+    "source_artist": "Au Bonheur Des Dames",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "241": {
+    "spotify_track_id": "1yTQ39my3MoNROlFw3RDNy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-241",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Say You'll Be There",
+    "source_artist": "Spice Girls",
+    "source_release_date": "1996",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "242": {
+    "spotify_track_id": "6tS3XVuOyu10897O3ae7bi",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-242",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "California Gurls",
+    "source_artist": "Katy Perry;Snoop Dogg",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "243": {
+    "spotify_track_id": "0m7CUFUUzV2BRj8muhvUCV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-243",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Manolo Manolete",
+    "source_artist": "Vanessa Paradis",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "244": {
+    "spotify_track_id": "6qdGKP6ndrNejt1EEkctIK",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-244",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ma France à Moi",
+    "source_artist": "Diam's",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "245": {
+    "spotify_track_id": "745H5CctFr12Mo7cqa1BMH",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-245",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "My Girl",
+    "source_artist": "The Temptations",
+    "source_release_date": "1965",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "246": {
+    "spotify_track_id": "6wrgVuGlXoGDiFcxvqd9nL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-246",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je Me Perds",
+    "source_artist": "Jena Lee",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "247": {
+    "spotify_track_id": "6usohdchdzW9oML7VC4Uhk",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-247",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Lose Control",
+    "source_artist": "Teddy Swims",
+    "source_release_date": "2023",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "248": {
+    "spotify_track_id": "2y31xdqCINOlMWeR7sfR23",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-248",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les Rois mages - Remasterisé en 2006",
+    "source_artist": "Sheila",
+    "source_release_date": "1971",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "249": {
+    "spotify_track_id": "2QfGeH5RQEEJkUWnVy7iZ8",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-249",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Eternellement",
+    "source_artist": "Tragédie",
+    "source_release_date": "2003",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "250": {
+    "spotify_track_id": "72kapv3rME4uCcRkIe9AQ6",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-250",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dur Dur d'être bébé !",
+    "source_artist": "Jordy",
+    "source_release_date": "1992",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "251": {
+    "spotify_track_id": "5ZYiw9RYEqG4bw92yYr5IL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-251",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Quatre murs et un toit",
+    "source_artist": "Bénabar",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "252": {
+    "spotify_track_id": "1wZ7o1mZysv1l26ZWawVfW",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-252",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Freedom! '90 - Remastered",
+    "source_artist": "George Michael",
+    "source_release_date": "1990",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "253": {
+    "spotify_track_id": "5lXLzaZoj4j4hfCYO687bN",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-253",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "NINAO",
+    "source_artist": "GIMS",
+    "source_release_date": "2025",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "254": {
+    "spotify_track_id": "5qXFuSQfiYuOQ34tOvqKC4",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-254",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ma faute (Démo 2022)",
+    "source_artist": "Marine",
+    "source_release_date": "2025",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "255": {
+    "spotify_track_id": "0GjEhVFGZW8afUYGChu3Rr",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-255",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dancing Queen",
+    "source_artist": "ABBA",
+    "source_release_date": "1976",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "256": {
+    "spotify_track_id": "51R2M1JgyFfRS3e6v5wCt3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-256",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Clandestino",
+    "source_artist": "Manu Chao",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "257": {
+    "spotify_track_id": "5QDLhrAOJJdNAmCTJ8xMyW",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-257",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dynamite",
+    "source_artist": "BTS",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "258": {
+    "spotify_track_id": "1PiDWnwToffBnyY7De66G0",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-258",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Vingt ans",
+    "source_artist": "Pierre Bachelet",
+    "source_release_date": "1987",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "259": {
+    "spotify_track_id": "0HPD5WQqrq7wPWR7P7Dw1i",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-259",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "TiK ToK",
+    "source_artist": "Kesha",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "260": {
+    "spotify_track_id": "2kkuEKckbZRRZDbpFR5OuN",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-260",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dans les yeux d'Émilie",
+    "source_artist": "Joe Dassin",
+    "source_release_date": "1978",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "261": {
+    "spotify_track_id": "3YfS47QufnLDFA71FUsgCM",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-261",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Sound of Silence",
+    "source_artist": "Simon & Garfunkel",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "262": {
+    "spotify_track_id": "4V0MpxKCqrsELnvAIL3mOd",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-262",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "L'avenir est un long passé",
+    "source_artist": "Manau",
+    "source_release_date": "1998",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "263": {
+    "spotify_track_id": "0LzrhCZFXW94Y8nwtTuRlw",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-263",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Hollaback Girl",
+    "source_artist": "Gwen Stefani",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "264": {
+    "spotify_track_id": "3WFP6beklK0c62PrsBp2Mc",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-264",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fous ta cagoule - Radio Edit",
+    "source_artist": "Fatal Bazooka",
+    "source_release_date": "2007",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "265": {
+    "spotify_track_id": "1Zw1PK5TqH1tWGwtxwakKu",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-265",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "J'ai faim de toi",
+    "source_artist": "Sandy",
+    "source_release_date": "1988",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "266": {
+    "spotify_track_id": "5a4682OVr9kqvXRlxVKlYb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-266",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Laisse-toi aller bébé - Radio Mix",
+    "source_artist": "Collectif Métissé",
+    "source_release_date": "2009",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "267": {
+    "spotify_track_id": "2SDx0PooHZI1SQKR0y44bs",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-267",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Grace Kelly",
+    "source_artist": "MIKA",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "268": {
+    "spotify_track_id": "63siBeZzxXVaY0uASns1V2",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-268",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Coup de vieux",
+    "source_artist": "Bigflo & Oli;Julien Doré",
+    "source_release_date": "2022",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "269": {
+    "spotify_track_id": "2Wd4Yu2RtYZjSmzLLaghNZ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-269",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le téléphone pleure",
+    "source_artist": "Claude François;Frédérique",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "270": {
+    "spotify_track_id": "4u7EnebtmKWzUH433cf5Qv",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-270",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Bohemian Rhapsody - Remastered 2011",
+    "source_artist": "Queen",
+    "source_release_date": "1975",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "271": {
+    "spotify_track_id": "6rZjmbmqFYVxFa1adOMCS2",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-271",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je sais",
+    "source_artist": "Shy'm",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "272": {
+    "spotify_track_id": "2Mz7HwloqFNdA6iZeZk5PJ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-272",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Djobi, Djoba",
+    "source_artist": "Gipsy Kings",
+    "source_release_date": "1987",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "273": {
+    "spotify_track_id": "1QFh8OH1e78dGd3VyJZCAC",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-273",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Boys Don't Cry",
+    "source_artist": "The Cure",
+    "source_release_date": "1979",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "274": {
+    "spotify_track_id": "00RHrZB3i6B6PwX30ouZBK",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-274",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Supernature",
+    "source_artist": "Cerrone",
+    "source_release_date": "1977",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "275": {
+    "spotify_track_id": "3fgPASOCjTadwgqwd0hcgS",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-275",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mélissa",
+    "source_artist": "Julien Clerc",
+    "source_release_date": "1984",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "276": {
+    "spotify_track_id": "2AB2dNb6VpwIifBjGglqdP",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-276",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "La salsa du démon",
+    "source_artist": "Le Grand Orchestre du Splendid",
+    "source_release_date": "2000",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "277": {
+    "spotify_track_id": "7r2wD5DK8j92wEjOMJRXTI",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-277",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "American Boy - No Rap Version",
+    "source_artist": "Estelle",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "278": {
+    "spotify_track_id": "6ed0AwPdxhDVKOKoYRLfgH",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-278",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Young Ones - 2005 Remaster",
+    "source_artist": "Cliff Richard & The Shadows",
+    "source_release_date": "1962",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "279": {
+    "spotify_track_id": "5CI1FP2Volc9wjz2MBZsGx",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-279",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Fame",
+    "source_artist": "Irene Cara",
+    "source_release_date": "1980",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "280": {
+    "spotify_track_id": "3vHswuqTNO0hIiW6am0tKB",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-280",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Les lacs du Connemara",
+    "source_artist": "Michel Sardou",
+    "source_release_date": "2004",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "281": {
+    "spotify_track_id": "6mHOcVtsHLMuesJkswc0GZ",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-281",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "The Logical Song - Remastered 2010",
+    "source_artist": "Supertramp",
+    "source_release_date": "1979",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "282": {
+    "spotify_track_id": "32cwemsMJdzzsOYjVzfYMS",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-282",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mauvais Garçon",
+    "source_artist": "Helena",
+    "source_release_date": "2024",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "283": {
+    "spotify_track_id": "3xbws1uOAaxeTPEviKWONY",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-283",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Ça va ça vient",
+    "source_artist": "Vitaa;Slimane",
+    "source_release_date": "2019",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "284": {
+    "spotify_track_id": "4jxEqDQhYZJ58rSrh9KqHi",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-284",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Just Because of You (Come On my Love) - Version 40è anniversaire",
+    "source_artist": "Eric Filet",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "285": {
+    "spotify_track_id": "5RIVoVdkDLEygELLCniZFr",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-285",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Watch Me (Whip / Nae Nae)",
+    "source_artist": "Silentó",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "286": {
+    "spotify_track_id": "11oBg7EA3BgPLWrIx4Rv7D",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-286",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Legs (2008 Remaster)",
+    "source_artist": "ZZ Top",
+    "source_release_date": "1983",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "287": {
+    "spotify_track_id": "2fQxE0jVrjNMT9oJAXtSJR",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-287",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Domino",
+    "source_artist": "Jessie J",
+    "source_release_date": "2011",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "288": {
+    "spotify_track_id": "04XXoqSrF63KVMBT6u5KV7",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-288",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "2 Be 3",
+    "source_artist": "2 Be 3",
+    "source_release_date": "1997",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "289": {
+    "spotify_track_id": "2IJftBfq7pJ43tfnOR0RB3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-289",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "99 Luftballons",
+    "source_artist": "Nena",
+    "source_release_date": "1983",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "290": {
+    "spotify_track_id": "11C4y2Yz1XbHmaQwO06s9f",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-290",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Dance The Night",
+    "source_artist": "Dua Lipa",
+    "source_release_date": "2023",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "291": {
+    "spotify_track_id": "41L3O37CECZt3N7ziG2z7l",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-291",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Yummy",
+    "source_artist": "Justin Bieber",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "292": {
+    "spotify_track_id": "5S4Qq5ufU91XImS0T7EjJj",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-292",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "On t'emmène",
+    "source_artist": "Trois Cafés Gourmands",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "293": {
+    "spotify_track_id": "0FQ1jILXJDTHrlHee3kkxP",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-293",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Rien n'est parfait",
+    "source_artist": "TAL",
+    "source_release_date": "2012",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "294": {
+    "spotify_track_id": "5CLkunLzzmoI5vzwlR5QeV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-294",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Je vole",
+    "source_artist": "Louane",
+    "source_release_date": "2015",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "295": {
+    "spotify_track_id": "0n2pjCIMKwHSXoYfEbYMfX",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-295",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "You Are The Sunshine Of My Life",
+    "source_artist": "Stevie Wonder",
+    "source_release_date": "1972",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "296": {
+    "spotify_track_id": "4YXbSriLJBo9FLj7u8fdgR",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-296",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Sur mes gardes",
+    "source_artist": "Joyce Jonathan;Tété",
+    "source_release_date": "2010",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "297": {
+    "spotify_track_id": "5FMXrphygZ4z3gVDHGWxgl",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-297",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Copacabana (At the Copa)",
+    "source_artist": "Barry Manilow",
+    "source_release_date": "2006",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "298": {
+    "spotify_track_id": "7MFWYTlrC81IGpb0Jwgdu7",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-298",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "On va s'aimer",
+    "source_artist": "Gilbert Montagné",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "299": {
+    "spotify_track_id": "5ULVP3ZRM9gQYlySFmrGFL",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-299",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "J'traine des pieds",
+    "source_artist": "Olivia Ruiz",
+    "source_release_date": "2005",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "300": {
+    "spotify_track_id": "2d8D7uk3tbAThjRkdfrx9c",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-300",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Voyage voyage",
+    "source_artist": "Desireless",
+    "source_release_date": "2001",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "301": {
+    "spotify_track_id": "1xQ6trAsedVPCdbtDAmk0c",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-301",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Savage Love (Laxed - Siren Beat)",
+    "source_artist": "Jawsh 685;Jason Derulo",
+    "source_release_date": "2020",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "302": {
+    "spotify_track_id": "17VWTx7LD7liGlpnlGhUbn",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-302",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Lady Marmalade",
+    "source_artist": "LaBelle",
+    "source_release_date": "1974",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "303": {
+    "spotify_track_id": "0HZlND4giwzgolBpaNIRGV",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-303",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Aquarius/Let The Sunshine In (The Flesh Failures) - From the Musical \"Hair\"",
+    "source_artist": "The 5th Dimension",
+    "source_release_date": "1969",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "304": {
+    "spotify_track_id": "6qfjUmIxPluNISxBgJfvM3",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-304",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Confidence pour confidence - Version originale 1981",
+    "source_artist": "Jean Schultheis",
+    "source_release_date": "1981",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "305": {
+    "spotify_track_id": "1zcFnMc6ULvzH8npblFGvy",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-305",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Magnolias for Ever",
+    "source_artist": "Claude François",
+    "source_release_date": "1977",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "306": {
+    "spotify_track_id": "1ICr1MldTE2l18vOjLPIEb",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-306",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Le tirelipimpon",
+    "source_artist": "Carlos",
+    "source_release_date": "1995",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "307": {
+    "spotify_track_id": "1lqMLr9Wj7SM2F9AikGcxN",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-307",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Hurricane",
+    "source_artist": "Bob Dylan",
+    "source_release_date": "1976",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  },
+  "308": {
+    "spotify_track_id": "6LxFuAjKARWoTxnvKGzPQF",
+    "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-308",
+    "source_markets": [
+      "FR"
+    ],
+    "source_title": "Mme Pavoshko",
+    "source_artist": "Black M",
+    "source_release_date": "2014",
+    "source_checks": {
+      "title": true,
+      "artist": true
+    }
+  }
+}

@@ -1,0 +1,930 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Song lists for every edition of the music timeline card game Hitster: Original, Rock, Disney, Guilty Pleasures, Summer Party and more, with card number, artist, title and year."><meta name="color-scheme" content="dark"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"><title>Music timeline card game song lists: every edition with years (Hitster, unofficial) | Hitify</title><link rel="canonical" href="https://hitify.app/en/hitster-editions"><!--
+      SVG first for browsers, then raster fallbacks. The raster ones exist
+      because /favicon.ico previously fell through to the catch-all route and
+      answered 200 with text/html: not a 404 a crawler could shrug off, but an
+      HTML page where an image was expected. Google Ads shows a generic globe
+      beside the display URL when it cannot resolve a site icon.
+    --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><!-- Preload critical font for LCP (Hitify header text) --><link rel="preload" href="/fonts/clash-display-600.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/general-sans-400.woff2" as="font" type="font/woff2" crossorigin><!-- Critical CSS inlined for faster FCP/LCP --><style>
+      @font-face{font-family:'Clash Display';src:url('/fonts/clash-display-600.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
+      @font-face{font-family:'General Sans';src:url('/fonts/general-sans-400.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+      :root{--color-void:#050505;--color-cyan:#00d4ff;--font-display:'Clash Display',system-ui,sans-serif;--font-body:'General Sans',system-ui,sans-serif}
+      html,body{background:#050505;color:#fff;margin:0}
+      body{font-family:var(--font-body);min-height:100vh;-webkit-font-smoothing:antialiased}
+      .font-display{font-family:var(--font-display)}
+      .font-semibold{font-weight:600}
+      .text-lg{font-size:1.125rem;line-height:1.75rem}
+      .tracking-tight{letter-spacing:-0.025em}
+      .bg-void{background:#050505}
+      /* Scoped to the site header by id, never the bare element. A page that
+         uses a semantic <header> for its own hero (the party pages, the blog
+         post, custom-hitster-cards) would otherwise have that hero pulled out
+         of flow and pinned to the viewport, losing its container's padding and
+         landing underneath this nav. */
+      #main-header{position:fixed;top:0;left:0;right:0;z-index:50}
+      .pt-16{padding-top:4rem}
+      html{color-scheme:dark}
+      .skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:#00d4ff;color:#050505;padding:.75rem 1rem;font-weight:600}
+      .skip-link:focus{left:0}
+    </style><!-- PWA --><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#050505"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!--
+      No apple-touch-icon here. Safari takes the LAST matching declaration and
+      cannot render an SVG one, so the /icons/icon-192.svg that used to sit on
+      this line shadowed the 180px PNG above it and an iOS home-screen add got a
+      screenshot of the page instead of the mark.
+    --><!-- Open Graph --><meta property="og:title" content="Music timeline card game song lists: every edition with years (Hitster, unofficial) | Hitify"><meta property="og:description" content="Song lists for every edition of the music timeline card game Hitster: Original, Rock, Disney, Guilty Pleasures, Summer Party and more, with card number, artist, title and year."><meta property="og:type" content="website"><meta property="og:url" content="https://hitify.app/en/hitster-editions"><meta name="hitify-share-card" content="1"><meta property="og:image" content="https://hitify.app/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Hitify: make your own music quiz cards from any playlist, free up to 100 songs. Real Hitify cards with QR codes."><meta property="og:site_name" content="Hitify"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="nl_NL"><meta property="og:locale:alternate" content="de_DE"><meta property="og:locale:alternate" content="es_ES"><meta property="og:locale:alternate" content="fr_FR"><meta property="og:locale:alternate" content="it_IT"><meta property="og:locale:alternate" content="pt_BR"><meta property="og:locale:alternate" content="pl_PL"><meta property="og:locale:alternate" content="sv_SE"><meta property="og:locale:alternate" content="nb_NO"><meta property="og:locale:alternate" content="da_DK"><meta property="og:locale:alternate" content="fi_FI"><meta property="og:locale:alternate" content="cs_CZ"><meta property="og:locale:alternate" content="ja_JP"><meta property="og:locale:alternate" content="zh_CN"><meta property="og:locale:alternate" content="ko_KR"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Music timeline card game song lists: every edition with years (Hitster, unofficial) | Hitify"><meta name="twitter:description" content="Song lists for every edition of the music timeline card game Hitster: Original, Rock, Disney, Guilty Pleasures, Summer Party and more, with card number, artist, title and year."><meta name="twitter:image" content="https://hitify.app/og-image.png"><meta name="twitter:image:alt" content="Hitify: make your own music quiz cards from any playlist, free up to 100 songs. Real Hitify cards with QR codes."><!-- Organization + WebSite structured data, once per page. No SearchAction: the site has no search. --><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","OnlineStore"],"@id":"https://hitify.app/#organization","name":"Hitify","legalName":"Klappe Development","url":"https://hitify.app/","logo":"https://hitify.app/icons/icon-512.png","description":"Hitify is a free online tool that turns Spotify, YouTube Music, Tidal, Deezer or Apple Music playlists into printable music quiz cards with QR codes. Packs of up to 100 songs are free; larger packs and professionally printed cards are paid.","email":"info@hitify.app","contactPoint":[{"@type":"ContactPoint","contactType":"customer support","email":"info@hitify.app","telephone":"+31612114764","url":"https://hitify.app/en/contact"}],"areaServed":[{"@type":"Country","name":"NL"},{"@type":"Country","name":"BE"},{"@type":"Country","name":"DE"},{"@type":"Country","name":"AT"},{"@type":"Country","name":"LU"},{"@type":"Country","name":"FR"},{"@type":"Country","name":"IT"},{"@type":"Country","name":"ES"},{"@type":"Country","name":"PT"},{"@type":"Country","name":"CH"},{"@type":"Country","name":"DK"},{"@type":"Country","name":"SE"},{"@type":"Country","name":"NO"},{"@type":"Country","name":"FI"}],"sameAs":["https://www.google.com/maps?cid=17725926732305899594","https://g.page/r/CUqgsXFyJP_1EBM/review","https://www.trustpilot.com/review/hitify.app"]},{"@type":"WebSite","@id":"https://hitify.app/#website","name":"Hitify","url":"https://hitify.app/","inLanguage":"en","publisher":{"@id":"https://hitify.app/#organization"}},{"@type":"WebApplication","@id":"https://hitify.app/#app","name":"Hitify","url":"https://hitify.app/en","description":"Hitify is a free online tool that turns Spotify, YouTube Music, Tidal, Deezer or Apple Music playlists into printable music quiz cards with QR codes. Packs of up to 100 songs are free; larger packs and professionally printed cards are paid.","applicationCategory":"EntertainmentApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","inLanguage":"en","image":"https://hitify.app/images/card-styles/classic.png","publisher":{"@id":"https://hitify.app/#organization"},"offers":{"@type":"AggregateOffer","priceCurrency":"EUR","lowPrice":"0.00","highPrice":"19.95","offerCount":"4","availability":"https://schema.org/InStock","url":"https://hitify.app/en","offers":[{"@type":"Offer","name":"Up to 100 songs (free)","price":"0.00","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://hitify.app/en"},{"@type":"Offer","name":"Up to 500 songs","price":"4.95","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://hitify.app/en"},{"@type":"Offer","name":"Up to 1000 songs","price":"9.95","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://hitify.app/en"},{"@type":"Offer","name":"Up to 2000 songs","price":"19.95","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://hitify.app/en"}]}}]}</script><link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt"><!-- Page-specific structured data / head content --><script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hitify.app/en"},{"@type":"ListItem","position":2,"name":"Music card game song lists: every Hitster edition","item":"https://hitify.app/en/hitster-editions"}]},{"@context":"https://schema.org","@type":"ItemList","name":"Music card game song lists: every Hitster edition","numberOfItems":175,"itemListElement":[{"@type":"ListItem","position":1,"name":"Hitster All American (United States)","url":"https://hitify.app/en/hitster-editions/all-american-usa"},{"@type":"ListItem","position":2,"name":"Hitster Bingo (United States)","url":"https://hitify.app/en/hitster-editions/bingo-usa"},{"@type":"ListItem","position":3,"name":"Hitster Christmas (United States)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-usa"},{"@type":"ListItem","position":4,"name":"Hitster Country Music (United States)","url":"https://hitify.app/en/hitster-editions/country-music-usa"},{"@type":"ListItem","position":5,"name":"Hitster Guilty Pleasures (United States)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-usa"},{"@type":"ListItem","position":6,"name":"Hitster Hip Hop (United States)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-usa"},{"@type":"ListItem","position":7,"name":"Hitster Latino (United States)","url":"https://hitify.app/en/hitster-editions/latino-usa"},{"@type":"ListItem","position":8,"name":"Hitster Original (United States)","url":"https://hitify.app/en/hitster-editions/original-usa"},{"@type":"ListItem","position":9,"name":"Hitster Original (United States)","url":"https://hitify.app/en/hitster-editions/original-usa-aaab0001"},{"@type":"ListItem","position":10,"name":"Hitster Original (Amazon Edition) (United States)","url":"https://hitify.app/en/hitster-editions/original-amazon-usa"},{"@type":"ListItem","position":11,"name":"Hitster Rock (United States)","url":"https://hitify.app/en/hitster-editions/rock-expansion-usa"},{"@type":"ListItem","position":12,"name":"Hitster Bingo (United Kingdom)","url":"https://hitify.app/en/hitster-editions/bingo-uk"},{"@type":"ListItem","position":13,"name":"Hitster Guilty Pleasures (United Kingdom)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-uk"},{"@type":"ListItem","position":14,"name":"Hitster Original (United Kingdom)","url":"https://hitify.app/en/hitster-editions/original-uk"},{"@type":"ListItem","position":15,"name":"Hitster Radio Heart (United Kingdom)","url":"https://hitify.app/en/hitster-editions/radio-heart-uk"},{"@type":"ListItem","position":16,"name":"Hitster Rock (United Kingdom)","url":"https://hitify.app/en/hitster-editions/rock-uk"},{"@type":"ListItem","position":17,"name":"Hitster Summer Party (United Kingdom)","url":"https://hitify.app/en/hitster-editions/summer-party-uk"},{"@type":"ListItem","position":18,"name":"Hitster Aussie (Australia)","url":"https://hitify.app/en/hitster-editions/aussie-australia"},{"@type":"ListItem","position":19,"name":"Hitster Bingo (Australia)","url":"https://hitify.app/en/hitster-editions/bingo-australia"},{"@type":"ListItem","position":20,"name":"Hitster Original (Australia)","url":"https://hitify.app/en/hitster-editions/original-australia"},{"@type":"ListItem","position":21,"name":"Hitster 100% Franco (Canada)","url":"https://hitify.app/en/hitster-editions/100-franco-canada"},{"@type":"ListItem","position":22,"name":"Hitster Battle of the Generations (Canada)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-canada"},{"@type":"ListItem","position":23,"name":"Hitster Bingo (Canada)","url":"https://hitify.app/en/hitster-editions/bingo-canada"},{"@type":"ListItem","position":24,"name":"Hitster Christmas (Canada)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-canada"},{"@type":"ListItem","position":25,"name":"Hitster Guilty Pleasures (Canada)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-canada"},{"@type":"ListItem","position":26,"name":"Hitster Original (Canada)","url":"https://hitify.app/en/hitster-editions/original-canada"},{"@type":"ListItem","position":27,"name":"Hitster Rock (Canada)","url":"https://hitify.app/en/hitster-editions/rock-canada"},{"@type":"ListItem","position":28,"name":"Hitster Rouge (Canada)","url":"https://hitify.app/en/hitster-editions/rouge-expansion-canada"},{"@type":"ListItem","position":29,"name":"Hitster Soundtracks (Canada)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-canada"},{"@type":"ListItem","position":30,"name":"Hitster Summer Party (Canada)","url":"https://hitify.app/en/hitster-editions/summer-party-canada"},{"@type":"ListItem","position":31,"name":"Hitster Kiwi Edition (New Zealand)","url":"https://hitify.app/en/hitster-editions/kiwi-edition-new-zealand"},{"@type":"ListItem","position":32,"name":"Hitster Original (New Zealand)","url":"https://hitify.app/en/hitster-editions/original-new-zealand"},{"@type":"ListItem","position":33,"name":"Hitster Summer Party (New Zealand)","url":"https://hitify.app/en/hitster-editions/summer-party-new-zealand"},{"@type":"ListItem","position":34,"name":"Hitster Platinum Edition (International)","url":"https://hitify.app/en/hitster-editions/platinum-edition-global"},{"@type":"ListItem","position":35,"name":"Hitster Original (Argentina)","url":"https://hitify.app/en/hitster-editions/original-argentina"},{"@type":"ListItem","position":36,"name":"Hitster Bingo (Baltics)","url":"https://hitify.app/en/hitster-editions/bingo-baltics"},{"@type":"ListItem","position":37,"name":"Hitster Guilty Pleasures (Baltics)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-baltics"},{"@type":"ListItem","position":38,"name":"Hitster Original (Baltics)","url":"https://hitify.app/en/hitster-editions/original-baltics"},{"@type":"ListItem","position":39,"name":"Hitster Flying Mic (Belgium)","url":"https://hitify.app/en/hitster-editions/flying-mic-belgium"},{"@type":"ListItem","position":40,"name":"Hitster Radio Contact (Belgium)","url":"https://hitify.app/en/hitster-editions/radio-contact-belgium"},{"@type":"ListItem","position":41,"name":"Hitster Q-Music Het Foute Uur (Benelux)","url":"https://hitify.app/en/hitster-editions/q-music-het-foute-uur-benelux"},{"@type":"ListItem","position":42,"name":"Hitster Guilty Pleasures (Brazil)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-brazil"},{"@type":"ListItem","position":43,"name":"Hitster Original (Brazil)","url":"https://hitify.app/en/hitster-editions/original-brazil"},{"@type":"ListItem","position":44,"name":"Hitster Summer Party (Brazil)","url":"https://hitify.app/en/hitster-editions/summer-party-brazil"},{"@type":"ListItem","position":45,"name":"Hitster Chile Edition (Chile)","url":"https://hitify.app/en/hitster-editions/chile-edition-chile"},{"@type":"ListItem","position":46,"name":"Hitster Latino (Chile)","url":"https://hitify.app/en/hitster-editions/latino-chile"},{"@type":"ListItem","position":47,"name":"Hitster 100% Croatia (Croatia)","url":"https://hitify.app/en/hitster-editions/100-croatia-croatia"},{"@type":"ListItem","position":48,"name":"Hitster Original (Croatia)","url":"https://hitify.app/en/hitster-editions/original-croatia"},{"@type":"ListItem","position":49,"name":"Hitster Original (2nd Edition) (Czechia and Slovakia)","url":"https://hitify.app/en/hitster-editions/original-2nd-edition-czechia-slovakia"},{"@type":"ListItem","position":50,"name":"Hitster Battle of the Generations (France)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-france"},{"@type":"ListItem","position":51,"name":"Hitster Bingo (France)","url":"https://hitify.app/en/hitster-editions/bingo-france"},{"@type":"ListItem","position":52,"name":"Hitster Guilty Pleasures (France)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-france"},{"@type":"ListItem","position":53,"name":"Hitster Hip Hop (France)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-france"},{"@type":"ListItem","position":54,"name":"Hitster Original (France)","url":"https://hitify.app/en/hitster-editions/original-france"},{"@type":"ListItem","position":55,"name":"Hitster Original Refresh (France)","url":"https://hitify.app/en/hitster-editions/original-refresh-france"},{"@type":"ListItem","position":56,"name":"Hitster Rock (France)","url":"https://hitify.app/en/hitster-editions/rock-france"},{"@type":"ListItem","position":57,"name":"Hitster Soundtracks (France)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-france"},{"@type":"ListItem","position":58,"name":"Hitster Summer Party (France)","url":"https://hitify.app/en/hitster-editions/summer-party-france"},{"@type":"ListItem","position":59,"name":"Hitster Tubes 100% Français (France)","url":"https://hitify.app/en/hitster-editions/tubes-100-francais-france"},{"@type":"ListItem","position":60,"name":"Hitster 100% Deutsch (Germany)","url":"https://hitify.app/en/hitster-editions/100-deutsch-germany"},{"@type":"ListItem","position":61,"name":"Hitster Battle of the Generations (Germany)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-germany"},{"@type":"ListItem","position":62,"name":"Hitster Bayern (Germany)","url":"https://hitify.app/en/hitster-editions/bayern-expansion-germany"},{"@type":"ListItem","position":63,"name":"Hitster Bingo (Germany)","url":"https://hitify.app/en/hitster-editions/bingo-germany"},{"@type":"ListItem","position":64,"name":"Hitster Celebration (Germany)","url":"https://hitify.app/en/hitster-editions/celebration-germany"},{"@type":"ListItem","position":65,"name":"Hitster Christmas (Germany)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-germany"},{"@type":"ListItem","position":66,"name":"Hitster Flying Mic (Germany)","url":"https://hitify.app/en/hitster-editions/flying-mic-germany"},{"@type":"ListItem","position":67,"name":"Hitster Guilty Pleasures (Germany)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-germany"},{"@type":"ListItem","position":68,"name":"Hitster Hip Hop (Germany)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-germany"},{"@type":"ListItem","position":69,"name":"Hitster Original (Germany)","url":"https://hitify.app/en/hitster-editions/original-germany"},{"@type":"ListItem","position":70,"name":"Hitster Original (Amazon Edition) (Germany)","url":"https://hitify.app/en/hitster-editions/original-amazon-germany"},{"@type":"ListItem","position":71,"name":"Hitster Original Refresh (Germany)","url":"https://hitify.app/en/hitster-editions/original-refresh-germany"},{"@type":"ListItem","position":72,"name":"Hitster Rock (Germany)","url":"https://hitify.app/en/hitster-editions/rock-germany"},{"@type":"ListItem","position":73,"name":"Hitster Schlager Party (Germany)","url":"https://hitify.app/en/hitster-editions/schlager-party-germany"},{"@type":"ListItem","position":74,"name":"Hitster Soundtracks (Germany)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-germany"},{"@type":"ListItem","position":75,"name":"Hitster Summer Party (Germany)","url":"https://hitify.app/en/hitster-editions/summer-party-germany"},{"@type":"ListItem","position":76,"name":"Hitster Wacken On Air (Germany)","url":"https://hitify.app/en/hitster-editions/wacken-on-air-germany"},{"@type":"ListItem","position":77,"name":"Hitster Original (Greece)","url":"https://hitify.app/en/hitster-editions/original-greece"},{"@type":"ListItem","position":78,"name":"Hitster Guilty Pleasures (Hong Kong)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-hong-kong"},{"@type":"ListItem","position":79,"name":"Hitster Original (Hong Kong)","url":"https://hitify.app/en/hitster-editions/original-hong-kong"},{"@type":"ListItem","position":80,"name":"Hitster Christmas (Hungary)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-hungary"},{"@type":"ListItem","position":81,"name":"Hitster Hip Hop (Hungary)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-hungary"},{"@type":"ListItem","position":82,"name":"Hitster Original (Hungary)","url":"https://hitify.app/en/hitster-editions/original-hungary"},{"@type":"ListItem","position":83,"name":"Hitster Rock (Hungary)","url":"https://hitify.app/en/hitster-editions/rock-hungary"},{"@type":"ListItem","position":84,"name":"Hitster Smellur (Iceland)","url":"https://hitify.app/en/hitster-editions/smellur-iceland"},{"@type":"ListItem","position":85,"name":"Hitster Smellur 2 (Iceland)","url":"https://hitify.app/en/hitster-editions/smellur-2-iceland"},{"@type":"ListItem","position":86,"name":"Hitster 100% Israeli (Israel)","url":"https://hitify.app/en/hitster-editions/100-israeli-israel"},{"@type":"ListItem","position":87,"name":"Hitster Bingo (Israel)","url":"https://hitify.app/en/hitster-editions/bingo-israel"},{"@type":"ListItem","position":88,"name":"Hitster Mediterranean (Israel)","url":"https://hitify.app/en/hitster-editions/mediterranean-israel"},{"@type":"ListItem","position":89,"name":"Hitster Original (Israel)","url":"https://hitify.app/en/hitster-editions/original-israel"},{"@type":"ListItem","position":90,"name":"Hitster Summer Party (Israel)","url":"https://hitify.app/en/hitster-editions/summer-party-israel"},{"@type":"ListItem","position":91,"name":"Hitster 100% Italian (Italy)","url":"https://hitify.app/en/hitster-editions/100-italian-italy"},{"@type":"ListItem","position":92,"name":"Hitster Bingo (Italy)","url":"https://hitify.app/en/hitster-editions/bingo-italy"},{"@type":"ListItem","position":93,"name":"Hitster Original (Italy)","url":"https://hitify.app/en/hitster-editions/original-italy"},{"@type":"ListItem","position":94,"name":"Hitster Rock (Italy)","url":"https://hitify.app/en/hitster-editions/rock-italy"},{"@type":"ListItem","position":95,"name":"Hitster Soundtracks (Italy)","url":"https://hitify.app/en/hitster-editions/soundtracks-italy"},{"@type":"ListItem","position":96,"name":"Hitster Tormentoni (Italy)","url":"https://hitify.app/en/hitster-editions/tormentoni-italy"},{"@type":"ListItem","position":97,"name":"Hitster Anime (Japan)","url":"https://hitify.app/en/hitster-editions/anime-japan"},{"@type":"ListItem","position":98,"name":"Hitster Original (Japan)","url":"https://hitify.app/en/hitster-editions/original-japan"},{"@type":"ListItem","position":99,"name":"Hitster Original (Lebanon)","url":"https://hitify.app/en/hitster-editions/original-lebanon"},{"@type":"ListItem","position":100,"name":"Hitster Bingo (Mexico)","url":"https://hitify.app/en/hitster-editions/bingo-mexico"},{"@type":"ListItem","position":101,"name":"Hitster Bingo (Mexico)","url":"https://hitify.app/en/hitster-editions/bingo-mexico-aaab0005"},{"@type":"ListItem","position":102,"name":"Hitster Latino (Mexico)","url":"https://hitify.app/en/hitster-editions/latino-mexico"},{"@type":"ListItem","position":103,"name":"Hitster Latino (Mexico)","url":"https://hitify.app/en/hitster-editions/latino-mexico-aaab0004"},{"@type":"ListItem","position":104,"name":"Hitster Original (Mexico)","url":"https://hitify.app/en/hitster-editions/original-mexico"},{"@type":"ListItem","position":105,"name":"Hitster 100% NL (Netherlands)","url":"https://hitify.app/en/hitster-editions/100-nl-netherlands"},{"@type":"ListItem","position":106,"name":"Hitster Battle of the Generations (Netherlands)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-netherlands"},{"@type":"ListItem","position":107,"name":"Hitster Bingo (Netherlands)","url":"https://hitify.app/en/hitster-editions/bingo-netherlands"},{"@type":"ListItem","position":108,"name":"Hitster Celebration (Netherlands)","url":"https://hitify.app/en/hitster-editions/celebration-netherlands"},{"@type":"ListItem","position":109,"name":"Hitster Christmas (Netherlands)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-netherlands"},{"@type":"ListItem","position":110,"name":"Hitster Flying Mic (Netherlands)","url":"https://hitify.app/en/hitster-editions/flying-mic-netherlands"},{"@type":"ListItem","position":111,"name":"Hitster Guilty Pleasures (Netherlands)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-netherlands"},{"@type":"ListItem","position":112,"name":"Hitster Hip Hop (Netherlands)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-netherlands"},{"@type":"ListItem","position":113,"name":"Hitster Original (Netherlands)","url":"https://hitify.app/en/hitster-editions/original-netherlands"},{"@type":"ListItem","position":114,"name":"Hitster Original Refresh (Netherlands)","url":"https://hitify.app/en/hitster-editions/original-refresh-netherlands"},{"@type":"ListItem","position":115,"name":"Hitster Rock (Netherlands)","url":"https://hitify.app/en/hitster-editions/rock-expansion-netherlands"},{"@type":"ListItem","position":116,"name":"Hitster Soundtracks (Netherlands)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-netherlands"},{"@type":"ListItem","position":117,"name":"Hitster Summer Party (Netherlands)","url":"https://hitify.app/en/hitster-editions/summer-party-netherlands"},{"@type":"ListItem","position":118,"name":"Hitster Top 40 NL (Netherlands)","url":"https://hitify.app/en/hitster-editions/top-40-nl-netherlands"},{"@type":"ListItem","position":119,"name":"Hitster 2 Förläng Festen (Sweden) (Nordics)","url":"https://hitify.app/en/hitster-editions/2-forlang-festen-sweden-nordics"},{"@type":"ListItem","position":120,"name":"Hitster Battle of the Generations (Nordics)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-nordics"},{"@type":"ListItem","position":121,"name":"Hitster Bingo (Nordics)","url":"https://hitify.app/en/hitster-editions/bingo-nordics"},{"@type":"ListItem","position":122,"name":"Hitster Christmas (Nordics)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-nordics"},{"@type":"ListItem","position":123,"name":"Hitster Denmark (Nordics)","url":"https://hitify.app/en/hitster-editions/denmark-nordics"},{"@type":"ListItem","position":124,"name":"Hitster Disney (Nordics)","url":"https://hitify.app/en/hitster-editions/disney-nordics"},{"@type":"ListItem","position":125,"name":"Hitster English (Nordics)","url":"https://hitify.app/en/hitster-editions/english-nordics"},{"@type":"ListItem","position":126,"name":"Hitster Finland (Nordics)","url":"https://hitify.app/en/hitster-editions/finland-nordics"},{"@type":"ListItem","position":127,"name":"Hitster Guilty Pleasures (Nordics)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-nordics"},{"@type":"ListItem","position":128,"name":"Hitster Hip Hop (Nordics)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-nordics"},{"@type":"ListItem","position":129,"name":"Hitster Melodifestivalen (Nordics)","url":"https://hitify.app/en/hitster-editions/melodifestivalen-nordics"},{"@type":"ListItem","position":130,"name":"Hitster Nordics (App) (Nordics)","url":"https://hitify.app/en/hitster-editions/nordics-app-nordics"},{"@type":"ListItem","position":131,"name":"Hitster Norway (Nordics)","url":"https://hitify.app/en/hitster-editions/norway-nordics"},{"@type":"ListItem","position":132,"name":"Hitster Original (Kickstarter) (Nordics)","url":"https://hitify.app/en/hitster-editions/original-kickstarter-nordics"},{"@type":"ListItem","position":133,"name":"Hitster Rock (Nordics)","url":"https://hitify.app/en/hitster-editions/rock-nordics"},{"@type":"ListItem","position":134,"name":"Hitster Smukfest (Nordics)","url":"https://hitify.app/en/hitster-editions/smukfest-nordics"},{"@type":"ListItem","position":135,"name":"Hitster Soundtracks (Nordics)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-nordics"},{"@type":"ListItem","position":136,"name":"Hitster Summer Party (Nordics)","url":"https://hitify.app/en/hitster-editions/summer-party-nordics"},{"@type":"ListItem","position":137,"name":"Hitster Sweden (Nordics)","url":"https://hitify.app/en/hitster-editions/sweden-nordics"},{"@type":"ListItem","position":138,"name":"Hitster Original (Peru)","url":"https://hitify.app/en/hitster-editions/original-peru"},{"@type":"ListItem","position":139,"name":"Hitster Temazos (Peru)","url":"https://hitify.app/en/hitster-editions/temazos-peru"},{"@type":"ListItem","position":140,"name":"Hitster Original (Philippines)","url":"https://hitify.app/en/hitster-editions/original-philippines"},{"@type":"ListItem","position":141,"name":"Hitster Bingo (Poland)","url":"https://hitify.app/en/hitster-editions/bingo-poland"},{"@type":"ListItem","position":142,"name":"Hitster Bingo (Poland)","url":"https://hitify.app/en/hitster-editions/bingo-poland-aaae0015"},{"@type":"ListItem","position":143,"name":"Hitster Christmas (Poland)","url":"https://hitify.app/en/hitster-editions/christmas-expansion-poland"},{"@type":"ListItem","position":144,"name":"Hitster Disco Polo (Poland)","url":"https://hitify.app/en/hitster-editions/disco-polo-poland"},{"@type":"ListItem","position":145,"name":"Hitster Hip Hop (Poland)","url":"https://hitify.app/en/hitster-editions/hip-hop-expansion-poland"},{"@type":"ListItem","position":146,"name":"Hitster Original (Poland)","url":"https://hitify.app/en/hitster-editions/original-poland"},{"@type":"ListItem","position":147,"name":"Hitster Original (2nd Edition) (Poland)","url":"https://hitify.app/en/hitster-editions/original-2nd-edition-poland"},{"@type":"ListItem","position":148,"name":"Hitster Rock (Poland)","url":"https://hitify.app/en/hitster-editions/rock-poland"},{"@type":"ListItem","position":149,"name":"Hitster Soundtracks (Poland)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-poland"},{"@type":"ListItem","position":150,"name":"Hitster Soundtracks (Poland)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-poland-aaae0014"},{"@type":"ListItem","position":151,"name":"Hitster Summer Party (Poland)","url":"https://hitify.app/en/hitster-editions/summer-party-poland"},{"@type":"ListItem","position":152,"name":"Hitster Summer Party (5 languages) (Poland)","url":"https://hitify.app/en/hitster-editions/summer-party-5-languages-poland"},{"@type":"ListItem","position":153,"name":"Hitster Bingo (Portugal)","url":"https://hitify.app/en/hitster-editions/bingo-portugal"},{"@type":"ListItem","position":154,"name":"Hitster Guilty Pleasures (Portugal)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-portugal"},{"@type":"ListItem","position":155,"name":"Hitster Original (Portugal)","url":"https://hitify.app/en/hitster-editions/original-portugal"},{"@type":"ListItem","position":156,"name":"Hitster Original (2nd Edition) (Romania)","url":"https://hitify.app/en/hitster-editions/original-2nd-edition-romania"},{"@type":"ListItem","position":157,"name":"Hitster K-Pop (South Korea)","url":"https://hitify.app/en/hitster-editions/k-pop-korea"},{"@type":"ListItem","position":158,"name":"Hitster Original (South Korea)","url":"https://hitify.app/en/hitster-editions/original-korea"},{"@type":"ListItem","position":159,"name":"Hitster 100% Spanish (Spain)","url":"https://hitify.app/en/hitster-editions/100-spanish-spain"},{"@type":"ListItem","position":160,"name":"Hitster Battle of the Generations (Spain)","url":"https://hitify.app/en/hitster-editions/battle-of-the-generations-spain"},{"@type":"ListItem","position":161,"name":"Hitster Bingo (Spain)","url":"https://hitify.app/en/hitster-editions/bingo-spain"},{"@type":"ListItem","position":162,"name":"Hitster Disney (Spain)","url":"https://hitify.app/en/hitster-editions/disney-spain"},{"@type":"ListItem","position":163,"name":"Hitster Los 40 (Spain)","url":"https://hitify.app/en/hitster-editions/los-40-spain"},{"@type":"ListItem","position":164,"name":"Hitster Original (Spain)","url":"https://hitify.app/en/hitster-editions/original-spain"},{"@type":"ListItem","position":165,"name":"Hitster Original Refresh (Spain)","url":"https://hitify.app/en/hitster-editions/original-refresh-spain"},{"@type":"ListItem","position":166,"name":"Hitster Radio Flaixbac (Spain)","url":"https://hitify.app/en/hitster-editions/radio-flaixbac-expansion-spain"},{"@type":"ListItem","position":167,"name":"Hitster Rock (Spain)","url":"https://hitify.app/en/hitster-editions/rock-spain"},{"@type":"ListItem","position":168,"name":"Hitster Soundtracks (Spain)","url":"https://hitify.app/en/hitster-editions/soundtracks-expansion-spain"},{"@type":"ListItem","position":169,"name":"Hitster Summer Party (Spain)","url":"https://hitify.app/en/hitster-editions/summer-party-spain"},{"@type":"ListItem","position":170,"name":"Hitster Temazos (Spain)","url":"https://hitify.app/en/hitster-editions/temazos-spain"},{"@type":"ListItem","position":171,"name":"Hitster Disney - Sweden (Sweden)","url":"https://hitify.app/en/hitster-editions/disney-sweden-sweden"},{"@type":"ListItem","position":172,"name":"Hitster Original (Kickstarter) (Sweden)","url":"https://hitify.app/en/hitster-editions/original-kickstarter-sweden"},{"@type":"ListItem","position":173,"name":"Hitster Original (Switzerland)","url":"https://hitify.app/en/hitster-editions/original-switzerland"},{"@type":"ListItem","position":174,"name":"Hitster Guilty Pleasures (Taiwan)","url":"https://hitify.app/en/hitster-editions/guilty-pleasures-taiwan"},{"@type":"ListItem","position":175,"name":"Hitster Original (Taiwan)","url":"https://hitify.app/en/hitster-editions/original-taiwan"}]}]</script><!-- Hreflang tags --><link rel="alternate" hreflang="nl" href="https://hitify.app/nl/hitster-editions"><link rel="alternate" hreflang="en" href="https://hitify.app/en/hitster-editions"><link rel="alternate" hreflang="de" href="https://hitify.app/de/hitster-editions"><link rel="alternate" hreflang="es" href="https://hitify.app/es/hitster-editions"><link rel="alternate" hreflang="fr" href="https://hitify.app/fr/hitster-editions"><link rel="alternate" hreflang="it" href="https://hitify.app/it/hitster-editions"><link rel="alternate" hreflang="pt" href="https://hitify.app/pt/hitster-editions"><link rel="alternate" hreflang="pl" href="https://hitify.app/pl/hitster-editions"><link rel="alternate" hreflang="sv" href="https://hitify.app/sv/hitster-editions"><link rel="alternate" hreflang="no" href="https://hitify.app/no/hitster-editions"><link rel="alternate" hreflang="da" href="https://hitify.app/da/hitster-editions"><link rel="alternate" hreflang="fi" href="https://hitify.app/fi/hitster-editions"><link rel="alternate" hreflang="cs" href="https://hitify.app/cs/hitster-editions"><link rel="alternate" hreflang="ja" href="https://hitify.app/ja/hitster-editions"><link rel="alternate" hreflang="zh" href="https://hitify.app/zh/hitster-editions"><link rel="alternate" hreflang="ko" href="https://hitify.app/ko/hitster-editions"><link rel="alternate" hreflang="x-default" href="https://hitify.app/en/hitster-editions"><!--
+  Ad click ids (gclid, gbraid, wbraid): captured from the URL on EVERY page load
+  and kept first-party for 90 days once cookies are accepted. See
+  src/lib/click-ids.js and docs/checkout-analytics.md. Must run before the
+  scripts below, which read window.hitifyClickIds.
+--><script>/*
+ * Ad click ids (gclid, gbraid, wbraid), kept long enough to reach the order.
+ *
+ * Plain ES5 on purpose. GoogleAnalytics.astro inlines this file verbatim into
+ * every page as an `is:inline` script (imported with `?raw`), and an inline
+ * script gets no TypeScript stripping and no bundler. src/lib/click-ids.test.ts
+ * runs the same text in a sandbox, so the test cannot drift from what ships.
+ *
+ * Why it exists: the id used to live in sessionStorage only. A buyer who opens
+ * the verification mail in a new tab starts a new session, so it was gone by
+ * the time they paid. 0 of 245 orders from 5 Oct carried a gclid.
+ *
+ * Consent. Nothing durable is written until the visitor has accepted cookies
+ * ('cookie-consent' === 'accepted' in localStorage, the same flag the banner,
+ * the GA loader and the TikTok pixel use). Before that the id stays in
+ * sessionStorage, exactly as before. Accepting later persists what the session
+ * already holds (the 'hitify:consent-accepted' event), declining erases it.
+ * Google's own url_passthrough carries the click through URLs for the
+ * cookieless case; that is the allowed exception and it lives in gtag, not here.
+ *
+ * Storage. A first-party cookie on the apex domain (hitify.app, so
+ * shop.hitify.app can read it too) and localStorage as a backup for browsers
+ * that evict cookies. 90 days from the click, the same window Google gives a
+ * click for conversion import. The newest click wins everywhere.
+ */
+(function (root) {
+  var CONSENT_KEY = 'cookie-consent';
+  var LS_KEY = 'hitify_click_ids';
+  var SS_KEY = 'hitify_click_rec';
+  var LEGACY_KEY = 'hitify_click_id';
+  var COOKIE = 'hitify_click_ids';
+  var MAX_AGE_S = 90 * 24 * 60 * 60;
+  var FIELDS = ['gclid', 'gbraid', 'wbraid'];
+  // Same shape the checkout endpoints accept, so a stored id is never refused.
+  var VALID = /^[A-Za-z0-9_-]{1,200}$/;
+
+  function nowS() { return Math.floor(Date.now() / 1000); }
+
+  function safe(fn, fallback) {
+    try { return fn(); } catch (e) { return fallback; }
+  }
+
+  function ls() { return safe(function () { return root.localStorage || null; }, null); }
+  function ss() { return safe(function () { return root.sessionStorage || null; }, null); }
+  function doc() { return typeof root.document === 'object' && root.document ? root.document : null; }
+
+  function consented() {
+    var store = ls();
+    return !!store && safe(function () { return store.getItem(CONSENT_KEY); }, null) === 'accepted';
+  }
+
+  /** A record is {gclid|gbraid|wbraid: id, ts: unix seconds of the click}. */
+  function clean(rec) {
+    if (!rec || typeof rec !== 'object') return null;
+    var out = { ts: Math.floor(Number(rec.ts)) };
+    var any = false;
+    for (var i = 0; i < FIELDS.length; i++) {
+      var v = rec[FIELDS[i]];
+      if (typeof v === 'string' && VALID.test(v)) { out[FIELDS[i]] = v; any = true; }
+    }
+    if (!any || !isFinite(out.ts) || out.ts <= 0) return null;
+    // A click from the future is a clock fault or a forgery; one past 90 days is stale.
+    if (out.ts > nowS() + 86400 || nowS() - out.ts > MAX_AGE_S) return null;
+    return out;
+  }
+
+  function newest(a, b) {
+    if (!a) return b;
+    if (!b) return a;
+    return b.ts > a.ts ? b : a;
+  }
+
+  /** The click on this URL. Exactly one of the three is sent per ad click. */
+  function fromUrl(search) {
+    if (!search) return null;
+    var p = safe(function () { return new root.URLSearchParams(search); }, null);
+    if (!p) return null;
+    var rec = { ts: nowS() };
+    for (var i = 0; i < FIELDS.length; i++) {
+      var v = p.get(FIELDS[i]);
+      if (v) rec[FIELDS[i]] = v;
+    }
+    return clean(rec);
+  }
+
+  function readJson(store, key) {
+    if (!store) return null;
+    return clean(safe(function () { return JSON.parse(store.getItem(key)); }, null));
+  }
+
+  function readCookie(name) {
+    var d = doc();
+    if (!d || typeof d.cookie !== 'string') return null;
+    var parts = d.cookie.split(';');
+    for (var i = 0; i < parts.length; i++) {
+      var c = parts[i].trim();
+      if (c.indexOf(name + '=') === 0) return c.slice(name.length + 1);
+    }
+    return null;
+  }
+
+  function readOwnCookie() {
+    var raw = readCookie(COOKIE);
+    if (!raw) return null;
+    return clean(safe(function () { return JSON.parse(decodeURIComponent(raw)); }, null));
+  }
+
+  /**
+   * Google's own cookies, present only once ad_storage was granted:
+   * _gcl_aw = GCL.<unix seconds>.<gclid>, _gcl_gb = the same for gbraid.
+   * Used only as a fallback, so a click gtag saw but our URL parse missed
+   * (a redirect that dropped the query) is still recovered.
+   */
+  function readGoogleCookies() {
+    var rec = { ts: 0 };
+    var map = { gclid: '_gcl_aw', gbraid: '_gcl_gb' };
+    for (var f in map) {
+      var raw = readCookie(map[f]);
+      if (!raw) continue;
+      var m = /^GCL\.(\d{9,11})\.(.+)$/.exec(raw);
+      if (!m) continue;
+      rec[f] = m[2];
+      rec.ts = Math.max(rec.ts, Number(m[1]));
+    }
+    return clean(rec);
+  }
+
+  function cookieDomain() {
+    var host = safe(function () { return root.location.hostname; }, '');
+    return /(^|\.)hitify\.app$/.test(host) ? '; Domain=hitify.app' : '';
+  }
+
+  function secure() {
+    return safe(function () { return root.location.protocol === 'https:'; }, false) ? '; Secure' : '';
+  }
+
+  function writeCookie(rec) {
+    var d = doc();
+    if (!d) return;
+    safe(function () {
+      d.cookie = COOKIE + '=' + encodeURIComponent(JSON.stringify(rec)) +
+        '; Max-Age=' + MAX_AGE_S + '; Path=/; SameSite=Lax' + cookieDomain() + secure();
+    });
+  }
+
+  function expireCookie() {
+    var d = doc();
+    if (!d) return;
+    safe(function () {
+      d.cookie = COOKIE + '=; Max-Age=0; Path=/; SameSite=Lax' + cookieDomain() + secure();
+      d.cookie = COOKIE + '=; Max-Age=0; Path=/';
+    });
+  }
+
+  /** Cookie and localStorage hold the same record; either may be missing. */
+  function persist(rec) {
+    if (!rec || !consented()) return false;
+    writeCookie(rec);
+    var store = ls();
+    if (store) safe(function () { store.setItem(LS_KEY, JSON.stringify(rec)); });
+    return true;
+  }
+
+  function remember(rec) {
+    var store = ss();
+    if (!store || !rec) return;
+    safe(function () {
+      store.setItem(SS_KEY, JSON.stringify(rec));
+      // Kept for readers that predate the record (analytics.ts getAdClickId).
+      store.setItem(LEGACY_KEY, rec.gclid || rec.gbraid || rec.wbraid || '');
+    });
+  }
+
+  /**
+   * Run on every page load. A click on the URL always wins (newest click), is
+   * kept for the session, and is made durable when the visitor has accepted.
+   */
+  function capture() {
+    var url = fromUrl(safe(function () { return root.location.search; }, ''));
+    if (url) {
+      remember(url);
+      persist(url);
+      return url;
+    }
+    // No click on this URL: top up the durable copy from the session or from
+    // Google's cookies, so accepting on a later page still keeps the click.
+    var current = get();
+    if (current && consented()) persist(current);
+    return current;
+  }
+
+  /**
+   * The click to report right now, or null. Durable stores are ignored for a
+   * visitor who has not accepted, so a leftover from an earlier accept can
+   * never travel after a decline.
+   */
+  function get() {
+    var rec = readJson(ss(), SS_KEY);
+    if (consented()) {
+      rec = newest(rec, readOwnCookie());
+      rec = newest(rec, readJson(ls(), LS_KEY));
+      rec = newest(rec, readGoogleCookies());
+    }
+    if (!rec) return null;
+    var out = { ts: rec.ts };
+    for (var i = 0; i < FIELDS.length; i++) if (rec[FIELDS[i]]) out[FIELDS[i]] = rec[FIELDS[i]];
+    return out;
+  }
+
+  /**
+   * The fields the checkout endpoints take, named exactly as the Shopify
+   * attributes: gclid, gclid_ts (unix seconds, as a string), gbraid, wbraid.
+   * gclid_ts is also sent for gbraid/wbraid clicks, it is the click time.
+   */
+  function fields() {
+    var rec = get();
+    if (!rec) return {};
+    var out = {};
+    if (rec.gclid) out.gclid = rec.gclid;
+    if (rec.gbraid) out.gbraid = rec.gbraid;
+    if (rec.wbraid) out.wbraid = rec.wbraid;
+    out.gclid_ts = String(rec.ts);
+    return out;
+  }
+
+  /** Decline erases the durable copy. */
+  function clear() {
+    expireCookie();
+    var store = ls();
+    if (store) safe(function () { store.removeItem(LS_KEY); });
+  }
+
+  var api = { capture: capture, get: get, fields: fields, persist: function () { return persist(get()); }, clear: clear };
+  root.hitifyClickIds = api;
+
+  if (typeof root.addEventListener === 'function') {
+    root.addEventListener('hitify:consent-accepted', function () { api.persist(); });
+  }
+  capture();
+})(typeof window !== 'undefined' ? window : (typeof globalThis !== 'undefined' ? globalThis : this));
+</script> <!-- Traffic Source Tracking - Capture original referrer, UTM params, and referral code on first page load --><script>
+  (function() {
+    // Only capture once per session (when user first arrives)
+    if (sessionStorage.getItem('hitify_traffic_captured')) return;
+
+    // 1. Capture UTM params from URL (campaign tracking)
+    var params = new URLSearchParams(window.location.search);
+    var utmSource = params.get('utm_source') || '';
+    var utmMedium = params.get('utm_medium') || '';
+    var utmCampaign = params.get('utm_campaign') || '';
+
+    // 2. Capture referral code (for referral program)
+    var referralCode = params.get('ref') || '';
+
+    // 2b. Capture the Google Ads click id. gbraid/wbraid are the iOS app and
+    // web variants Google sends when gclid is unavailable; exactly one of the
+    // three is present on an ad click. Stored so it can ride along to the
+    // Shopify order, which gives us attribution in our own database that does
+    // not depend on the _gcl_aw cookie surviving the trip through checkout.
+    var clickId = params.get('gclid') || params.get('gbraid') || params.get('wbraid') || '';
+
+    // TikTok's click id, kept in its own key. It must never reach the gclid
+    // order attribute: Google would reject a click id it did not issue, and a
+    // TikTok order would silently look like a Google one.
+    var ttclid = params.get('ttclid') || '';
+
+    // Reddit's click id. Captured now because a click that arrives before this
+    // exists loses its id for good, and it is the strongest attribution signal
+    // their Conversions API accepts.
+    var rdtcid = params.get('rdt_cid') || '';
+
+    // 2c. AI assistants. Checked before the generic google.* rule, because
+    // gemini.google.com contains "google." and was filed as google / organic.
+    // ChatGPT appends utm_source=chatgpt.com with no utm_medium, so the UTM
+    // branch below must also accept a source on its own for these.
+    var AI_HOSTS = /(^|\.)(chatgpt\.com|chat\.openai\.com|perplexity\.ai|gemini\.google\.com|bard\.google\.com|copilot\.microsoft\.com|copilot\.com|claude\.ai|you\.com|meta\.ai|grok\.com|duck\.ai|phind\.com)$/;
+    var AI_UTM = /^(chatgpt\.com|perplexity|gemini|copilot|claude|openai)/i;
+
+    // 3. Detect referrer independently (where they actually came from)
+    var referrerSource = 'direct';
+    var referrerMedium = 'none';
+
+    if (document.referrer) {
+      try {
+        var ref = new URL(document.referrer);
+        var host = ref.hostname.toLowerCase();
+        // Don't count internal navigation as referrer
+        if (!host.includes('hitify.app') && host !== window.location.hostname) {
+          if (AI_HOSTS.test(host)) { referrerSource = host.replace(/^www\./, ''); referrerMedium = 'ai_assistant'; }
+          else if (host.includes('google.')) { referrerSource = 'google'; referrerMedium = 'organic'; }
+          else if (host.includes('bing.')) { referrerSource = 'bing'; referrerMedium = 'organic'; }
+          else if (host.includes('duckduckgo.')) { referrerSource = 'duckduckgo'; referrerMedium = 'organic'; }
+          else if (host.includes('yahoo.')) { referrerSource = 'yahoo'; referrerMedium = 'organic'; }
+          else if (host.includes('facebook.') || host.includes('fb.com') || host.includes('fb.me')) { referrerSource = 'facebook'; referrerMedium = 'social'; }
+          else if (host.includes('instagram.') || host.includes('l.instagram.com')) { referrerSource = 'instagram'; referrerMedium = 'social'; }
+          else if (host.includes('tiktok.')) { referrerSource = 'tiktok'; referrerMedium = 'social'; }
+          else if (host.includes('twitter.') || host === 't.co' || host === 'x.com' || host.endsWith('.x.com')) { referrerSource = 'twitter'; referrerMedium = 'social'; }
+          else if (host.includes('linkedin.')) { referrerSource = 'linkedin'; referrerMedium = 'social'; }
+          else if (host.includes('pinterest.')) { referrerSource = 'pinterest'; referrerMedium = 'social'; }
+          else if (host.includes('reddit.')) { referrerSource = 'reddit'; referrerMedium = 'social'; }
+          else if (host.includes('youtube.') || host.includes('youtu.be')) { referrerSource = 'youtube'; referrerMedium = 'social'; }
+          else { referrerSource = host.replace('www.', ''); referrerMedium = 'referral'; }
+        }
+      } catch (e) {}
+    }
+
+    // 4. Paid beats referrer. The rules above read the referring hostname and
+    // nothing else, so a Google Ads click arrived from google.com and was filed
+    // as "google / organic", indistinguishable from a free search result. Every
+    // paid click ever recorded is sitting in the organic bucket because of it.
+    //
+    // A click id is proof the click was bought, so it wins outright. Failing
+    // that a tagged utm_medium is the advertiser's own declaration, which is
+    // how Instagram and Facebook ads identify themselves since they carry no
+    // click id of their own. Order matters: click id, then UTM, then referrer.
+    if (clickId) {
+      referrerSource = utmSource || 'google';
+      referrerMedium = 'cpc';
+    } else if (ttclid) {
+      referrerSource = utmSource || 'tiktok';
+      referrerMedium = 'cpc';
+    } else if (rdtcid) {
+      referrerSource = utmSource || 'reddit';
+      referrerMedium = 'cpc';
+    } else if (utmMedium) {
+      referrerSource = utmSource || referrerSource;
+      referrerMedium = utmMedium;
+    } else if (utmSource && AI_UTM.test(utmSource)) {
+      // ChatGPT sends utm_source only.
+      referrerSource = utmSource;
+      referrerMedium = 'ai_assistant';
+    }
+
+    // Store referrer, UTM params, and referral code
+    sessionStorage.setItem('hitify_referrer_source', referrerSource);
+    sessionStorage.setItem('hitify_referrer_medium', referrerMedium);
+    sessionStorage.setItem('hitify_utm_source', utmSource);
+    sessionStorage.setItem('hitify_utm_medium', utmMedium);
+    sessionStorage.setItem('hitify_utm_campaign', utmCampaign);
+    sessionStorage.setItem('hitify_referral_code', referralCode);
+    // hitify_click_id and the click record are written by click-ids.js, above.
+    sessionStorage.setItem('hitify_ttclid', ttclid);
+    sessionStorage.setItem('hitify_rdt_cid', rdtcid);
+    sessionStorage.setItem('hitify_traffic_captured', '1');
+  })();
+</script> <!-- Google Analytics 4 - Defer until user interaction for best performance --><script>(function(){const ga4MeasurementId = "G-7L70YC5XM2";
+const googleAdsId = "AW-17948165152";
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  /*
+   * gtag MUST be published on window, and this line is load-bearing.
+   *
+   * `define:vars` makes Astro wrap this whole script in an IIFE, so the
+   * declaration above is local to it. Everything that reports an event from
+   * outside this file (src/lib/analytics.ts, the pack page's inline scripts)
+   * reads `window.gtag` and guards on it, so without this assignment those
+   * calls found nothing and returned silently.
+   *
+   * Measured before the fix, over 28 days: traffic_source, fired from inside
+   * this IIFE, had 26,340 events. pack_created, download_email_sent and
+   * begin_checkout, fired from outside it, had zero. Not "a few". Zero.
+   *
+   * Events pushed before gtag.js loads sit in dataLayer and are delivered when
+   * it does, so queuing early is fine.
+   */
+  window.gtag = gtag;
+
+  /*
+   * Consent Mode v2, advanced implementation. The default is set HERE, at page
+   * start, and not inside loadGA4: gtag.js loads late (first interaction or
+   * 5s), and every gtag() call before it queues in dataLayer in order. A
+   * default pushed after an event or after the banner's `update` would be
+   * applied after them. gtag.js itself always loads, so Google gets cookieless
+   * pings from denied visitors and models the gap into the reports.
+   *
+   *  - accepted  -> everything granted, restored from the stored choice
+   *  - declined  -> everything denied (analytics too: cookieless pings only)
+   *  - no choice -> analytics on (unchanged), ad signals denied until accept;
+   *                 the banner's accept fires the immediate `update`
+   *
+   * Ads storage is denied everywhere until an explicit accept. There is no
+   * regional split: the site never had one, and denying by default is the safe
+   * side of it. wait_for_update gives a stored-choice restore or a fast accept
+   * 500ms to land before the first hit is sent.
+   *
+   * url_passthrough carries the click id across pages in the URL while
+   * ad_storage is denied, without writing a cookie. ads_data_redaction strips
+   * the ad click ids from requests while it is denied. Both are Google's
+   * design for exactly this state and neither stores an identifier.
+   */
+  var storedConsent = null;
+  try { storedConsent = localStorage.getItem('cookie-consent'); } catch (e) {}
+  var adsConsent = storedConsent === 'accepted' ? 'granted' : 'denied';
+  var consentDefault = {
+    analytics_storage: storedConsent === 'declined' ? 'denied' : 'granted',
+    ad_storage: adsConsent,
+    ad_user_data: adsConsent,
+    ad_personalization: adsConsent,
+  };
+  if (storedConsent !== 'accepted') consentDefault.wait_for_update = 500;
+  gtag('consent', 'default', consentDefault);
+  gtag('set', 'url_passthrough', true);
+  gtag('set', 'ads_data_redaction', true);
+
+  var ga4Loaded = false;
+  // Lets checkout code start GA and wait for its client id (see getGaIdsReady).
+  window.hitifyLoadGA4 = function () { loadGA4(); };
+  window.hitifyGaId = ga4MeasurementId;
+  function loadGA4() {
+    if (ga4Loaded) return;
+    ga4Loaded = true;
+
+    // Skip on dev/staging environments
+    var hostname = window.location.hostname;
+    if (hostname.includes('dev.') || hostname === 'localhost' || hostname === '127.0.0.1') return;
+
+    // The client router (duel pages) removes head scripts on navigation, so the script element is no proof: this flag is.
+    window.hitifyGaLoaded = true;
+
+    // Load GA4 script
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4MeasurementId;
+    document.head.appendChild(script);
+
+    gtag('js', new Date());
+
+    // Build GA4 config with UTM campaign attribution
+    var ga4Config = {};
+
+    // Get UTM params from sessionStorage (captured on first page load)
+    var utmSource = sessionStorage.getItem('hitify_utm_source');
+    var utmMedium = sessionStorage.getItem('hitify_utm_medium');
+    var utmCampaign = sessionStorage.getItem('hitify_utm_campaign');
+
+    // Pass UTM params to GA4 for campaign attribution
+    if (utmSource) ga4Config.campaign_source = utmSource;
+    if (utmMedium) ga4Config.campaign_medium = utmMedium;
+    if (utmCampaign) ga4Config.campaign_name = utmCampaign;
+
+    // AI assistants. A utm_source with no medium (ChatGPT) is filed by GA4 as
+    // "(not set)" and lands in Unassigned, so give it the neutral "referral"
+    // medium. A Gemini click carries no utm at all and GA4 may read the google
+    // hostname as search, so name the source ourselves. The "AI assistants"
+    // channel group (docs: ga4-ai-channel-steps) matches on source, not medium.
+    if (sessionStorage.getItem('hitify_referrer_medium') === 'ai_assistant') {
+      if (utmSource && !utmMedium) ga4Config.campaign_medium = 'referral';
+      if (!utmSource) {
+        ga4Config.campaign_source = sessionStorage.getItem('hitify_referrer_source');
+        ga4Config.campaign_medium = 'referral';
+      }
+    }
+
+    // Returning from Shopify checkout must not start a new "referral" session
+    // and steal attribution from the real campaign (code-level equivalent of
+    // GA4's unwanted-referrals list)
+    try {
+      if (document.referrer) {
+        var refHost = new URL(document.referrer).hostname;
+        if (/(^|\.)shop\.hitify\.app$|(^|\.)myshopify\.com$|(^|\.)shopify\.com$/.test(refHost)) {
+          ga4Config.ignore_referrer = true;
+        }
+      }
+    } catch (e) {}
+
+    gtag('config', ga4MeasurementId, ga4Config);
+
+    // Google Ads. This one call is what writes the _gcl_aw cookie on
+    // .hitify.app, which shop.hitify.app then reads at checkout, so no
+    // cross-domain linker is needed. Empty id means Ads is not configured yet
+    // and nothing here runs.
+    if (googleAdsId) {
+      gtag('config', googleAdsId);
+    }
+
+    // Send a custom event with full traffic attribution data
+    var referrerSource = sessionStorage.getItem('hitify_referrer_source') || 'direct';
+    var referrerMedium = sessionStorage.getItem('hitify_referrer_medium') || 'none';
+
+    gtag('event', 'traffic_source', {
+      referrer_source: referrerSource,
+      referrer_medium: referrerMedium,
+      utm_source: utmSource || '(not set)',
+      utm_medium: utmMedium || '(not set)',
+      utm_campaign: utmCampaign || '(not set)',
+    });
+  }
+
+  // Load on user interaction or after 5s idle (keeps it out of Lighthouse metrics)
+  ['scroll', 'click', 'touchstart', 'keydown'].forEach(function(e) {
+    document.addEventListener(e, loadGA4, { once: true, passive: true });
+  });
+  setTimeout(loadGA4, 5000);
+
+  // An ad click is the one arrival that cannot afford the 5 second wait: a
+  // visitor who bounces before it elapses never gets a _gcl_aw cookie, so the
+  // click is orphaned and any purchase they make later is attributed to
+  // nothing. We are paying for this click, so it loads now.
+  if (googleAdsId && /[?&](gclid|gbraid|wbraid)=/.test(window.location.search)) {
+    loadGA4();
+  }
+
+  // An AI assistant visitor has read the answer and clicks through with intent,
+  // and often leaves within seconds. Waiting for an interaction or 5s meant
+  // those sessions were never counted. loadGA4 still reads the stored cookie
+  // consent first, so a declined visitor stays cookieless.
+  var AI_VISIT_UTM = /[?&]utm_source=(chatgpt\.com|perplexity|gemini|copilot|claude|openai)/i;
+  var AI_VISIT_REF = /^https?:\/\/([^/]*\.)?(chatgpt\.com|chat\.openai\.com|perplexity\.ai|gemini\.google\.com|copilot\.microsoft\.com|claude\.ai|meta\.ai|grok\.com|duck\.ai|phind\.com)(\/|$)/i;
+  // Only when the visitor already accepted cookies: loadGA4 treats an undecided
+  // visitor as granted, and ?utm_source=claude must not be a way to set _ga
+  // before the banner is answered. Undecided AI visitors use the normal timing.
+  if (
+    localStorage.getItem('cookie-consent') === 'accepted' &&
+    (AI_VISIT_UTM.test(window.location.search) || AI_VISIT_REF.test(document.referrer))
+  ) {
+    loadGA4();
+  }
+})();</script> <!--
+  Checkout attribution helpers, on every page.
+  PhysicalCart (in BaseLayout) reads window.getGaIds and window.getSourceCode, but
+  only the pack page defined them. A cart checkout started anywhere else sent no
+  GA client id, no session id and no source code, so the server-side purchase
+  fell back to a hashed-email client id: a brand new user with no landing page
+  and no channel (GA4: landing page "(not set)", channel "Unassigned"). The pack
+  page redefines both with the same logic; these are the fallback.
+--><script>
+  (function () {
+    // Funnel label, not personal data: no consent needed. The game links to the pack
+    // page with ?purchase_intent=play&entry_point=game_end; the server re-validates.
+    try {
+      var q = new URLSearchParams(window.location.search);
+      var pi = q.get('purchase_intent');
+      var ep = q.get('entry_point');
+      var pid = q.get('pack_id');
+      var TTL_MS = 30 * 60 * 1000;
+      if (pi === 'play' || pi === 'print') {
+        sessionStorage.setItem('hitify_purchase_intent', pi);
+        sessionStorage.setItem('hitify_purchase_intent_ts', String(Date.now()));
+        if (ep && /^[a-z0-9_]{1,24}$/.test(ep)) sessionStorage.setItem('hitify_entry_point', ep);
+        else sessionStorage.removeItem('hitify_entry_point');
+        if (pid && /^[A-Za-z0-9_-]{1,64}$/.test(pid)) sessionStorage.setItem('hitify_purchase_intent_pack', pid);
+        else sessionStorage.removeItem('hitify_purchase_intent_pack');
+      } else {
+        // Expire after 30 minutes, and drop it when the visitor lands on a different pack.
+        var ts = Number(sessionStorage.getItem('hitify_purchase_intent_ts') || 0);
+        var storedPack = sessionStorage.getItem('hitify_purchase_intent_pack');
+        var expired = !ts || Date.now() - ts > TTL_MS;
+        var otherPack = !!(storedPack && pid && pid !== storedPack);
+        if (expired || otherPack) {
+          ['hitify_purchase_intent', 'hitify_purchase_intent_ts', 'hitify_purchase_intent_pack', 'hitify_entry_point']
+            .forEach(function (k) { sessionStorage.removeItem(k); });
+        }
+      }
+    } catch (e) {}
+    function intentFresh() {
+      var ts = Number(sessionStorage.getItem('hitify_purchase_intent_ts') || 0);
+      return !!ts && Date.now() - ts <= 30 * 60 * 1000;
+    }
+    if (!window.getGaIds) {
+      window.getGaIds = function () {
+        try {
+          var cookies = document.cookie.split(';').map(function (c) { return c.trim(); });
+          var ga = cookies.filter(function (c) { return c.indexOf('_ga=') === 0; })[0];
+          var click = window.hitifyClickIds ? window.hitifyClickIds.fields() : {};
+          var gaClientId = ga ? ga.split('=')[1].split('.').slice(-2).join('.') : undefined;
+          var sess = cookies.filter(function (c) { return /^_ga_[A-Z0-9]+=/.test(c); })[0];
+          var m = sess ? sess.match(/=GS\d\.\d\.s?(\d{10})/) : null;
+          return {
+            gaClientId: gaClientId,
+            gaSessionId: m ? m[1] : undefined,
+            gclid: click.gclid,
+            gbraid: click.gbraid,
+            wbraid: click.wbraid,
+            gclidTs: click.gclid_ts,
+            ttclid: sessionStorage.getItem('hitify_ttclid') || undefined,
+            purchaseIntent: intentFresh() ? sessionStorage.getItem('hitify_purchase_intent') || undefined : undefined,
+            entryPoint: intentFresh() ? sessionStorage.getItem('hitify_entry_point') || undefined : undefined,
+            rdtCid: sessionStorage.getItem('hitify_rdt_cid') || undefined,
+          };
+        } catch (e) {
+          return {};
+        }
+      };
+    }
+    /*
+     * getGaIds is synchronous and reads the _ga cookie, which gtag.js writes
+     * only after it has loaded. A buyer whose first interaction IS the checkout
+     * click had no cookie yet, so the order carried no ga_client_id. This waits
+     * (at most 1.2s) for gtag to report its own client id, then re-reads.
+     *
+     * If gtag is still silent (slow, or blocked by an extension) it falls back
+     * to a first-party id in the same shape GA uses (client "<rand>.<unix>",
+     * session "<unix>"), kept in sessionStorage only so every checkout of the
+     * visit agrees. The server accepts exactly that shape. A visitor who
+     * DECLINED cookies never gets one: that choice is final here.
+     */
+    function fallbackGaIds() {
+      var nowS = Math.floor(Date.now() / 1000);
+      var cid = null, sid = null;
+      try { cid = sessionStorage.getItem('hitify_fb_cid'); sid = sessionStorage.getItem('hitify_fb_sid'); } catch (e) {}
+      if (!/^[0-9]{1,15}\.[0-9]{1,15}$/.test(cid || '') || !/^[0-9]{8,12}$/.test(sid || '')) {
+        var rand = 0;
+        try {
+          var buf = new Uint32Array(1);
+          window.crypto.getRandomValues(buf);
+          rand = buf[0];
+        } catch (e) { rand = Math.floor(Math.random() * 4294967295); }
+        cid = String(rand || 1) + '.' + nowS;
+        sid = String(nowS);
+        try { sessionStorage.setItem('hitify_fb_cid', cid); sessionStorage.setItem('hitify_fb_sid', sid); } catch (e) {}
+      }
+      return { gaClientId: cid, gaSessionId: sid };
+    }
+    window.hitifyFallbackGaIds = fallbackGaIds;
+    if (!window.getGaIdsReady) {
+      window.getGaIdsReady = async function () {
+        var ids = window.getGaIds();
+        try {
+          if (ids.gaClientId) return ids;
+          if (localStorage.getItem('cookie-consent') === 'declined') return ids;
+          var h = window.location.hostname;
+          if (h.indexOf('dev.') !== -1 || h === 'localhost' || h === '127.0.0.1') return ids;
+          if (window.gtag && window.hitifyLoadGA4) {
+            window.hitifyLoadGA4();
+            await new Promise(function (resolve) {
+              var done = false;
+              var finish = function () { if (!done) { done = true; resolve(); } };
+              setTimeout(finish, 1200);
+              window.gtag('get', window.hitifyGaId, 'client_id', finish);
+            });
+            ids = window.getGaIds();
+            if (ids.gaClientId) return ids;
+          }
+          var fb = fallbackGaIds();
+          ids.gaClientId = fb.gaClientId;
+          if (!ids.gaSessionId) ids.gaSessionId = fb.gaSessionId;
+          return ids;
+        } catch (e) {
+          return ids;
+        }
+      };
+    }
+    if (!window.getSourceCode) {
+      window.getSourceCode = async function () {
+        try {
+          var res = await fetch('/api/traffic-source', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              referrerSource: sessionStorage.getItem('hitify_referrer_source') || 'direct',
+              referrerMedium: sessionStorage.getItem('hitify_referrer_medium') || 'none',
+              utmSource: sessionStorage.getItem('hitify_utm_source') || undefined,
+              utmMedium: sessionStorage.getItem('hitify_utm_medium') || undefined,
+              utmCampaign: sessionStorage.getItem('hitify_utm_campaign') || undefined,
+              referralCode: sessionStorage.getItem('hitify_referral_code') || undefined,
+            }),
+          });
+          var data = await res.json();
+          return data.code || null;
+        } catch (e) {
+          return null;
+        }
+      };
+    }
+  })();
+</script><script>(function(){const tiktokPixelId = "D9S7Q83C77U97D5QGBMG";
+
+  (function () {
+    if (!tiktokPixelId) return;
+
+    var hostname = window.location.hostname;
+    if (hostname.includes('dev.') || hostname === 'localhost' || hostname === '127.0.0.1') return;
+
+    var loaded = false;
+    function loadTikTok() {
+      if (loaded) return;
+      // Marketing pixel, so "no choice yet" is not consent. Only 'accepted' is.
+      if (localStorage.getItem('cookie-consent') !== 'accepted') return;
+      loaded = true;
+
+      !(function (w, d, t) {
+        w.TiktokAnalyticsObject = t;
+        var ttq = (w[t] = w[t] || []);
+        ttq.methods = ['page', 'track', 'identify', 'instances', 'debug', 'on', 'off', 'once', 'ready', 'alias', 'group', 'enableCookie', 'disableCookie', 'holdConsent', 'revokeConsent', 'grantConsent'];
+        ttq.setAndDefer = function (t, e) {
+          t[e] = function () {
+            t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+          };
+        };
+        for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+        ttq.instance = function (t) {
+          for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+          return e;
+        };
+        ttq.load = function (e, n) {
+          var r = 'https://analytics.tiktok.com/i18n/pixel/events.js';
+          var o = n && n.partner;
+          ttq._i = ttq._i || {};
+          ttq._i[e] = [];
+          ttq._i[e]._u = r;
+          ttq._t = ttq._t || {};
+          ttq._t[e] = +new Date();
+          ttq._o = ttq._o || {};
+          ttq._o[e] = n || {};
+          n = document.createElement('script');
+          n.type = 'text/javascript';
+          n.async = !0;
+          n.src = r + '?sdkid=' + e + '&lib=' + t;
+          e = document.getElementsByTagName('script')[0];
+          e.parentNode.insertBefore(n, e);
+        };
+
+        ttq.load(tiktokPixelId);
+        ttq.page();
+      })(window, document, 'ttq');
+    }
+
+    // Same deferral as GA: interaction, or 5s idle, whichever comes first.
+    ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (e) {
+      document.addEventListener(e, loadTikTok, { once: true, passive: true });
+    });
+    setTimeout(loadTikTok, 5000);
+
+    // A paid arrival cannot afford the wait, for the same reason the Google tag
+    // loads early on a gclid.
+    if (/[?&]ttclid=/.test(window.location.search)) loadTikTok();
+
+    // The banner sets consent without a reload on accept, so the pixel has to be
+    // told rather than wait for the next page view.
+    window.addEventListener('hitify:consent-accepted', loadTikTok);
+  })();
+})();</script><script>(function(){const redditPixelId = "a2_jhiegnjcw8y9";
+
+  (function () {
+    if (!redditPixelId) return;
+
+    var hostname = window.location.hostname;
+    if (hostname.includes('dev.') || hostname === 'localhost' || hostname === '127.0.0.1') return;
+
+    var loaded = false;
+    function loadReddit() {
+      if (loaded) return;
+      if (localStorage.getItem('cookie-consent') !== 'accepted') return;
+      loaded = true;
+
+      !(function (w, d) {
+        if (!w.rdt) {
+          var p = (w.rdt = function () {
+            p.sendEvent ? p.sendEvent.apply(p, arguments) : p.callQueue.push(arguments);
+          });
+          p.callQueue = [];
+          var t = d.createElement('script');
+          // Reddit's own snippet carries the id on the URL as well as in init().
+          t.src = 'https://www.redditstatic.com/ads/pixel.js?pixel_id=' + redditPixelId;
+          t.async = !0;
+          var s = d.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        }
+      })(window, document);
+
+      window.rdt('init', redditPixelId);
+      window.rdt('track', 'PageVisit');
+
+      /*
+       * Replay anything reported before consent arrived. A visitor who creates a
+       * pack and only then accepts cookies would otherwise have their conversion
+       * dropped, and that is the exact person the campaign is paying for.
+       */
+      var queued = window.__rdtQueue || [];
+      for (var i = 0; i < queued.length; i++) {
+        window.rdt('track', queued[i].event, queued[i].params || {});
+      }
+      window.__rdtQueue = [];
+    }
+
+    // Held here until the pixel exists, so a conversion is never simply lost.
+    window.__rdtQueue = window.__rdtQueue || [];
+
+    ['scroll', 'click', 'touchstart', 'keydown'].forEach(function (e) {
+      document.addEventListener(e, loadReddit, { once: true, passive: true });
+    });
+    setTimeout(loadReddit, 5000);
+
+    // Reddit sends no click id of its own, so the campaign is tagged with UTMs
+    // instead; a tagged arrival is a paid one and should not wait.
+    if (/[?&]utm_source=reddit/.test(window.location.search)) loadReddit();
+
+    window.addEventListener('hitify:consent-accepted', loadReddit);
+  })();
+})();</script><link rel="stylesheet" href="/_astro/_seo_.BHR4TvPc.css">
+<link rel="stylesheet" href="/_astro/daily.BQeW5V78.css">
+<link rel="stylesheet" href="/_astro/_edition_.SVZzENqG.css">
+<link rel="stylesheet" href="/_astro/_edition_.Dm0LjUEn.css">
+<link rel="stylesheet" href="/_astro/_params_.DwYLBWHy.css">
+<link rel="stylesheet" href="/_astro/_edition_.DwkawsPU.css"></head> <body class="min-h-screen bg-void text-white font-body" data-chrome="full"> <a href="#main-content" class="skip-link">Skip to content</a> <header class="ch-header" id="main-header"> <div class="ch-bar" aria-hidden="true"></div> <nav class="ch-inner" aria-label="Main"> <a href="/en/" class="ch-logo" aria-label="Hitify"> <span class="ch-orb" aria-hidden="true"><i></i><i></i><i></i></span> <span class="ch-logo-text">Hitify</span> </a> <ul class="ch-links"> <li> <a href="/en/" class="ch-link"> Home </a> </li><li> <a href="/en/decks" class="ch-link"> Decks </a> </li><li class="no-desktop-scan"> <a href="/en/scan" class="ch-link"> Scan </a> </li> </ul> <div class="ch-end"> <div class="ui-popover ch-desktop" data-ui-popover-root="ch-lang-pop"> <button type="button" class="ch-pill" data-ui-popover="ch-lang-pop" aria-expanded="false" aria-haspopup="true" aria-controls="ch-lang-pop" aria-label="Language: English"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"></path></svg> <span class="ch-pill-code" aria-hidden="true">en</span> </button> <div class="ui-popover__panel ui-popover__panel--end" id="ch-lang-pop" role="group" aria-label="Language" hidden>   <ul class="ch-langlist"> <li> <a href="/nl/hitster-editions" hreflang="nl" lang="nl" class="ch-langitem" data-ch-lang> <span>Nederlands</span>  </a> </li><li> <a href="/en/hitster-editions" hreflang="en" lang="en" aria-current="true" class="ch-langitem" data-ch-lang> <span>English</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 12 5 5 9-10"></path></svg> </a> </li><li> <a href="/de/hitster-editions" hreflang="de" lang="de" class="ch-langitem" data-ch-lang> <span>Deutsch</span>  </a> </li><li> <a href="/es/hitster-editions" hreflang="es" lang="es" class="ch-langitem" data-ch-lang> <span>Español</span>  </a> </li><li> <a href="/fr/hitster-editions" hreflang="fr" lang="fr" class="ch-langitem" data-ch-lang> <span>Français</span>  </a> </li><li> <a href="/it/hitster-editions" hreflang="it" lang="it" class="ch-langitem" data-ch-lang> <span>Italiano</span>  </a> </li><li> <a href="/pt/hitster-editions" hreflang="pt" lang="pt" class="ch-langitem" data-ch-lang> <span>Português</span>  </a> </li><li> <a href="/pl/hitster-editions" hreflang="pl" lang="pl" class="ch-langitem" data-ch-lang> <span>Polski</span>  </a> </li><li> <a href="/sv/hitster-editions" hreflang="sv" lang="sv" class="ch-langitem" data-ch-lang> <span>Svenska</span>  </a> </li><li> <a href="/no/hitster-editions" hreflang="no" lang="no" class="ch-langitem" data-ch-lang> <span>Norsk</span>  </a> </li><li> <a href="/da/hitster-editions" hreflang="da" lang="da" class="ch-langitem" data-ch-lang> <span>Dansk</span>  </a> </li><li> <a href="/fi/hitster-editions" hreflang="fi" lang="fi" class="ch-langitem" data-ch-lang> <span>Suomi</span>  </a> </li><li> <a href="/cs/hitster-editions" hreflang="cs" lang="cs" class="ch-langitem" data-ch-lang> <span>Čeština</span>  </a> </li><li> <a href="/ja/hitster-editions" hreflang="ja" lang="ja" class="ch-langitem" data-ch-lang> <span>日本語</span>  </a> </li><li> <a href="/zh/hitster-editions" hreflang="zh" lang="zh" class="ch-langitem" data-ch-lang> <span>中文</span>  </a> </li><li> <a href="/ko/hitster-editions" hreflang="ko" lang="ko" class="ch-langitem" data-ch-lang> <span>한국어</span>  </a> </li> </ul>  </div> </div> <a href="/en/account" class="ch-iconlink ch-desktop ch-friends" aria-label="Account" data-ch-account data-ch-account-badge data-label="Account" data-badge-label="Friends" data-friends-href="/en/account#friends"> <svg class="ch-account-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"></path></svg> <span class="ch-avatar ui-avatar ui-avatar--sm" hidden></span> <span class="ch-badge" data-ch-badge hidden></span> </a> <a href="/en/create" class="ui-btn ui-btn--sm ch-create">Create a deck</a> <button type="button" class="ch-iconlink ch-menu-btn" id="mobile-menu-btn" data-ui-open="ch-menu" aria-haspopup="dialog" aria-expanded="false" aria-controls="ch-menu" aria-label="Open menu"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg> </button> </div> </nav> </header> <div class="ui-sheet" id="ch-menu" role="dialog" aria-modal="true" aria-labelledby="ch-menu-title"> <div class="ui-sheet__backdrop" data-ui-close></div> <div class="ui-sheet__panel" tabindex="-1"> <div class="ui-sheet__grab" aria-hidden="true"></div> <div class="ui-sheet__head"> <div class="ui-stack" style="gap: var(--ui-s1)"> <p class="ui-h2" id="ch-menu-title">Menu</p>  </div> <button type="button" class="ui-iconbtn" data-ui-close aria-label="Close menu"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"></path></svg> </button> </div> <div class="ui-sheet__body"> <nav aria-label="Mobile menu" class="ch-sheetnav"> <a href="/en/create" class="ui-btn ui-btn--lg ui-btn--block">Create a deck</a> <ul class="ch-rows"> <li data-ch-friends data-label="Friends" hidden> <a href="/en/account#friends" class="ch-row"> <span class="ch-row__label"><svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM2.5 20a6.5 6.5 0 0 1 13 0M16 4.3a3.5 3.5 0 0 1 0 6.4M18 14.2a6.5 6.5 0 0 1 3.5 5.8"></path></svg>Friends<span class="ch-badge ch-badge--inline" data-ch-badge hidden></span></span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li> <li> <a href="/en/" class="ch-row"> <span>Home</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li><li> <a href="/en/decks" class="ch-row"> <span>Decks</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li><li> <a href="/en/scan" class="ch-row"> <span>Scan</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li><li> <a href="/en/account" class="ch-row"> <span>Account</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li><li> <a href="/en/contact" class="ch-row"> <span>Contact</span> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </a> </li> </ul> </nav> <details class="ch-langs"> <summary class="ch-row ch-langsummary"> <span class="ch-langsummary-label"><svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"></path></svg>Language: English</span> <svg class="ch-langchev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg> </summary> <ul class="ch-langgrid"> <li> <a href="/nl/hitster-editions" hreflang="nl" lang="nl" class="ch-langchip" data-ch-lang> Nederlands </a> </li><li> <a href="/en/hitster-editions" hreflang="en" lang="en" aria-current="true" class="ch-langchip" data-ch-lang> English </a> </li><li> <a href="/de/hitster-editions" hreflang="de" lang="de" class="ch-langchip" data-ch-lang> Deutsch </a> </li><li> <a href="/es/hitster-editions" hreflang="es" lang="es" class="ch-langchip" data-ch-lang> Español </a> </li><li> <a href="/fr/hitster-editions" hreflang="fr" lang="fr" class="ch-langchip" data-ch-lang> Français </a> </li><li> <a href="/it/hitster-editions" hreflang="it" lang="it" class="ch-langchip" data-ch-lang> Italiano </a> </li><li> <a href="/pt/hitster-editions" hreflang="pt" lang="pt" class="ch-langchip" data-ch-lang> Português </a> </li><li> <a href="/pl/hitster-editions" hreflang="pl" lang="pl" class="ch-langchip" data-ch-lang> Polski </a> </li><li> <a href="/sv/hitster-editions" hreflang="sv" lang="sv" class="ch-langchip" data-ch-lang> Svenska </a> </li><li> <a href="/no/hitster-editions" hreflang="no" lang="no" class="ch-langchip" data-ch-lang> Norsk </a> </li><li> <a href="/da/hitster-editions" hreflang="da" lang="da" class="ch-langchip" data-ch-lang> Dansk </a> </li><li> <a href="/fi/hitster-editions" hreflang="fi" lang="fi" class="ch-langchip" data-ch-lang> Suomi </a> </li><li> <a href="/cs/hitster-editions" hreflang="cs" lang="cs" class="ch-langchip" data-ch-lang> Čeština </a> </li><li> <a href="/ja/hitster-editions" hreflang="ja" lang="ja" class="ch-langchip" data-ch-lang> 日本語 </a> </li><li> <a href="/zh/hitster-editions" hreflang="zh" lang="zh" class="ch-langchip" data-ch-lang> 中文 </a> </li><li> <a href="/ko/hitster-editions" hreflang="ko" lang="ko" class="ch-langchip" data-ch-lang> 한국어 </a> </li> </ul> </details> </div> </div> </div> <script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.DTfaKmZK.js"></script>    <main id="main-content" tabindex="-1" class="pt-16">    <div class="ui-shell ed">  <section class="ed-hero"> <div class="ed-wrap ed-hero__grid"> <div class="ed-fan" aria-hidden="true"> <img src="/images/occasions/occasion-office-party-1.webp" alt="" width="400" height="400" class="ed-fan__card ed-fan__a" decoding="async" fetchpriority="low"> <img src="/images/occasions/theme-decade-80s-3.webp" alt="" width="400" height="400" class="ed-fan__card ed-fan__c" decoding="async" fetchpriority="low"> <img src="/images/occasions/genre-rock-2.webp" alt="" width="400" height="400" class="ed-fan__card ed-fan__b" decoding="async" fetchpriority="low"> </div> <div class="ed-hero__copy"> <nav aria-label="Breadcrumb" class="ed-crumbs"> <a href="/en">Home</a> <span class="ed-sep" aria-hidden="true">/</span> <a href="/en/hitster-cards">Hitster</a> <span class="ed-sep" aria-hidden="true">/</span> <span class="ed-here">Music card game song lists: every Hitster edition</span> </nav> <h1 class="ed-title">Music card game song lists: every Hitster edition</h1> <p class="ed-lead">Looking for the song list of a Hitster edition, or want to check the year on a card? Pick an edition below. Every page lists all cards with number, artist, title and release year, sorted by card number.</p> <a href="/en/create" class="ui-btn ui-btn--lg ed-cta">Build your own cards</a> </div> </div> </section> <section class="ed-section"> <div class="ed-wrap"> <nav aria-label="More about the card game" class="ed-guides"> <a href="/en/best-hitster-edition" class="ed-guide"> <span class="ed-guide__lead">Not sure which box to buy?</span> <span class="ed-guide__text">All Hitster versions compared</span> </a><a href="/en/rules" class="ed-guide"> <span class="ed-guide__lead">Playing for the first time?</span> <span class="ed-guide__text">Hitster rules: how to play</span> </a> </nav> </div> </section> <section class="ed-section"> <div class="ed-wrap ed-stack"> <div> <h2 class="ed-h2 ed-h2--accent">Editions sold in your region</h2> <div class="ed-stack"> <div> <h3 class="ed-h3">United States</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/all-american-usa" class="ed-tile"> <span class="ed-tile__name">Hitster All American</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 227 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/country-music-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Country Music</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/latino-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Latino</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 336 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-usa-aaab0001" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-amazon-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Original (Amazon Edition)</span> <span class="ed-tile__meta"> 333 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-expansion-usa" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">United Kingdom</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/bingo-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 335 cards  </span> </a> </li><li> <a href="/en/hitster-editions/radio-heart-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Radio Heart</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-uk" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Australia</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/aussie-australia" class="ed-tile"> <span class="ed-tile__name">Hitster Aussie</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-australia" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-australia" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Canada</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-franco-canada" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Franco</span> <span class="ed-tile__meta"> 312 cards  </span> </a> </li><li> <a href="/en/hitster-editions/battle-of-the-generations-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 155 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 311 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rouge-expansion-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Rouge</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 158 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-canada" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">New Zealand</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/kiwi-edition-new-zealand" class="ed-tile"> <span class="ed-tile__name">Hitster Kiwi Edition</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-new-zealand" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-new-zealand" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">International</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/platinum-edition-global" class="ed-tile"> <span class="ed-tile__name">Hitster Platinum Edition</span> <span class="ed-tile__meta"> 500 cards  </span> </a> </li> </ul> </div> </div> </div><div> <h2 class="ed-h2 ed-h2--accent">Other regions</h2> <div class="ed-stack"> <div> <h3 class="ed-h3">Argentina</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-argentina" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Baltics</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/bingo-baltics" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-baltics" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-baltics" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Belgium</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/flying-mic-belgium" class="ed-tile"> <span class="ed-tile__name">Hitster Flying Mic</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/radio-contact-belgium" class="ed-tile"> <span class="ed-tile__name">Hitster Radio Contact</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Benelux</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/q-music-het-foute-uur-benelux" class="ed-tile"> <span class="ed-tile__name">Hitster Q-Music Het Foute Uur</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Brazil</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/guilty-pleasures-brazil" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-brazil" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-brazil" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Chile</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/chile-edition-chile" class="ed-tile"> <span class="ed-tile__name">Hitster Chile Edition</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/latino-chile" class="ed-tile"> <span class="ed-tile__name">Hitster Latino</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Croatia</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-croatia-croatia" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Croatia</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-croatia" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Czechia and Slovakia</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-2nd-edition-czechia-slovakia" class="ed-tile"> <span class="ed-tile__name">Hitster Original (2nd Edition)</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">France</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/battle-of-the-generations-france" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-france" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-france" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-france" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/original-france" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-refresh-france" class="ed-tile"> <span class="ed-tile__name">Hitster Original Refresh</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-france" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-france" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-france" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li><li> <a href="/en/hitster-editions/tubes-100-francais-france" class="ed-tile"> <span class="ed-tile__name">Hitster Tubes 100% Français</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Germany</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-deutsch-germany" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Deutsch</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/battle-of-the-generations-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bayern-expansion-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Bayern</span> <span class="ed-tile__meta"> 156 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/bingo-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 226 cards  </span> </a> </li><li> <a href="/en/hitster-editions/celebration-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Celebration</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/flying-mic-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Flying Mic</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/original-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-amazon-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Original (Amazon Edition)</span> <span class="ed-tile__meta"> 360 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-refresh-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Original Refresh</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/schlager-party-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Schlager Party</span> <span class="ed-tile__meta"> 344 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/wacken-on-air-germany" class="ed-tile"> <span class="ed-tile__name">Hitster Wacken On Air</span> <span class="ed-tile__meta"> 320 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Greece</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-greece" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Hong Kong</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/guilty-pleasures-hong-kong" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-hong-kong" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 316 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Hungary</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/christmas-expansion-hungary" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-hungary" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/original-hungary" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-hungary" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Iceland</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/smellur-iceland" class="ed-tile"> <span class="ed-tile__name">Hitster Smellur</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/smellur-2-iceland" class="ed-tile"> <span class="ed-tile__name">Hitster Smellur 2</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Israel</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-israeli-israel" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Israeli</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-israel" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/mediterranean-israel" class="ed-tile"> <span class="ed-tile__name">Hitster Mediterranean</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-israel" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-israel" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Italy</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-italian-italy" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Italian</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-italy" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-italy" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-italy" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-italy" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/tormentoni-italy" class="ed-tile"> <span class="ed-tile__name">Hitster Tormentoni</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Japan</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/anime-japan" class="ed-tile"> <span class="ed-tile__name">Hitster Anime</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-japan" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 316 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Lebanon</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-lebanon" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 312 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Mexico</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/bingo-mexico" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-mexico-aaab0005" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/latino-mexico" class="ed-tile"> <span class="ed-tile__name">Hitster Latino</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/latino-mexico-aaab0004" class="ed-tile"> <span class="ed-tile__name">Hitster Latino</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-mexico" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Netherlands</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-nl-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster 100% NL</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/battle-of-the-generations-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/celebration-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Celebration</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/flying-mic-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Flying Mic</span> <span class="ed-tile__meta"> 226 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 334 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/original-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-refresh-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Original Refresh</span> <span class="ed-tile__meta"> 314 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-expansion-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/top-40-nl-netherlands" class="ed-tile"> <span class="ed-tile__name">Hitster Top 40 NL</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Nordics</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/2-forlang-festen-sweden-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster 2 Förläng Festen (Sweden)</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/battle-of-the-generations-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/denmark-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Denmark</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/disney-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Disney</span> <span class="ed-tile__meta"> 70 cards  </span> </a> </li><li> <a href="/en/hitster-editions/english-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster English</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/finland-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Finland</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/melodifestivalen-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Melodifestivalen</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/nordics-app-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Nordics (App)</span> <span class="ed-tile__meta"> 1645 cards  </span> </a> </li><li> <a href="/en/hitster-editions/norway-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Norway</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-kickstarter-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Original (Kickstarter)</span> <span class="ed-tile__meta"> 345 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/smukfest-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Smukfest</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/sweden-nordics" class="ed-tile"> <span class="ed-tile__name">Hitster Sweden</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Peru</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-peru" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/temazos-peru" class="ed-tile"> <span class="ed-tile__name">Hitster Temazos</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Philippines</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-philippines" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Poland</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/bingo-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 226 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-poland-aaae0015" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/christmas-expansion-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Christmas</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/disco-polo-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Disco Polo</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/hip-hop-expansion-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Hip Hop</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/original-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-2nd-edition-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Original (2nd Edition)</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/rock-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-poland-aaae0014" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-5-languages-poland" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party (5 languages)</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Portugal</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/bingo-portugal" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/guilty-pleasures-portugal" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-portugal" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 334 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Romania</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-2nd-edition-romania" class="ed-tile"> <span class="ed-tile__name">Hitster Original (2nd Edition)</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">South Korea</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/k-pop-korea" class="ed-tile"> <span class="ed-tile__name">Hitster K-Pop</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-korea" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Spain</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/100-spanish-spain" class="ed-tile"> <span class="ed-tile__name">Hitster 100% Spanish</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li><li> <a href="/en/hitster-editions/battle-of-the-generations-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Battle of the Generations</span> <span class="ed-tile__meta"> 420 cards  </span> </a> </li><li> <a href="/en/hitster-editions/bingo-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Bingo</span> <span class="ed-tile__meta"> 225 cards  </span> </a> </li><li> <a href="/en/hitster-editions/disney-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Disney</span> <span class="ed-tile__meta"> 70 cards  </span> </a> </li><li> <a href="/en/hitster-editions/los-40-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Los 40</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-refresh-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Original Refresh</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/radio-flaixbac-expansion-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Radio Flaixbac</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/rock-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Rock</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li><li> <a href="/en/hitster-editions/soundtracks-expansion-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Soundtracks</span> <span class="ed-tile__meta"> 154 cards <span class="ui-badge ui-badge--cyan">Expansion</span> </span> </a> </li><li> <a href="/en/hitster-editions/summer-party-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Summer Party</span> <span class="ed-tile__meta"> 309 cards  </span> </a> </li><li> <a href="/en/hitster-editions/temazos-spain" class="ed-tile"> <span class="ed-tile__name">Hitster Temazos</span> <span class="ed-tile__meta"> 334 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Sweden</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/disney-sweden-sweden" class="ed-tile"> <span class="ed-tile__name">Hitster Disney - Sweden</span> <span class="ed-tile__meta"> 150 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-kickstarter-sweden" class="ed-tile"> <span class="ed-tile__name">Hitster Original (Kickstarter)</span> <span class="ed-tile__meta"> 1014 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Switzerland</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/original-switzerland" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li> </ul> </div><div> <h3 class="ed-h3">Taiwan</h3> <ul class="ed-tiles"> <li> <a href="/en/hitster-editions/guilty-pleasures-taiwan" class="ed-tile"> <span class="ed-tile__name">Hitster Guilty Pleasures</span> <span class="ed-tile__meta"> 308 cards  </span> </a> </li><li> <a href="/en/hitster-editions/original-taiwan" class="ed-tile"> <span class="ed-tile__name">Hitster Original</span> <span class="ed-tile__meta"> 333 cards  </span> </a> </li> </ul> </div> </div> </div> </div> </section> <section class="ed-section ed-section--line ed-section--center"> <div class="ed-wrap"> <h2 class="ed-h2">Make your own edition</h2> <p class="ed-text" style="margin-bottom:var(--ui-s5)">Turn any public Spotify, YouTube, Tidal, Deezer or Apple Music playlist into printable music quiz cards. Your own songs. Free up to 100 cards.</p> <a href="/en/create" class="ui-btn ui-btn--lg">Build your own cards</a> </div> </section> <p class="ed-trademark">Hitster is a registered trademark of Koninklijke Jumbo B.V. Hitify is not affiliated with Hitster or Jumbo; this is a factual list of the songs in a published product.</p>  </div> <script type="module" src="/_astro/UiShell.astro_astro_type_script_index_0_lang.D9pR8bfa.js"></script>  </main> <footer class="ch-footer" aria-label="Footer"> <div class="ch-footer-inner"> <div class="ui-card growth-prompt growth-prompt--footer" data-growth-prompt="footer"> <div class="growth-prompt__copy"> <p class="growth-prompt__title">Enjoying Hitify? Spread the word.</p>  </div> <div class="growth-prompt__actions"> <button type="button" class="ui-btn ui-btn--secondary" data-growth-event="share_click" data-growth-placement="footer" data-growth-id="native_share" data-share-text="Make your own music quiz cards with Hitify." data-share-fallback="/en/referral" data-share-path="/en/"> Share Hitify </button> <a href="/en/referral" class="ui-btn ui-btn--secondary" data-growth-event="referral_click" data-growth-placement="footer" data-growth-id="referral_link"> Invite friends </a> <a href="/en/review" class="ui-btn ui-btn--secondary" data-growth-event="review_click" data-growth-placement="footer" data-growth-id="review_link"> Leave a review </a> </div> </div> <script type="module" src="/_astro/GrowthPrompt.astro_astro_type_script_index_0_lang.DptMZJe4.js"></script> <nav aria-labelledby="more-ways-heading" class="ch-more"><h2 id="more-ways-heading" class="ch-more__head">More ways to play</h2><ul class="ui-chips"><li><a href="/en/how-to-make-your-own-hitster-game" class="ui-chip">How to Make Your Own Music Card Game</a></li><li><a href="/en/free-hitster-card-generator" class="ui-chip">Free Music Card Generator</a></li><li><a href="/en/hitster-alternative" class="ui-chip">An Alternative to the Popular Card Game</a></li><li><a href="/en/play-hitster-without-cards" class="ui-chip">Play a Music Card Game Without Cards</a></li><li><a href="/en/hitster-without-spotify-premium" class="ui-chip">Playing a music card game without Spotify Premium</a></li><li><a href="/en/guess-the-year-music-game" class="ui-chip">Guess the Year</a></li><li><a href="/en/music-quiz-maker" class="ui-chip">Music Quiz Maker</a></li><li><a href="/en/80s-music-card-game" class="ui-chip">80s Music Game</a></li><li><a href="/en/rock-music-card-game" class="ui-chip">Rock Music Game</a></li><li><a href="/en/music-card-game-for-birthdays" class="ui-chip">Birthday Music Card Game</a></li><li><a href="/en/music-card-game-for-weddings" class="ui-chip">Wedding Music Card Game</a></li><li><a href="/en/christmas-music-card-game" class="ui-chip">Christmas Music Card Game</a></li></ul></nav> <div class="ch-fgrid"> <!-- Brand --> <div class="ch-fbrand"> <a href="/en/" class="ch-logo"> <span class="ch-orb" aria-hidden="true"><i></i><i></i><i></i></span> <span class="ch-logo-text">Hitify</span> </a> <p class="ch-ftag"> Music quiz cards from your own playlist </p> </div> <div> <h2 class="ch-fhead">Features</h2> <ul class="ch-flinks"> <li> <a href="/en/party" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/party"> Party mode </a> </li><li> <a href="/en/play" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/play"> Play online </a> </li><li> <a href="/en/music-party-game" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/music-party-game"> Music party game </a> </li><li> <a href="/en/daily" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/daily"> Daily challenge </a> </li><li> <a href="/en/duel" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/duel"> Music duel </a> </li><li> <a href="/en/card-designer" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/card-designer"> Card designer </a> </li><li> <a href="/en/card-labels" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/card-labels"> Card labels </a> </li><li> <a href="/en/print" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/print"> Card formats </a> </li> </ul> </div><div> <h2 class="ch-fhead">Links</h2> <ul class="ch-flinks"> <li> <a href="/en/" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/"> Home </a> </li><li> <a href="/en/create" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/create"> Create a deck </a> </li><li> <a href="/en/decks" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/decks"> Decks </a> </li><li> <a href="/en/cards" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/cards"> Cards </a> </li><li> <a href="/en/scan" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/scan"> Scan </a> </li><li> <a href="/en/music-game-for-schools" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/music-game-for-schools"> Music game for schools </a> </li><li> <a href="/en/make-your-own-hitster-cards" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/make-your-own-hitster-cards"> Custom music quiz cards </a> </li><li> <a href="/en/hitster-cards" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/hitster-cards"> Music Quiz Cards </a> </li><li> <a href="/en/personalised-music-game-gift" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/personalised-music-game-gift"> Personalised Music Game Gift </a> </li> </ul> </div><div> <h2 class="ch-fhead">Help</h2> <ul class="ch-flinks"> <li> <a href="/en/rules" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/rules"> Game rules </a> </li><li> <a href="/en/faq" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/faq"> FAQ </a> </li><li> <a href="/en/reviews" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/reviews"> Reviews </a> </li><li> <a href="/en/contact" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/contact"> Contact </a> </li><li> <a href="/en/blog" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/blog"> Blog </a> </li><li> <a href="/en/referral" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/referral"> Referral programme </a> </li> </ul> </div><div> <h2 class="ch-fhead">Legal</h2> <ul class="ch-flinks"> <li> <a href="/en/privacy" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/privacy"> Privacy </a> </li><li> <a href="/en/terms" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/terms"> Terms </a> </li><li> <a href="/en/cookies" class="ch-flink" data-growth-event="cta_click" data-growth-placement="footer" data-growth-id="/cookies"> Cookies </a> </li> </ul> </div> </div> <details class="ch-flangs"> <summary class="ch-pill"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"></path></svg> <span>Language: English</span> </summary> <ul class="ch-flanglist"> <li> <a href="/nl/hitster-editions" hreflang="nl" lang="nl" class="ch-flangchip" data-ch-lang>Nederlands</a> </li><li> <a href="/en/hitster-editions" hreflang="en" lang="en" aria-current="true" class="ch-flangchip" data-ch-lang>English</a> </li><li> <a href="/de/hitster-editions" hreflang="de" lang="de" class="ch-flangchip" data-ch-lang>Deutsch</a> </li><li> <a href="/es/hitster-editions" hreflang="es" lang="es" class="ch-flangchip" data-ch-lang>Español</a> </li><li> <a href="/fr/hitster-editions" hreflang="fr" lang="fr" class="ch-flangchip" data-ch-lang>Français</a> </li><li> <a href="/it/hitster-editions" hreflang="it" lang="it" class="ch-flangchip" data-ch-lang>Italiano</a> </li><li> <a href="/pt/hitster-editions" hreflang="pt" lang="pt" class="ch-flangchip" data-ch-lang>Português</a> </li><li> <a href="/pl/hitster-editions" hreflang="pl" lang="pl" class="ch-flangchip" data-ch-lang>Polski</a> </li><li> <a href="/sv/hitster-editions" hreflang="sv" lang="sv" class="ch-flangchip" data-ch-lang>Svenska</a> </li><li> <a href="/no/hitster-editions" hreflang="no" lang="no" class="ch-flangchip" data-ch-lang>Norsk</a> </li><li> <a href="/da/hitster-editions" hreflang="da" lang="da" class="ch-flangchip" data-ch-lang>Dansk</a> </li><li> <a href="/fi/hitster-editions" hreflang="fi" lang="fi" class="ch-flangchip" data-ch-lang>Suomi</a> </li><li> <a href="/cs/hitster-editions" hreflang="cs" lang="cs" class="ch-flangchip" data-ch-lang>Čeština</a> </li><li> <a href="/ja/hitster-editions" hreflang="ja" lang="ja" class="ch-flangchip" data-ch-lang>日本語</a> </li><li> <a href="/zh/hitster-editions" hreflang="zh" lang="zh" class="ch-flangchip" data-ch-lang>中文</a> </li><li> <a href="/ko/hitster-editions" hreflang="ko" lang="ko" class="ch-flangchip" data-ch-lang>한국어</a> </li> </ul> </details> <!-- Bottom --> <div class="ch-legal"> <p> Hitify is not affiliated with Hitster or Jumbo. Hitster is a registered trademark of Koninklijke Jumbo B.V. </p> </div> <div class="ch-fbottom"> <p data-footer-company> © 2026 Klappe Development, Boersenserf 10, 3871 RK Hoevelaken. KvK 71434577. VAT NL002415101B21. </p> <p> <a href="https://klappedevelopment.com" target="_blank" rel="noopener noreferrer"> Website by Klappe Development </a> </p> </div> </div> </footer> <script type="module" src="/_astro/Footer.astro_astro_type_script_index_0_lang.BnR_2l_g.js"></script> <!-- Mobile Install Prompt --><div id="pwa-install-prompt" role="region" aria-label="Install app" class="ui-prompt fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:w-80 z-50 hidden transform transition-all duration-300 motion-reduce:transition-none translate-y-full opacity-0"> <div class="flex items-start gap-3"> <div class="ui-prompt__icon"> <svg width="24" height="24" viewBox="0 0 32 32" fill="none"> <circle cx="16" cy="16" r="12" fill="white" fill-opacity="0.9"></circle> <circle cx="16" cy="16" r="6" fill="#00d4ff"></circle> </svg> </div> <div class="flex-1 min-w-0"> <h3 class="ui-h3">Install app</h3> <p id="pwa-message" class="ui-hint mt-1">Install Hitify on your phone for quick access to the scanner!</p> <p id="pwa-ios-message" class="hidden ui-hint mt-1"> <span class="inline-flex items-center gap-1"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg> Tap the share icon and select &quot;Add to Home Screen&quot; </span> </p> </div> </div> <div id="pwa-buttons" class="flex gap-2 mt-4"> <button id="pwa-dismiss" type="button" class="ui-btn ui-btn--ghost ui-btn--sm flex-1"> Later </button> <button id="pwa-install" type="button" class="ui-btn ui-btn--sm flex-1"> Install </button> </div> <!-- iOS only shows dismiss button --> <div id="pwa-ios-buttons" class="hidden flex gap-2 mt-4"> <button id="pwa-ios-dismiss" type="button" class="ui-btn ui-btn--ghost ui-btn--sm flex-1"> Later </button> </div> </div> <!-- Desktop QR Code Prompt --> <div id="pwa-desktop-prompt" role="region" aria-label="Install on your phone" class="fixed bottom-6 right-6 w-80 hidden z-50 transform transition-all duration-300 motion-reduce:transition-none translate-y-4 opacity-0"> <div class="ui-prompt ui-prompt--desktop relative overflow-hidden"> <!-- Close button --> <button id="pwa-desktop-dismiss" type="button" aria-label="Dismiss" class="ui-iconbtn absolute top-2 right-2"> <svg class="w-5 h-5 mx-auto" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> <div class="pt-2"> <!-- Icon --> <div class="ui-prompt__icon ui-prompt__icon--lg mx-auto mb-4"> <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="1.5"> <rect x="5" y="2" width="14" height="20" rx="3"></rect> <line x1="12" y1="18" x2="12" y2="18.01" stroke-width="2" stroke-linecap="round"></line> </svg> </div> <!-- Title --> <h3 class="ui-h3 text-center" style="margin-bottom: var(--ui-s1)">Install on your phone</h3> <!-- Message --> <p class="ui-hint text-center" style="margin-bottom: var(--ui-s4)">Scan the QR code with your phone to install the Hitify app.</p> <!-- QR Code --> <div class="flex justify-center mb-4"> <div class="p-3 bg-white rounded-xl shadow-lg"> <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fhitify.app%2Finstall&bgcolor=ffffff&color=000000&margin=0" alt="QR Code" width="120" height="120" class="block"> </div> </div> <!-- Dismiss link --> <button id="pwa-desktop-dismiss-text" type="button" class="ui-btn ui-btn--ghost ui-btn--sm ui-btn--block"> Dismiss </button> </div> </div> </div> <script type="module">"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js").catch(()=>{})});let i=null;const e=document.getElementById("pwa-install-prompt"),s=document.getElementById("pwa-desktop-prompt"),g=document.getElementById("pwa-install"),u=document.getElementById("pwa-dismiss"),v=document.getElementById("pwa-ios-dismiss"),f=document.getElementById("pwa-desktop-dismiss"),k=document.getElementById("pwa-desktop-dismiss-text"),E=document.getElementById("pwa-message"),I=document.getElementById("pwa-ios-message"),y=document.getElementById("pwa-buttons"),h=document.getElementById("pwa-ios-buttons"),S=/iPad|iPhone|iPod/.test(navigator.userAgent)||navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1,B=/Safari/.test(navigator.userAgent)&&!/Chrome/.test(navigator.userAgent),L=S&&B,m=/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)||navigator.maxTouchPoints>0&&window.innerWidth<1024,D=!m,o=window.matchMedia("(display-mode: standalone)").matches||window.navigator.standalone===!0,a=localStorage.getItem("pwa-dismissed"),n=localStorage.getItem("pwa-desktop-dismissed"),c=10080*60*1e3,d=a&&Date.now()-parseInt(a)<c,l=n&&Date.now()-parseInt(n)<c;a&&!d&&localStorage.removeItem("pwa-dismissed");n&&!l&&localStorage.removeItem("pwa-desktop-dismissed");function p(t=!1){!e||o||d||(t&&(E?.classList.add("hidden"),I?.classList.remove("hidden"),y?.classList.add("hidden"),h?.classList.remove("hidden")),e.classList.remove("hidden"),requestAnimationFrame(()=>{e.classList.remove("translate-y-full","opacity-0")}))}function _(){!s||o||l||(s.classList.remove("hidden"),requestAnimationFrame(()=>{s.classList.remove("translate-y-4","opacity-0")}))}function r(){e&&(e.classList.add("translate-y-full","opacity-0"),setTimeout(()=>{e.classList.add("hidden")},300))}function w(){s&&(s.classList.add("translate-y-4","opacity-0"),setTimeout(()=>{s.classList.add("hidden")},300))}const P=/^\/[a-z]{2}\/(?:pack|deck)\//.test(location.pathname);D&&!o&&!l&&!P&&setTimeout(()=>_(),2e4);window.addEventListener("beforeinstallprompt",t=>{t.preventDefault(),i=t,m&&setTimeout(()=>p(!1),8e3)});L&&!o&&!d&&setTimeout(()=>p(!0),8e3);g?.addEventListener("click",async()=>{if(!i)return;i.prompt();const{outcome:t}=await i.userChoice;window.gtag?.("event",t==="accepted"?"pwa_install_accepted":"pwa_install_dismissed",{source:"prompt"}),i=null,r()});u?.addEventListener("click",()=>{window.gtag?.("event","pwa_install_dismissed",{source:"prompt",install_platform:"mobile"}),localStorage.setItem("pwa-dismissed",Date.now().toString()),r()});v?.addEventListener("click",()=>{window.gtag?.("event","pwa_install_dismissed",{source:"prompt",install_platform:"ios"}),localStorage.setItem("pwa-dismissed",Date.now().toString()),r()});f?.addEventListener("click",()=>{window.gtag?.("event","pwa_install_dismissed",{source:"prompt",install_platform:"desktop"}),localStorage.setItem("pwa-desktop-dismissed",Date.now().toString()),w()});k?.addEventListener("click",()=>{window.gtag?.("event","pwa_install_dismissed",{source:"prompt",install_platform:"desktop"}),localStorage.setItem("pwa-desktop-dismissed",Date.now().toString()),w()});</script> <div id="cookie-banner" role="region" aria-label="Cookie policy" data-astro-transition-persist="cookie-banner" style="transform: translateY(100%); opacity: 0;"> <div class="cookie-container"> <p class="ch-cookie-text"> We use cookies for analytics and a better experience. <a href="/en/cookies">Cookie policy</a> </p> <div class="ch-cookie-actions"> <button id="cookie-decline" type="button" class="ui-btn ui-btn--secondary ui-btn--sm">Decline</button> <button id="cookie-accept" type="button" class="ui-btn ui-btn--sm">Accept</button> </div> </div> </div> <script>
+  (function() {
+    const STORAGE_KEY = 'cookie-consent';
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('cookie-accept');
+    const declineBtn = document.getElementById('cookie-decline');
+    // Under the client router (duel pages) this script runs again after each navigation while a shown banner is kept: wire it once.
+    if (!banner || banner.dataset.cbInit) return;
+    banner.dataset.cbInit = '1';
+
+    // Check if consent was already given
+    const consent = localStorage.getItem(STORAGE_KEY);
+
+    if (consent) {
+      // User already made a choice, don't show banner
+      banner.remove();
+      return;
+    }
+
+    // Show the banner
+    banner.style.transform = 'translateY(0)';
+    banner.style.opacity = '1';
+
+    // Never cover the end of the page. A fixed bar hides whatever sits in the
+    // bottom ~60px (referral form, last field of a checkout), so an in-flow
+    // spacer of the same height is appended while the banner is up.
+    var spacer = document.createElement('div');
+    spacer.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(spacer);
+
+    // Sticky bars (pack page, conversion bar) lift themselves above this banner by
+    // reading its height; the banner stays pinned at the bottom. If both moved,
+    // each would chase the other and they would overlap.
+    // The same number is published as --ch-cookie-h on <html> (the stacking
+    // contract in src/styles/chrome.css), so anything else fixed to the bottom
+    // can stand above the card with plain CSS.
+    var root = document.documentElement;
+    function layout() {
+      banner.style.bottom = '0px';
+      var h = banner.offsetHeight;
+      spacer.style.height = h + 'px';
+      root.style.setProperty('--ch-cookie-h', h + 'px');
+      root.setAttribute('data-cookie-open', 'true');
+    }
+    layout();
+    window.addEventListener('resize', layout);
+    if (window.ResizeObserver) new ResizeObserver(layout).observe(banner);
+    var cleanup = function () {
+      spacer.remove();
+      root.style.removeProperty('--ch-cookie-h');
+      root.removeAttribute('data-cookie-open');
+    };
+
+    function hideAndStore(value) {
+      localStorage.setItem(STORAGE_KEY, value);
+      banner.classList.add('hiding');
+      cleanup();
+      setTimeout(() => banner.remove(), 300);
+    }
+
+    acceptBtn.addEventListener('click', () => {
+      hideAndStore('accepted');
+      // Grant the Consent Mode v2 ads signals (GA itself is already running)
+      if (window.gtag) {
+        window.gtag('consent', 'update', {
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted',
+        });
+      }
+      // The TikTok pixel does not run at all without an accept, and there is no
+      // reload on this path, so it has to be told the moment consent arrives.
+      window.dispatchEvent(new Event('hitify:consent-accepted'));
+    });
+    declineBtn.addEventListener('click', () => {
+      localStorage.setItem(STORAGE_KEY, 'declined');
+      // Erase the durable ad click record (cookie + localStorage), see click-ids.js
+      if (window.hitifyClickIds) window.hitifyClickIds.clear();
+      // Remove existing GA cookies; after the reload GA runs in cookieless
+      // (consent-denied, modeled) mode
+      document.cookie.split(';').forEach((c) => {
+        const name = c.split('=')[0].trim();
+        if (name === '_ga' || name.startsWith('_ga_')) {
+          document.cookie = name + '=; Max-Age=0; path=/; domain=.hitify.app';
+          document.cookie = name + '=; Max-Age=0; path=/';
+        }
+      });
+      window.location.reload();
+    });
+  })();
+</script>  <!--
+  Rendered by BaseLayout on every page, not just the pack page it was built for.
+  The pill hides itself while the cart is empty, so a visitor who has added
+  nothing sees exactly what they saw before. A customer who has added something
+  can now reach it from wherever they wandered off to.
+--><!-- Floating cart pill --><style>:root[data-cookie-open="true"] #cart-pill{display:none !important}</style><button id="cart-pill" type="button" class="ui-btn ui-cartpill hidden" style="bottom: max(1.25rem, env(safe-area-inset-bottom))" aria-label="Open cart" aria-haspopup="dialog" aria-controls="cart-drawer"> <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path> </svg> <span id="cart-pill-count">0</span> </button> <!-- Drawer: a kit Sheet (bottom sheet on a phone, right-hand drawer from 768 px), opened by toggling `hidden`, behaviour from ModalA11y --> <div id="cart-drawer" data-modal-a11y role="dialog" aria-modal="true" aria-labelledby="cart-title" class="ui-sheet ui-sheet--drawer ui-modal hidden" data-cart-ui="{&#34;title&#34;:&#34;Cart&#34;,&#34;open&#34;:&#34;Open cart&#34;,&#34;close&#34;:&#34;Close&#34;,&#34;empty&#34;:&#34;Your cart is empty.&#34;,&#34;cards&#34;:&#34;cards&#34;,&#34;photoUpgrade&#34;:&#34;Photo upgrade&#34;,&#34;total&#34;:&#34;Total&#34;,&#34;checkout&#34;:&#34;Checkout&#34;,&#34;remove&#34;:&#34;Remove&#34;,&#34;clear&#34;:&#34;Empty cart&#34;,&#34;error&#34;:&#34;Something went wrong. Please try again.&#34;}" data-cart-free-ship="{&#34;minPacks&#34;:2,&#34;copy&#34;:{&#34;nudge&#34;:&#34;Add one more deck and shipping is free&#34;,&#34;applied&#34;:&#34;Free shipping: you ordered 2 or more decks&#34;,&#34;banner&#34;:&#34;Free shipping from 2 decks&#34;}}" data-cart-ship="{&#34;lang&#34;:&#34;en&#34;,&#34;rates&#34;:{&#34;byCountry&#34;:{&#34;NL&#34;:3.95},&#34;restOfEu&#34;:12.95},&#34;copy&#34;:{&#34;plus&#34;:&#34;+ {amount} shipping&#34;,&#34;toCountry&#34;:&#34;Shipping to {country}: you see the cost before you pay&#34;,&#34;totalFrom&#34;:&#34;Total {amount} incl. shipping to {country}&#34;,&#34;delivery&#34;:&#34;Delivery to {country}: {min}-{max} working days&#34;}}"> <div id="cart-backdrop" class="ui-sheet__backdrop"></div> <div class="ui-sheet__panel" tabindex="-1"> <div class="ui-sheet__grab" aria-hidden="true"></div> <div class="ui-sheet__head"> <h2 class="ui-h2 ui-sheet__title" id="cart-title">Cart</h2> <button type="button" id="cart-close" data-modal-close class="ui-iconbtn" aria-label="Close"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"></path></svg> </button> </div> <div id="cart-items" class="ui-sheet__body ui-cartlist"></div> <div class="ui-sheet__foot"> <div class="ui-cart-total"> <span>Total</span> <span id="cart-total" class="ui-cart-total__amount">&euro;0.00</span> </div> <button type="button" id="cart-checkout" class="ui-btn ui-btn--lg ui-btn--block"> Checkout </button> <p id="cart-ship-promo" class="hidden ui-cart-note" role="status"></p> <p id="cart-ship-note" class="hidden ui-cart-note"></p> <p id="cart-ship-trust" class="ui-cart-note">Shipping shown before you pay</p> <p class="ui-cart-note ui-cart-note--secure"> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 11V8a5 5 0 0 1 10 0v3M6 11h12v9H6z"></path></svg>Secure payment </p> <button type="button" id="cart-clear" class="hidden ui-btn ui-btn--ghost ui-btn--sm ui-btn--block"> Empty cart </button> <p id="cart-error" role="alert" class="hidden ui-alert">Something went wrong. Please try again.</p> </div> </div> </div>  <script type="module" src="/_astro/PhysicalCart.astro_astro_type_script_index_0_lang.C4aSN2q4.js"></script>  <div id="duel-nudge" hidden data-nudge="{&#34;lang&#34;:&#34;en&#34;,&#34;challenge&#34;:&#34;{name} challenged you&#34;,&#34;rematch&#34;:&#34;{name} picked the next deck&#34;,&#34;play&#34;:&#34;Play now&#34;,&#34;dismiss&#34;:&#34;Dismiss&#34;}"></div>  <script type="module">const u=document.getElementById("duel-nudge"),s=u?JSON.parse(u.getAttribute("data-nudge")||"{}"):null,l="hitify_duel_seen",g="hitify_nudge_pause",i={get:e=>{try{return localStorage.getItem(e)}catch{return null}},set:(e,t)=>{try{localStorage.setItem(e,t)}catch{}}},h=45e3;let r=h,f,m=!1;function y(e){document.querySelector(".duel-nudge")?.remove();const t=document.createElement("div");t.className="duel-nudge",t.setAttribute("role","status");const c=(e.rematch?s.rematch:s.challenge).replace("{name}",e.name),a=document.createElement("span");a.textContent=c;const o=document.createElement("a");o.href=`/${s.lang}/duel/${e.id}?entry_point=nudge&from=waiting`,o.textContent=s.play;const n=document.createElement("button");n.type="button",n.setAttribute("aria-label",s.dismiss),n.textContent="×",n.addEventListener("click",()=>t.remove()),t.append(a,o,n),document.body.appendChild(t),window.setTimeout(()=>t.remove(),1e4)}async function d(){if(!(m||document.visibilityState!=="visible"))try{const e=await fetch("/api/duels/nudge",{credentials:"same-origin",cache:"no-store"});if(e.status===401||e.status===404){i.set(g,String(Date.now()+30*6e4)),m=!0;return}if(!e.ok)throw new Error(String(e.status));r=h;const{items:t}=await e.json(),c=new Set((i.get(l)||"").split(",").filter(Boolean)),a=i.get(l)===null,o=t.filter(n=>!c.has(n.id));if(o.length){i.set(l,[...o.map(p=>p.id),...c].slice(0,30).join(","));const n=location.pathname.includes(`/duel/${o[0].id}`);!a&&!n&&y(o[0])}else a&&i.set(l,",")}catch{r=Math.min(r*2,3e5)}}function w(){window.clearTimeout(f),!m&&(f=window.setTimeout(async()=>{await d(),w()},r))}if(u&&s&&i.get("hitify_nudges")!=="off"&&Number(i.get(g)||0)<Date.now()){const e=()=>{d().then(w),document.addEventListener("visibilitychange",()=>{document.visibilityState==="visible"&&d()}),window.addEventListener("focus",()=>void d())},t=window.requestIdleCallback;t?t(e):setTimeout(e,2e3)}</script> <div class="atw atw-bar" data-atw data-lang="en" data-source="site" data-app="app.hitify.scanner" data-variant="bar" data-sitekey="0x4AAAAAACJvw3nlWAl_8Yrc" data-ui="{&#34;spotsLeft&#34;:&#34;{count} spots left&#34;,&#34;full&#34;:&#34;All spots are taken. Thank you for your interest!&#34;,&#34;errEmail&#34;:&#34;Please enter a gmail.com or googlemail.com address.&#34;,&#34;errConsent&#34;:&#34;Please tick the box to continue.&#34;,&#34;errDuplicate&#34;:&#34;This address is already on the list.&#34;,&#34;errGeneric&#34;:&#34;Something went wrong. Please reload the page and try again.&#34;,&#34;errNone&#34;:&#34;Pick at least one app.&#34;,&#34;choiceSuccess&#34;:&#34;You are on the list. We will email you the test links shortly.&#34;,&#34;copies&#34;:{&#34;app.hitify.scanner&#34;:{&#34;bannerTitle&#34;:&#34;Android testers wanted&#34;,&#34;bannerText&#34;:&#34;Test the Hitify app for 2 weeks and get 3 free digital decks.&#34;,&#34;barText&#34;:&#34;Android testers wanted: try our Android scanner app and get 3 free digital decks.&#34;,&#34;modalTitle&#34;:&#34;Help us test the Hitify Android app&#34;,&#34;modalIntro&#34;:&#34;Install the test version of the Hitify app, keep it on your phone for 2 weeks, and we email you 3 free digital deck codes afterwards.&#34;,&#34;success&#34;:&#34;You are on the list. We will email you the test link shortly.&#34;},&#34;app.hitify.play&#34;:{&#34;bannerTitle&#34;:&#34;Play our new music quiz first&#34;,&#34;bannerText&#34;:&#34;Test Hitify Play for 2 weeks and get 3 free digital decks.&#34;,&#34;barText&#34;:&#34;Be first to play Hitify Play, our new music quiz game, and get 3 free digital decks.&#34;,&#34;modalTitle&#34;:&#34;Help us test Hitify Play&#34;,&#34;modalIntro&#34;:&#34;Install the test version of Hitify Play, our new music quiz game, keep it on your phone for 2 weeks, and we email you 3 free digital deck codes afterwards.&#34;,&#34;success&#34;:&#34;You are on the list. We will email you the test link shortly.&#34;}},&#34;choice&#34;:{&#34;bannerTitle&#34;:&#34;Android testers wanted&#34;,&#34;bannerText&#34;:&#34;Test our new Hitify apps for 2 weeks and get 3 free digital decks per app.&#34;,&#34;barText&#34;:&#34;Android testers wanted: try our scanner app and our new music quiz and get 3 free digital decks per app.&#34;,&#34;modalTitle&#34;:&#34;Help us test our Hitify apps&#34;,&#34;modalIntro&#34;:&#34;Pick the apps you want to test, keep them on your phone for 2 weeks, and we email you 3 free digital deck codes per app afterwards.&#34;}}" data-astro-cid-mubgryww> <div class="atw-card" data-atw-card hidden data-astro-cid-mubgryww> <button type="button" class="atw-x" data-atw-dismiss aria-label="Close" data-astro-cid-mubgryww> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" data-astro-cid-mubgryww><path d="M6 6l12 12M18 6L6 18" data-astro-cid-mubgryww></path></svg> </button> <p class="atw-bar-text" data-t="barText" data-astro-cid-mubgryww>Android testers wanted: try our Android scanner app and get 3 free digital decks.</p> <button type="button" class="atw-cta" data-atw-open data-astro-cid-mubgryww>Join</button> </div> <div class="ui-sheet ui-modal hidden" data-atw-modal data-modal-a11y hidden role="dialog" aria-modal="true" aria-labelledby="atw-title-bar" data-astro-cid-mubgryww> <div class="ui-sheet__backdrop" data-atw-close data-astro-cid-mubgryww></div> <div class="ui-sheet__panel ui-sheet__panel--narrow" tabindex="-1" data-astro-cid-mubgryww> <div class="ui-sheet__grab" aria-hidden="true" data-astro-cid-mubgryww></div> <div class="ui-sheet__head" data-astro-cid-mubgryww> <h2 class="ui-h2 ui-sheet__title" id="atw-title-bar" data-t="modalTitle" data-astro-cid-mubgryww>Help us test the Hitify Android app</h2> <button type="button" class="ui-iconbtn" data-atw-close data-modal-close aria-label="Close" data-astro-cid-mubgryww> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"></path></svg> </button> </div> <div class="ui-sheet__body" data-astro-cid-mubgryww> <p class="atw-spots ui-badge ui-badge--cyan" data-atw-spots></p><form class="atw-form ui-stack" data-atw-form novalidate><p class="atw-intro ui-modal__text" data-t="modalIntro">Install the test version of the Hitify app, keep it on your phone for 2 weeks, and we email you 3 free digital deck codes afterwards.</p><fieldset class="atw-choose" data-atw-choose hidden><legend class="atw-legend ui-label">Which apps do you want to test?</legend><label class="atw-opt atw-opt-scanner"><input type="checkbox" name="app" value="app.hitify.scanner" checked><span class="atw-tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span class="atw-opt-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"></path><path d="M4 12h16"></path></svg></span><span class="atw-opt-txt"><b>Scanner app</b><i>Hitify Scanner</i></span><span class="atw-opt-spots" data-opt-spots="app.hitify.scanner"></span></label><label class="atw-opt atw-opt-play"><input type="checkbox" name="app" value="app.hitify.play" checked><span class="atw-tick" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></span><span class="atw-opt-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l11-2v12"></path><circle cx="6.5" cy="18" r="2.5"></circle><circle cx="17.5" cy="16" r="2.5"></circle></svg></span><span class="atw-opt-txt"><b>Music quiz app</b><i>Hitify Play</i></span><span class="atw-opt-spots" data-opt-spots="app.hitify.play"></span></label></fieldset><div class="ui-field"><label class="atw-label ui-label" for="atw-email-bar">Gmail address</label><input class="atw-input ui-input" id="atw-email-bar" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" placeholder="name@gmail.com" aria-describedby="atw-email-hint-bar" required><p class="atw-hint ui-hint" id="atw-email-hint-bar">Google Play needs a Gmail address (gmail.com or googlemail.com) to add you as a tester. Other Google accounts are not supported, to keep it simple.</p></div><label class="atw-consent ui-check"><input type="checkbox" name="consent"><span>I agree that Hitify stores my email address to add me to the test and to email me the reward. See the <a href="/en/privacy" target="_blank" rel="noopener">privacy policy</a>.</span></label><div class="atw-turnstile" data-atw-turnstile></div><p class="atw-error ui-alert" data-atw-error role="alert" hidden></p><button type="submit" class="atw-submit ui-btn ui-btn--lg ui-btn--block" data-atw-submit>Sign me up</button></form><p class="atw-done ui-alert ui-alert--good" data-atw-done role="status" hidden></p> </div> </div> </div> </div> <script type="module">const y='a[href],button:not([disabled]),input:not([disabled]):not([type="hidden"]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])',r=e=>Array.from(e.querySelectorAll(y)).filter(n=>n.offsetParent!==null);let d=null;document.addEventListener("click",e=>{d=e.target?.closest('button, a[href], [tabindex], [role="button"]')??null},!0);const u=()=>{const e=Array.from(document.querySelectorAll("[data-modal-a11y]")).some(n=>!n.classList.contains("hidden"));document.documentElement.style.overflow=e?"hidden":""};document.querySelectorAll("[data-modal-a11y]").forEach(e=>{let n=null,i=!e.classList.contains("hidden");const f=t=>{if(e.classList.contains("hidden"))return;if(t.key==="Escape"){const l=e.querySelector("[data-modal-close]");l&&l.click();return}if(t.key!=="Tab")return;const s=r(e);if(!s.length)return;const o=s[0],a=s[s.length-1],c=document.activeElement;t.shiftKey&&(c===o||!e.contains(c))?(t.preventDefault(),a.focus()):!t.shiftKey&&(c===a||!e.contains(c))&&(t.preventDefault(),o.focus())};if(document.addEventListener("keydown",f),new MutationObserver(()=>{const t=!e.classList.contains("hidden");if(t!==i)if(i=t,u(),t){const s=document.activeElement;n=s&&s!==document.body?s:d;const o=e.querySelector("[data-modal-close]")??r(e)[0];requestAnimationFrame(()=>o?.focus())}else n&&document.contains(n)&&(n.focus(),n=null)}).observe(e,{attributes:!0,attributeFilter:["class"]}),i){u();const t=e.querySelector("[data-modal-close]")??r(e)[0];requestAnimationFrame(()=>t?.focus())}});</script>  <script type="module" src="/_astro/AndroidTestersBanner.astro_astro_type_script_index_0_lang.CMnuX4yH.js"></script> <div class="cpw cpw-bar" data-cpw data-lang="en" data-variant="bar" data-sitekey="0x4AAAAAACJvw3nlWAl_8Yrc" data-ui="{&#34;choosePlatform&#34;:&#34;Choose a platform&#34;,&#34;chooseCountry&#34;:&#34;Choose a country&#34;,&#34;prefillHint&#34;:&#34;Filled in from your account. You can change it.&#34;,&#34;success&#34;:&#34;Thanks for contacting us! We have a program where we give free decks for posts. A team member of Hitify will review your request and get back to you.&#34;,&#34;errRequired&#34;:&#34;Please fill in all required fields.&#34;,&#34;errEmail&#34;:&#34;Please enter a valid email address.&#34;,&#34;errConsent&#34;:&#34;Please tick the box to continue.&#34;,&#34;errRate&#34;:&#34;Too many requests. Please try again later.&#34;,&#34;errGeneric&#34;:&#34;Something went wrong. Please try again.&#34;}" data-astro-cid-wjvkmvif> <div class="cpw-card" data-cpw-card hidden data-astro-cid-wjvkmvif> <button type="button" class="cpw-x" data-cpw-dismiss aria-label="Close" data-astro-cid-wjvkmvif> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true" data-astro-cid-wjvkmvif><path d="M6 6l12 12M18 6L6 18" data-astro-cid-wjvkmvif></path></svg> </button> <p class="cpw-text" data-astro-cid-wjvkmvif>Post about us, get a free deck!</p> <button type="button" class="cpw-cta" data-cpw-open data-astro-cid-wjvkmvif>Apply</button> </div> <div class="ui-sheet ui-modal hidden" data-cpw-modal data-modal-a11y hidden role="dialog" aria-modal="true" aria-labelledby="cpw-bar-title" data-astro-cid-wjvkmvif> <div class="ui-sheet__backdrop" data-cpw-close data-astro-cid-wjvkmvif></div> <div class="ui-sheet__panel ui-sheet__panel--narrow" data-cpw-sheet tabindex="-1" data-astro-cid-wjvkmvif> <div class="ui-sheet__grab" aria-hidden="true" data-astro-cid-wjvkmvif></div> <div class="ui-sheet__head" data-astro-cid-wjvkmvif> <h2 class="ui-h2 ui-sheet__title" id="cpw-bar-title" data-astro-cid-wjvkmvif>Creator program</h2> <button type="button" class="ui-iconbtn" data-cpw-close data-modal-close aria-label="Close" data-astro-cid-wjvkmvif> <svg class width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"></path></svg> </button> </div> <div class="ui-sheet__body" data-astro-cid-wjvkmvif> <form class="cpw-form ui-stack" data-cpw-form novalidate data-astro-cid-wjvkmvif> <p class="cpw-intro ui-modal__text" data-astro-cid-wjvkmvif>Want a free digital or physical deck? Tell us a bit about yourself. A team member reviews every request and contacts you. You get your deck first and post afterwards.</p> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-name" data-astro-cid-wjvkmvif>Name</label> <input class="cpw-input ui-input" id="cpw-bar-name" name="name" type="text" autocomplete="name" maxlength="100" required data-astro-cid-wjvkmvif> </div> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-email" data-astro-cid-wjvkmvif>Email</label> <input class="cpw-input ui-input" id="cpw-bar-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" required data-astro-cid-wjvkmvif> <p class="cpw-hint ui-hint" data-cpw-prefill hidden data-astro-cid-wjvkmvif></p> </div> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-platform" data-astro-cid-wjvkmvif>Platform</label> <select class="cpw-input ui-select" id="cpw-bar-platform" name="platform" required data-astro-cid-wjvkmvif> <option value="" data-astro-cid-wjvkmvif>Choose a platform</option> <option value="instagram" data-astro-cid-wjvkmvif>Instagram</option><option value="tiktok" data-astro-cid-wjvkmvif>TikTok</option><option value="youtube" data-astro-cid-wjvkmvif>YouTube</option><option value="reddit" data-astro-cid-wjvkmvif>Reddit</option><option value="facebook" data-astro-cid-wjvkmvif>Facebook</option><option value="other" data-astro-cid-wjvkmvif>Other</option> </select> </div> <div class="ui-field" data-cpw-other hidden data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-other" data-astro-cid-wjvkmvif>Which platform?</label> <input class="cpw-input ui-input" id="cpw-bar-other" name="platformOther" type="text" maxlength="50" data-astro-cid-wjvkmvif> </div> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-link" data-astro-cid-wjvkmvif>Link to your profile or channel</label> <input class="cpw-input ui-input" id="cpw-bar-link" name="link" type="text" autocapitalize="none" spellcheck="false" maxlength="500" required aria-describedby="cpw-bar-link-hint" data-astro-cid-wjvkmvif> <p class="cpw-hint ui-hint" id="cpw-bar-link-hint" data-astro-cid-wjvkmvif>We need it to review your request.</p> </div> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-country" data-astro-cid-wjvkmvif>Country</label> <select class="cpw-input ui-select" id="cpw-bar-country" name="country" autocomplete="country" required data-cpw-country data-astro-cid-wjvkmvif> <option value="" data-astro-cid-wjvkmvif>Choose a country</option> </select> </div> <fieldset class="cpw-fieldset ui-field" data-astro-cid-wjvkmvif> <legend class="ui-label cpw-legend" data-astro-cid-wjvkmvif>Reward you would like</legend> <label class="cpw-radio ui-check" data-astro-cid-wjvkmvif><input type="radio" name="reward" value="digital" checked data-astro-cid-wjvkmvif><span data-astro-cid-wjvkmvif>Digital deck</span></label> <label class="cpw-radio ui-check" data-astro-cid-wjvkmvif><input type="radio" name="reward" value="physical" data-astro-cid-wjvkmvif><span data-astro-cid-wjvkmvif>Physical deck</span></label> </fieldset> <div class="ui-field" data-astro-cid-wjvkmvif> <label class="ui-label" for="cpw-bar-note" data-astro-cid-wjvkmvif>Note (optional)</label> <textarea class="cpw-input cpw-note ui-textarea" id="cpw-bar-note" name="note" rows="3" maxlength="300" data-astro-cid-wjvkmvif></textarea> </div> <label class="cpw-consent ui-check" data-astro-cid-wjvkmvif> <input type="checkbox" name="consent" data-astro-cid-wjvkmvif> <span data-astro-cid-wjvkmvif>I agree to the <a href="/en/privacy" target="_blank" rel="noopener" data-astro-cid-wjvkmvif>privacy policy</a>.</span> </label> <div class="cpw-hp" aria-hidden="true" data-astro-cid-wjvkmvif><input type="text" name="website" tabindex="-1" autocomplete="off" data-astro-cid-wjvkmvif></div> <div class="cpw-turnstile" data-cpw-turnstile data-astro-cid-wjvkmvif></div> <p class="cpw-error ui-alert" data-cpw-error role="alert" hidden data-astro-cid-wjvkmvif></p> <button type="submit" class="cpw-submit ui-btn ui-btn--lg ui-btn--block" data-cpw-submit data-astro-cid-wjvkmvif>Send request</button> </form> <p class="cpw-done ui-alert ui-alert--good" data-cpw-done role="status" tabindex="-1" hidden data-astro-cid-wjvkmvif></p> </div> </div> </div> </div>   <script type="module" src="/_astro/CreatorProgramBanner.astro_astro_type_script_index_0_lang.C-42zQP2.js"></script> <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"35f03170ede2418d9b281ef15a43045b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body></html>

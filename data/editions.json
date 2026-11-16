@@ -21,6 +21,157 @@
           "url": "https://github.com/oleuml/musicminds-hitster-playlists/blob/main/hitster-aaaa0004-fr.csv",
           "sha256": "5a26063cd5d00407f3933ffaf65f404a7b00f4da7d076faed567900dc53b21f3"
         }
+      ],
+      "family": "original",
+      "revision": "unspecified",
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "slug": "original-refresh-france",
+      "name": "Hitster Original Refresh",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "refresh",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-refresh-france",
+          "snapshot": "original-refresh-france.hitify.html",
+          "sha256": "bc00eaa0dbbd55ec5940fc5d15b41cc402001720b855dd7fe2382c469907097b",
+          "retrieved_on": "2026-11-16"
+        },
+        {
+          "url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json",
+          "snapshot": "original-refresh-france.references.json",
+          "upstream_sha256": "9fcdf4b025e65a594f43fd1a961a6b51f627bf8ec4c9edc649731b946c58df32",
+          "retrieved_on": "2026-11-16",
+          "matcher": "/fr/aaaa0077/(\\d{5})$/"
+        }
+      ],
+      "year_kind": "catalogue_release_year",
+      "printed_years_verified": false,
+      "reference_playlist_check": {
+        "source_url": "https://open.spotify.com/embed/playlist/1sBUY9r09CB9AQQGspv9Te",
+        "exposed": 100,
+        "mismatches": [],
+        "status": "matched"
+      },
+      "reference_source_issues": [
+        {
+          "card_number": "110",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        },
+        {
+          "card_number": "182",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        },
+        {
+          "card_number": "232",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        },
+        {
+          "card_number": "242",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        },
+        {
+          "card_number": "275",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "slug": "guilty-pleasures-france",
+      "name": "Hitster Guilty Pleasures",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-france",
+          "snapshot": "guilty-pleasures-france.hitify.html",
+          "sha256": "702182ebac01dea0ac4f41b3416730d5579d75619144e3641a254810341406a4",
+          "retrieved_on": "2026-11-16"
+        },
+        {
+          "url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json",
+          "snapshot": "guilty-pleasures-france.references.json",
+          "upstream_sha256": "05b8137203f3d4805a37d6f10096166a4d6c64fa56eb28170b9bc3861ffc50c4",
+          "retrieved_on": "2026-11-16",
+          "matcher": "/fr/aaaa0058/(\\d{5})$/"
+        }
+      ],
+      "year_kind": "catalogue_release_year",
+      "printed_years_verified": false,
+      "reference_playlist_check": {
+        "source_url": "https://open.spotify.com/embed/playlist/3FPKUi3P5tiBH5BMq2exFb",
+        "exposed": 100,
+        "mismatches": [],
+        "status": "matched"
+      },
+      "reference_source_issues": [
+        {
+          "card_number": "221",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": true,
+            "artist": false
+          }
+        },
+        {
+          "card_number": "225",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        },
+        {
+          "card_number": "228",
+          "reason": "source_metadata_mismatch",
+          "source_checks": {
+            "title": false,
+            "artist": true
+          }
+        }
       ]
     }
   ]

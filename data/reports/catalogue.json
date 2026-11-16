@@ -1,0 +1,457 @@
+{
+  "imported_editions": 3,
+  "available_editions": 175,
+  "catalogue_cards": 924,
+  "unique_recordings": 643,
+  "unique_studies": 643,
+  "duplicate_recording_occurrences": 281,
+  "deduplicated_study_occurrences": 281,
+  "shared_recordings": 278,
+  "conflicting_years": [],
+  "reference_status": {
+    "verified": 905,
+    "reviewed": 7,
+    "source_conflict": 8,
+    "metadata_mismatch": 4
+  },
+  "audio_status": {
+    "verified": 631,
+    "unavailable": 12
+  },
+  "editions": [
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "cards": 308,
+      "unique_recordings": 308,
+      "shared_with_other_editions": 3
+    },
+    {
+      "edition_id": "hitster-original-france",
+      "cards": 308,
+      "unique_recordings": 308,
+      "shared_with_other_editions": 278
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "cards": 308,
+      "unique_recordings": 308,
+      "shared_with_other_editions": 278
+    }
+  ],
+  "issues": [
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "110",
+      "recording_id": "rec_8dea3b0c2d0658c381641d50680a70ea",
+      "reference": {
+        "spotify_id": "2aEeghgUcnu75tzcolFMfs",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-110",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "171",
+      "recording_id": "rec_be4f7e34294f54a78c652f8aa918ec5f",
+      "reference": {
+        "spotify_id": "2YWjW3wwQIBLNhxWKBQd16",
+        "qr_url": null,
+        "status": "metadata_mismatch",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-171",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "182",
+      "recording_id": "rec_390ffc4e56ea51758896b7c074b54655",
+      "reference": {
+        "spotify_id": "6UEfyhyfhYQsyipxOd95Ie",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-182",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "232",
+      "recording_id": "rec_0d3cf1eb9ea85d898a3751bdb547a0da",
+      "reference": {
+        "spotify_id": "60nZcImufyMA1MKQY3dcCH",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-232",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "242",
+      "recording_id": "rec_cbe102447e9159ddbf8b2290b23e276e",
+      "reference": {
+        "spotify_id": "2Foc5Q5nqNiosCNqttzHof",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-242",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "card_number": "275",
+      "recording_id": "rec_751f1ca73dd957ea9b00f5137017694c",
+      "reference": {
+        "spotify_id": "2fuCquhmrzHpu5xcA1ci9x",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-refresh.json#card-275",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "verified"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "26",
+      "recording_id": "rec_4fda91c4eee1509c8d8793eb7e4731c6",
+      "reference": {
+        "spotify_id": "7gQAFGUyHPcY0cQNPsjMf0",
+        "qr_url": null,
+        "status": "metadata_mismatch",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-26",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "128",
+      "recording_id": "rec_70ff1c847c3f598d8571be0183f2dd13",
+      "reference": {
+        "spotify_id": "3ypMsqUwfNFMiooMLVHfkp",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-128",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "136",
+      "recording_id": "rec_9087b8aa76a2577fbe77e41bd1bb4a66",
+      "reference": {
+        "spotify_id": "3mdfBcdD8C3NbJ0SUBjA5i",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-136",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "182",
+      "recording_id": "rec_640b8526cc8c56f88f1df59689add8b1",
+      "reference": {
+        "spotify_id": "5OBdN1F98YEtrRoW8YLYVu",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-182",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "185",
+      "recording_id": "rec_4e6bf8fccdd25086be3f628d37d9e4b6",
+      "reference": {
+        "spotify_id": "5wJMAT8aulMmSBOC503JfM",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-185",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "208",
+      "recording_id": "rec_c8c470bdb12153639fd499e6605780ce",
+      "reference": {
+        "spotify_id": "5NCMxJCTeHBdbv7QWjiGi4",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-208",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "221",
+      "recording_id": "rec_142078df3a6e5e2d8601b34c942c80d9",
+      "reference": {
+        "spotify_id": "3de9qG6m9dXJEAn7ukU5wh",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": true,
+          "artist": false
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-221",
+        "source_checks": {
+          "title": true,
+          "artist": false
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "225",
+      "recording_id": "rec_8f42cdfcf7db5159b74ad4906c1899f4",
+      "reference": {
+        "spotify_id": "5rb9QrpfcKFHM1EUbSIurX",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-225",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "228",
+      "recording_id": "rec_3d6462bb05185b3bb63f1cc4b8214c8a",
+      "reference": {
+        "spotify_id": "40riOy7x9W7GXjyGp4pjAv",
+        "qr_url": null,
+        "status": "source_conflict",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-228",
+        "source_checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "241",
+      "recording_id": "rec_d07dc4a40f6f5c47ba8a0b7451653037",
+      "reference": {
+        "spotify_id": "1yTQ39my3MoNROlFw3RDNy",
+        "qr_url": null,
+        "status": "metadata_mismatch",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-241",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "246",
+      "recording_id": "rec_acef1cb25cbc5ea29d8f1dc3c466743b",
+      "reference": {
+        "spotify_id": "6wrgVuGlXoGDiFcxvqd9nL",
+        "qr_url": null,
+        "status": "verified",
+        "checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-246",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "card_number": "297",
+      "recording_id": "rec_8652cdffcb145192ada6e823d51f2378",
+      "reference": {
+        "spotify_id": "5FMXrphygZ4z3gVDHGWxgl",
+        "qr_url": null,
+        "status": "metadata_mismatch",
+        "checks": {
+          "title": false,
+          "artist": true
+        },
+        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-297",
+        "source_checks": {
+          "title": true,
+          "artist": true
+        },
+        "source_markets": [
+          "FR"
+        ]
+      },
+      "audio_status": "unavailable"
+    }
+  ]
+}
