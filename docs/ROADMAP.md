@@ -6,6 +6,9 @@
 - [x] Inspect supplied NL and Quiz Bowl APKG templates and media maps.
 - [x] Build a one-card native audio APKG with original synthetic test audio.
 - [x] Test imports, answer visibility and review-preserving corrections in Anki's engine.
+- [x] Record the positive user-reported native Anki import/playback test.
+- [x] Inspect the Original France catalogue and select a ten-card playback sample.
+- [x] Build separate native and HTML5 remote comparison APKGs with optional albums.
 - [ ] Test native local audio and an online playback prototype on Anki Desktop.
 - [ ] Test AnkiDroid and AnkiMobile compatibility.
 - [ ] Define stable model, deck and note identifiers.

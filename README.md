@@ -18,6 +18,13 @@ Start with the [one-card native audio prototype](prototype/README.md). It genera
 
 The [reference deck inspection](docs/REFERENCE_DECKS.md), [provisional playback decision](docs/PLAYBACK_DECISION.md) and [test record](docs/PROTOTYPE_TESTING.md) distinguish verified behavior from pending Desktop and mobile playback checks.
 
+The original native prototype has a positive user-reported Anki playback test;
+mobile clients remain unvalidated. The next experiment is a
+[ten-song Original France comparison](prototype/COMPARISON.md): native packaged
+previews versus minimal HTML5 remote players, with optional album information
+on the answer. See [the Hitify investigation](docs/HITIFY_CATALOGUE.md) for
+source structure, recording selection and year limitations.
+
 See [the roadmap](docs/ROADMAP.md) and [data model](docs/DATA_MODEL.md). The initial catalogue target remains a French Original edition sample, followed by Belgian and Dutch editions.
 
 ## Downloads
