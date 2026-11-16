@@ -37,6 +37,9 @@ remaster and re-recording distinctions are not stripped. The schema already
 allows reviewed provider aliases on a recording, but title similarity is not
 evidence for adding one. Potential remaining aliases require human review.
 Offline media are deduplicated by content SHA-256, independently of note count.
+A shared study has the same player in every selection: existing verification
+from another membership of that exact study can establish audio availability.
+An uncertain edition label remains flagged; no different recording is substituted.
 
 One recording plus the same catalogue year reuses one study ID and one Anki card.
 Different catalogue years use distinct study IDs and answers while sharing the
@@ -105,7 +108,8 @@ Run it on a review branch; it never imports editions outside its plan.
 
 ## Validation and delivery
 
-See [the generated statistics](../data/reports/catalogue.json), the available
+See [the measured validation snapshot](MULTI_EDITION_VALIDATION.md),
+[the generated statistics](../data/reports/catalogue.json), the available
 [edition registry](../data/registry.json), and the [manual procedure](MANUAL_VALIDATION.md).
 Automated tests use real Anki collections and check successive overlapping
 imports, expansion to country/global selections, mode changes, user deck

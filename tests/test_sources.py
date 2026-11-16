@@ -49,6 +49,20 @@ class SourceTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 public_references(bad, rows, "https://source.example/edition.json")
 
+    def test_shared_player_does_not_change_with_selected_edition_label_conflict(self):
+        from ultimate_hitster.build import selected_notes
+        from test_production import make
+        catalogue = make(count=1)
+        rows, refs, edition, meta = fixture(count=1)
+        rows[0]["title"] = "Song (uncertain catalogue label)"
+        catalogue = import_edition(catalogue, rows, refs, dict(edition, edition_id="second-edition"), meta)
+        self.assertEqual(catalogue["memberships"][-1]["reference"]["status"], "metadata_mismatch")
+        first = selected_notes(catalogue, ["test-fr"])
+        second = selected_notes(catalogue, ["second-edition"])
+        self.assertEqual(set(first), set(second))
+        self.assertTrue(next(iter(first.values()))["verified_reference"])
+        self.assertTrue(next(iter(second.values()))["verified_reference"])
+
     def test_secondary_edition_reimport_preserves_canonical_recording_label(self):
         rows, refs, edition, meta = fixture(count=1)
         catalogue = import_edition(empty(), rows, refs, edition, meta)

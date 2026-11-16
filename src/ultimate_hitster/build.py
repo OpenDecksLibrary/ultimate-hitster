@@ -89,6 +89,11 @@ def selected_notes(catalogue, edition_ids):
                                                     "memberships": [], "verified_reference": False})
         item["memberships"].append(member)
         item["verified_reference"] |= member["reference"]["status"] in ("verified", "reviewed")
+    # A shared study keeps the same player in every selection. Verification
+    # from another imported membership is valid only for this exact study/ID.
+    for member in catalogue["memberships"]:
+        if member["study_id"] in notes:
+            notes[member["study_id"]]["verified_reference"] |= member["reference"]["status"] in ("verified", "reviewed")
     return notes
 
 

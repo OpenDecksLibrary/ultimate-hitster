@@ -1,8 +1,5 @@
 name: Validate multi-edition candidate
 on:
-  push:
-    branches: [feature/universal-editions]
-    paths-ignore: [docs/**, '*.md']
   pull_request:
     paths-ignore: [docs/**, '*.md']
   workflow_dispatch:
@@ -41,13 +38,15 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import json
-          from tools.prepare_release import asset_names, release_plan, write_checksums
+          from tools.prepare_release import asset_names, release_plan, write_checksums, verify_checksums
           root=Path("dist")
           report=json.loads((root/"validation.json").read_text())
           report["successive_imports"]=json.loads((root/"successive-imports.json").read_text())
           (root/"validation.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
           (root/"successive-imports.json").unlink()
-          write_checksums(root,asset_names(release_plan(Path("release-candidate.json"))))
+          names=asset_names(release_plan(Path("release-candidate.json")))
+          write_checksums(root,names)
+          verify_checksums(root,assets=names)
           PY
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
