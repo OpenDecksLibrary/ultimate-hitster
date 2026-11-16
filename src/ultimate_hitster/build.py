@@ -12,6 +12,7 @@ import genanki
 
 from .catalogue import validate, write_json
 from .spotify import check_clip, now
+from .registry import select_editions
 
 MODEL_ID = 1735079001
 FIELDS = ["StudyID", "RecordingID", "Artist", "Title", "Year", "Album", "Playback"]
@@ -94,7 +95,9 @@ def selected_notes(catalogue, edition_ids):
 def build_package(catalogue, config, mode, output, media_dir, missing_policy="include", timestamp=None):
     if mode not in ("online", "offline") or missing_policy not in ("include", "error"):
         raise ValueError("Unknown build mode or missing-audio policy")
-    notes = selected_notes(catalogue, config["edition_ids"])
+    edition_ids = select_editions(catalogue, config)
+    notes = selected_notes(catalogue, edition_ids)
+    editions = {e["edition_id"]: e for e in catalogue["editions"]}
     model = genanki.Model(MODEL_ID, "Ultimate Hitster · Production v1",
                           fields=[{"name": name} for name in FIELDS],
                           templates=[{"name": "Recognition", "qfmt": "{{Playback}}",
@@ -124,8 +127,16 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
             if missing_policy == "error":
                 raise ValueError("Unverified or unavailable audio; use include only for a documented validation build")
             playback = '<audio controls preload="none" aria-label="Audio unavailable"></audio>'
-        tags = ["edition::" + member["edition_id"] for member in item["memberships"]]
-        tags.extend("card::" + member["edition_id"] + "::" + member["card_number"] for member in item["memberships"])
+        tag_members = [m for m in catalogue["memberships"] if m["study_id"] == study_id]
+        tags = ["edition::" + member["edition_id"] for member in tag_members]
+        for member in tag_members:
+            edition = editions[member["edition_id"]]
+            tags.append("country::" + edition.get("region", "unknown"))
+            for language in edition.get("languages", [edition.get("language", "und")]):
+                tags.append("language::" + language)
+            tags.append("family::" + edition.get("family", "unknown"))
+        tags.append("decade::" + str(item["year"] // 10 * 10) + "s")
+        tags.extend("card::" + member["edition_id"] + "::" + member["card_number"] for member in tag_members)
         if any(member["reference"]["status"] == "reviewed" for member in item["memberships"]):
             tags.append("reference::reviewed")
         if not available:
@@ -140,4 +151,5 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
     package.write_to_file(str(output), timestamp=timestamp)
     return {"mode": mode, "notes": len(notes), "playable": playable,
             "media_files": len(media), "missing_cards": missing, "bytes": output.stat().st_size,
-            "output": output.name, "deck_id": config["deck_id"], "model_id": MODEL_ID}
+            "output": output.name, "deck_id": config["deck_id"], "model_id": MODEL_ID,
+            "edition_ids": edition_ids}

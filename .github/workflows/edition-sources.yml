@@ -19,17 +19,16 @@ jobs:
           from urllib.parse import urljoin
           def get(url):
               return urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"UltimateHitster/0.3 (+https://github.com/OpenDecksLibrary/ultimate-hitster)"}),timeout=30).read().decode()
-          for url in ("https://hitify.app/en/scan", "https://www.hitster4all.com/supported-hitster-editions/hitster-fr-refresh", "https://www.hitster4all.com"):
+          for url in ("https://hitify.app/_astro/QRScanner.C158KhD_.js", "https://www.hitster4all.com/play"):
               page=get(url)
-              print("PAGE",url)
-              print("LINKS",re.findall(r'href="([^"]*(?:scan|play)[^"]*)"',page)[:15])
-              print("IMPORTS", re.findall(r'.{0,80}import.{0,180}',page)[:15])
+              print("PAGE",url,"APIS",re.findall(r'.{0,120}(?:/api/|hitstergame|\.json|/hitster/).{0,200}',page)[:60])
               scripts=set(re.findall(r'["\x27]([^"\x27\s]+\.js)["\x27]',page))
-              for script in list(scripts)[:15]:
+              print("MODULES",scripts)
+              for script in list(scripts)[:12]:
                   if "cloudflare" in script: continue
                   try:
                       js=get(urljoin(url,script))
-                      matches=re.findall(r'.{0,100}(?:/api/|hitstergame|spotify|supabase|\.json).{0,180}',js,re.I)
-                      if matches: print("JS",script,"MATCHES",matches[:25])
+                      matches=re.findall(r'.{0,100}(?:/api/|hitstergame|\.json|/hitster/).{0,160}',js,re.I)
+                      if matches: print("JS",script,"APIS",matches[:35])
                   except Exception as error: print("ERROR",script,error)
           PY
