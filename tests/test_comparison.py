@@ -21,7 +21,7 @@ sys.path[:0] = [str(ROOT / "prototype"), str(ROOT / "tools")]
 import build_comparison as comparison
 from build import build as build_original, demo_audio, MODEL_ID
 from extract_hitify_rows import extract_rows
-from refresh_sample_previews import refresh
+from refresh_sample_previews import refresh, refresh_remote
 
 
 def visible_text(fragment):
@@ -66,6 +66,8 @@ class ComparisonTests(unittest.TestCase):
             self.assertIn('preload="none"', question)
             self.assertNotIn("autoplay", question)
             self.assertNotIn("<script", question)
+            self.assertIn("https://p.scdn.co/mp3-preview/", question)
+            self.assertNotIn(".m4a", question)
             self.assertEqual(card.question_av_tags(), [])
             for field in ("Artist", "Title", "Year", "Album"):
                 self.assertIn(card.note()[field], card.answer())
@@ -104,13 +106,14 @@ class ComparisonTests(unittest.TestCase):
         revised = copy.deepcopy(self.sample)
         for track in revised["tracks"]:
             track["title"] += " (corrected)"
-            track["preview_url"] = "https://audio-ssl.itunes.apple.com/updated.m4a"
+            track["remote_preview_url"] = "https://p.scdn.co/mp3-preview/" + "a" * 40
         path = self.build(sample=revised, timestamp=self.timestamp + 10, name="updated.apkg")
         self.assertEqual(len(self.import_package(collection, path).log.updated), 10)
         self.assertEqual(collection.card_count(), 10)
         self.assertEqual(collection.db.all("select id,nid,type,queue,due,ivl,factor,reps,lapses,left from cards order by id"), before)
         self.assertEqual(collection.db.all("select * from revlog"), history)
         self.assertIn("corrected", collection.get_card(card.id).answer())
+        self.assertIn("a" * 40, collection.get_card(card.id).question())
         self.import_package(collection, path)
         self.assertEqual(collection.card_count(), 10)
 
@@ -131,6 +134,10 @@ class ComparisonTests(unittest.TestCase):
                     "https://audio-ssl.itunes.apple.com/a.m4a?token=secret", "javascript:alert(1)"):
             with self.subTest(url=bad), self.assertRaises(ValueError):
                 comparison.validate_preview_url(bad)
+        for bad in (self.sample["tracks"][0]["preview_url"],
+                    "https://p.scdn.co/mp3-preview/invalid", "http://p.scdn.co/mp3-preview/" + "a" * 40):
+            with self.subTest(remote=bad), self.assertRaises(ValueError):
+                comparison.validate_remote_url(bad)
         for key, value in (("sample_id", "bad id"), ("year", True), ("album", "bad\x1fvalue")):
             invalid = copy.deepcopy(self.sample)
             invalid["tracks"][0][key] = value
@@ -165,6 +172,26 @@ class ComparisonTests(unittest.TestCase):
         self.assertEqual(extract_rows(source), [{k: track[k] for k in ("card_number", "artist", "title", "year")} for track in sample["tracks"]])
         with self.assertRaises(ValueError):
             extract_rows("<table></table>")
+
+    def test_remote_refresh_uses_exact_spotify_ids_and_requires_mp3(self):
+        rows = [{"uri": "spotify:track:" + track["spotify_track_id"],
+                 "title": track["title"], "subtitle": track["artist"],
+                 "audioPreview": {"format": "MP3_96", "url": track["remote_preview_url"]}}
+                for track in reversed(self.sample["tracks"])]
+
+        def response():
+            data = {"props": {"pageProps": {"state": {"data": {"entity": {"trackList": rows}}}}}}
+            return io.BytesIO(('<script id="__NEXT_DATA__" type="application/json">' + json.dumps(data) + '</script>').encode())
+
+        with patch("refresh_sample_previews.urlopen", return_value=response()) as request:
+            updated = refresh_remote(self.sample)
+        self.assertIn("/embed/playlist/", request.call_args.args[0])
+        for before, after in zip(self.sample["tracks"], updated["tracks"]):
+            for field in ("sample_id", "artist", "title", "year", "album", "preview_url", "remote_preview_url", "spotify_track_id"):
+                self.assertEqual(before[field], after[field])
+        rows[0]["audioPreview"]["format"] = "AAC"
+        with patch("refresh_sample_previews.urlopen", return_value=response()), self.assertRaises(ValueError):
+            refresh_remote(self.sample)
 
 
 if __name__ == "__main__":

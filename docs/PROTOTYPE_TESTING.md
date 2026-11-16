@@ -7,7 +7,7 @@ personal Anki profiles.
 ## Automated results
 
 Original prototype regression checks — **6 tests passed**. The current combined
-suite has 13 tests; see [the comparison record](../prototype/COMPARISON.md).
+suite has 14 tests; see [the comparison record](../prototype/COMPARISON.md).
 Run all checks with `python -m unittest discover -s tests -v`.
 
 1. Package has one note, one card, exactly one correctly mapped media file,

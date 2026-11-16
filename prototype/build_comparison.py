@@ -29,6 +29,16 @@ def validate_preview_url(value):
         raise ValueError("Expected an unsigned HTTPS Apple audio preview URL")
 
 
+def validate_remote_url(value):
+    if not isinstance(value, str):
+        raise ValueError("remote_preview_url must be a string")
+    url = urlsplit(value)
+    if (url.scheme != "https" or url.hostname != "p.scdn.co" or url.username
+            or url.password or url.port not in (None, 443) or url.query or url.fragment
+            or not re.fullmatch(r"/mp3-preview/[0-9a-f]{40}", url.path)):
+        raise ValueError("Expected an unsigned HTTPS Spotify MP3 preview URL")
+
+
 def validate_sample(sample):
     tracks = sample.get("tracks", [])
     if len(tracks) != 10:
@@ -53,6 +63,8 @@ def validate_sample(sample):
                     or any(ord(char) < 32 for char in value)):
                 raise ValueError(f"Invalid {key}")
         validate_preview_url(track["preview_url"])
+        if "remote_preview_url" in track:
+            validate_remote_url(track["remote_preview_url"])
         digest = track.get("preview_sha256")
         if digest is not None and not re.fullmatch(r"[0-9a-f]{64}", digest):
             raise ValueError("Invalid preview_sha256")
@@ -104,7 +116,8 @@ def build(sample, mode, output, clips=None, timestamp=None):
         media = {}
         for track in sample["tracks"]:
             if mode == "remote":
-                playback = '<audio controls preload="none" aria-label="Play audio" src="' + html.escape(track["preview_url"], quote=True) + '"></audio>'
+                validate_remote_url(track["remote_preview_url"])
+                playback = '<audio controls preload="none" aria-label="Play audio" src="' + html.escape(track["remote_preview_url"], quote=True) + '"></audio>'
             else:
                 path = Path((clips or {})[track["sample_id"]])
                 data = path.read_bytes()

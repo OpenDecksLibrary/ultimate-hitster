@@ -7,7 +7,7 @@ Run from the repository root using the same Python environment and
 # Small APKG containing URLs; no audio download at build time:
 python prototype/build_comparison.py --mode remote
 
-# Both variants, fetching the same ten pinned clips for the native package:
+# Both variants, fetching the pinned Apple clips for the native package:
 python prototype/build_comparison.py --mode both --download
 
 # Rebuild offline from the already downloaded build/previews files:
@@ -16,10 +16,13 @@ python prototype/build_comparison.py --mode both
 
 Outputs:
 
-- `build/france-original-10-remote.apkg`: ten HTML5 players with remote Apple
+- `build/france-original-10-remote.apkg`: ten HTML5 players with remote Spotify MP3
   previews, no bundled media. Internet access is required when playing.
 - `build/france-original-10-native.apkg`: ten native Anki replay controls using
-  the same preview bytes, bundled once per distinct content hash.
+  Apple AAC previews, bundled once per distinct content hash.
+
+The musical selections agree, but providers choose different excerpts: these
+packages are no longer a byte-for-byte audio comparison. Native stays unchanged.
 
 Import both into a disposable profile. They appear under **Ultimate Hitster →
 France Original Sample → Native / Remote**. These are intentionally separate
@@ -86,8 +89,8 @@ blind playback.
 | Method | Benefits | Limits | Evidence |
 | --- | --- | --- | --- |
 | Native Anki, original tone prototype | No runtime network or JavaScript; native replay | Embedded media increases package size | User confirmed import/playback works; client version and detailed checks not recorded |
-| Native Anki, ten real previews | Same audio as remote, available locally; content hashes avoid filename collisions | About 11 MB for this sample; AAC/M4A client decoding must be checked | Actual APKG import, media checks and decoding passed; manual playback pending |
-| HTML5 remote, ten real previews | Tiny APKG, normal play/pause/seek controls; no provider interface to crop | Network latency, URL changes, webview codecs and browser media behavior; remote files do not sync as Anki media | Ten URLs fetched/decoded; Anki rendering/import tests passed; in-client playback pending |
+| Native Anki, ten real previews | Local Apple AAC audio; content hashes avoid filename collisions | About 11 MB for this sample; native client decoding must be checked | Actual APKG import, media checks and decoding passed; manual playback pending |
+| HTML5 remote, ten real previews | Tiny APKG, MP3 controls; no provider interface to crop | Network latency and URL changes; provider excerpt positions differ from Apple; remote files do not sync as Anki media | Ten MP3s decoded; Qt MP3 playback passed for downloaded bytes; user re-test pending |
 | Spotify iframe as in Quiz Bowl | Provider handles playback; no bundled files | CSS cropping relies on provider layout and does not remove metadata from the iframe/accessibility tree | Existing reference inspected; not distributed as a blind comparison APKG |
 
 The Spotify variant is deferred because reliable metadata concealment has not
@@ -95,7 +98,7 @@ been established. Its 40 × 80 clipped wrapper is a visual technique, not a
 guarantee that answers remain undisclosed while focusing controls. The HTML5
 experiment avoids that provider UI entirely.
 
-Automated suite: **13 tests pass** (six original, seven comparison tests).
+Automated suite: **14 tests pass** (six original, eight comparison tests).
 Checks cover ten-card bounds, safe URLs, no question text, conditional escaped
 albums, deduplicated media, coexistence with the original note type, stable
 updates retaining an actual review, bounded HTML extraction and ID-based URL
@@ -105,7 +108,7 @@ test media; its sample command builds the remote APKG without live downloads.
 A separate live Apple ID lookup also returned all ten selected recordings;
 no preview URL changed during that refresh on the inspection date.
 
-All ten real clips decoded successfully with FFmpeg as AAC, with measured
+All ten native clips decoded successfully with FFmpeg as AAC, with measured
 durations between 30.000000 and 30.019002 seconds. Imported real packages have
 ten cards each; native media checking reports no missing/unused files and remote
 has no packaged media. These checks do not prove playback in Anki's GUI.
@@ -118,3 +121,40 @@ of the delivered APKGs is the next validation step.
 
 This branch publishes no release, generates no full edition and adds no
 general-purpose builder dependency. `deck-builder` remains unchanged.
+
+## Remote AAC failure and MP3 correction
+
+The user reported that the original remote package did not work. The Qt
+WebEngine 6.12.0 build tested here reports no AAC support, whereas MP3 is
+supported. The original AAC file reproduced `MEDIA_ERR_SRC_NOT_SUPPORTED`
+(code 4, time 0) when served locally; the downloaded MP3 advanced its playback
+clock with readyState 4 and no media error. A successful FFmpeg decode alone
+had therefore been insufficient to validate the HTML5 codec.
+
+Remote now uses the exact ten Spotify track IDs from the public playlist
+embed's track list. Each title and artist was checked against the sample;
+each preview is explicitly labelled `MP3_96`. No Spotify iframe, SDK, login,
+JSONP resolver or additional card script is used. All ten MP3 files decoded
+successfully; measured durations range from 20.009796 to 29.753469 seconds.
+The provider controls these lengths and excerpt positions. Album information
+still comes from the selected Apple collection, not a Spotify album lookup.
+
+The direct HTTPS MP3 playback probe could not establish end-to-end network
+playback in this environment. Local MP3 playback establishes codec support,
+not successful delivery inside the user's Anki session. The correction is a
+candidate for user re-testing, not a claim of validated client compatibility.
+
+Optional codec/playback probe (requires PyQt6 and PyQt6-WebEngine, not added to
+build dependencies): `python tools/check_webengine_audio.py /path/to/clip.mp3`.
+Probe one source per process. In a display-less test environment, use Qt's
+offscreen platform and the appropriate test-only Chromium launch flags.
+
+Reimport the updated remote APKG over the previous one. Model/field IDs, GUIDs
+and deck ID are unchanged; tests verify an updated URL retains an actual
+review. The native APKG does not need to be reimported. Refresh utilities use
+exact Apple IDs for native URLs and exact Spotify IDs for remote URLs:
+
+```sh
+python tools/refresh_sample_previews.py --mode remote
+python prototype/build_comparison.py --sample build/refreshed-sample.json --mode remote
+```

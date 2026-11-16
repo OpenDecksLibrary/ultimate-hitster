@@ -58,6 +58,15 @@ describes `previewUrl`, `collectionName` and track fields. Exact provider IDs
 are pinned after selection. The refresh tool uses ID lookup, never a new
 title search or automatic recording substitution.
 
+For the corrected HTML5 package, remote MP3 references come from the public
+Spotify playlist embed HTML. Its JSON script `__NEXT_DATA__` contains
+`props.pageProps.state.data.entity.trackList`, whose entries expose track URI,
+title, artist subtitle, duration and `audioPreview` (`MP3_96`, URL). The ten
+exact Spotify IDs are pinned and checked against the artist/title values.
+Only those public recording references and preview URLs are retained; no
+session/auth fields from the page are used or committed. This page structure
+is not a stable API: the refresh helper fails if it changes or an ID is absent.
+
 ## Preview lifetime
 
 The inspected Deezer track response provided a signed preview URL expiring
@@ -66,6 +75,11 @@ in an APKG. No token-stripping or URL guessing was attempted.
 
 The selected Apple preview URLs are HTTPS URLs without expiry query strings.
 All ten were fetched and decoded as approximately 30-second AAC/M4A clips.
+These clips remain in the native package. They failed the tested Qt WebEngine
+AAC playback capability, so the remote package now uses unsigned
+`https://p.scdn.co/mp3-preview/<hash>` URLs, fetched from the exact playlist
+recordings. Those MP3s last about 20–30 seconds; excerpt positions may differ
+from Apple's. No URL-extension substitution or expiring Deezer URL is used.
 Their URLs are still external references: absence of an expiry parameter is
 not a promise of permanent availability. The sample pins content hashes and
 measured durations for the downloaded comparison clips.
@@ -77,7 +91,9 @@ python tools/refresh_sample_previews.py
 python prototype/build_comparison.py --sample build/refreshed-sample.json --mode both --download
 ```
 
-A changed preview URL clears its old byte hash/duration in the refreshed
+A changed preview URL clears its corresponding byte hash/duration in the refreshed
 copy, so new bytes must be decoded and inspected before establishing a new
 pin. The tool does not change answers, album text, provider ID or study ID.
+Use `--mode native` or `--mode remote` to refresh one provider only; the default
+refreshes both. Remote matching uses pinned Spotify IDs, never title searching.
 This is an experiment utility, not a full catalogue importer or resolver.

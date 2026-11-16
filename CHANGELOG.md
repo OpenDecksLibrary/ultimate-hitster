@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Replace the failing remote AAC previews with MP3 previews for the exact
+  Spotify playlist recordings; preserve existing remote note identities.
+- Reproduce the AAC/MP3 difference in Qt WebEngine and add remote-source
+  validation, refresh regression checks and an optional playback probe.
 - Record the positive manual native playback report, with mobile validation open.
 - Investigate Hitify's edition table and select ten Original France recordings.
 - Add isolated native/HTML5 comparison packages, optional answer-side albums,
