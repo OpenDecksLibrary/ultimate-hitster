@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## v0.2.0-beta.1 — 2026-11-16
+
+- Publish the first complete Original France prerelease with online/offline APKGs,
+  SHA-256 checksums, machine-readable validation and English update instructions.
+- Automate test-gated generation, live audio verification, temporary Anki imports,
+  draft asset validation, prerelease publication and anonymous download checks.
+- Add direct README downloads; keep packages/media outside Git and preserve
+  production identities from the full-edition validation build.
+
+
 - Import all 308 Original France catalogue cards into production schema v1.
 - Separate recordings, editions and memberships with exact-reference deduplication,
   immutable study identities, reviewed version labels and optional albums.
