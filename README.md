@@ -14,7 +14,11 @@ Community-maintained Anki collections for music recognition and release-year rec
 
 ## Getting started
 
-See [the roadmap](docs/ROADMAP.md) and [data model](docs/DATA_MODEL.md). The initial target is a French Original edition prototype, followed by Belgian and Dutch editions. Audio playback approaches will be tested before choosing a default.
+Start with the [one-card native audio prototype](prototype/README.md). It generates an importable APKG with a three-second synthetic clip and tests stable updates through Anki's engine. This is a playback experiment, not a populated Hitster edition.
+
+The [reference deck inspection](docs/REFERENCE_DECKS.md), [provisional playback decision](docs/PLAYBACK_DECISION.md) and [test record](docs/PROTOTYPE_TESTING.md) distinguish verified behavior from pending Desktop and mobile playback checks.
+
+See [the roadmap](docs/ROADMAP.md) and [data model](docs/DATA_MODEL.md). The initial catalogue target remains a French Original edition sample, followed by Belgian and Dutch editions.
 
 ## Downloads
 

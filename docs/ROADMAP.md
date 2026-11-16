@@ -3,10 +3,17 @@
 ## 0.1 — Proof of concept
 
 - [ ] Confirm the target edition and a small verified track sample.
+- [x] Inspect supplied NL and Quiz Bowl APKG templates and media maps.
+- [x] Build a one-card native audio APKG with original synthetic test audio.
+- [x] Test imports, answer visibility and review-preserving corrections in Anki's engine.
 - [ ] Test native local audio and an online playback prototype on Anki Desktop.
 - [ ] Test AnkiDroid and AnkiMobile compatibility.
 - [ ] Define stable model, deck and note identifiers.
 - [ ] Generate and import a test package; verify a second import preserves review history.
+
+The automated engine update test passes; GUI and device update checks remain
+open. See [the test record](PROTOTYPE_TESTING.md). Production IDs and schema are
+not frozen; current IDs belong only to the disposable playback experiment.
 
 ## 0.2 — First edition
 
