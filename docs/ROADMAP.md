@@ -1,0 +1,29 @@
+# Roadmap
+
+## 0.1 — Proof of concept
+
+- [ ] Confirm the target edition and a small verified track sample.
+- [ ] Test native local audio and an online playback prototype on Anki Desktop.
+- [ ] Test AnkiDroid and AnkiMobile compatibility.
+- [ ] Define stable model, deck and note identifiers.
+- [ ] Generate and import a test package; verify a second import preserves review history.
+
+## 0.2 — First edition
+
+- [ ] Collect and verify the French Original catalogue and edition years.
+- [ ] Implement repeatable validation and package generation.
+- [ ] Publish a tested release with installation and update instructions.
+
+## 0.3 — Multi-edition support
+
+- [ ] Add Belgian and Dutch editions.
+- [ ] Resolve duplicate recordings and conflicting game-card years.
+- [ ] Build individual editions, country collections and an optional global collection.
+
+## 1.0 — Stable community release
+
+- [ ] Automate builds and validation in CI.
+- [ ] Document compatibility, data provenance and upgrade procedures.
+- [ ] Open community data corrections and edition contributions.
+
+Milestones are targets, not release commitments.
