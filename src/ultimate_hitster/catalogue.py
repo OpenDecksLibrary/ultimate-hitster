@@ -180,14 +180,20 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
                   "verified" if verified else
                   "fetch_failed" if evidence.get("status") == "fetch_failed" else "metadata_mismatch")
         review = (reviews or {}).get(row["card_number"])
+        credit_review = bool(review and review.get("review_kind") == "credit_only"
+                             and review.get("catalogue_artist") == row["artist"]
+                             and review.get("provider_artists") == evidence.get("artists")
+                             and review.get("source_checks") == reference.get("source_checks"))
+        if review and review.get("review_kind") == "credit_only" and not credit_review:
+            raise ValueError("The credit review no longer matches the exact artist and source evidence")
         if review:
             if (review["spotify_id"] != provider or review["catalogue_title"] != row["title"]
-                    or review["provider_title"] != evidence.get("title") or not matches["artist"]):
+                    or review["provider_title"] != evidence.get("title") or (not matches["artist"] and not credit_review)):
                 raise ValueError("A recording review no longer matches the exact reference/title/artist")
             verified, status = True, "reviewed"
         source_checks = reference.get("source_checks")
         source_conflict = source_checks is not None and not all(source_checks.values())
-        if provider and (source_conflict or reference.get("playlist_conflict")):
+        if provider and ((source_conflict and not credit_review) or reference.get("playlist_conflict")):
             verified, status = False, "source_conflict"
         if verified or "provider_metadata" not in track:
             track["provider_metadata"] = {key: value for key, value in evidence.items() if key != "preview_url"}

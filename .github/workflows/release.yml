@@ -60,7 +60,7 @@ jobs:
             exit 1
           fi
           gh release create "$tag" --target "$GITHUB_SHA" --title "Ultimate Hitster $tag" --notes-file "$notes" --prerelease --draft --latest=false
-          gh release upload "$tag" dist/*.apkg dist/validation.json dist/SHA256SUMS
+          gh release upload "$tag" dist/*.apkg dist/*.json dist/SHA256SUMS
           # Check uploaded bytes while still a draft, then make the complete release public.
           gh release download "$tag" --dir build/release-download
           python tools/prepare_release.py verify --directory build/release-download --expected dist

@@ -5954,7 +5954,7 @@
       "reference": {
         "spotify_id": "3de9qG6m9dXJEAn7ukU5wh",
         "qr_url": null,
-        "status": "source_conflict",
+        "status": "reviewed",
         "checks": {
           "title": true,
           "artist": false
@@ -5966,7 +5966,8 @@
         },
         "source_markets": [
           "FR"
-        ]
+        ],
+        "review": "Elsa is the performance name of Elsa Lunghini. The pinned track, song title and 1988 Elsa album are unchanged; credit-name difference only. No physical-card listening validation claimed."
       }
     },
     {
@@ -6062,7 +6063,7 @@
       "reference": {
         "spotify_id": "5rb9QrpfcKFHM1EUbSIurX",
         "qr_url": null,
-        "status": "source_conflict",
+        "status": "reviewed",
         "checks": {
           "title": false,
           "artist": true
@@ -6074,7 +6075,8 @@
         },
         "source_markets": [
           "FR"
-        ]
+        ],
+        "review": "The provider repeats the same credited guest artists in the title. The pinned Spotify recording and all three artist credits are unchanged. No edit, mix or remaster qualifier is removed; no physical-card listening validation claimed."
       }
     },
     {

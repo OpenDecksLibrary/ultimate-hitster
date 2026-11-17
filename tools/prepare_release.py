@@ -11,6 +11,7 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT))
 
 from ultimate_hitster.catalogue import load, validate
 from ultimate_hitster.build import allocate_timestamp, build_package, verify_audio, selected_notes
@@ -45,7 +46,7 @@ def release_plan(path=ROOT / "release.json"):
 
 
 def asset_names(plan):
-    return [f"{p['stem']}-{mode}.apkg" for p in plan["packages"] for mode in ("online", "offline")] + ["validation.json"]
+    return [f"{p['stem']}-{mode}.apkg" for p in plan["packages"] for mode in ("online", "offline")] + ["validation.json"] + plan.get("extra_reports", [])
 
 
 ASSETS = asset_names(release_plan())
@@ -85,10 +86,13 @@ def verify_anki(online, offline, expected_count):
         try:
             def importing(path):
                 return collection.import_anki_package(ImportAnkiPackageRequest(
-                    package_path=str(Path(path).resolve()), options=ImportAnkiPackageOptions(with_scheduling=False)))
+                    package_path=str(Path(path).resolve()), options=ImportAnkiPackageOptions(with_scheduling=True)))
             if len(importing(online).log.new) != expected_count or collection.card_count() != expected_count:
                 raise ValueError("Incomplete online Anki import")
-            card = collection.get_card(collection.find_cards("")[0])
+            unavailable = collection.find_cards("tag:audio::missing Playback:*unavailable*")
+            if any(collection.get_card(cid).queue != -1 for cid in unavailable):
+                raise ValueError("Unavailable new cards were not imported suspended")
+            card = collection.get_card(collection.find_cards("-is:suspended")[0])
             card.start_timer()
             collection.sched.answerCard(card, 3)
             query = "select id,nid,did,type,queue,due,ivl,factor,reps,lapses,left,odue,odid,flags,data from cards order by id"
@@ -105,7 +109,8 @@ def verify_anki(online, offline, expected_count):
             collection.close()
     return {"online_new": expected_count, "offline_updated": expected_count,
             "scheduling_preserved": True, "review_history_preserved": True,
-            "missing_media": 0, "unused_media": 0}
+            "missing_media": 0, "unused_media": 0, "unavailable_suspended": len(unavailable),
+            "import_learning_progress_required_for_suspension": True}
 
 
 def prepare(directory, live, plan_path=ROOT / "release.json"):
@@ -157,6 +162,29 @@ def prepare(directory, live, plan_path=ROOT / "release.json"):
                       statistics=statistics(working, json.loads(registry_path.read_text()) if registry_path.exists() else None),
                       manual_full_edition_playback_validated=False, mobile_clients_validated=False)
     (directory / "validation.json").write_text(json.dumps(validation, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if "exceptions.json" in plan.get("extra_reports", []):
+        recheck = json.loads((ROOT / "data/reports/v0.3-exception-recheck.json").read_text())
+        remaining = []
+        all_notes = selected_notes(catalogue, sorted(selected_members))
+        for study_id, item in sorted(all_notes.items()):
+            track = item["track"]
+            if not item["verified_reference"] or track["audio"]["status"] != "verified":
+                remaining.append({"study_id": study_id, "recording_id": track["recording_id"],
+                                  "artist": track["artist"], "title": track["title"], "album": track.get("album"),
+                                  "year": item["year"], "audio": track["audio"], "memberships": item["memberships"]})
+        exceptions = {"source_commit": validation["source_commit"], "original_recheck": recheck,
+                      "resolved_credit_reviews": json.loads((ROOT / "data/sources/guilty-pleasures-france.reviews.json").read_text()),
+                      "remaining": remaining, "remaining_count": len(remaining),
+                      "anki_search": "tag:audio::missing Playback:*unavailable*",
+                      "new_cards_suspended": True, "requires_import_learning_progress": True,
+                      "existing_cards": "Anki preserves existing scheduling; suspend current unavailable cards after an upgrade.",
+                      "manual_validation": {"Anki Desktop v0.3 GUI": "pending", "AnkiDroid": "pending", "AnkiMobile": "pending",
+                                            "physical QR/master comparison": "pending"}}
+        (directory / "exceptions.json").write_text(json.dumps(exceptions, ensure_ascii=False, indent=2) + "\n")
+    if "successive-imports.json" in plan.get("extra_reports", []):
+        from tools.validate_multi_imports import validate as validate_imports
+        validation["successive_imports"] = validate_imports(directory, catalogue=catalogue)
+        (directory / "validation.json").write_text(json.dumps(validation, ensure_ascii=False, indent=2) + "\n")
     assets = asset_names(plan)
     write_checksums(directory, assets)
     verify_checksums(directory, assets=assets)

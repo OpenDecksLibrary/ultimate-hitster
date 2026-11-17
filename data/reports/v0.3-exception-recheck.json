@@ -1,0 +1,247 @@
+{
+  "checked_at": "2026-11-17T09:13:31+00:00",
+  "records": [
+    {
+      "recording_id": "rec_142078df3a6e5e2d8601b34c942c80d9",
+      "catalogue_artist": "Elsa",
+      "catalogue_title": "Jamais nous",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "3de9qG6m9dXJEAn7ukU5wh",
+        "title": "Jamais nous",
+        "artists": [
+          "Elsa Lunghini"
+        ],
+        "duration_ms": 232000,
+        "release_date": "1988-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/9aab8eab6b10cae7d2fbbd3b2540d4ed5a1264f7",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:29+00:00",
+        "source_url": "https://open.spotify.com/embed/track/3de9qG6m9dXJEAn7ukU5wh"
+      }
+    },
+    {
+      "recording_id": "rec_3d6462bb05185b3bb63f1cc4b8214c8a",
+      "catalogue_artist": "Eagles",
+      "catalogue_title": "Hotel California",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "40riOy7x9W7GXjyGp4pjAv",
+        "title": "Hotel California - 2013 Remaster",
+        "artists": [
+          "Eagles"
+        ],
+        "duration_ms": 391376,
+        "release_date": "1976-12-08T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/6fedc11d0f55bef176cc1c5725ac1c57f9a2534a",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/40riOy7x9W7GXjyGp4pjAv"
+      }
+    },
+    {
+      "recording_id": "rec_4e6bf8fccdd25086be3f628d37d9e4b6",
+      "catalogue_artist": "Worlds Apart",
+      "catalogue_title": "Baby Come Back",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "5wJMAT8aulMmSBOC503JfM",
+        "title": "Baby Come Back",
+        "artists": [
+          "Worlds Apart"
+        ],
+        "duration_ms": 238933,
+        "release_date": "1996-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:31+00:00",
+        "source_url": "https://open.spotify.com/embed/track/5wJMAT8aulMmSBOC503JfM"
+      }
+    },
+    {
+      "recording_id": "rec_4fda91c4eee1509c8d8793eb7e4731c6",
+      "catalogue_artist": "Alcazar",
+      "catalogue_title": "Crying at the Discoteque - Radio Edit",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "7gQAFGUyHPcY0cQNPsjMf0",
+        "title": "Crying at the Discoteque",
+        "artists": [
+          "Alcazar"
+        ],
+        "duration_ms": 231533,
+        "release_date": "2001-06-25T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/7e5b2bc8880f6ffe302f506a5ed54b7762fc9806",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:31+00:00",
+        "source_url": "https://open.spotify.com/embed/track/7gQAFGUyHPcY0cQNPsjMf0"
+      }
+    },
+    {
+      "recording_id": "rec_640b8526cc8c56f88f1df59689add8b1",
+      "catalogue_artist": "L5",
+      "catalogue_title": "Une étincelle",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "5OBdN1F98YEtrRoW8YLYVu",
+        "title": "Une étincelle",
+        "artists": [
+          "L5"
+        ],
+        "duration_ms": 233520,
+        "release_date": "2001-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:31+00:00",
+        "source_url": "https://open.spotify.com/embed/track/5OBdN1F98YEtrRoW8YLYVu"
+      }
+    },
+    {
+      "recording_id": "rec_70ff1c847c3f598d8571be0183f2dd13",
+      "catalogue_artist": "Village People",
+      "catalogue_title": "YMCA",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "3ypMsqUwfNFMiooMLVHfkp",
+        "title": "YMCA",
+        "artists": [
+          "Village People"
+        ],
+        "duration_ms": 202573,
+        "release_date": "1980-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/3ypMsqUwfNFMiooMLVHfkp"
+      }
+    },
+    {
+      "recording_id": "rec_8652cdffcb145192ada6e823d51f2378",
+      "catalogue_artist": "Barry Manilow",
+      "catalogue_title": "Copacabana (At the Copa)",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "5FMXrphygZ4z3gVDHGWxgl",
+        "title": "Copacabana (At the Copa) - Short Version",
+        "artists": [
+          "Barry Manilow"
+        ],
+        "duration_ms": 236760,
+        "release_date": "2006-09-12T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/421d87e7b308287f93e1371412c379171bec2ac2",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/5FMXrphygZ4z3gVDHGWxgl"
+      }
+    },
+    {
+      "recording_id": "rec_8f42cdfcf7db5159b74ad4906c1899f4",
+      "catalogue_artist": "USHER, Lil Jon, Ludacris",
+      "catalogue_title": "Yeah!",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "5rb9QrpfcKFHM1EUbSIurX",
+        "title": "Yeah! (feat. Lil Jon & Ludacris)",
+        "artists": [
+          "USHER",
+          "Lil Jon",
+          "Ludacris"
+        ],
+        "duration_ms": 250373,
+        "release_date": "2004-03-23T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/1eca1cb525c2b0df2ecba52f1105f139323e09a2",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/5rb9QrpfcKFHM1EUbSIurX"
+      }
+    },
+    {
+      "recording_id": "rec_9087b8aa76a2577fbe77e41bd1bb4a66",
+      "catalogue_artist": "Kana",
+      "catalogue_title": "Plantation",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "3mdfBcdD8C3NbJ0SUBjA5i",
+        "title": "Plantation",
+        "artists": [
+          "KANA"
+        ],
+        "duration_ms": 213133,
+        "release_date": "2003-04-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/3mdfBcdD8C3NbJ0SUBjA5i"
+      }
+    },
+    {
+      "recording_id": "rec_acef1cb25cbc5ea29d8f1dc3c466743b",
+      "catalogue_artist": "Jena Lee",
+      "catalogue_title": "Je Me Perds",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "6wrgVuGlXoGDiFcxvqd9nL",
+        "title": "Je Me Perds",
+        "artists": [
+          "Jena Lee"
+        ],
+        "duration_ms": 267146,
+        "release_date": "2009-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:31+00:00",
+        "source_url": "https://open.spotify.com/embed/track/6wrgVuGlXoGDiFcxvqd9nL"
+      }
+    },
+    {
+      "recording_id": "rec_c8c470bdb12153639fd499e6605780ce",
+      "catalogue_artist": "L5",
+      "catalogue_title": "Question De Survie",
+      "previous_reason": "provider_no_preview",
+      "fresh": {
+        "spotify_id": "5NCMxJCTeHBdbv7QWjiGi4",
+        "title": "Question De Survie",
+        "artists": [
+          "L5"
+        ],
+        "duration_ms": 192120,
+        "release_date": "2001-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": null,
+        "status": "missing_preview",
+        "checked_at": "2026-11-17T09:13:30+00:00",
+        "source_url": "https://open.spotify.com/embed/track/5NCMxJCTeHBdbv7QWjiGi4"
+      }
+    },
+    {
+      "recording_id": "rec_d07dc4a40f6f5c47ba8a0b7451653037",
+      "catalogue_artist": "Spice Girls",
+      "catalogue_title": "Say You'll Be There",
+      "previous_reason": "metadata_mismatch",
+      "fresh": {
+        "spotify_id": "1yTQ39my3MoNROlFw3RDNy",
+        "title": "Say You'll Be There - Single Mix",
+        "artists": [
+          "Spice Girls"
+        ],
+        "duration_ms": 235973,
+        "release_date": "1996-01-01T00:00:00Z",
+        "album": null,
+        "preview_url": "https://p.scdn.co/mp3-preview/3db0ccda5923ca9fdb8e540b2c64d215d2ec0994",
+        "status": "available",
+        "checked_at": "2026-11-17T09:13:29+00:00",
+        "source_url": "https://open.spotify.com/embed/track/1yTQ39my3MoNROlFw3RDNy"
+      }
+    }
+  ]
+}

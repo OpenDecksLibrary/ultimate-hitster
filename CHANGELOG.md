@@ -1,12 +1,15 @@
 # Changelog
 
-## Unreleased — v0.3.0-beta.1 candidate
+## v0.3.0-beta.1 — 2026-11-17
 
 - Discover and classify available Hitify editions; import only Original Refresh and Guilty Pleasures France in addition to the published Original France baseline.
 - Generalize online/offline generation for edition, country, family, custom and imported-global selections; deduplicate exact recording/year studies and MP3 content.
 - Preserve all published production IDs, scheduling, history and existing user deck placement; add hierarchical edition/market/decade tags.
 - Report uncertain references, missing audio and conflicting years with source provenance.
-- Prepare configurable candidate artifacts and explicit publication gating, with a Desktop/mobile manual validation procedure. No v0.3 release published.
+- Publish ten online/offline APKGs with SHA-256 sums, live MP3/build validation, exception decisions and actual published-beta upgrade evidence.
+- Recheck the twelve exact exception IDs; resolve two credit-only differences without changing IDs/years and retain ten unavailable/uncertain recordings.
+- Suspend new unavailable cards in APKGs; document the required learning-progress import option and precise current-missing search for existing collections.
+- Preserve existing scheduling/history and personal deck placement with scheduling import enabled. Full Desktop/mobile GUI and physical-card validation remain pending.
 
 ## Unreleased
 

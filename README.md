@@ -1,94 +1,96 @@
 # Ultimate Hitster
 
-Community-maintained Anki collections for music recognition and release-year recall, organized around Hitster editions worldwide.
+Community-maintained Anki collections for music recognition and release-year
+recall, organized around Hitster editions worldwide.
 
-**Status: [v0.2.0-beta.1 prerelease](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/tag/v0.2.0-beta.1). Original France: 308 cards. No stable release yet.**
-
-## Goals
-
-- Support individual editions, country collections and a deduplicated global collection.
-- Learn artist, title and game-card year from a musical cue.
-- Preserve stable note identities across updates.
-- Keep edition-specific years and track versions distinct where necessary.
-- Generate downloadable `.apkg` packages from validated, versioned source data.
-
-## Getting started
-
-The full [Original France edition](docs/ORIGINAL_FRANCE_VALIDATION.md) contains
-308 cards with checked MP3 previews and albums. The
-[production workflow](docs/PRODUCTION_WORKFLOW.md) imports the complete catalogue
-and builds online/offline alternatives with shared, stable production identities.
-See [schema v1](docs/DATA_MODEL.md) and the seven explicit version-label reviews
-before validating the full deck. The v0.3 candidate adds Original Refresh France and Guilty Pleasures France;
-see [multi-edition support](docs/MULTI_EDITION.md) and the generated
-[catalogue statistics](data/reports/catalogue.json) for coverage and open issues.
-
-Start with the [one-card native audio prototype](prototype/README.md). It generates an importable APKG with a three-second synthetic clip and tests stable updates through Anki's engine. This is a playback experiment, not a populated Hitster edition.
-
-The [reference deck inspection](docs/REFERENCE_DECKS.md), [provisional playback decision](docs/PLAYBACK_DECISION.md) and [test record](docs/PROTOTYPE_TESTING.md) distinguish verified behavior from pending Desktop and mobile playback checks.
-
-The original native prototype has a positive user-reported Anki playback test;
-mobile clients remain unvalidated. The earlier comparison is a
-[ten-song Original France comparison](prototype/COMPARISON.md): native packaged
-previews versus minimal HTML5 remote players, with optional album information
-on the answer. See [the Hitify investigation](docs/HITIFY_CATALOGUE.md) for
-source structure, recording selection and year limitations.
-
-See [the roadmap](docs/ROADMAP.md) and [data model](docs/DATA_MODEL.md). The [available-edition registry](data/registry.json) inventories Hitify without
-importing the rest of the world. Every further import requires its own source checks.
-
-## Multi-edition candidate (v0.3)
-
-Current snapshot: **175 available editions, 3 imported editions, 924 catalogue
-cards, 643 unique recordings/studies and 281 repeated occurrences shared across
-editions**. 631 recordings have decoded MP3 evidence; 12 have no enabled audio.
-There are 12 uncertain memberships (8 source conflicts, 4 provider metadata
-mismatches), including six shared recordings whose audio is validated through
-Original France. These issues are retained explicitly.
-
-The implementation preserves the published schema-v1 note identities and keeps
-the prototypes. Choose one edition, a country, a family, a custom list, or all
-imported editions with the configs under configs/. Online/offline alternatives
-share progress. Shared recordings with agreeing catalogue years produce one
-study card; conflicting years stay explicit variants and share audio media.
-
-Shared cards retain their existing Anki deck. Use hierarchical edition/country/
-language/decade tags or filtered decks for overlapping editions. See the
-[deck and update rules](docs/MULTI_EDITION.md#one-card-one-deck).
-
-[v0.3 candidate workflow artifacts](https://github.com/OpenDecksLibrary/ultimate-hitster/actions/workflows/candidate.yml)
-provide test APKGs, SHA256SUMS and validation.json after a successful run.
-Artifacts expire after seven days. **v0.3.0-beta.1 has not been published**;
-release-candidate.json is disabled for publication pending validation and PR merge.
-Actual [Desktop, AnkiDroid and AnkiMobile validation](docs/MANUAL_VALIDATION.md)
-remains pending. Source conflicts and missing previews are listed explicitly;
-validation packages never silently substitute recordings.
+**Status: [v0.3.0-beta.1 pre-release](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/tag/v0.3.0-beta.1). Three imported editions, 643 unique study cards; no stable release yet.**
 
 ## Downloads
 
-The first beta is available under [v0.2.0-beta.1](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/tag/v0.2.0-beta.1).
+| Selection | Cards / playable | Online | Offline |
+| --- | ---: | --- | --- |
+| Original France | 308 / 308 | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-france-online.apkg) | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-france-offline.apkg) |
+| Original Refresh France | 308 / 308 | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-refresh-france-online.apkg) | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-refresh-france-offline.apkg) |
+| Guilty Pleasures France | 308 / 298 | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-guilty-pleasures-france-online.apkg) | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-guilty-pleasures-france-offline.apkg) |
+| Original family | 338 / 338 | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-family-online.apkg) | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-original-family-offline.apkg) |
+| All imported editions | 643 / 633 | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-imported-catalogue-online.apkg) | [APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/ultimate-hitster-imported-catalogue-offline.apkg) |
 
-| Package | Download | Playback |
-| --- | --- | --- |
-| Online (about 234 KB) | [Online APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.2.0-beta.1/ultimate-hitster-original-france-online.apkg) | Internet required |
-| Offline (about 105 MB) | [Offline APKG](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.2.0-beta.1/ultimate-hitster-original-france-offline.apkg) | Included MP3 previews |
+Online requires Internet; offline includes the checked MP3 excerpts.
+[SHA256SUMS](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/SHA256SUMS),
+[validation.json](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/validation.json),
+[exceptions.json](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/exceptions.json) and
+[successive-imports.json](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.3.0-beta.1/successive-imports.json)
+accompany the ten APKGs. See the [English release notes](docs/releases/v0.3.0-beta.1.md).
 
-Verify downloads with [SHA256SUMS](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.2.0-beta.1/SHA256SUMS).
-Read the [release notes](docs/releases/v0.2.0-beta.1.md) for known limitations and
-[validation.json](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/download/v0.2.0-beta.1/validation.json)
-for build results. Full-edition manual playback and mobile validation remain open.
+## Import safely and keep progress
 
-**Online and offline update the same production cards.** Import into your existing
-collection without deleting its deck/notes. For an older/equal-timestamp mode file,
-choose **Update existing notes: Always** and use files from the same release.
-Production identities match the full-edition PR #3 packages; prototype progress
-remains separate. See the [update instructions](docs/releases/v0.2.0-beta.1.md#update-without-losing-progress).
+Keep your existing production notes/decks. Published schema-v1 identities are
+compatible with [v0.2.0-beta.1](https://github.com/OpenDecksLibrary/ultimate-hitster/releases/tag/v0.2.0-beta.1).
+Online/offline alternatives and overlapping editions update the same notes.
+For equal/older-timestamp alternatives, use Update existing notes: Always.
 
-Maintainers: [automated prerelease workflow](docs/RELEASING.md). APKGs and media
-are release assets and are not stored in Git.
+**Enable Import learning progress / Include scheduling** to retain suspension
+of newly imported unavailable cards. Existing card scheduling, review history
+and personal deck placement are preserved in automated Anki-engine tests.
+If that option is disabled, or exception cards were already imported from a
+candidate, open Browse after import and search:
+
+~~~text
+tag:audio::missing Playback:*unavailable*
+~~~
+
+Suspend any active results before ordinary study. A recovered player's old tag
+can persist; this combined search checks the current Playback field. See
+[unavailable audio and import options](docs/MISSING_AUDIO.md) for details and
+restored-card handling. No cards are deleted to update.
+
+The twelve original exceptions were rechecked on their unchanged Spotify IDs.
+Two credit-only differences are explicitly reviewed; ten recordings remain
+without enabled audio (six absent previews and four unresolved musical versions).
+They remain in the catalogue and packages, suspended on fresh imports that keep
+scheduling. No recording is silently substituted.
+
+## Catalogue and generation
+
+The [registry](data/registry.json) inventories 175 Hitify-listed editions with
+market, inferred market languages, family, revision, count, sources and status.
+Only Original France, Original Refresh France and Guilty Pleasures France are
+imported: 924 card occurrences, 643 recordings/studies and 281 shared repetitions.
+See [statistics](data/reports/catalogue.json) and the
+[validation snapshot](docs/MULTI_EDITION_VALIDATION.md).
+
+Generate online/offline packages for individual editions, countries, families,
+custom selections or the entire imported catalogue. Country France currently
+equals all imported editions. Shared exact recording/year facts use one card;
+distinct pinned versions and conflicting year facts stay separate. Existing
+cards stay in the user's deck. Use hierarchical edition/country/language/family/
+decade tags and filtered decks for overlapping collections.
+
+See [multi-edition rules](docs/MULTI_EDITION.md),
+[production commands](docs/PRODUCTION_WORKFLOW.md),
+[schema v1](docs/DATA_MODEL.md), [release procedure](docs/RELEASING.md),
+[roadmap](docs/ROADMAP.md) and [changelog](CHANGELOG.md).
+APKGs/media are release assets, not Git files. This publication imports no new
+editions and does not import the complete world catalogue.
+
+## Validation and prototypes
+
+Full v0.3 Anki Desktop GUI playback/import updates, AnkiDroid, AnkiMobile and
+physical-card/version listening checks are still pending. Follow the
+[manual validation procedure](docs/MANUAL_VALIDATION.md); automated MP3 decoding
+and Anki-engine tests are not manual device results.
+
+The [native one-card prototype](prototype/README.md) and
+[ten-song playback comparison](prototype/COMPARISON.md) remain unchanged, with
+separate identities. Earlier user-reported native/remote prototype successes
+do not validate full editions or mobile clients. See the
+[reference inspection](docs/REFERENCE_DECKS.md), [playback decision](docs/PLAYBACK_DECISION.md),
+[Hitify investigation](docs/HITIFY_CATALOGUE.md) and
+[prototype test record](docs/PROTOTYPE_TESTING.md).
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Use issues to propose editions, report data errors or discuss playback compatibility.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Propose editions, data corrections and
+playback issues through GitHub.
 
-Independent fan project; not affiliated with Hitster, Jumbo, Anki or any streaming service.
+Independent fan project; not affiliated with Hitster, Jumbo, Anki or streaming services.
