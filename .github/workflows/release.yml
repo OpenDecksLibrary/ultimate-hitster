@@ -33,9 +33,20 @@ jobs:
             pyproject.toml
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python -m pip install -e . -r prototype/requirements-test.txt
-      - name: Test, check all MP3s and build both complete packages
+      - name: Read explicit publication gate
+        id: plan
+        run: |
+          python - <<'PY'
+          import json, os
+          plan=json.load(open("release.json"))
+          with open(os.environ["GITHUB_OUTPUT"],"a") as output:
+              output.write("publish=" + str(plan.get("publish") is True).lower() + "\n")
+          PY
+      - name: Test, check selected MP3s and build configured packages
+        if: steps.plan.outputs.publish == 'true'
         run: python tools/prepare_release.py prepare --live
       - name: Publish assets as a prerelease
+        if: steps.plan.outputs.publish == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -49,11 +60,12 @@ jobs:
             exit 1
           fi
           gh release create "$tag" --target "$GITHUB_SHA" --title "Ultimate Hitster $tag" --notes-file "$notes" --prerelease --draft --latest=false
-          gh release upload "$tag" dist/ultimate-hitster-original-france-online.apkg dist/ultimate-hitster-original-france-offline.apkg dist/validation.json dist/SHA256SUMS
+          gh release upload "$tag" dist/*.apkg dist/validation.json dist/SHA256SUMS
           # Check uploaded bytes while still a draft, then make the complete release public.
           gh release download "$tag" --dir build/release-download
           python tools/prepare_release.py verify --directory build/release-download --expected dist
           gh release edit "$tag" --draft=false --prerelease --latest=false
       - name: Verify public downloads without authentication
+        if: steps.plan.outputs.publish == 'true'
         run: |
           python tools/verify_release_downloads.py

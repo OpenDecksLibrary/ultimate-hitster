@@ -1,0 +1,2163 @@
+{
+  "source_tag": "v0.2.0-beta.1",
+  "model_id": 1735079001,
+  "deck_id": 1735079101,
+  "memberships": [
+    {
+      "card_number": "1",
+      "membership_id": "member_9342830ce8e25d2c883f6fdff42e996b",
+      "recording_id": "rec_6476a443509c5477babac3c5c78d2680",
+      "study_id": "study_d7f4556173395c18a219cf7b2dec1f70",
+      "catalogue_year": 1976
+    },
+    {
+      "card_number": "2",
+      "membership_id": "member_1e9a79e0b3f150538649b2e805ff24d7",
+      "recording_id": "rec_43a82db64e6a5700a897f699f6d5fe1d",
+      "study_id": "study_9b3fc463660a564d9d14697ec5e7d236",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "3",
+      "membership_id": "member_8fad19129cf253cb8539d81b045acdd0",
+      "recording_id": "rec_a70b8670b14a55429102268835a99c65",
+      "study_id": "study_480e63f71db3534ca0f9111cda376631",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "4",
+      "membership_id": "member_3c5215d045f459fb9e8cb6642bd586c7",
+      "recording_id": "rec_8de9159975c750859bea485d40018374",
+      "study_id": "study_c06e048840f25deeb900378d18607761",
+      "catalogue_year": 1961
+    },
+    {
+      "card_number": "5",
+      "membership_id": "member_9455b825079d571da6f2d95df9e81ea1",
+      "recording_id": "rec_5916fc36a9fd5316b62452973399c091",
+      "study_id": "study_7df0bb23c3215ba389688c1cc17d3d9f",
+      "catalogue_year": 2015
+    },
+    {
+      "card_number": "6",
+      "membership_id": "member_52bb4054485f53fe9904bbfffcfee4cd",
+      "recording_id": "rec_14ad28a4cc505922bb6b6cdcd8f52fdd",
+      "study_id": "study_6f3939f170e85eab8c33724dc3b515bf",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "7",
+      "membership_id": "member_1daa74d80a0d5f28943dbdb94bf7ba88",
+      "recording_id": "rec_38cd89b4fd535994bc9ab3f5b64076f3",
+      "study_id": "study_e43549f5478e5b40b129cd3c6dda6169",
+      "catalogue_year": 2004
+    },
+    {
+      "card_number": "8",
+      "membership_id": "member_d68d01fddbd45eb0ac144b6801c24f4e",
+      "recording_id": "rec_59c7736baba75c0a958b43cbf56dd5f9",
+      "study_id": "study_ec81ceaec33e5cff9a9e1a0d852e05be",
+      "catalogue_year": 1993
+    },
+    {
+      "card_number": "9",
+      "membership_id": "member_2134e91344055d48ae58cf856ff9d75c",
+      "recording_id": "rec_9e6aad76e7045833b5dbbbeef2ce1f61",
+      "study_id": "study_85d52e663a495b12bd1e27a89d1b7fde",
+      "catalogue_year": 1993
+    },
+    {
+      "card_number": "10",
+      "membership_id": "member_c02f476d84d15f5c883a7e911524d5a9",
+      "recording_id": "rec_659cee3f066359a1a5612a1559cb6087",
+      "study_id": "study_a6ecc9e5c91558fe825e989ae54f0eaf",
+      "catalogue_year": 1976
+    },
+    {
+      "card_number": "11",
+      "membership_id": "member_179c44d4202c5e278115752ee12d9115",
+      "recording_id": "rec_e0bc5c4f7b965039a256237b4e82db60",
+      "study_id": "study_78ac45b796d45e47b2889ed544b3bd49",
+      "catalogue_year": 1969
+    },
+    {
+      "card_number": "12",
+      "membership_id": "member_9f66b34bf5015d899bed032ca3f87816",
+      "recording_id": "rec_898ad8c56ad956a08f63bdc9a0472f1f",
+      "study_id": "study_6487951e46e55b0eb6d8397845855c1b",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "13",
+      "membership_id": "member_8df9d2c37b3157f98141a3752e29dd3b",
+      "recording_id": "rec_ed2b5e5e1d375f959d3875687ca1382a",
+      "study_id": "study_7f74d1b2685e5a88a5694410c1b5e78e",
+      "catalogue_year": 1986
+    },
+    {
+      "card_number": "14",
+      "membership_id": "member_156dc943eb9a5aba9dd69b14bfcb217c",
+      "recording_id": "rec_34f90631cc0452b7b233e4e04b2bbee4",
+      "study_id": "study_06f28ceab93a5299a9e6adae46852f3d",
+      "catalogue_year": 1986
+    },
+    {
+      "card_number": "15",
+      "membership_id": "member_1b3d4bf1a19f51699f2b29e6ad236ea6",
+      "recording_id": "rec_6d6c465622a9510a92efa4956788cb71",
+      "study_id": "study_b75d50b243875e54b4a21c98f946e4b5",
+      "catalogue_year": 1994
+    },
+    {
+      "card_number": "16",
+      "membership_id": "member_4f90335a21615f10ae19062bb19f7583",
+      "recording_id": "rec_66a8abf10ce155d4ba4379ef7fd34d5b",
+      "study_id": "study_b41c9440021454318c6ac198ba9076eb",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "17",
+      "membership_id": "member_0168e65538ba59fe9838d04e4d5a5559",
+      "recording_id": "rec_642db2f835245745b4e608fe3803e46b",
+      "study_id": "study_4aaeeea92cc15c5c93ba7e6eb32ca3bd",
+      "catalogue_year": 1984
+    },
+    {
+      "card_number": "18",
+      "membership_id": "member_46180b3167e654ccb92b80f282c91583",
+      "recording_id": "rec_d575d59041735ee9a275b200f18c14bb",
+      "study_id": "study_dae7da909c0b5809a24ac398cb899893",
+      "catalogue_year": 1990
+    },
+    {
+      "card_number": "19",
+      "membership_id": "member_0fd18eb13035509ba795bee50055b603",
+      "recording_id": "rec_1eeb30e087875630b4513f45329c03a5",
+      "study_id": "study_96c2d652ad355c08ab99d082d7e6ac78",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "20",
+      "membership_id": "member_bc74daee314051afbb134fc24a972e55",
+      "recording_id": "rec_854ab6837b5952a0ae5e34a3bd1359cd",
+      "study_id": "study_5c585c590ade56c58919c59609e7be54",
+      "catalogue_year": 1960
+    },
+    {
+      "card_number": "21",
+      "membership_id": "member_8b860d1110f65ef98769690726a2392c",
+      "recording_id": "rec_a5583c72003e59f1b3793b36e2c79eb0",
+      "study_id": "study_08f82d0ed49553ea904ab08155f456a0",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "22",
+      "membership_id": "member_67428cfa2b1a5bd08dea4b3925e28fe2",
+      "recording_id": "rec_e14a649ddbed50febd0b42fbe2027864",
+      "study_id": "study_92fa67c709be53afbf9738e90d7aa27e",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "23",
+      "membership_id": "member_30de712d579c50e4ba3c4bb96783051b",
+      "recording_id": "rec_f877c05e781e5a678eaa801f0b592c10",
+      "study_id": "study_60ce561ed1815c368cb9c59e61d24770",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "24",
+      "membership_id": "member_a934f19cd4a2571bac51cdcdf25698ab",
+      "recording_id": "rec_8be53fc2b9b35b8796d07fd76f98e904",
+      "study_id": "study_8f4fe6ab94bd5f9898306e4fd7fcd6c1",
+      "catalogue_year": 2012
+    },
+    {
+      "card_number": "25",
+      "membership_id": "member_ff7a4d6ea9735e988147b9729b4ae03c",
+      "recording_id": "rec_8df80e19d4145a37b3c5ba60bf43c0a2",
+      "study_id": "study_ee32a92c1c8a5cbd859f91e8e142eb0c",
+      "catalogue_year": 1996
+    },
+    {
+      "card_number": "26",
+      "membership_id": "member_2691a583f49d50a1996cc55bcda9abe6",
+      "recording_id": "rec_6a3b1a7d6e775be398fbb562b7171425",
+      "study_id": "study_078d8cf0a9a558c4a9d716810458d336",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "27",
+      "membership_id": "member_098da924d9eb5013ac70ba3b31bf119f",
+      "recording_id": "rec_3d75f8cfe7bb5cb6ad42590fa3fd270e",
+      "study_id": "study_1516f56755755c5e9383a3fc0308b0c5",
+      "catalogue_year": 2016
+    },
+    {
+      "card_number": "28",
+      "membership_id": "member_793181061491536c9ff4cf4400074966",
+      "recording_id": "rec_533f3992447c53e3a354c5a5c6ff06e5",
+      "study_id": "study_b9d03fd3ddd2541a82ff9051cfd3d637",
+      "catalogue_year": 1983
+    },
+    {
+      "card_number": "29",
+      "membership_id": "member_cb70038ab173521a8bc10c70e6b020ed",
+      "recording_id": "rec_cc1fcb388f8c588190721d6b3c27c420",
+      "study_id": "study_2e1fc2de4ee051d6b6240ecdc0b8a082",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "30",
+      "membership_id": "member_4951816b214b568f92766536f4e1e8ff",
+      "recording_id": "rec_bf213ac4e2905253b4546b1bf0e6b8d6",
+      "study_id": "study_bb9b82ab654154c280d52c21940082d2",
+      "catalogue_year": 1976
+    },
+    {
+      "card_number": "31",
+      "membership_id": "member_f14b0dd843a35134b823e5dca789ed76",
+      "recording_id": "rec_897f4b64a8935d20833889b7f9792503",
+      "study_id": "study_2a8e7a894b4a588a82837a2a3902bf1c",
+      "catalogue_year": 2009
+    },
+    {
+      "card_number": "32",
+      "membership_id": "member_ace2b570c31c57bcb6d97b4e69781c5b",
+      "recording_id": "rec_dd84fb55bd0555d6a8017fb233903112",
+      "study_id": "study_d6ea7a0afce35b45836dab69053fd2b6",
+      "catalogue_year": 1966
+    },
+    {
+      "card_number": "33",
+      "membership_id": "member_2c96aa8ff41a5511911cebcbff44153f",
+      "recording_id": "rec_120bac9c739950558f0d8ed3b970b57e",
+      "study_id": "study_61bc16e96a8f567aaaf61c0cc20d10e7",
+      "catalogue_year": 1981
+    },
+    {
+      "card_number": "34",
+      "membership_id": "member_53638a6d31dd51c192f90d7c70a8b9ad",
+      "recording_id": "rec_ae791355ee655eabbd1ba628aac8512a",
+      "study_id": "study_c38a7f4e8541586398f9c2f4eecef9af",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "35",
+      "membership_id": "member_132cdaab81dc5bfe91532e7f2b815ab0",
+      "recording_id": "rec_e0d543c6377a545aadbad9bdbfbc251f",
+      "study_id": "study_3f7873f852a454cd9cde1b2d221d2c94",
+      "catalogue_year": 1972
+    },
+    {
+      "card_number": "36",
+      "membership_id": "member_b5d50cfc49835c43ad314e2286c85a89",
+      "recording_id": "rec_dacdad413b3c5813abd40758d012d129",
+      "study_id": "study_783edebfeb8d5b49804967e4c9a655d9",
+      "catalogue_year": 1981
+    },
+    {
+      "card_number": "37",
+      "membership_id": "member_bb034de3047c5abeb9b1223d63b533dd",
+      "recording_id": "rec_096c65d0366d5d26b159a3bc0466a80f",
+      "study_id": "study_4c350722e7ec52d7893c89a5cdd9a44a",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "38",
+      "membership_id": "member_ef406fe02d325c83afe04cca51f8391e",
+      "recording_id": "rec_c554fa2bfea754e4a930b4b9bc5f1c0f",
+      "study_id": "study_2454b92043c055309b188d25f569aa07",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "39",
+      "membership_id": "member_97081a8a746c52f68b3237843495c702",
+      "recording_id": "rec_8a730456eb8b571480864cd0483e0acd",
+      "study_id": "study_aab4458f1f1655429ee517230e3be441",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "40",
+      "membership_id": "member_844f8ecc6d685ec4a53d7a05792a30c8",
+      "recording_id": "rec_d78eef04e39958b0badf1f6d5b8a6b69",
+      "study_id": "study_8e5830d6973353428d9fc6f48e2f470d",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "41",
+      "membership_id": "member_21f03c6606d25a45b61ea0500a8dea1a",
+      "recording_id": "rec_b5866374e0625042b930534fc37c0d2a",
+      "study_id": "study_2652e79600995a109c4c5276e55e0d41",
+      "catalogue_year": 1994
+    },
+    {
+      "card_number": "42",
+      "membership_id": "member_6f0baaa31d97555387db54ba04798b6c",
+      "recording_id": "rec_90e39540fadd5c5a99e77822bd188cb4",
+      "study_id": "study_00d574246ab952fdb28aa27134f32c2b",
+      "catalogue_year": 1990
+    },
+    {
+      "card_number": "43",
+      "membership_id": "member_6249db87aa3c54e8b0c6ac637c423317",
+      "recording_id": "rec_08c1c02896dc5688a183dc1a762d5735",
+      "study_id": "study_d36f2157e44859c5a9ee977431820bb2",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "44",
+      "membership_id": "member_7aef1987ddc952318c784424d2240b87",
+      "recording_id": "rec_7bf6179a1010592b9b3ec145981f324d",
+      "study_id": "study_b3e416e8b6055435b7609079b2a3ec9e",
+      "catalogue_year": 1999
+    },
+    {
+      "card_number": "45",
+      "membership_id": "member_1142d9d4502c56068dfdf74502756d36",
+      "recording_id": "rec_307129175600527f83fa828ff2431ee9",
+      "study_id": "study_bb768c19ba765b8191ef0fdb96b8db64",
+      "catalogue_year": 1966
+    },
+    {
+      "card_number": "46",
+      "membership_id": "member_93bad4cdad915c3b92dd12d1c0324802",
+      "recording_id": "rec_7af241a6d8d656fdb8d785b9d2417716",
+      "study_id": "study_bb111284fbec569a8da786bc38c6c487",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "47",
+      "membership_id": "member_fda479314559536c906ea2b358ac5039",
+      "recording_id": "rec_e402d015b7765c65be934da91d2c956d",
+      "study_id": "study_4a21f9a3516b5705adeefb2c1bc2a257",
+      "catalogue_year": 1973
+    },
+    {
+      "card_number": "48",
+      "membership_id": "member_d93ff510d0b65fd887ce9e3fa169e342",
+      "recording_id": "rec_cf6770f4665b5630b38e8a288303fbe4",
+      "study_id": "study_a24db560d9ca50ab9fd8f5bef9160c19",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "49",
+      "membership_id": "member_6a62e506bf985c4886cf0eaea28e1261",
+      "recording_id": "rec_86e77ef720275c038c900b861267f00d",
+      "study_id": "study_36c2a6d9f2015461ba8a04b7125f4262",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "50",
+      "membership_id": "member_edad6bbbecfd57998a8ed9da198d8d40",
+      "recording_id": "rec_857ee313c329544293a3ff050d015276",
+      "study_id": "study_8a30cfb0c8a85a6098420414a37f54b4",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "51",
+      "membership_id": "member_feed703df68654e98f2860fc311f9f53",
+      "recording_id": "rec_522b16bbaf5950708d3c3a5fe01ac4f6",
+      "study_id": "study_553d000ce42c5cd8b10db65a0d869b6d",
+      "catalogue_year": 1929
+    },
+    {
+      "card_number": "52",
+      "membership_id": "member_f61f0adca3be57339e447e88401874de",
+      "recording_id": "rec_2b84bbf75cec5069a9de8c36e50af19d",
+      "study_id": "study_3c64c637cee658a9abf628cb794847db",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "53",
+      "membership_id": "member_0e2fb7f543fb5130af6e2a47a27e6053",
+      "recording_id": "rec_d42c5cd8d5f852bfa68bad47b7b205c6",
+      "study_id": "study_36707d0aa0fb5893bacc5f4fa2e632e1",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "54",
+      "membership_id": "member_060e2787f6db5553a9fba71a0d060aaa",
+      "recording_id": "rec_a171f05bff335d5b8ec08fe1fdce3ab7",
+      "study_id": "study_9196614b4c32590288e01cb2d1771a0c",
+      "catalogue_year": 1978
+    },
+    {
+      "card_number": "55",
+      "membership_id": "member_7b17ef415bbc5a63bddd2ce9df0dfceb",
+      "recording_id": "rec_364f2210dbde5674be67a675d31c262f",
+      "study_id": "study_bb6d15822acc5d9da132b344fc6fc35c",
+      "catalogue_year": 1968
+    },
+    {
+      "card_number": "56",
+      "membership_id": "member_e1c3baf3604d5e35a2d30e1951fa89b1",
+      "recording_id": "rec_0409fe448caf5ebcb4a46f2ce772b847",
+      "study_id": "study_282812d3fd335ea5ad66f9b77272d192",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "57",
+      "membership_id": "member_59b8c4b959be5865bcb09e1377fe21c6",
+      "recording_id": "rec_01f3b779bf025c77a47b4632c28f6f9d",
+      "study_id": "study_6ae28513e0325ae5a6fc1fbaa7ca9307",
+      "catalogue_year": 1996
+    },
+    {
+      "card_number": "58",
+      "membership_id": "member_e5543d902e595b2f9a95f69ecb3ec183",
+      "recording_id": "rec_0d3cf1eb9ea85d898a3751bdb547a0da",
+      "study_id": "study_f471f50b1d5251be8e2dfd91c4e1b7bc",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "59",
+      "membership_id": "member_6ed3c153767b58de97a7da7bc77f5d57",
+      "recording_id": "rec_4d388c8ecc2d50d6802c4c62ac19d2dd",
+      "study_id": "study_af208bbc5a265a49b76a249a79ff13cd",
+      "catalogue_year": 1999
+    },
+    {
+      "card_number": "60",
+      "membership_id": "member_f510c2efcb3f551fb1c9469ad4ffd4dc",
+      "recording_id": "rec_eeee53e5fdb3544da2be967f926456de",
+      "study_id": "study_d31517d40a915519bf5632ba3dddc6a0",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "61",
+      "membership_id": "member_0804dee8a44351f7b568ba880c47bd54",
+      "recording_id": "rec_e68653e92a785510bef849bfefa1f526",
+      "study_id": "study_e98967a647655b529ad6fcb8591d5e54",
+      "catalogue_year": 1971
+    },
+    {
+      "card_number": "62",
+      "membership_id": "member_463333d3468c5822a9598da3b6edfa04",
+      "recording_id": "rec_c6900b55654859c88daee7d85adca605",
+      "study_id": "study_0a3ba64af82c5b9fb0a510a797f95a8f",
+      "catalogue_year": 1966
+    },
+    {
+      "card_number": "63",
+      "membership_id": "member_7ef59493d18250528784662996980d5a",
+      "recording_id": "rec_601925444e685467ae93aed1c4bd5300",
+      "study_id": "study_103aead6fed1548989ffa4ab820ac929",
+      "catalogue_year": 1979
+    },
+    {
+      "card_number": "64",
+      "membership_id": "member_cc238b529f3e5c8ba659940463f9a31c",
+      "recording_id": "rec_c5471057517b581f944404d7e9bb20a8",
+      "study_id": "study_1d86e731e98d5cdb98dd85c4cf9639b4",
+      "catalogue_year": 1979
+    },
+    {
+      "card_number": "65",
+      "membership_id": "member_8add7846214e5a45be4549731d6272c9",
+      "recording_id": "rec_d9b95cd91efd5743912d181a9d112b40",
+      "study_id": "study_23df76ce9f0853e79c4707a868596ac3",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "66",
+      "membership_id": "member_d7760d6d795951688509efa290cb272c",
+      "recording_id": "rec_304a35a8e2c85fbbabefe975a8535aef",
+      "study_id": "study_9934636ad2615ce5be928cd302948767",
+      "catalogue_year": 2010
+    },
+    {
+      "card_number": "67",
+      "membership_id": "member_b8884d7a64565a619a45871c3006d6ee",
+      "recording_id": "rec_08b5769e1a65592da132d3bad6f85f9d",
+      "study_id": "study_dbea25264292589290c92cce1fadea42",
+      "catalogue_year": 2000
+    },
+    {
+      "card_number": "68",
+      "membership_id": "member_919c901ec3bd5be681842163531c8b67",
+      "recording_id": "rec_44be1ba14695540b84687ccfd44ff25f",
+      "study_id": "study_bbf8306bf658550b98b1b598fa6cb7d7",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "69",
+      "membership_id": "member_428b2d3ddf8e54bf960d6b17a0a8993e",
+      "recording_id": "rec_54a2274d555459bca1ca77c5a413a2e1",
+      "study_id": "study_c4a2bce09739521a84568280ddcb1240",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "70",
+      "membership_id": "member_82d5725f45e8560889c47ff7e0a7f468",
+      "recording_id": "rec_765049332f28587b8f4f4a23463f7664",
+      "study_id": "study_265a9d849fc45668a895411ee84c187c",
+      "catalogue_year": 1981
+    },
+    {
+      "card_number": "71",
+      "membership_id": "member_400b6bd36eeb5789a58f50d52f07087a",
+      "recording_id": "rec_2b5af79021115e1e89f5d1ab670f3a82",
+      "study_id": "study_b682a8f3761057198a494a88f5944527",
+      "catalogue_year": 2010
+    },
+    {
+      "card_number": "72",
+      "membership_id": "member_3629cd78bf415cd1a720f7416739c89c",
+      "recording_id": "rec_58e08cf342e75fcabdb14e83c7c5f497",
+      "study_id": "study_e86cbe8331165f8488d1be96bfcc3d8f",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "73",
+      "membership_id": "member_8a3cc80db013508ead4ace09736ac4ed",
+      "recording_id": "rec_7dbdab1754fd57b99e7af9bd607c1a04",
+      "study_id": "study_2ce1fc03fb6d5479b09c4c7827468a45",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "74",
+      "membership_id": "member_e138e20747f756d4a37dd501f52f9610",
+      "recording_id": "rec_0bd8116f4e42598880490cacf5aaecda",
+      "study_id": "study_60ceff8b65b553898a3347505da81a06",
+      "catalogue_year": 1958
+    },
+    {
+      "card_number": "75",
+      "membership_id": "member_993d2d7fe14b535e87697c3e52bd3bb4",
+      "recording_id": "rec_a997a9fef0955fb5bbc1ac3a8cfe2767",
+      "study_id": "study_9b7003ba926a550a8890527b90dcb461",
+      "catalogue_year": 1984
+    },
+    {
+      "card_number": "76",
+      "membership_id": "member_632ed9edf46b54e28f3112ba392809a2",
+      "recording_id": "rec_fd040c39713458e4a5a3a32b3f3a7167",
+      "study_id": "study_7bbd4a2917db529da6657917e06e7b4d",
+      "catalogue_year": 1908
+    },
+    {
+      "card_number": "77",
+      "membership_id": "member_939a7cac781b5f58afa316ea60b9bbaf",
+      "recording_id": "rec_a5c5d9ecad0f5762b33d4b14b4c30e9a",
+      "study_id": "study_dff2e8ea1b6b54eeb422255dcccb1c7a",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "78",
+      "membership_id": "member_281cd7a1bc185cfebc25edb3f86cc380",
+      "recording_id": "rec_934ad3004ecb57a2b9179dd59b9f9453",
+      "study_id": "study_99690c71f8695914b16ea2f1e9f37ca0",
+      "catalogue_year": 1993
+    },
+    {
+      "card_number": "79",
+      "membership_id": "member_409e55fb0a925d92aa8a5b8126b6fefd",
+      "recording_id": "rec_0c81cd9002b65061b469475d70477821",
+      "study_id": "study_77de298e609b5cb4ba27f57bf7679de1",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "80",
+      "membership_id": "member_bb36a14f96c85ea89034b2cc59b12d60",
+      "recording_id": "rec_751f1ca73dd957ea9b00f5137017694c",
+      "study_id": "study_6ce866b1b2665c6abbf6e96cba3606f1",
+      "catalogue_year": 1981
+    },
+    {
+      "card_number": "81",
+      "membership_id": "member_9f835a72da715623bb238f82975bc3c7",
+      "recording_id": "rec_d809b5a161015096bba2bad5bdc6bfe0",
+      "study_id": "study_702c828f90a65c34a3f973e7772e61bc",
+      "catalogue_year": 1971
+    },
+    {
+      "card_number": "82",
+      "membership_id": "member_5f0395ce81e35cae9bdfefd5c88dcb80",
+      "recording_id": "rec_8b3707a32d6b561a8ab2e5396c2d8167",
+      "study_id": "study_af836102d3eb580abfbf1747c6b288f6",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "83",
+      "membership_id": "member_e06627e542ab5363beec4b0eb30e76e1",
+      "recording_id": "rec_f5cbd820690a5b34b7f9bb0c0866e1f7",
+      "study_id": "study_610cdc6fec3d55fb8c231e05a73d2844",
+      "catalogue_year": 1939
+    },
+    {
+      "card_number": "84",
+      "membership_id": "member_671a7cb3763c5ff0977d51eb1961c49b",
+      "recording_id": "rec_9888516d7ff954729110ded5c83e7bae",
+      "study_id": "study_d5dda7382bb7559cb30dabe2e85502d1",
+      "catalogue_year": 1986
+    },
+    {
+      "card_number": "85",
+      "membership_id": "member_6617f3258f3858239335f00b9d6629fe",
+      "recording_id": "rec_2d25309a19ce5560acf8dcc2aa5c79f6",
+      "study_id": "study_c10fd4fbcd1c54859505519b741289bd",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "86",
+      "membership_id": "member_d1f6d81b4603504d98325c86d86c3b3b",
+      "recording_id": "rec_0dca58981b035022ba65a6a587e76507",
+      "study_id": "study_a824e973673e58f6b1c43101881fb345",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "87",
+      "membership_id": "member_213899e04d9d5104807fb736654e941e",
+      "recording_id": "rec_b7f24a2798e75773b3f1095a227dcbbf",
+      "study_id": "study_88d065e7fc6859ccaf72f651460a6bda",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "88",
+      "membership_id": "member_b1d344a1f529501bafc1b876bf7594cf",
+      "recording_id": "rec_254b1f0510575d4aa39ffb176aa84228",
+      "study_id": "study_2564d56826615bab865927603dd5a335",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "89",
+      "membership_id": "member_eb4b1a86f8ce51c29d89149a597f4fb7",
+      "recording_id": "rec_7f3bda27c2ab5492b633958eff604a13",
+      "study_id": "study_cd1a10b127245ca3b2519d5be05a6942",
+      "catalogue_year": 1995
+    },
+    {
+      "card_number": "90",
+      "membership_id": "member_c72c4d5963475650b2a5897cb6aa5241",
+      "recording_id": "rec_8bdbd80eca4151d3aa406bd65bb2db04",
+      "study_id": "study_898b314ef2bf5afe8a8d9a04577b057e",
+      "catalogue_year": 1953
+    },
+    {
+      "card_number": "91",
+      "membership_id": "member_2fdfecb144f85a13b20124f618d48d97",
+      "recording_id": "rec_c03b8e4b800a5caab5fdf020cfe2abb4",
+      "study_id": "study_667f33d180a35fc5a959a693e0d82502",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "92",
+      "membership_id": "member_6853fabe7a1e5cb3ad54e4f95bf352c6",
+      "recording_id": "rec_d1a369b9d43954b1baefb76c5133ce0b",
+      "study_id": "study_aff2d22ff1f859fb9ba7dadaee906967",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "93",
+      "membership_id": "member_4c2b4a3e1dae5f98bf400c23f665bc77",
+      "recording_id": "rec_88bfd018392259e89717e5a21aaa3c3a",
+      "study_id": "study_40613f8e8a1a5b24a0379c793b424b0a",
+      "catalogue_year": 1990
+    },
+    {
+      "card_number": "94",
+      "membership_id": "member_9298cf3c74f058c5a19e7fe10d59946e",
+      "recording_id": "rec_909c72a76c7d5c46a0a129abea9cf459",
+      "study_id": "study_b21f148ee64a560f9438bcc5148676d3",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "95",
+      "membership_id": "member_0bf4efee51b950d2a85291b35e5c1425",
+      "recording_id": "rec_7167b7fb4f895274abde65791c6e23bd",
+      "study_id": "study_53a63edeceff57d39eeca83de898d0da",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "96",
+      "membership_id": "member_9ccdad93b1705b7dbee0fff699203025",
+      "recording_id": "rec_98485746a4f4550b855c40f9e3846cdf",
+      "study_id": "study_cd5e97b386a45545921fd458295e408e",
+      "catalogue_year": 2000
+    },
+    {
+      "card_number": "97",
+      "membership_id": "member_276b23e9de2d593d9cf1723da4ef962e",
+      "recording_id": "rec_f05ef77e5a415d57948756b1caef59f4",
+      "study_id": "study_19b36772967c5786ad64f7e85a229286",
+      "catalogue_year": 1995
+    },
+    {
+      "card_number": "98",
+      "membership_id": "member_6b2d126a9cd95536b90a540e88f47d67",
+      "recording_id": "rec_563c3a2340aa5a3382c9f966344f54be",
+      "study_id": "study_e4b31f5a128f593d8a8d808517d7005f",
+      "catalogue_year": 2015
+    },
+    {
+      "card_number": "99",
+      "membership_id": "member_d3c728fcb6d95dde8e23052bda96eb5d",
+      "recording_id": "rec_8478b06e34015eed8edbd89490a5b00d",
+      "study_id": "study_31f0ef95369a58c4ae8be7151f746d23",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "100",
+      "membership_id": "member_0a9e4c0feabc5794a7c8b87f27676d38",
+      "recording_id": "rec_d7cdd8c2a26453398e5d3bfe241ee59c",
+      "study_id": "study_60aa3c89c18d5612a740c92b553819f5",
+      "catalogue_year": 1968
+    },
+    {
+      "card_number": "101",
+      "membership_id": "member_3137671e19dd5855a8297eb85d0b089f",
+      "recording_id": "rec_0c745b40c4695eb7b8b8134998cee6bc",
+      "study_id": "study_a4b1bfe04d44592b81df4e78953b0af9",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "102",
+      "membership_id": "member_1ca94dd31bac5807a4dc365b1f16c0d1",
+      "recording_id": "rec_b223a4e1132c5b989da50d1ca848cb47",
+      "study_id": "study_9533f4c9a28e5b19ac2922c401827028",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "103",
+      "membership_id": "member_6e67848345bf5487bf539d8f02dd55b5",
+      "recording_id": "rec_7eba956bda795fde8d5969afe36bc11a",
+      "study_id": "study_2411b3f1be41508b8272a5ea3161d088",
+      "catalogue_year": 2004
+    },
+    {
+      "card_number": "104",
+      "membership_id": "member_5d3f107ade135d499389be46b6592476",
+      "recording_id": "rec_96a7594e690f5f579f280911cae7f521",
+      "study_id": "study_2a2ccbd279d65cca88b51110681d821e",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "105",
+      "membership_id": "member_f0cd777c9d3b516493a9fa2cd46987de",
+      "recording_id": "rec_924fd73b340652e09da648bf3a9a7b80",
+      "study_id": "study_26eea1aabea754f0a62b2e441125577b",
+      "catalogue_year": 1957
+    },
+    {
+      "card_number": "106",
+      "membership_id": "member_4c6cf6fad02d5591bdd024312f940b1b",
+      "recording_id": "rec_402c4f84c52a54948b8fd78a9d02d5e0",
+      "study_id": "study_3ea86ff98f545c10ad9e52747ed6ad3b",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "107",
+      "membership_id": "member_fe33ba77fe1e595092411113b608d8a4",
+      "recording_id": "rec_43f99c15b3a05a2eb5e1972b01178535",
+      "study_id": "study_3fee0265117859bba5ac22065428629c",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "108",
+      "membership_id": "member_516b5e6f4f0d5783a2408ae81b878d94",
+      "recording_id": "rec_fbc82e7d66dc500196285a3bc9f8308c",
+      "study_id": "study_a9d096e3d06a543ebccbc8db4750a03a",
+      "catalogue_year": 1978
+    },
+    {
+      "card_number": "109",
+      "membership_id": "member_8884b7d4e8465de190c9b0e83788d4b6",
+      "recording_id": "rec_01a888f181af5e61ae13627a33e71713",
+      "study_id": "study_ae78bb13bdd751fdaf522dc664c893eb",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "110",
+      "membership_id": "member_e0f8197a72e45469a593437c6ea5ef52",
+      "recording_id": "rec_8dea3b0c2d0658c381641d50680a70ea",
+      "study_id": "study_3cc4a9e2f455599fbf058b540a101614",
+      "catalogue_year": 1958
+    },
+    {
+      "card_number": "111",
+      "membership_id": "member_4ecb991c196d528b862d9dcbff168f7f",
+      "recording_id": "rec_835619efa8675bb4bd7ceceb6870bb90",
+      "study_id": "study_d4281b3eaaa85c6d95b9edecd7fda98a",
+      "catalogue_year": 1964
+    },
+    {
+      "card_number": "112",
+      "membership_id": "member_dab63fa650bb59da85da7b4b22bae74d",
+      "recording_id": "rec_f8d84b60501c5ccca615f32e767efd20",
+      "study_id": "study_6ec4944d1b265f569cec2b2655aca71f",
+      "catalogue_year": 2020
+    },
+    {
+      "card_number": "113",
+      "membership_id": "member_408d8d68c253528e939cb72e13354ba5",
+      "recording_id": "rec_4ddaeab4219756af83d1230d84d4b7c7",
+      "study_id": "study_f9fde5e727455f90bb86843b285b4ab8",
+      "catalogue_year": 2016
+    },
+    {
+      "card_number": "114",
+      "membership_id": "member_526249490efa55adadb6c551b94d0632",
+      "recording_id": "rec_6535593ec371576ab8798f2f5353b5cd",
+      "study_id": "study_49618e1139445a1f87c7a3d21680934e",
+      "catalogue_year": 1958
+    },
+    {
+      "card_number": "115",
+      "membership_id": "member_5543c1cd29ec526a8c05c2efc00f1d20",
+      "recording_id": "rec_be2c1ebd27ee532583b2e891507594c8",
+      "study_id": "study_b5e43b125c81588786b83a268aa1b840",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "116",
+      "membership_id": "member_1fbc84beb77b55bc910de18fb1aa7402",
+      "recording_id": "rec_87f8c865a6425100a9332b3b0d058234",
+      "study_id": "study_25e60a7515c95b2da3ad8b5b9dc78c83",
+      "catalogue_year": 1960
+    },
+    {
+      "card_number": "117",
+      "membership_id": "member_515a857278e1585b8391fff446b33259",
+      "recording_id": "rec_4b557f538f92500ba136ab8e9f44d1b5",
+      "study_id": "study_b9e3f73fb9e25958b3b7c3f431df7755",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "118",
+      "membership_id": "member_d0679b7c62f45359b5b1d02d7a640a4f",
+      "recording_id": "rec_7c8176150745533096c452f2319387ed",
+      "study_id": "study_9009ada12d5051e58bd5d9adb36f1da2",
+      "catalogue_year": 2010
+    },
+    {
+      "card_number": "119",
+      "membership_id": "member_fb3ccfc3bc295731a0e3947372fbc42c",
+      "recording_id": "rec_26ea47ede89f5bb697ad551fa768fea6",
+      "study_id": "study_5d10f59a07835944be8837b54069f856",
+      "catalogue_year": 1969
+    },
+    {
+      "card_number": "120",
+      "membership_id": "member_d3b65dbeb2115613a2dab78ee24ff444",
+      "recording_id": "rec_898145f6cfa8547c9b91e8ee0249f5d3",
+      "study_id": "study_f5c900b97c1c5ee9849fbff55dc41e54",
+      "catalogue_year": 1965
+    },
+    {
+      "card_number": "121",
+      "membership_id": "member_d0e43dd1dfff5a4bb7deefbc80bfecbd",
+      "recording_id": "rec_5e665325ca985e7b93ee89143e7d906c",
+      "study_id": "study_674fe467bc1b574aa6b803ff253e29ce",
+      "catalogue_year": 2015
+    },
+    {
+      "card_number": "122",
+      "membership_id": "member_16bcb5067bc853ea8dc776a6774c0e97",
+      "recording_id": "rec_6fd87bc5930a535e83cea262f3176cfa",
+      "study_id": "study_efcbea72a0165812886e5c29046c4850",
+      "catalogue_year": 2009
+    },
+    {
+      "card_number": "123",
+      "membership_id": "member_c451813074d9531f89de0ac011fd1896",
+      "recording_id": "rec_fb75da6275985584b7f4f0188e95914c",
+      "study_id": "study_e9a6d07a51725c94bc10724da2f4617f",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "124",
+      "membership_id": "member_7488ae8645bf56ad81df515001e83e2e",
+      "recording_id": "rec_0cc7fe48e2555f378cdec9e8ac06ae14",
+      "study_id": "study_b04a8ab2cb885ac09a7197e0fbd90c25",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "125",
+      "membership_id": "member_a4ee19f2a4a7523fb7aa514236210eba",
+      "recording_id": "rec_60188e6e76a25fcea9ef927a083da0a4",
+      "study_id": "study_5a03acf079335a9482bea53cab8b749e",
+      "catalogue_year": 1961
+    },
+    {
+      "card_number": "126",
+      "membership_id": "member_e55fce4cab2f5e6d8947f1bf281d2d8e",
+      "recording_id": "rec_04b7f49f00d75ad0a6315536758d1a0d",
+      "study_id": "study_4f43c4a032c758ba8c768023c190afbe",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "127",
+      "membership_id": "member_371691c4cea1567b90a1e183c93dcf2c",
+      "recording_id": "rec_0763628e9af5586b97ff027363147779",
+      "study_id": "study_00805f39b8245206bc878253b158cc3b",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "128",
+      "membership_id": "member_73f8586fbe13593dafdeac408dfca998",
+      "recording_id": "rec_cd5b123825945ce0be067a758064ae65",
+      "study_id": "study_9dd0d97dbab750468179f4e36783e25a",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "129",
+      "membership_id": "member_e2475e315ec65938a06e40c6d37821c4",
+      "recording_id": "rec_091e88d3568f5019bfcd8f7ef6125279",
+      "study_id": "study_c3fbf2883b49506f9fff684a932bfff5",
+      "catalogue_year": 2001
+    },
+    {
+      "card_number": "130",
+      "membership_id": "member_a8388e04b6dd580b964222cccb5402ff",
+      "recording_id": "rec_608ef892baaf59c5b5da39b4c80875eb",
+      "study_id": "study_1385942a53755fbaa5b6617b7cefd753",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "131",
+      "membership_id": "member_92903c93447a5091abe6309b20d1ea93",
+      "recording_id": "rec_47876bb9d64c51a5a673ba43c762d324",
+      "study_id": "study_c0fcb846a1755c51b3918b5838740edc",
+      "catalogue_year": 1984
+    },
+    {
+      "card_number": "132",
+      "membership_id": "member_400d75f63b6c5ceca6440964e84d918e",
+      "recording_id": "rec_27d43ab6102e59ebb5dc52a203e58ca5",
+      "study_id": "study_5664a7ea5dbd56bda57f83f9930fbcee",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "133",
+      "membership_id": "member_03f99cd64d7755b8af24ffe6cba6d43c",
+      "recording_id": "rec_e53f0d4701b45d049b814efd49f63de8",
+      "study_id": "study_e99b38f271d7546689b480bc993bc759",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "134",
+      "membership_id": "member_ee27722bff62519aac65494b260f48f4",
+      "recording_id": "rec_5f88f86c82325ae88a39ae348162ee0b",
+      "study_id": "study_c1a155f285dc51258a1eb689344f9e21",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "135",
+      "membership_id": "member_35462a17ff585650bbc1f272f9dcf0a9",
+      "recording_id": "rec_f6bb9e01bb525f7e970dcaeeb1ddf3c9",
+      "study_id": "study_f7b843056b5756d8a41d0ac2bd1d675e",
+      "catalogue_year": 1993
+    },
+    {
+      "card_number": "136",
+      "membership_id": "member_15b1c4750bf457348dd30a3b9dd4dc4a",
+      "recording_id": "rec_7ab48cb9827e50d5b84b6aec45b0bf23",
+      "study_id": "study_dbaa20195b3d59aea0b157d8b0771b69",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "137",
+      "membership_id": "member_18115647a9c75f42b12790965b8b6f7b",
+      "recording_id": "rec_377b2c6f16b55f26ae6153f7a1811c12",
+      "study_id": "study_f41c91a4de6e5facbf3e8c79e15aa747",
+      "catalogue_year": 1983
+    },
+    {
+      "card_number": "138",
+      "membership_id": "member_ae671422256c57f78f4cf9a2ed9f9489",
+      "recording_id": "rec_67870d5211125f03972e8d457ad9029e",
+      "study_id": "study_ebc0b2c73c23550abb04d26f1210f637",
+      "catalogue_year": 2020
+    },
+    {
+      "card_number": "139",
+      "membership_id": "member_49f62b094f7d57528eecbed977ace719",
+      "recording_id": "rec_c085359224955387b15b3c3d59b1c102",
+      "study_id": "study_5388c11134815b1ebbf74b44e8922212",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "140",
+      "membership_id": "member_12b259de2e9e514086703f4971816782",
+      "recording_id": "rec_f364b9e94d725afb98cd60960b4663fa",
+      "study_id": "study_86765da341ed5a449f000ed93d5fe077",
+      "catalogue_year": 1985
+    },
+    {
+      "card_number": "141",
+      "membership_id": "member_207087cc8ea851b1b1978d2869b1d694",
+      "recording_id": "rec_cb43e8ce2e8a5f239faf3bca9cbd0c2d",
+      "study_id": "study_352489d7dc3655749b63cc148724c926",
+      "catalogue_year": 2001
+    },
+    {
+      "card_number": "142",
+      "membership_id": "member_d6cb2c3b067a53f48ae052d90eb15643",
+      "recording_id": "rec_25ee0c36def95d13a6979c8152f521d2",
+      "study_id": "study_1c8c75708a01591a8ed7d39695f8bab3",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "143",
+      "membership_id": "member_af111471cc08590297fc8ab2f170f38d",
+      "recording_id": "rec_e7b326f546f05f97b4a3a6ffee8e76af",
+      "study_id": "study_5d9b1cb5245358c4a62ca1450dac418e",
+      "catalogue_year": 2000
+    },
+    {
+      "card_number": "144",
+      "membership_id": "member_1d3d2a5d730153cebe2bd43120fcabb8",
+      "recording_id": "rec_dd70385e3f495b819b3acf2fb424ec02",
+      "study_id": "study_06869e7cf4c653b7a21cfaf9f9a51cee",
+      "catalogue_year": 1968
+    },
+    {
+      "card_number": "145",
+      "membership_id": "member_dd01deb067de545faf759aa3a2dfc805",
+      "recording_id": "rec_a047e0b83eae5cd68a85358b3c3bdd88",
+      "study_id": "study_c4098d9085e05b9089d91d91bb4cc2e8",
+      "catalogue_year": 2001
+    },
+    {
+      "card_number": "146",
+      "membership_id": "member_859dbb92c4525b62b7a015a34238ae03",
+      "recording_id": "rec_0a5fe42e1b3d5761bc468e3457edc12c",
+      "study_id": "study_6fd0e7e1ffdb558b8ef49af86714ffeb",
+      "catalogue_year": 1963
+    },
+    {
+      "card_number": "147",
+      "membership_id": "member_742273ec2a6c5e478576fa5153a48b86",
+      "recording_id": "rec_182e013191e85feba885a901e2b56092",
+      "study_id": "study_3f452c930a1b5a6bae26b21d644bfbfe",
+      "catalogue_year": 1958
+    },
+    {
+      "card_number": "148",
+      "membership_id": "member_8dc6bac3af3353ddbe5041833c441c84",
+      "recording_id": "rec_78011e84e06f570ab3b76975f646b02d",
+      "study_id": "study_7092eb54bd9b50a0ac0d2f46f6121977",
+      "catalogue_year": 2020
+    },
+    {
+      "card_number": "149",
+      "membership_id": "member_654de05adc7d5659b423a2db62519acf",
+      "recording_id": "rec_dab2fd98b71a528b9d3308c86503c0ad",
+      "study_id": "study_b65c0637959b5f6c9d7b1334a166368c",
+      "catalogue_year": 2021
+    },
+    {
+      "card_number": "150",
+      "membership_id": "member_53ef54baaf53508b93ec162303171e29",
+      "recording_id": "rec_c62bb937ee9c5fd48d8de5f353983a50",
+      "study_id": "study_848c4e8409415182857ac2ebc03b41d7",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "151",
+      "membership_id": "member_e8b6eecea3495943b56a4b525fce187f",
+      "recording_id": "rec_93366183c4c55c62a8ba1a909e848e58",
+      "study_id": "study_5de73d84f3965e2fa0abff9e7f6e2e19",
+      "catalogue_year": 2016
+    },
+    {
+      "card_number": "152",
+      "membership_id": "member_a6bcc521023555af83754de4cc04d0df",
+      "recording_id": "rec_f0754736defa51b3bbc48a020aaff52c",
+      "study_id": "study_86959c57a54c55e9823f81e861032742",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "153",
+      "membership_id": "member_e87a8966874d53219f92148d5fe01d82",
+      "recording_id": "rec_07e5c527bf1850f6a75e40d6d1ba8207",
+      "study_id": "study_5fd13a47466b59baae4dd9aa1b898f55",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "154",
+      "membership_id": "member_184306d0c69d543eaa2dae66b171099b",
+      "recording_id": "rec_50266ee7f37c522a8146c3bc411d52f9",
+      "study_id": "study_47d6c46704a65a50ac28aa9d504b4c3e",
+      "catalogue_year": 1978
+    },
+    {
+      "card_number": "155",
+      "membership_id": "member_73e2fb81f14a5f5fb027f26662085256",
+      "recording_id": "rec_5585f021d1b15ee88781b6d2fff1385e",
+      "study_id": "study_d72d2ed808b852559907c686af6c0458",
+      "catalogue_year": 1978
+    },
+    {
+      "card_number": "156",
+      "membership_id": "member_ee9a15741e8d5ee1aaab419c019ba754",
+      "recording_id": "rec_1cdfed55f99f50d38f3b75eae9caeb1d",
+      "study_id": "study_df37dea0e9db5c24b9a01c0a37833457",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "157",
+      "membership_id": "member_169a4dfe50615f4193d412aaf2add055",
+      "recording_id": "rec_4e724029a1fd5cc186911f0e497d3aee",
+      "study_id": "study_d92f5dafeb495467adb878f24c9b84f1",
+      "catalogue_year": 1999
+    },
+    {
+      "card_number": "158",
+      "membership_id": "member_43f7f127308c5b4d8e4d97adcaaf78eb",
+      "recording_id": "rec_c3d674d8608b57f594363e9cfd587c94",
+      "study_id": "study_d3bcdf9240725e9f9e145859c1017d3d",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "159",
+      "membership_id": "member_dde23634b2485bb99cab8589f19da583",
+      "recording_id": "rec_29d44fb39af355629f78c6204c9b0531",
+      "study_id": "study_05f4afcaf5805ca3b935044a06e8e22c",
+      "catalogue_year": 1973
+    },
+    {
+      "card_number": "160",
+      "membership_id": "member_67f38e82a9c0512893caeedb70b98d3a",
+      "recording_id": "rec_ce04c7ac08395dbda7ce4d785ab233a2",
+      "study_id": "study_21892552b8605724bcc127cb37a8428c",
+      "catalogue_year": 1983
+    },
+    {
+      "card_number": "161",
+      "membership_id": "member_3f5dc209e07f5cbfbd0dcf4a7d41eb6e",
+      "recording_id": "rec_6779e04e7a7f566d940e61bd045efcfc",
+      "study_id": "study_abdda1cdcdd5551c9a15e7bdab8d4a2c",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "162",
+      "membership_id": "member_c8f33c6bb81b5decb0bfb914141e159f",
+      "recording_id": "rec_dfe945b3c4e151ed98c12ea3b0225bfb",
+      "study_id": "study_c9f6292148e8543f8e481aeabe304332",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "163",
+      "membership_id": "member_c5759c152f3356b285a4027dced1d0c4",
+      "recording_id": "rec_78cdd2dabfbb5d3bb536eed6fa9bedff",
+      "study_id": "study_190e7fc73fb6537a90e7e29f0d7ff685",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "164",
+      "membership_id": "member_8a4dde7c1a405a1e837b1facffde3471",
+      "recording_id": "rec_040dfb5bf3c251ceab46b55caf5cc5ea",
+      "study_id": "study_a027ae41463657aea649aed4f4a51653",
+      "catalogue_year": 1985
+    },
+    {
+      "card_number": "165",
+      "membership_id": "member_96d76941c4e359c281ab15af13275d27",
+      "recording_id": "rec_34fc8abbd574581a9b870ba6e6694a9e",
+      "study_id": "study_7d4aaa3909665d5a8866e20258a05a70",
+      "catalogue_year": 1988
+    },
+    {
+      "card_number": "166",
+      "membership_id": "member_fc205f7a3dad5465804a87a7cea08ca4",
+      "recording_id": "rec_29d7e69cb5485c459eabaac2c853d523",
+      "study_id": "study_6f6d4b723fc65184ba3a8c6852fa4dc6",
+      "catalogue_year": 1967
+    },
+    {
+      "card_number": "167",
+      "membership_id": "member_14fe162e6173525088a5238bad1555ce",
+      "recording_id": "rec_49bb5d57c0465eb9be90c6e36643453c",
+      "study_id": "study_e852bc5d3e22514ab674eba438622a3a",
+      "catalogue_year": 2010
+    },
+    {
+      "card_number": "168",
+      "membership_id": "member_68a7f6ee0ffc57a785a8755f67a4a697",
+      "recording_id": "rec_b21fb64d571c52a485089301a3a380ac",
+      "study_id": "study_454c421e7469500cb45dae38617fb946",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "169",
+      "membership_id": "member_79a11ee98f7b57a2af991f6b94aa289f",
+      "recording_id": "rec_45e530824c1c502dbf4b27a2d4b444ce",
+      "study_id": "study_f611b17d0ed2564489bf53683e802731",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "170",
+      "membership_id": "member_d2c7a3799d075db580206d4ee50faa68",
+      "recording_id": "rec_cbe102447e9159ddbf8b2290b23e276e",
+      "study_id": "study_e7d7d2feb8f25a74b2af64d570246d4d",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "171",
+      "membership_id": "member_8c3baec97d8c5c38b63aded576495396",
+      "recording_id": "rec_02758151d8c25fbaa9c4e4d5e1c2c7ce",
+      "study_id": "study_1addc3a6c71d556fb11dbaf112e127f8",
+      "catalogue_year": 2010
+    },
+    {
+      "card_number": "172",
+      "membership_id": "member_dfeb12706f4c588685f3d3e940f59835",
+      "recording_id": "rec_c2fcd0227b15590eb1cd39684a74406a",
+      "study_id": "study_465f6b426d87579e80c5616796fa9af7",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "173",
+      "membership_id": "member_6af501def45359ac9ad0b3ce57f7b4af",
+      "recording_id": "rec_8221a51dab1d5b29a1cf73868755919b",
+      "study_id": "study_6059a5f5726e594b8d108eef83df83b0",
+      "catalogue_year": 1977
+    },
+    {
+      "card_number": "174",
+      "membership_id": "member_66fbee97ba215695bc42b39d29a2ab63",
+      "recording_id": "rec_8c06cedd044254daa9a423efaa04b2ae",
+      "study_id": "study_7a17d7775ffa5878aa61b5fc50f9bc24",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "175",
+      "membership_id": "member_e8aa6ff7ddee5f4bba4bdf3689889f2a",
+      "recording_id": "rec_d8e59deca2e854bdad80d05e935b0bb0",
+      "study_id": "study_37ecba655c6a51de91c5e651c1db8c65",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "176",
+      "membership_id": "member_7721a760237b50149f4f8cca43e8089a",
+      "recording_id": "rec_6860493b2fa4543dac47e0b58d8943f3",
+      "study_id": "study_19067430ded652eba9a0b24322a63644",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "177",
+      "membership_id": "member_2918e93994175bd59efadba9eb5b036b",
+      "recording_id": "rec_8d0f8c9e9fe25b8b821bc1d75c92c7bb",
+      "study_id": "study_535988176dd851708428ea0e40c2a0f3",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "178",
+      "membership_id": "member_410fbac2299152068dd022fa20978644",
+      "recording_id": "rec_6625237b04fa51408eb092a151953a2a",
+      "study_id": "study_70a04ce1f27b5e5eb35f0efebb1efec9",
+      "catalogue_year": 2000
+    },
+    {
+      "card_number": "179",
+      "membership_id": "member_59159c184e5253a0a858ed0f1032bd17",
+      "recording_id": "rec_cb0a1ea9bdeb55f782a1c098ffd306c4",
+      "study_id": "study_a45513a505aa598ab9639c122b12c4e2",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "180",
+      "membership_id": "member_a298dc01bac25802a54c9b7a86be84d7",
+      "recording_id": "rec_d76d2486172b54a3b6f21f86f90a9cc5",
+      "study_id": "study_c6aeb06908b259d6a15cf29c07d91ffe",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "181",
+      "membership_id": "member_ab69581c7eca570d8ce4a3675d900875",
+      "recording_id": "rec_2e6324cdd0965c6eb2654b79fa94cf43",
+      "study_id": "study_fb1dc8904ac050839956ac38762e3263",
+      "catalogue_year": 2012
+    },
+    {
+      "card_number": "182",
+      "membership_id": "member_1da1bf4fa0175a99a81d090c320b8b3a",
+      "recording_id": "rec_b26b5c77abf158f78b3a32165ea93a7f",
+      "study_id": "study_84047565fe865fbe8d71080bffda7106",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "183",
+      "membership_id": "member_9ba819e7d16e5b21a700c990acc3c3a4",
+      "recording_id": "rec_78c9b5ac3e5652e084a73b21911e28e9",
+      "study_id": "study_1cee36442a8d54408950168512c88eb2",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "184",
+      "membership_id": "member_731525bc4583516480537843b45b139b",
+      "recording_id": "rec_7740bad4f29c5007bfa2886c82b20de1",
+      "study_id": "study_367130a17be3554f816501b6d31a6646",
+      "catalogue_year": 2014
+    },
+    {
+      "card_number": "185",
+      "membership_id": "member_8c883622a7055343bdb4724bbff9c832",
+      "recording_id": "rec_3a53b98ed009579da93e233335210fae",
+      "study_id": "study_21d5641981b657059415afcec1e2d4e2",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "186",
+      "membership_id": "member_1298b329f7445db5be87a2be50821bbf",
+      "recording_id": "rec_4d9e010460b25239a5786ed31115cb78",
+      "study_id": "study_391e2e95c83d57749aed0e2aba1a46b3",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "187",
+      "membership_id": "member_700a4ea7c2b85647b3107fe70e769af1",
+      "recording_id": "rec_1e2aca89ae4053b7bf9d86e9821ae59a",
+      "study_id": "study_3e43ae970dfa5f0bb7c73c628a533885",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "188",
+      "membership_id": "member_b64091e0a1395949824f2590106ca4c4",
+      "recording_id": "rec_1c1040a2fe5c52cf8237803853390004",
+      "study_id": "study_edd4f5efaf4653ea81ec969b5adef806",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "189",
+      "membership_id": "member_a87d6a7ddb5658e5a94de9e5c92e4e03",
+      "recording_id": "rec_8764a66928e45ca8ae9a87d025c5942d",
+      "study_id": "study_bbdc6476c3ef5a2cbce50f27d2fb9352",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "190",
+      "membership_id": "member_4094c53fec8754b8816c34cf7461c778",
+      "recording_id": "rec_2bf254818f64588b97c4f6e9a17b6ede",
+      "study_id": "study_db9215d2635659be91e96494a2632c14",
+      "catalogue_year": 1964
+    },
+    {
+      "card_number": "191",
+      "membership_id": "member_094650df274d5d3d97a26f3ea0a88a4e",
+      "recording_id": "rec_ff13590070925e6bacc58dddbe4a9065",
+      "study_id": "study_97261ac14ea15456a806db541968fa52",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "192",
+      "membership_id": "member_db71193190735841bfae235dc4f7b9f8",
+      "recording_id": "rec_e1b9042b08d65b4d9fd4e802468aac5f",
+      "study_id": "study_a10548bbbcf65dda8ffd8a0857e23d0f",
+      "catalogue_year": 1993
+    },
+    {
+      "card_number": "193",
+      "membership_id": "member_2466e1c99cfb56d1870934d26a288306",
+      "recording_id": "rec_790a497ce6135f73a0df5e74f179f3a0",
+      "study_id": "study_cf6727b98cff50d19e013e8ec1781fd8",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "194",
+      "membership_id": "member_920d53ac1ddf5b48a5ee7d918739eaf2",
+      "recording_id": "rec_c338e6ad831b5ad09cdd5cac913957c7",
+      "study_id": "study_9132390c5ce15cd291d468cf0c9d1c00",
+      "catalogue_year": 2015
+    },
+    {
+      "card_number": "195",
+      "membership_id": "member_a2de9209288253339d384f82dfc15635",
+      "recording_id": "rec_24674fb5ea235106aa4f0d21f7aeae68",
+      "study_id": "study_b3020482a96b591ba30505e05b52475a",
+      "catalogue_year": 2005
+    },
+    {
+      "card_number": "196",
+      "membership_id": "member_f5e51ded63935ad895ad175057b92b3b",
+      "recording_id": "rec_6def5ac7f029534fb60d77cbcd004298",
+      "study_id": "study_85e00ddc641651498d64858b0c30430d",
+      "catalogue_year": 2012
+    },
+    {
+      "card_number": "197",
+      "membership_id": "member_1f122994979e5ceb9b582f7a587c3db4",
+      "recording_id": "rec_eadaf679de775b069ac80c355a2bd9ae",
+      "study_id": "study_4cf5e95ca79e56e29092319f601434d1",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "198",
+      "membership_id": "member_e3ec9951e3c65ff4a2cd5f6ba5ac59b8",
+      "recording_id": "rec_be4f7e34294f54a78c652f8aa918ec5f",
+      "study_id": "study_b0c18ff6836354cfa1110fcac209613c",
+      "catalogue_year": 2015
+    },
+    {
+      "card_number": "199",
+      "membership_id": "member_2fb572ed84235e9b8a9e18524b1bf114",
+      "recording_id": "rec_35157ae1826a58d78b0b79c1bd6fa076",
+      "study_id": "study_82f4169f8b84529897f7e069c9d811ca",
+      "catalogue_year": 1984
+    },
+    {
+      "card_number": "200",
+      "membership_id": "member_e6c14aa5a08e52e7af7d660441c61f10",
+      "recording_id": "rec_48704f86f4405666bdc4319d16321383",
+      "study_id": "study_79ecb1125e005939ba40f3cdc994a9b9",
+      "catalogue_year": 1960
+    },
+    {
+      "card_number": "201",
+      "membership_id": "member_f768c6a8730750c58fb3263aed71ea76",
+      "recording_id": "rec_799f7636374f532894084ebb34e7f33b",
+      "study_id": "study_e96e05b0c1d75c36b888e5f301e05e5f",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "202",
+      "membership_id": "member_cd33d1813c7e59e988bf2e282a68f92d",
+      "recording_id": "rec_1c19e19a6581598f92ccac69e42fab0e",
+      "study_id": "study_215a90ac659059e480563ebdc860cd1e",
+      "catalogue_year": 1985
+    },
+    {
+      "card_number": "203",
+      "membership_id": "member_2fc77d293db859b6b3ed28740dd68da2",
+      "recording_id": "rec_445ad489671d5118a2b63f343757559e",
+      "study_id": "study_6d9591c70e2f595e9d92df5a75be2831",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "204",
+      "membership_id": "member_c2ad876417bb5a339e2630a85ca9f7d1",
+      "recording_id": "rec_b85ff22c6a7150af95546044a97721a1",
+      "study_id": "study_b0bb874b3acf5785bafb67599be66838",
+      "catalogue_year": 1989
+    },
+    {
+      "card_number": "205",
+      "membership_id": "member_bb41e0b0e22f54139772c14de3d309bf",
+      "recording_id": "rec_0d8b7e75d44b5e68ab173cf0a903074b",
+      "study_id": "study_ac36c46aa0db571881d37d36f4064a79",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "206",
+      "membership_id": "member_474899b0876a55edb5921701c2bb0271",
+      "recording_id": "rec_9887388c79315665822de2edf17eb50e",
+      "study_id": "study_56f106b7ca5b53a1b5089433b57cb5be",
+      "catalogue_year": 2016
+    },
+    {
+      "card_number": "207",
+      "membership_id": "member_088d513fb50858858cf5347412c186ea",
+      "recording_id": "rec_191f4072c6d150f4a203f335337e2df5",
+      "study_id": "study_fa1ead2ee42f5f708a81077e7496f6a9",
+      "catalogue_year": 1962
+    },
+    {
+      "card_number": "208",
+      "membership_id": "member_ba16e2466b285bf58594817d99902c80",
+      "recording_id": "rec_53f6fb1c7bd9534cb5197362b3b3dd1f",
+      "study_id": "study_ed71b94ebd345bfd95ad9de86f4d7795",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "209",
+      "membership_id": "member_798424b0b75b5ffebed41f50cd4400c2",
+      "recording_id": "rec_ade50a494aed539b8b02d352826e38cb",
+      "study_id": "study_c6843456ff2f5d259009ca7dae703039",
+      "catalogue_year": 1998
+    },
+    {
+      "card_number": "210",
+      "membership_id": "member_a00de287a2ef5b208ca8d53bcb95af9c",
+      "recording_id": "rec_7ce93d543a315207ab3d1e50fe3ab8fb",
+      "study_id": "study_0479e447075853688f267bf618d5f9ec",
+      "catalogue_year": 1956
+    },
+    {
+      "card_number": "211",
+      "membership_id": "member_3c544f7c46995195b217e2e4ff02f2f2",
+      "recording_id": "rec_f8bc43b6e3cf51ad9d0dbb407d0b4daf",
+      "study_id": "study_18bb07a4fe6358a99569a10b1b5bc53f",
+      "catalogue_year": 1992
+    },
+    {
+      "card_number": "212",
+      "membership_id": "member_1678cdb1277c545784842a3481dba2c2",
+      "recording_id": "rec_e82e3d2371765c229524aaa608c92d22",
+      "study_id": "study_b4ed5504bafc53a69d453afd8d895d53",
+      "catalogue_year": 1994
+    },
+    {
+      "card_number": "213",
+      "membership_id": "member_83671a0336545dbc85478f65b86a4c42",
+      "recording_id": "rec_00655fbf127d51c09e64cddd3c6e60b5",
+      "study_id": "study_f24d7d4c48c4564784f0100bc76ef21d",
+      "catalogue_year": 2000
+    },
+    {
+      "card_number": "214",
+      "membership_id": "member_92233b8dde46513d8d3490ba36afd9ad",
+      "recording_id": "rec_6915d26491b057eeb02cdd7aa7fab43d",
+      "study_id": "study_d6e13bea45f758e995f925f00f70b256",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "215",
+      "membership_id": "member_aa28ba9ace5d5da4a4948f8e180f8772",
+      "recording_id": "rec_51677453c069591885b14e94542e9a59",
+      "study_id": "study_3e90bc197a5957c88340d25681f473bf",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "216",
+      "membership_id": "member_460226550dc55e63b72946228c9090ac",
+      "recording_id": "rec_572d8499c5555f9ca02aaf5413aa3427",
+      "study_id": "study_1c9dd0affcd55a7b80cb1cc9b2b026d4",
+      "catalogue_year": 1988
+    },
+    {
+      "card_number": "217",
+      "membership_id": "member_2fcadf200d085338bf4e7aeb0e4321c8",
+      "recording_id": "rec_c9d41790ecda5aa9bd3dc4a7bd340fee",
+      "study_id": "study_67d7df140ff051aca7df7335e89a4872",
+      "catalogue_year": 1988
+    },
+    {
+      "card_number": "218",
+      "membership_id": "member_3eabf0767c8f550e888153daa8a5daf6",
+      "recording_id": "rec_ac1ba43b346f50688aae5ef0f1f44435",
+      "study_id": "study_146ad4d17dbf557db6271f4f5241fa1d",
+      "catalogue_year": 1997
+    },
+    {
+      "card_number": "219",
+      "membership_id": "member_0d00f2dd008353738c4abd5377875f6c",
+      "recording_id": "rec_1a7dbb03af18532fbd14d77552c767e6",
+      "study_id": "study_2332e252f0d95c729750d9af657f49c6",
+      "catalogue_year": 1996
+    },
+    {
+      "card_number": "220",
+      "membership_id": "member_f93ea2f982cb57b49183a3fdaaf7cf4b",
+      "recording_id": "rec_acba124f713752cf91193d4804ea255e",
+      "study_id": "study_0e78b949cc2a56ed852e8d84d35eb130",
+      "catalogue_year": 1975
+    },
+    {
+      "card_number": "221",
+      "membership_id": "member_523c58eab5c45ad0ae5dae32201b7835",
+      "recording_id": "rec_573f2d49473758c399d5f056f680db27",
+      "study_id": "study_4dee0e61b81559f9aedbe92fdffe452d",
+      "catalogue_year": 1986
+    },
+    {
+      "card_number": "222",
+      "membership_id": "member_d297186976535090a4e94ccbe5613ba5",
+      "recording_id": "rec_8395e28e4e97541b8fc9ce160a867adc",
+      "study_id": "study_fabc98bb372f5c5e895994c588902fcb",
+      "catalogue_year": 2009
+    },
+    {
+      "card_number": "223",
+      "membership_id": "member_48d6c55937725750b6a6bf5d8d6d02df",
+      "recording_id": "rec_b90a29abe06650349b42042ddd1802e1",
+      "study_id": "study_8a8b6aa284905929b46488a6240d2eea",
+      "catalogue_year": 1964
+    },
+    {
+      "card_number": "224",
+      "membership_id": "member_dc5e5555f04e5ca4afd422f721fbda17",
+      "recording_id": "rec_8fa71d2b13015250a80c4067d14fe6ec",
+      "study_id": "study_c469092dd0315a16b3091a7ae4ea9747",
+      "catalogue_year": 1995
+    },
+    {
+      "card_number": "225",
+      "membership_id": "member_db2f9f9ab5a45ed69568083c3cd2e1bc",
+      "recording_id": "rec_c4a196f20de9549bad16dd966592c0b4",
+      "study_id": "study_ecbfbdc499f05242b227a2df10bb8199",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "226",
+      "membership_id": "member_75386eca94545ca880258afba23d61aa",
+      "recording_id": "rec_be40ced7b5e7582b89fc3ac05aee7ee6",
+      "study_id": "study_ae0f9e2e599056c690283ba06abaa179",
+      "catalogue_year": 1987
+    },
+    {
+      "card_number": "227",
+      "membership_id": "member_58e46690ef0a59d29b51ab30a7e2c131",
+      "recording_id": "rec_b9d73eb7c4055d7abdec8b21f059cac3",
+      "study_id": "study_fcbe87afb25c57dd8f64d92975349e47",
+      "catalogue_year": 1965
+    },
+    {
+      "card_number": "228",
+      "membership_id": "member_a37d3c45653258a1a4d32f78c7c42c62",
+      "recording_id": "rec_9e8c9ba4e1f052fea163d637d8e7d253",
+      "study_id": "study_3e5bb771993c5a0db8e91d360b21b7d2",
+      "catalogue_year": 1968
+    },
+    {
+      "card_number": "229",
+      "membership_id": "member_1ac39643cc72574ba0fc9195534fce39",
+      "recording_id": "rec_3890340945405d52848e91258b501397",
+      "study_id": "study_29eda7ff90d358b78ba2da35ae88c84e",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "230",
+      "membership_id": "member_998f503a3a3c552d818221a4a002d4ba",
+      "recording_id": "rec_6034e5f3bd26591abf87de53c247c097",
+      "study_id": "study_47e19832c80a5a66a66aee32771bd3a8",
+      "catalogue_year": 1962
+    },
+    {
+      "card_number": "231",
+      "membership_id": "member_ecba6e32981250099d88c455a5bad893",
+      "recording_id": "rec_eccafd72fe1d5f85b19bb91034b3c1ff",
+      "study_id": "study_1fdff9bdf29a53f59a768e09d2546bcc",
+      "catalogue_year": 1996
+    },
+    {
+      "card_number": "232",
+      "membership_id": "member_ca64b9fd8b025f8ab9e61b0a4baff9eb",
+      "recording_id": "rec_2397033e417757f0a49e407483e24edf",
+      "study_id": "study_9e2ab236b6e15ad6a5e7e794d7e1d4c9",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "233",
+      "membership_id": "member_64510764548d57a29acbabd428ad9a22",
+      "recording_id": "rec_d9bc72102e9051998008e4770c3f8d06",
+      "study_id": "study_dd7c1cb364c75cb89c686288ff312cb1",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "234",
+      "membership_id": "member_b418793e3ba05ac8956ecdd5b9f8b266",
+      "recording_id": "rec_6dac7067d1575ced8cca87d8c28c79ed",
+      "study_id": "study_f9345a4aa36d587b80fd674404ee2da7",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "235",
+      "membership_id": "member_7ee83370965351128245574f49f277b4",
+      "recording_id": "rec_77f22a1d4ec35c23be8edd3b34137978",
+      "study_id": "study_fcda32731f9e558d93da158f55cf1f66",
+      "catalogue_year": 1981
+    },
+    {
+      "card_number": "236",
+      "membership_id": "member_cd74b76562045467a527c7c18fe3f47e",
+      "recording_id": "rec_5aae096f0a2f5d30a23030807a4cc11b",
+      "study_id": "study_ad6e1f534b87534485e2e015079acb3e",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "237",
+      "membership_id": "member_46cee851440855e3abcc2c2a83038974",
+      "recording_id": "rec_f2238887e7645b95a740860db0011528",
+      "study_id": "study_a113588f306c52e899f896e2d39be3b8",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "238",
+      "membership_id": "member_934119352f195cffb649fd0930216a0c",
+      "recording_id": "rec_2bfec668cd63535abb79f42897fd1422",
+      "study_id": "study_683983b5c5445ce799fa9f2f30a32ce3",
+      "catalogue_year": 1973
+    },
+    {
+      "card_number": "239",
+      "membership_id": "member_1ffcf650439352ca996c7a3b59e4a083",
+      "recording_id": "rec_e98dc828b62f58f19fa06fa0ca0255eb",
+      "study_id": "study_5e6ae93a63365a6693a676ba680795e8",
+      "catalogue_year": 1999
+    },
+    {
+      "card_number": "240",
+      "membership_id": "member_e583862bda71518c8c4c34455c35ff93",
+      "recording_id": "rec_e9b1d4522d3b56db8500898467006871",
+      "study_id": "study_0a67b82137665fc9847dd0082fde7265",
+      "catalogue_year": 1963
+    },
+    {
+      "card_number": "241",
+      "membership_id": "member_46789b566d255e32bc7580efdd36ad39",
+      "recording_id": "rec_985a655cfdac5bfba7a4ebf2f61833db",
+      "study_id": "study_3c8132512a995d6fbc98d85d8caf6219",
+      "catalogue_year": 1994
+    },
+    {
+      "card_number": "242",
+      "membership_id": "member_d018fee3bd115d6f818a0ef1d1108555",
+      "recording_id": "rec_68e26b79d3755b8a84943cc0b923e99e",
+      "study_id": "study_45a37616bc785981a27c266af6dc4464",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "243",
+      "membership_id": "member_1d55a7087cb451449d8ec3829f559972",
+      "recording_id": "rec_88de5100ef8d51efa59debb1d9f5bc2c",
+      "study_id": "study_35b8441ab77651519bf484ced1d78561",
+      "catalogue_year": 1984
+    },
+    {
+      "card_number": "244",
+      "membership_id": "member_053bddb956405864b9769f9aba7163cd",
+      "recording_id": "rec_0ffbc736a6bd5ee2b7883cefabf1b912",
+      "study_id": "study_fe75042225d050d986f0dc68699cbb63",
+      "catalogue_year": 2004
+    },
+    {
+      "card_number": "245",
+      "membership_id": "member_0c97aa02e8ee511bb36af11240d0576b",
+      "recording_id": "rec_ed005ca41a5b5a04b2c973b24eeb91b6",
+      "study_id": "study_f3811d92911d5738bfb53fc1aa68535e",
+      "catalogue_year": 1955
+    },
+    {
+      "card_number": "246",
+      "membership_id": "member_d5ce4a565ba453c9ab432539076c651f",
+      "recording_id": "rec_47ba70dcd3115fe28d623ca6d14d7375",
+      "study_id": "study_a57fbeabe759530da903933a41b6b5e8",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "247",
+      "membership_id": "member_5c13d48d5b745885a76aa0fa5f1378a0",
+      "recording_id": "rec_c732a1e3cf745cf7908db2343f18b6f8",
+      "study_id": "study_e232be640b4f572fbacc3e973444f29d",
+      "catalogue_year": 2020
+    },
+    {
+      "card_number": "248",
+      "membership_id": "member_273163f142ac5820836cbe6f99ff8033",
+      "recording_id": "rec_2a4da4d2ff09518597b1a8786724e21f",
+      "study_id": "study_d759dae7c72f5872b4ef8deca1d01330",
+      "catalogue_year": 1962
+    },
+    {
+      "card_number": "249",
+      "membership_id": "member_c1d80778ff38527b826e54ea0b35d9ea",
+      "recording_id": "rec_df4d5181e0f853219ecc9b154031e143",
+      "study_id": "study_29b955557506579c8f2f01508ae86b67",
+      "catalogue_year": 2001
+    },
+    {
+      "card_number": "250",
+      "membership_id": "member_03573f20ee8d5c3198774fa397a37f79",
+      "recording_id": "rec_f3c4ce4b43285c08a32b03516e1ff191",
+      "study_id": "study_154a75aa2d785ba6803ac241587cfedf",
+      "catalogue_year": 1988
+    },
+    {
+      "card_number": "251",
+      "membership_id": "member_2feecf69a24550eaa4a30dd388d2e1e5",
+      "recording_id": "rec_e3d5d526ae7154329cf5caf30c06e887",
+      "study_id": "study_4a11db5a1c0258369a3d13c8cf8954f9",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "252",
+      "membership_id": "member_a8486cbcd6d4590cb9a4ce534fdc0886",
+      "recording_id": "rec_50e15e9e3d125fe39bee5879938be7bd",
+      "study_id": "study_ca7bef6faaa258b08b0f1061d2902da1",
+      "catalogue_year": 1986
+    },
+    {
+      "card_number": "253",
+      "membership_id": "member_c58a7abd6a4b553cb92483309fd8c417",
+      "recording_id": "rec_4f2c119143545d28957f4e627203e561",
+      "study_id": "study_271a6a6420ac52de9e9a599f8e5c0e77",
+      "catalogue_year": 2021
+    },
+    {
+      "card_number": "254",
+      "membership_id": "member_074fed3d29a8568e87bbc9c9fa10aa1f",
+      "recording_id": "rec_f13df9b3c45e5a7a86cb4fd067c3d2b9",
+      "study_id": "study_340215eed9bd59569432c7ec9155aaa9",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "255",
+      "membership_id": "member_0bcfa4ec371f5456b4589d291ad74dca",
+      "recording_id": "rec_1470319d1cfa56539113573277ff662f",
+      "study_id": "study_e04336393fc1590f83aaf671fe852884",
+      "catalogue_year": 1967
+    },
+    {
+      "card_number": "256",
+      "membership_id": "member_ae5c6d23cff75e0b9427f6ca54de2904",
+      "recording_id": "rec_f8a8f8f51d395022ad92a29f153cd807",
+      "study_id": "study_d0b3c3a859ae5d3caf86e86f2eb995a6",
+      "catalogue_year": 1996
+    },
+    {
+      "card_number": "257",
+      "membership_id": "member_fe60934786c256bebc90b7aa43e4b97c",
+      "recording_id": "rec_8d861a3c334e5a40a8d4ad37575d2565",
+      "study_id": "study_9c3e752842c752dd8af85d88b1d7df7a",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "258",
+      "membership_id": "member_206b15a3b244519595a09e4db73be81d",
+      "recording_id": "rec_8a51da3af3fa5f0bbf277cb807e59c1b",
+      "study_id": "study_2b4f7adfe13b54ae82fc1d257f58f01c",
+      "catalogue_year": 1983
+    },
+    {
+      "card_number": "259",
+      "membership_id": "member_4ffef0fcf86b55dab126bf2917a62e29",
+      "recording_id": "rec_057283f4f06e57a78e6c36afa41cbe92",
+      "study_id": "study_4ea18ff3fecb52d2ba66905772675ff8",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "260",
+      "membership_id": "member_07f31f37480e5a978743bef67957414c",
+      "recording_id": "rec_227a338960625dcaa5bf502d2b6e8017",
+      "study_id": "study_b52a144c592652ea8c8b0fb26c0750bc",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "261",
+      "membership_id": "member_6219091b1e8f58838c844f09b6ed6ab2",
+      "recording_id": "rec_c73d46ed16755a18b1f45c9311ea295f",
+      "study_id": "study_13e176d9338c53c3b54c43738ff9722c",
+      "catalogue_year": 1955
+    },
+    {
+      "card_number": "262",
+      "membership_id": "member_b0e2ce9e7850549eb57e6804f96d1666",
+      "recording_id": "rec_ec790391ecb75dac95207b0caab4ae79",
+      "study_id": "study_ccc5efe824cb592a879f8c40651da606",
+      "catalogue_year": 1995
+    },
+    {
+      "card_number": "263",
+      "membership_id": "member_3a805c85d0865af285c0f9e22496c909",
+      "recording_id": "rec_390ffc4e56ea51758896b7c074b54655",
+      "study_id": "study_399ff745611751738c84e28bffc8aaa6",
+      "catalogue_year": 2002
+    },
+    {
+      "card_number": "264",
+      "membership_id": "member_55bd2e8d5b1154f580abf9d02af46244",
+      "recording_id": "rec_5b7d8a5040f8558b91754a98385712ae",
+      "study_id": "study_20aa4b96cf035d54b5a424917096dd3f",
+      "catalogue_year": 2004
+    },
+    {
+      "card_number": "265",
+      "membership_id": "member_062de4032f2a509b8357c7b13a691891",
+      "recording_id": "rec_f757b1ec0d365aa4b0cfc41eeeeeee86",
+      "study_id": "study_23653000d6995b35adfac3ccd6fd8ea7",
+      "catalogue_year": 1985
+    },
+    {
+      "card_number": "266",
+      "membership_id": "member_590a96ddece5540d971858ffd77e4c61",
+      "recording_id": "rec_8c512b2122ad5b04ad0703b2b6fd011c",
+      "study_id": "study_2e7400cc740458f087da95424ebbf97d",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "267",
+      "membership_id": "member_2a16f1c985ac5f4fa8996c427db03b5f",
+      "recording_id": "rec_271ebe62f62d578b83c6f3d598e4a1e1",
+      "study_id": "study_4598e246ea505c568e82a3a8910ff741",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "268",
+      "membership_id": "member_442149a3306a50d488a2418a616b328d",
+      "recording_id": "rec_a55ba4ea51815edc90731af620426f04",
+      "study_id": "study_dfe11bca6b995703bca042b3a1c5d7b9",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "269",
+      "membership_id": "member_6dcc414a8d315c1580f9b0c2d31b18ba",
+      "recording_id": "rec_f6d55662750d5b1b8ce6537abb01925f",
+      "study_id": "study_481a491b971551e1bc477bd4bc2cb5f5",
+      "catalogue_year": 1965
+    },
+    {
+      "card_number": "270",
+      "membership_id": "member_c1dca4148e585efe9511e504b65c2213",
+      "recording_id": "rec_e3fd32c1e3f75a029bc4358e2b2c7d54",
+      "study_id": "study_2b3c282f284b5c19af8ff6325e81bf8e",
+      "catalogue_year": 1967
+    },
+    {
+      "card_number": "271",
+      "membership_id": "member_09e7413a3509561da282b62d08583ba5",
+      "recording_id": "rec_45956578adfd51adadd8f6ea3b51bf5c",
+      "study_id": "study_7f0c492f7c8c595284488ee270717b3e",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "272",
+      "membership_id": "member_0cd3433a840056f8b41bc8289ac4b301",
+      "recording_id": "rec_4af646cf854251dfb5ff037867f5639a",
+      "study_id": "study_07f96716782c5f5093385bba9531db72",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "273",
+      "membership_id": "member_f8c9017517e1554cb8b1dfffc9f244bb",
+      "recording_id": "rec_b7427e5e114e5c228af87358f252645e",
+      "study_id": "study_615ee5bdcf8f514c8f8cb4613e3abed1",
+      "catalogue_year": 1972
+    },
+    {
+      "card_number": "274",
+      "membership_id": "member_a37cb323ea1153a59db8f147924261c3",
+      "recording_id": "rec_5d281a25a0c15520bff2ac4d8009ef7a",
+      "study_id": "study_7f2dacff866b5520a7dd7b11c1bda5a8",
+      "catalogue_year": 1969
+    },
+    {
+      "card_number": "275",
+      "membership_id": "member_6093aec64ee5528187c7c8cc7c6c01dd",
+      "recording_id": "rec_a6147817ce305b51be1c04058258dfa1",
+      "study_id": "study_a3760fab360c52ccb733adba6da9222c",
+      "catalogue_year": 1980
+    },
+    {
+      "card_number": "276",
+      "membership_id": "member_128c739d56825aac9ed25fb0103d7a73",
+      "recording_id": "rec_a09db94de16757439268ba34a38a10ec",
+      "study_id": "study_3e8e2f941da653c8a491245583fc823a",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "277",
+      "membership_id": "member_0d71dad9a89d5043a98f73406aae1446",
+      "recording_id": "rec_9be70c5c95e75140bbae9baf61db0941",
+      "study_id": "study_d3bb8d0146675188bd7b24692d59f1a9",
+      "catalogue_year": 2006
+    },
+    {
+      "card_number": "278",
+      "membership_id": "member_dedd84d285935c2490637999feedfa9d",
+      "recording_id": "rec_ca06fa60a0135f068ef60a5680451c58",
+      "study_id": "study_75449561fcee5f7fbcda24b1ebf615f5",
+      "catalogue_year": 2011
+    },
+    {
+      "card_number": "279",
+      "membership_id": "member_e399c9d17b105f86acad38b81e340535",
+      "recording_id": "rec_6fdb3418c58359a789cbdd404d087676",
+      "study_id": "study_942b5fa7ed7f5815833003a5e0f3a108",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "280",
+      "membership_id": "member_90ba1651c82e5605b8d1f430d6c023d2",
+      "recording_id": "rec_26e3d4fba4b55c15b829558df1c7e52e",
+      "study_id": "study_7c0cb5a569fc59d08dacd227b776aec7",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "281",
+      "membership_id": "member_e4ce97688d1d5160a2eb8864eba199bc",
+      "recording_id": "rec_982fc16e4b3e5740915698e0f4a536ba",
+      "study_id": "study_e90ad506546c5e7280fb540d2f9939a5",
+      "catalogue_year": 1972
+    },
+    {
+      "card_number": "282",
+      "membership_id": "member_dd414dd632845dd0a89066cd52a15826",
+      "recording_id": "rec_729cc190ea1951a3ad3a1aecea95fab6",
+      "study_id": "study_f7787d25b5475837822fa851b1f7efc1",
+      "catalogue_year": 2021
+    },
+    {
+      "card_number": "283",
+      "membership_id": "member_93e2e9361bfd5054844f31df8b6ce84b",
+      "recording_id": "rec_d983b0f609f35a7dbd15a6f2b28ca579",
+      "study_id": "study_5d961bd106dd5ff399390ca74fbca694",
+      "catalogue_year": 2017
+    },
+    {
+      "card_number": "284",
+      "membership_id": "member_26bb60423d5e515ab6a990db8ccb083d",
+      "recording_id": "rec_da020352b3a859409fe4a0e8ddfc8570",
+      "study_id": "study_67f3f995112a55b4a52122b7d983160c",
+      "catalogue_year": 1971
+    },
+    {
+      "card_number": "285",
+      "membership_id": "member_41ff6ab6b0bb5ec1b2cc51c8b6167fed",
+      "recording_id": "rec_45ffe7157338522b963b02bf4badacde",
+      "study_id": "study_9671a71e54ee56ea84368ef366189eb1",
+      "catalogue_year": 2013
+    },
+    {
+      "card_number": "286",
+      "membership_id": "member_38c5e4b1434e512a8ddf6d7063ca7c32",
+      "recording_id": "rec_5b746a79d46b5235bcbde55fd093c6e7",
+      "study_id": "study_4bc51d4ed9f65c2bbb0a4ad5aa4d2a94",
+      "catalogue_year": 1979
+    },
+    {
+      "card_number": "287",
+      "membership_id": "member_fd0fb10d293153e9b8c7d3c95c163940",
+      "recording_id": "rec_51907e41238858de8bbcc75e67cd48b3",
+      "study_id": "study_bbba76455c525e23bd3b0cd19cf583a1",
+      "catalogue_year": 2008
+    },
+    {
+      "card_number": "288",
+      "membership_id": "member_664f1b11d9b0558fac3a255cd4087b11",
+      "recording_id": "rec_892d272ac9895c589258cfa379888ba2",
+      "study_id": "study_3ecd32096e505d639d204d71213df232",
+      "catalogue_year": 1979
+    },
+    {
+      "card_number": "289",
+      "membership_id": "member_80a4824e1d475c54b1c373e8b92c238d",
+      "recording_id": "rec_ebb6dcf3cb7459ef826af02acd50f86c",
+      "study_id": "study_5b02ccbf6ff35329bfddd761b3250e89",
+      "catalogue_year": 1979
+    },
+    {
+      "card_number": "290",
+      "membership_id": "member_a5959ded2c765fc8964f8f0e10cc1364",
+      "recording_id": "rec_b81b7fc1bb6353f69e5f8f11c2e7d399",
+      "study_id": "study_2739aaa6ef09539abd04ef3c8bf4f1ae",
+      "catalogue_year": 2019
+    },
+    {
+      "card_number": "291",
+      "membership_id": "member_84ffa4002816532cb248d560b618654e",
+      "recording_id": "rec_932e24a3116a5a8b9771b10bc59d806c",
+      "study_id": "study_2f19d0ffa96d5f27a1bb76889ae5caa1",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "292",
+      "membership_id": "member_f93c12f6f32b526cb3c8d6e53b326eef",
+      "recording_id": "rec_b7d57b82de935824ac3a33f6ef59194b",
+      "study_id": "study_fc35ead231315f18a341dc7938045f1f",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "293",
+      "membership_id": "member_6fdef0d32a9d5ccf95c226d1c06b8468",
+      "recording_id": "rec_b9e0301e11295808970a8f508441c646",
+      "study_id": "study_171b8a1550bd5ca7b804a182701e365f",
+      "catalogue_year": 2009
+    },
+    {
+      "card_number": "294",
+      "membership_id": "member_f43b0a710385513a85783663aab859f6",
+      "recording_id": "rec_7bfff6c4363857bc980297ba0346ea99",
+      "study_id": "study_850d86682ed15e3583de6d660d176c34",
+      "catalogue_year": 2012
+    },
+    {
+      "card_number": "295",
+      "membership_id": "member_f8685ece53d258d4a2af0b70b2c60b24",
+      "recording_id": "rec_d2c61e5865a3577e94f68a540ea0b415",
+      "study_id": "study_09c6bdefd86c5ac3b44c6bffd775a1a6",
+      "catalogue_year": 1991
+    },
+    {
+      "card_number": "296",
+      "membership_id": "member_19846edadf3453e58f818029674fc8ff",
+      "recording_id": "rec_ca3de40635565cc5b3ed87add1dc6ce9",
+      "study_id": "study_3bb77bf0771a523f9338a5ac601131ac",
+      "catalogue_year": 2007
+    },
+    {
+      "card_number": "297",
+      "membership_id": "member_d21f0940b33e509b93d66e783bb67a11",
+      "recording_id": "rec_374b5572d80f579c99aa62d0273518d2",
+      "study_id": "study_6d8c439541fc5063b170f728c62ecf63",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "298",
+      "membership_id": "member_2f6520bc74295eea9a804296701a38f1",
+      "recording_id": "rec_b3d0364506395f7085bc88bc4d8afa82",
+      "study_id": "study_47fe3540c91f5ef8ad40312450026850",
+      "catalogue_year": 1977
+    },
+    {
+      "card_number": "299",
+      "membership_id": "member_7ef647770ae459b0b7f9f9a93ced20df",
+      "recording_id": "rec_4482fd0d77a3595f9a65ec86feba8892",
+      "study_id": "study_05eca031d7ab594ba3e622dd2e7c7502",
+      "catalogue_year": 2003
+    },
+    {
+      "card_number": "300",
+      "membership_id": "member_908dbe403b615bdc8e0f531d408b5364",
+      "recording_id": "rec_315785c28935518d9e68f2193ab9fc83",
+      "study_id": "study_5b3a2068d3625fd3a516a1b4f8072b3a",
+      "catalogue_year": 1982
+    },
+    {
+      "card_number": "301",
+      "membership_id": "member_4d5b767abc4259b68661dc6e306b2d33",
+      "recording_id": "rec_47a95268c0f650538b31edbe530ca4e4",
+      "study_id": "study_84bd02147cbe5415a96f0c64ac688da0",
+      "catalogue_year": 2018
+    },
+    {
+      "card_number": "302",
+      "membership_id": "member_f6dbe6afb70b5baca2be4cd8e428606d",
+      "recording_id": "rec_91caad2e2598518aa5fae0285bdd00c9",
+      "study_id": "study_70175b82cedd5f2697328cb24b75f44f",
+      "catalogue_year": 1966
+    },
+    {
+      "card_number": "303",
+      "membership_id": "member_16cca0f3deef597d979cdc1ffa09a26b",
+      "recording_id": "rec_c993122c74b75356b46c499a6a278a15",
+      "study_id": "study_c18c35552cb75982b4da7654b347b722",
+      "catalogue_year": 1959
+    },
+    {
+      "card_number": "304",
+      "membership_id": "member_a0424f6d839a55d8ad3d67252dfecbb5",
+      "recording_id": "rec_6400133c734a5cc3be9ff521e20238d2",
+      "study_id": "study_71c1c417ef76565882a0a4634c815140",
+      "catalogue_year": 1975
+    },
+    {
+      "card_number": "305",
+      "membership_id": "member_ea9a9c22d6985d79a0371f5e54533057",
+      "recording_id": "rec_74683c1a10f15f03b8659765bd4eabde",
+      "study_id": "study_18c84dfe8e825d32bea2131771f8bcb8",
+      "catalogue_year": 1970
+    },
+    {
+      "card_number": "306",
+      "membership_id": "member_485d718f5e3d511ba732f3489c00d1ef",
+      "recording_id": "rec_3d2d165929ab581995901c5c9e57553a",
+      "study_id": "study_e2bc3e47586a51a6994e11fc8848a13d",
+      "catalogue_year": 1974
+    },
+    {
+      "card_number": "307",
+      "membership_id": "member_f6a9a628c1a45a0c9104728dbda8d1cd",
+      "recording_id": "rec_752396e398565f0b8985520600e05cf7",
+      "study_id": "study_fd111e3ca59655a0bec8fae72af31872",
+      "catalogue_year": 1958
+    },
+    {
+      "card_number": "308",
+      "membership_id": "member_b9916d3bc37b5e0b975d0be86d604bfb",
+      "recording_id": "rec_8837127cca925d3aa09ecf1d5f9413d3",
+      "study_id": "study_f2f74b30e3eb5900b62c8eaf41d7a20f",
+      "catalogue_year": 2011
+    }
+  ]
+}

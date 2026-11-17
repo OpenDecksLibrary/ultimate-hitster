@@ -1,0 +1,18 @@
+{
+  "reference_index": "https://www.hitster4all.com/data/playlists/all.json",
+  "editions": [
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "reference_id": "hitster-fr-refresh",
+      "reference_market": "FR"
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "reference_name_contains": "Guilty Pleasures (FR)",
+      "reference_market": "FR",
+      "languages": [
+        "fr"
+      ]
+    }
+  ]
+}

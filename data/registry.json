@@ -1,0 +1,4110 @@
+{
+  "schema_version": 1,
+  "editions": [
+    {
+      "edition_id": "hitster-original-argentina",
+      "slug": "original-argentina",
+      "name": "Hitster Original",
+      "market": "Argentina",
+      "region": "AR",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-argentina",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-aussie-australia",
+      "slug": "aussie-australia",
+      "name": "Hitster Aussie",
+      "market": "Australia",
+      "region": "AU",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "aussie",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/aussie-australia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-australia",
+      "slug": "bingo-australia",
+      "name": "Hitster Bingo",
+      "market": "Australia",
+      "region": "AU",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-australia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-australia",
+      "slug": "original-australia",
+      "name": "Hitster Original",
+      "market": "Australia",
+      "region": "AU",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-australia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-baltics",
+      "slug": "bingo-baltics",
+      "name": "Hitster Bingo",
+      "market": "Baltics",
+      "region": "BALTICS",
+      "languages": [
+        "et",
+        "lv",
+        "lt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-baltics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-baltics",
+      "slug": "guilty-pleasures-baltics",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Baltics",
+      "region": "BALTICS",
+      "languages": [
+        "et",
+        "lv",
+        "lt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-baltics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-baltics",
+      "slug": "original-baltics",
+      "name": "Hitster Original",
+      "market": "Baltics",
+      "region": "BALTICS",
+      "languages": [
+        "et",
+        "lv",
+        "lt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-baltics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-flying-mic-belgium",
+      "slug": "flying-mic-belgium",
+      "name": "Hitster Flying Mic",
+      "market": "Belgium",
+      "region": "BE",
+      "languages": [
+        "fr",
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "flying-mic",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/flying-mic-belgium",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-radio-contact-belgium",
+      "slug": "radio-contact-belgium",
+      "name": "Hitster Radio Contact",
+      "market": "Belgium",
+      "region": "BE",
+      "languages": [
+        "fr",
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "radio-contact",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/radio-contact-belgium",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-q-music-het-foute-uur-benelux",
+      "slug": "q-music-het-foute-uur-benelux",
+      "name": "Hitster Q-Music Het Foute Uur",
+      "market": "Benelux",
+      "region": "BENELUX",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "q-music-het-foute-uur",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/q-music-het-foute-uur-benelux",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-brazil",
+      "slug": "guilty-pleasures-brazil",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Brazil",
+      "region": "BR",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-brazil",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-brazil",
+      "slug": "original-brazil",
+      "name": "Hitster Original",
+      "market": "Brazil",
+      "region": "BR",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-brazil",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-brazil",
+      "slug": "summer-party-brazil",
+      "name": "Hitster Summer Party",
+      "market": "Brazil",
+      "region": "BR",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-brazil",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-franco-canada",
+      "slug": "100-franco-canada",
+      "name": "Hitster 100% Franco",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-franco",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 312,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-franco-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-canada",
+      "slug": "battle-of-the-generations-canada",
+      "name": "Hitster Battle of the Generations",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-canada",
+      "slug": "bingo-canada",
+      "name": "Hitster Bingo",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-canada",
+      "slug": "christmas-expansion-canada",
+      "name": "Hitster Christmas",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 155,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-canada",
+      "slug": "guilty-pleasures-canada",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 311,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-canada",
+      "slug": "original-canada",
+      "name": "Hitster Original",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-canada",
+      "slug": "rock-canada",
+      "name": "Hitster Rock",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rouge-expansion-canada",
+      "slug": "rouge-expansion-canada",
+      "name": "Hitster Rouge",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rouge",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rouge-expansion-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-canada",
+      "slug": "soundtracks-expansion-canada",
+      "name": "Hitster Soundtracks",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 158,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-canada",
+      "slug": "summer-party-canada",
+      "name": "Hitster Summer Party",
+      "market": "Canada",
+      "region": "CA",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-canada",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-chile-edition-chile",
+      "slug": "chile-edition-chile",
+      "name": "Hitster Chile Edition",
+      "market": "Chile",
+      "region": "CL",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "chile-edition",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/chile-edition-chile",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-latino-chile",
+      "slug": "latino-chile",
+      "name": "Hitster Latino",
+      "market": "Chile",
+      "region": "CL",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "latino",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/latino-chile",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-croatia-croatia",
+      "slug": "100-croatia-croatia",
+      "name": "Hitster 100% Croatia",
+      "market": "Croatia",
+      "region": "HR",
+      "languages": [
+        "hr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-croatia",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-croatia-croatia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-croatia",
+      "slug": "original-croatia",
+      "name": "Hitster Original",
+      "market": "Croatia",
+      "region": "HR",
+      "languages": [
+        "hr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-croatia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-2nd-edition-czechia-slovakia",
+      "slug": "original-2nd-edition-czechia-slovakia",
+      "name": "Hitster Original (2nd Edition)",
+      "market": "Czechia and Slovakia",
+      "region": "CZ-SK",
+      "languages": [
+        "cs",
+        "sk"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "second-edition",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-2nd-edition-czechia-slovakia",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-france",
+      "slug": "battle-of-the-generations-france",
+      "name": "Hitster Battle of the Generations",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-france",
+      "slug": "bingo-france",
+      "name": "Hitster Bingo",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-france",
+      "slug": "guilty-pleasures-france",
+      "name": "Hitster Guilty Pleasures",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "imported",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-france",
+      "slug": "hip-hop-expansion-france",
+      "name": "Hitster Hip Hop",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-france",
+      "slug": "original-france",
+      "name": "Hitster Original",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "imported",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-refresh-france",
+      "slug": "original-refresh-france",
+      "name": "Hitster Original Refresh",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "refresh",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "imported",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-refresh-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-france",
+      "slug": "rock-france",
+      "name": "Hitster Rock",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-france",
+      "slug": "soundtracks-expansion-france",
+      "name": "Hitster Soundtracks",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-france",
+      "slug": "summer-party-france",
+      "name": "Hitster Summer Party",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-tubes-100-francais-france",
+      "slug": "tubes-100-francais-france",
+      "name": "Hitster Tubes 100% Français",
+      "market": "France",
+      "region": "FR",
+      "languages": [
+        "fr"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "tubes-100-fran-ais",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/tubes-100-francais-france",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-deutsch-germany",
+      "slug": "100-deutsch-germany",
+      "name": "Hitster 100% Deutsch",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-deutsch",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-deutsch-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-germany",
+      "slug": "battle-of-the-generations-germany",
+      "name": "Hitster Battle of the Generations",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bayern-expansion-germany",
+      "slug": "bayern-expansion-germany",
+      "name": "Hitster Bayern",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bayern",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 156,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bayern-expansion-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-germany",
+      "slug": "bingo-germany",
+      "name": "Hitster Bingo",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 226,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-celebration-germany",
+      "slug": "celebration-germany",
+      "name": "Hitster Celebration",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "celebration",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/celebration-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-germany",
+      "slug": "christmas-expansion-germany",
+      "name": "Hitster Christmas",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-flying-mic-germany",
+      "slug": "flying-mic-germany",
+      "name": "Hitster Flying Mic",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "flying-mic",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/flying-mic-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-germany",
+      "slug": "guilty-pleasures-germany",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-germany",
+      "slug": "hip-hop-expansion-germany",
+      "name": "Hitster Hip Hop",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-amazon-germany",
+      "slug": "original-amazon-germany",
+      "name": "Hitster Original (Amazon Edition)",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "amazon",
+      "format": "standalone",
+      "card_count": 360,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-amazon-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-germany",
+      "slug": "original-germany",
+      "name": "Hitster Original",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-refresh-germany",
+      "slug": "original-refresh-germany",
+      "name": "Hitster Original Refresh",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "refresh",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-refresh-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-germany",
+      "slug": "rock-germany",
+      "name": "Hitster Rock",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-schlager-party-germany",
+      "slug": "schlager-party-germany",
+      "name": "Hitster Schlager Party",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "schlager-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 344,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/schlager-party-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-germany",
+      "slug": "soundtracks-expansion-germany",
+      "name": "Hitster Soundtracks",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-germany",
+      "slug": "summer-party-germany",
+      "name": "Hitster Summer Party",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-wacken-on-air-germany",
+      "slug": "wacken-on-air-germany",
+      "name": "Hitster Wacken On Air",
+      "market": "Germany",
+      "region": "DE",
+      "languages": [
+        "de"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "wacken-on-air",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 320,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/wacken-on-air-germany",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-greece",
+      "slug": "original-greece",
+      "name": "Hitster Original",
+      "market": "Greece",
+      "region": "GR",
+      "languages": [
+        "el"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-greece",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-hong-kong",
+      "slug": "guilty-pleasures-hong-kong",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Hong Kong",
+      "region": "HK",
+      "languages": [
+        "zh"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-hong-kong",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-hong-kong",
+      "slug": "original-hong-kong",
+      "name": "Hitster Original",
+      "market": "Hong Kong",
+      "region": "HK",
+      "languages": [
+        "zh"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 316,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-hong-kong",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-hungary",
+      "slug": "christmas-expansion-hungary",
+      "name": "Hitster Christmas",
+      "market": "Hungary",
+      "region": "HU",
+      "languages": [
+        "hu"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-hungary",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-hungary",
+      "slug": "hip-hop-expansion-hungary",
+      "name": "Hitster Hip Hop",
+      "market": "Hungary",
+      "region": "HU",
+      "languages": [
+        "hu"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-hungary",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-hungary",
+      "slug": "original-hungary",
+      "name": "Hitster Original",
+      "market": "Hungary",
+      "region": "HU",
+      "languages": [
+        "hu"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-hungary",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-hungary",
+      "slug": "rock-hungary",
+      "name": "Hitster Rock",
+      "market": "Hungary",
+      "region": "HU",
+      "languages": [
+        "hu"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-hungary",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-smellur-iceland",
+      "slug": "smellur-iceland",
+      "name": "Hitster Smellur",
+      "market": "Iceland",
+      "region": "IS",
+      "languages": [
+        "is"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "smellur",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/smellur-iceland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-smellur-2-iceland",
+      "slug": "smellur-2-iceland",
+      "name": "Hitster Smellur 2",
+      "market": "Iceland",
+      "region": "IS",
+      "languages": [
+        "is"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "smellur-2",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/smellur-2-iceland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-platinum-edition-global",
+      "slug": "platinum-edition-global",
+      "name": "Hitster Platinum Edition",
+      "market": "International",
+      "region": "INT",
+      "languages": [
+        "und"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "platinum-edition",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 500,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/platinum-edition-global",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-israeli-israel",
+      "slug": "100-israeli-israel",
+      "name": "Hitster 100% Israeli",
+      "market": "Israel",
+      "region": "IL",
+      "languages": [
+        "he"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-israeli",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-israeli-israel",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-israel",
+      "slug": "bingo-israel",
+      "name": "Hitster Bingo",
+      "market": "Israel",
+      "region": "IL",
+      "languages": [
+        "he"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-israel",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-mediterranean-israel",
+      "slug": "mediterranean-israel",
+      "name": "Hitster Mediterranean",
+      "market": "Israel",
+      "region": "IL",
+      "languages": [
+        "he"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "mediterranean",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/mediterranean-israel",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-israel",
+      "slug": "original-israel",
+      "name": "Hitster Original",
+      "market": "Israel",
+      "region": "IL",
+      "languages": [
+        "he"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-israel",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-israel",
+      "slug": "summer-party-israel",
+      "name": "Hitster Summer Party",
+      "market": "Israel",
+      "region": "IL",
+      "languages": [
+        "he"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-israel",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-italian-italy",
+      "slug": "100-italian-italy",
+      "name": "Hitster 100% Italian",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-italian",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-italian-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-italy",
+      "slug": "bingo-italy",
+      "name": "Hitster Bingo",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-italy",
+      "slug": "original-italy",
+      "name": "Hitster Original",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-italy",
+      "slug": "rock-italy",
+      "name": "Hitster Rock",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-italy",
+      "slug": "soundtracks-italy",
+      "name": "Hitster Soundtracks",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-tormentoni-italy",
+      "slug": "tormentoni-italy",
+      "name": "Hitster Tormentoni",
+      "market": "Italy",
+      "region": "IT",
+      "languages": [
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "tormentoni",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/tormentoni-italy",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-anime-japan",
+      "slug": "anime-japan",
+      "name": "Hitster Anime",
+      "market": "Japan",
+      "region": "JP",
+      "languages": [
+        "ja"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "anime",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/anime-japan",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-japan",
+      "slug": "original-japan",
+      "name": "Hitster Original",
+      "market": "Japan",
+      "region": "JP",
+      "languages": [
+        "ja"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 316,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-japan",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-lebanon",
+      "slug": "original-lebanon",
+      "name": "Hitster Original",
+      "market": "Lebanon",
+      "region": "LB",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 312,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-lebanon",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-mexico",
+      "slug": "bingo-mexico",
+      "name": "Hitster Bingo",
+      "market": "Mexico",
+      "region": "MX",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-mexico",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-mexico-aaab0005",
+      "slug": "bingo-mexico-aaab0005",
+      "name": "Hitster Bingo",
+      "market": "Mexico",
+      "region": "MX",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-mexico-aaab0005",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-latino-mexico",
+      "slug": "latino-mexico",
+      "name": "Hitster Latino",
+      "market": "Mexico",
+      "region": "MX",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "latino",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/latino-mexico",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-latino-mexico-aaab0004",
+      "slug": "latino-mexico-aaab0004",
+      "name": "Hitster Latino",
+      "market": "Mexico",
+      "region": "MX",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "latino",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/latino-mexico-aaab0004",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-mexico",
+      "slug": "original-mexico",
+      "name": "Hitster Original",
+      "market": "Mexico",
+      "region": "MX",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-mexico",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-nl-netherlands",
+      "slug": "100-nl-netherlands",
+      "name": "Hitster 100% NL",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-nl",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-nl-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-netherlands",
+      "slug": "battle-of-the-generations-netherlands",
+      "name": "Hitster Battle of the Generations",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-netherlands",
+      "slug": "bingo-netherlands",
+      "name": "Hitster Bingo",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-celebration-netherlands",
+      "slug": "celebration-netherlands",
+      "name": "Hitster Celebration",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "celebration",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/celebration-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-netherlands",
+      "slug": "christmas-expansion-netherlands",
+      "name": "Hitster Christmas",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-flying-mic-netherlands",
+      "slug": "flying-mic-netherlands",
+      "name": "Hitster Flying Mic",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "flying-mic",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 226,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/flying-mic-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-netherlands",
+      "slug": "guilty-pleasures-netherlands",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 334,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-netherlands",
+      "slug": "hip-hop-expansion-netherlands",
+      "name": "Hitster Hip Hop",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-netherlands",
+      "slug": "original-netherlands",
+      "name": "Hitster Original",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-refresh-netherlands",
+      "slug": "original-refresh-netherlands",
+      "name": "Hitster Original Refresh",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "refresh",
+      "format": "standalone",
+      "card_count": 314,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-refresh-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-expansion-netherlands",
+      "slug": "rock-expansion-netherlands",
+      "name": "Hitster Rock",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-expansion-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-netherlands",
+      "slug": "soundtracks-expansion-netherlands",
+      "name": "Hitster Soundtracks",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-netherlands",
+      "slug": "summer-party-netherlands",
+      "name": "Hitster Summer Party",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-top-40-nl-netherlands",
+      "slug": "top-40-nl-netherlands",
+      "name": "Hitster Top 40 NL",
+      "market": "Netherlands",
+      "region": "NL",
+      "languages": [
+        "nl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "top-40-nl",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/top-40-nl-netherlands",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-kiwi-edition-new-zealand",
+      "slug": "kiwi-edition-new-zealand",
+      "name": "Hitster Kiwi Edition",
+      "market": "New Zealand",
+      "region": "NZ",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "kiwi-edition",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/kiwi-edition-new-zealand",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-new-zealand",
+      "slug": "original-new-zealand",
+      "name": "Hitster Original",
+      "market": "New Zealand",
+      "region": "NZ",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-new-zealand",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-new-zealand",
+      "slug": "summer-party-new-zealand",
+      "name": "Hitster Summer Party",
+      "market": "New Zealand",
+      "region": "NZ",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-new-zealand",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-2-forlang-festen-sweden-nordics",
+      "slug": "2-forlang-festen-sweden-nordics",
+      "name": "Hitster 2 Förläng Festen (Sweden)",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "2-f-rl-ng-festen",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/2-forlang-festen-sweden-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-nordics",
+      "slug": "battle-of-the-generations-nordics",
+      "name": "Hitster Battle of the Generations",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-nordics",
+      "slug": "bingo-nordics",
+      "name": "Hitster Bingo",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-nordics",
+      "slug": "christmas-expansion-nordics",
+      "name": "Hitster Christmas",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-denmark-nordics",
+      "slug": "denmark-nordics",
+      "name": "Hitster Denmark",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "denmark",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/denmark-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-disney-nordics",
+      "slug": "disney-nordics",
+      "name": "Hitster Disney",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "disney",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 70,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/disney-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-english-nordics",
+      "slug": "english-nordics",
+      "name": "Hitster English",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "english",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/english-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-finland-nordics",
+      "slug": "finland-nordics",
+      "name": "Hitster Finland",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "finland",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/finland-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-nordics",
+      "slug": "guilty-pleasures-nordics",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-nordics",
+      "slug": "hip-hop-expansion-nordics",
+      "name": "Hitster Hip Hop",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-melodifestivalen-nordics",
+      "slug": "melodifestivalen-nordics",
+      "name": "Hitster Melodifestivalen",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "melodifestivalen",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/melodifestivalen-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-nordics-app-nordics",
+      "slug": "nordics-app-nordics",
+      "name": "Hitster Nordics (App)",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "nordics",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 1645,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/nordics-app-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-norway-nordics",
+      "slug": "norway-nordics",
+      "name": "Hitster Norway",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "norway",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/norway-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-kickstarter-nordics",
+      "slug": "original-kickstarter-nordics",
+      "name": "Hitster Original (Kickstarter)",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "kickstarter",
+      "format": "standalone",
+      "card_count": 345,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-kickstarter-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-nordics",
+      "slug": "rock-nordics",
+      "name": "Hitster Rock",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-smukfest-nordics",
+      "slug": "smukfest-nordics",
+      "name": "Hitster Smukfest",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "smukfest",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/smukfest-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-nordics",
+      "slug": "soundtracks-expansion-nordics",
+      "name": "Hitster Soundtracks",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-nordics",
+      "slug": "summer-party-nordics",
+      "name": "Hitster Summer Party",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-sweden-nordics",
+      "slug": "sweden-nordics",
+      "name": "Hitster Sweden",
+      "market": "Nordics",
+      "region": "NORDICS",
+      "languages": [
+        "da",
+        "fi",
+        "no",
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "sweden",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/sweden-nordics",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-peru",
+      "slug": "original-peru",
+      "name": "Hitster Original",
+      "market": "Peru",
+      "region": "PE",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-peru",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-temazos-peru",
+      "slug": "temazos-peru",
+      "name": "Hitster Temazos",
+      "market": "Peru",
+      "region": "PE",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "temazos",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/temazos-peru",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-philippines",
+      "slug": "original-philippines",
+      "name": "Hitster Original",
+      "market": "Philippines",
+      "region": "PH",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-philippines",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-poland",
+      "slug": "bingo-poland",
+      "name": "Hitster Bingo",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 226,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-poland-aaae0015",
+      "slug": "bingo-poland-aaae0015",
+      "name": "Hitster Bingo",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-poland-aaae0015",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-poland",
+      "slug": "christmas-expansion-poland",
+      "name": "Hitster Christmas",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-disco-polo-poland",
+      "slug": "disco-polo-poland",
+      "name": "Hitster Disco Polo",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "disco-polo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/disco-polo-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-poland",
+      "slug": "hip-hop-expansion-poland",
+      "name": "Hitster Hip Hop",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-2nd-edition-poland",
+      "slug": "original-2nd-edition-poland",
+      "name": "Hitster Original (2nd Edition)",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "second-edition",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-2nd-edition-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-poland",
+      "slug": "original-poland",
+      "name": "Hitster Original",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-poland",
+      "slug": "rock-poland",
+      "name": "Hitster Rock",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-poland",
+      "slug": "soundtracks-expansion-poland",
+      "name": "Hitster Soundtracks",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-poland-aaae0014",
+      "slug": "soundtracks-expansion-poland-aaae0014",
+      "name": "Hitster Soundtracks",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-poland-aaae0014",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-5-languages-poland",
+      "slug": "summer-party-5-languages-poland",
+      "name": "Hitster Summer Party (5 languages)",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-5-languages-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-poland",
+      "slug": "summer-party-poland",
+      "name": "Hitster Summer Party",
+      "market": "Poland",
+      "region": "PL",
+      "languages": [
+        "pl"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-poland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-portugal",
+      "slug": "bingo-portugal",
+      "name": "Hitster Bingo",
+      "market": "Portugal",
+      "region": "PT",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-portugal",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-portugal",
+      "slug": "guilty-pleasures-portugal",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Portugal",
+      "region": "PT",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-portugal",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-portugal",
+      "slug": "original-portugal",
+      "name": "Hitster Original",
+      "market": "Portugal",
+      "region": "PT",
+      "languages": [
+        "pt"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 334,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-portugal",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-2nd-edition-romania",
+      "slug": "original-2nd-edition-romania",
+      "name": "Hitster Original (2nd Edition)",
+      "market": "Romania",
+      "region": "RO",
+      "languages": [
+        "ro"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "second-edition",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-2nd-edition-romania",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-k-pop-korea",
+      "slug": "k-pop-korea",
+      "name": "Hitster K-Pop",
+      "market": "South Korea",
+      "region": "KR",
+      "languages": [
+        "ko"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "k-pop",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/k-pop-korea",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-korea",
+      "slug": "original-korea",
+      "name": "Hitster Original",
+      "market": "South Korea",
+      "region": "KR",
+      "languages": [
+        "ko"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-korea",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-100-spanish-spain",
+      "slug": "100-spanish-spain",
+      "name": "Hitster 100% Spanish",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "100-spanish",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/100-spanish-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-battle-of-the-generations-spain",
+      "slug": "battle-of-the-generations-spain",
+      "name": "Hitster Battle of the Generations",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "battle-of-the-generations",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 420,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/battle-of-the-generations-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-spain",
+      "slug": "bingo-spain",
+      "name": "Hitster Bingo",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-disney-spain",
+      "slug": "disney-spain",
+      "name": "Hitster Disney",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "disney",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 70,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/disney-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-los-40-spain",
+      "slug": "los-40-spain",
+      "name": "Hitster Los 40",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "los-40",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/los-40-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-refresh-spain",
+      "slug": "original-refresh-spain",
+      "name": "Hitster Original Refresh",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "refresh",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-refresh-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-spain",
+      "slug": "original-spain",
+      "name": "Hitster Original",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-radio-flaixbac-expansion-spain",
+      "slug": "radio-flaixbac-expansion-spain",
+      "name": "Hitster Radio Flaixbac",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "radio-flaixbac",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/radio-flaixbac-expansion-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-spain",
+      "slug": "rock-spain",
+      "name": "Hitster Rock",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-soundtracks-expansion-spain",
+      "slug": "soundtracks-expansion-spain",
+      "name": "Hitster Soundtracks",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "soundtracks",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/soundtracks-expansion-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-spain",
+      "slug": "summer-party-spain",
+      "name": "Hitster Summer Party",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 309,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-temazos-spain",
+      "slug": "temazos-spain",
+      "name": "Hitster Temazos",
+      "market": "Spain",
+      "region": "ES",
+      "languages": [
+        "es"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "temazos",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 334,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/temazos-spain",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-disney-sweden-sweden",
+      "slug": "disney-sweden-sweden",
+      "name": "Hitster Disney - Sweden",
+      "market": "Sweden",
+      "region": "SE",
+      "languages": [
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "disney-sweden",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 150,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/disney-sweden-sweden",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-kickstarter-sweden",
+      "slug": "original-kickstarter-sweden",
+      "name": "Hitster Original (Kickstarter)",
+      "market": "Sweden",
+      "region": "SE",
+      "languages": [
+        "sv"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "kickstarter",
+      "format": "standalone",
+      "card_count": 1014,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-kickstarter-sweden",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-switzerland",
+      "slug": "original-switzerland",
+      "name": "Hitster Original",
+      "market": "Switzerland",
+      "region": "CH",
+      "languages": [
+        "de",
+        "fr",
+        "it"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-switzerland",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-taiwan",
+      "slug": "guilty-pleasures-taiwan",
+      "name": "Hitster Guilty Pleasures",
+      "market": "Taiwan",
+      "region": "TW",
+      "languages": [
+        "zh"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-taiwan",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-taiwan",
+      "slug": "original-taiwan",
+      "name": "Hitster Original",
+      "market": "Taiwan",
+      "region": "TW",
+      "languages": [
+        "zh"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 333,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-taiwan",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-uk",
+      "slug": "bingo-uk",
+      "name": "Hitster Bingo",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 225,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-uk",
+      "slug": "guilty-pleasures-uk",
+      "name": "Hitster Guilty Pleasures",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-uk",
+      "slug": "original-uk",
+      "name": "Hitster Original",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 335,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-radio-heart-uk",
+      "slug": "radio-heart-uk",
+      "name": "Hitster Radio Heart",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "radio-heart",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/radio-heart-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-uk",
+      "slug": "rock-uk",
+      "name": "Hitster Rock",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-summer-party-uk",
+      "slug": "summer-party-uk",
+      "name": "Hitster Summer Party",
+      "market": "United Kingdom",
+      "region": "GB",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "summer-party",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/summer-party-uk",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-all-american-usa",
+      "slug": "all-american-usa",
+      "name": "Hitster All American",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "all-american",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/all-american-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-bingo-usa",
+      "slug": "bingo-usa",
+      "name": "Hitster Bingo",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "bingo",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 227,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/bingo-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-christmas-expansion-usa",
+      "slug": "christmas-expansion-usa",
+      "name": "Hitster Christmas",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "christmas",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/christmas-expansion-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-country-music-usa",
+      "slug": "country-music-usa",
+      "name": "Hitster Country Music",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "country-music",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/country-music-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-guilty-pleasures-usa",
+      "slug": "guilty-pleasures-usa",
+      "name": "Hitster Guilty Pleasures",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "guilty-pleasures",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/guilty-pleasures-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-hip-hop-expansion-usa",
+      "slug": "hip-hop-expansion-usa",
+      "name": "Hitster Hip Hop",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "hip-hop",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/hip-hop-expansion-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-latino-usa",
+      "slug": "latino-usa",
+      "name": "Hitster Latino",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "latino",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/latino-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-amazon-usa",
+      "slug": "original-amazon-usa",
+      "name": "Hitster Original (Amazon Edition)",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "amazon",
+      "format": "standalone",
+      "card_count": 333,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-amazon-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-usa",
+      "slug": "original-usa",
+      "name": "Hitster Original",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 336,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-original-usa-aaab0001",
+      "slug": "original-usa-aaab0001",
+      "name": "Hitster Original",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "original",
+      "revision": "unspecified",
+      "format": "standalone",
+      "card_count": 308,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/original-usa-aaab0001",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    },
+    {
+      "edition_id": "hitster-rock-expansion-usa",
+      "slug": "rock-expansion-usa",
+      "name": "Hitster Rock",
+      "market": "United States",
+      "region": "US",
+      "languages": [
+        "en"
+      ],
+      "language_basis": "market inference; song languages are not inferred",
+      "family": "rock",
+      "revision": "unspecified",
+      "format": "expansion",
+      "card_count": 154,
+      "status": "available",
+      "sources": [
+        {
+          "url": "https://hitify.app/en/hitster-editions/rock-expansion-usa",
+          "index_url": "https://hitify.app/en/hitster-editions",
+          "index_sha256": "c06740070b325e2910d7684b6bf5ce610f07a7917ff9108e9a2ff44012f74507"
+        }
+      ]
+    }
+  ],
+  "retrieved_on": "2026-11-16"
+}

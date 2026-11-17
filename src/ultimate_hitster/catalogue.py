@@ -141,24 +141,34 @@ def save(root, catalogue):
 def import_edition(catalogue, rows, references, edition, metadata, albums=None, reviews=None):
     result = copy.deepcopy(catalogue)
     edition_id = edition["edition_id"]
-    if set(references) != {row["card_number"] for row in rows}:
-        raise ValueError("The reference map must cover exactly the catalogue card numbers")
+    if set(references) - {row["card_number"] for row in rows}:
+        raise ValueError("The reference map contains unknown catalogue card numbers")
     recordings = {track["recording_id"]: track for track in result["recordings"]}
     by_provider = {provider: track for track in recordings.values()
                    for provider in track["providers"]["spotify"]}
     old_members = {(member["edition_id"], member["card_number"]): member for member in result["memberships"]}
+    origins = {}
+    edition_order = {e["edition_id"]: i for i, e in enumerate(result["editions"])}
+    for member in sorted(result["memberships"], key=lambda m: edition_order[m["edition_id"]]):
+        origins.setdefault(member["recording_id"], member["edition_id"])
     studies = {(member["recording_id"], member["catalogue_year"]): member["study_id"] for member in result["memberships"]}
     added_members = []
     for row in rows:
-        reference = references[row["card_number"]]
-        provider = reference["spotify_track_id"]
-        track = by_provider.get(provider)
+        reference = references.get(row["card_number"], {})
+        provider = reference.get("spotify_track_id") or None
+        if provider is not None and not valid_id(provider):
+            raise ValueError("Invalid pinned Spotify reference")
+        member_anchor = stable_id("member", edition_id + ":" + row["card_number"])
+        unresolved_id = stable_id("rec", "unresolved:" + member_anchor)
+        track = by_provider.get(provider) if provider else recordings.get(unresolved_id)
         if track is None:
-            track = {"recording_id": stable_id("rec", "spotify:" + provider),
+            track = {"recording_id": stable_id("rec", "spotify:" + provider) if provider else unresolved_id,
                      "artist": row["artist"], "title": row["title"], "album": None,
-                     "providers": {"spotify": [provider]}}
+                     "providers": {"spotify": [provider] if provider else []},
+                     "catalogue_origin": edition_id}
             recordings[track["recording_id"]] = track
-            by_provider[provider] = track
+            if provider:
+                by_provider[provider] = track
         existing = old_members.get((edition_id, row["card_number"]))
         if existing and existing["recording_id"] != track["recording_id"]:
             raise ValueError("A card's recording reference changed; an explicit identity review is required")
@@ -166,14 +176,21 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
         matches = {"title": normalized(row["title"]) == normalized(evidence.get("title", "")),
                    "artist": artists_match(row["artist"], evidence.get("artists", []))}
         verified = all(matches.values()) and evidence.get("spotify_id") == provider
-        status = "verified" if verified else ("fetch_failed" if evidence.get("status") == "fetch_failed" else "metadata_mismatch")
+        status = ("unresolved" if provider is None else
+                  "verified" if verified else
+                  "fetch_failed" if evidence.get("status") == "fetch_failed" else "metadata_mismatch")
         review = (reviews or {}).get(row["card_number"])
         if review:
             if (review["spotify_id"] != provider or review["catalogue_title"] != row["title"]
                     or review["provider_title"] != evidence.get("title") or not matches["artist"]):
                 raise ValueError("A recording review no longer matches the exact reference/title/artist")
             verified, status = True, "reviewed"
-        track["provider_metadata"] = {key: value for key, value in evidence.items() if key != "preview_url"}
+        source_checks = reference.get("source_checks")
+        source_conflict = source_checks is not None and not all(source_checks.values())
+        if provider and (source_conflict or reference.get("playlist_conflict")):
+            verified, status = False, "source_conflict"
+        if verified or "provider_metadata" not in track:
+            track["provider_metadata"] = {key: value for key, value in evidence.items() if key != "preview_url"}
         album = (albums or {}).get(provider, {}).get("album")
         if album:
             track["album"] = album
@@ -182,7 +199,7 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
         if verified and url:
             track["audio"] = old_audio if old_audio.get("url") == url else {
                 "format": "mp3", "provider": "spotify", "url": url, "status": "unchecked"}
-        else:
+        elif not old_audio.get("url") or not old_audio.get("status") == "verified":
             track["audio"] = {"format": "mp3", "provider": "spotify", "url": None,
                               "status": "unavailable", "reason": status if not verified else "provider_no_preview"}
         member_id = stable_id("member", edition_id + ":" + row["card_number"])
@@ -192,12 +209,17 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
         added_members.append({"membership_id": member_id, "edition_id": edition_id,
                               "card_number": row["card_number"], "recording_id": track["recording_id"],
                               "study_id": study_id, "catalogue_year": row["year"],
+                              "catalogue_artist": row["artist"], "catalogue_title": row["title"],
                               "reference": {"spotify_id": provider, "qr_url": reference.get("qr_code_value"),
                                             "status": status, "checks": matches,
+                                            **({key: reference[key] for key in ("source_url", "source_checks", "source_markets", "playlist_conflict") if key in reference}),
                                             **({"review": review["reason"]} if review else {})}})
     # A corrected spelling in the same edition must not depend on provider text.
     for row, member in zip(rows, added_members):
-        if (edition_id, row["card_number"]) in old_members:
+        track = recordings[member["recording_id"]]
+        origin = track.get("catalogue_origin", origins.get(track["recording_id"], edition_id))
+        track["catalogue_origin"] = origin
+        if (edition_id, row["card_number"]) in old_members and origin == edition_id:
             recordings[member["recording_id"]]["artist"] = row["artist"]
             recordings[member["recording_id"]]["title"] = row["title"]
     result["recordings"] = sorted(recordings.values(), key=lambda track: track["recording_id"])
@@ -248,7 +270,9 @@ def validate(catalogue):
             raise ValueError("Dangling membership reference")
         if type(member["catalogue_year"]) is not int or not 1800 <= member["catalogue_year"] <= 2100:
             raise ValueError("Invalid catalogue year")
-        if member["reference"]["spotify_id"] not in recordings[member["recording_id"]]["providers"]["spotify"]:
+        if (member["reference"]["spotify_id"] is None and member["reference"]["status"] != "unresolved") or (
+                member["reference"]["spotify_id"] is not None and
+                member["reference"]["spotify_id"] not in recordings[member["recording_id"]]["providers"]["spotify"]):
             raise ValueError("Membership recording/provider disagreement")
         fact = member["recording_id"], member["catalogue_year"]
         if member["study_id"] in studies and studies[member["study_id"]] != fact:

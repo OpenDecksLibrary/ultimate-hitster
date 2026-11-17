@@ -10,6 +10,8 @@ import sys
 from .catalogue import SOURCE_URL, REFERENCE_URL, load, save, parse_hitify, read_references, import_edition, source_digest, write_json, validate
 from .spotify import fetch, resolve_recordings, resolve_albums, now
 from .build import verify_audio, build_package, allocate_timestamp
+from .registry import INDEX_URL, discover
+from .selections import statistics
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -51,13 +53,14 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     importing = commands.add_parser("import-hitify")
     importing.add_argument("--html", type=Path, help="Saved/normalized source table; omit to fetch the edition URL")
-    importing.add_argument("--references", type=Path, default=ROOT / "data/sources/original-france.references.csv")
-    importing.add_argument("--expected-count", type=int, default=308)
+    importing.add_argument("--edition", default="hitster-original-france", help="Edition ID in data/registry.json")
+    importing.add_argument("--references", type=Path, required=True, help="Exact card-reference CSV or JSON map; no title search")
+    importing.add_argument("--expected-count", type=int, help="Optional additional assertion against the registry")
     importing.add_argument("--provider-cache", type=Path, default=ROOT / "build/provider-cache")
     importing.add_argument("--album-cache", type=Path, default=ROOT / "build/album-cache")
-    importing.add_argument("--reviews", type=Path, default=ROOT / "data/sources/original-france.reviews.json")
+    importing.add_argument("--reviews", type=Path)
     resolving = commands.add_parser("refresh-references")
-    resolving.add_argument("--references", type=Path, default=ROOT / "data/sources/original-france.references.csv")
+    resolving.add_argument("--references", type=Path, required=True)
     resolving.add_argument("--provider-cache", type=Path, default=ROOT / "build/provider-cache")
     resolving.add_argument("--album-cache", type=Path, default=ROOT / "build/album-cache")
     resolving.add_argument("--refresh", action="store_true")
@@ -75,25 +78,40 @@ def main():
     building.add_argument("--output", type=Path, required=True)
     commands.add_parser("validate")
     commands.add_parser("report")
+    registry = commands.add_parser("discover-editions")
+    registry.add_argument("--html", type=Path)
+    commands.add_parser("statistics")
     args = parser.parse_args()
     try:
         catalogue = load(args.data)
         if args.command == "import-hitify":
-            source = args.html.read_text(encoding="utf-8") if args.html else fetch(SOURCE_URL).decode("utf-8")
-            rows = parse_hitify(source, args.expected_count)
-            edition = {"edition_id": "hitster-original-france", "name": "Hitster Original France", "region": "FR",
-                       "language": "fr", "card_count": args.expected_count, "year_kind": "catalogue_release_year",
-                       "printed_years_verified": False, "anki_deck_id": 1735079101,
-                       "sources": [{"url": SOURCE_URL, "retrieved_on": now()[:10],
+            registry_path = args.data / "registry.json"
+            entries = json.loads(registry_path.read_text())["editions"] if registry_path.exists() else catalogue["editions"]
+            entry = next((e for e in entries if e["edition_id"] == args.edition), None)
+            if entry is None:
+                raise ValueError("Unknown edition; run discover-editions first")
+            url = entry["sources"][0]["url"]
+            source = args.html.read_text(encoding="utf-8") if args.html else fetch(url).decode("utf-8")
+            count = entry["card_count"]
+            if args.expected_count is not None and args.expected_count != count:
+                raise ValueError("Expected card count disagrees with registry")
+            rows = parse_hitify(source, count)
+            references = (json.loads(args.references.read_text()) if args.references.suffix == ".json"
+                          else read_references(args.references))
+            edition = {**entry, "year_kind": "catalogue_release_year", "printed_years_verified": False,
+                       "language": entry.get("language", (entry.get("languages") or ["und"])[0]),
+                       "sources": [{"url": url, "retrieved_on": now()[:10],
                                     "snapshot": args.html.name if args.html else None,
                                     "sha256": hashlib.sha256(source.encode("utf-8")).hexdigest()},
-                                   {"url": REFERENCE_URL, "sha256": source_digest(args.references)}]}
-            catalogue = import_edition(catalogue, rows, read_references(args.references), edition,
+                                   {"snapshot": args.references.name, "sha256": source_digest(args.references)}]}
+            catalogue = import_edition(catalogue, rows, references, edition,
                                        cache(args.provider_cache), cache(args.album_cache),
-                                       json.loads(args.reviews.read_text(encoding="utf-8")) if args.reviews.exists() else {})
+                                       json.loads(args.reviews.read_text()) if args.reviews else {})
             save(args.data, catalogue)
         elif args.command == "refresh-references":
-            ids = [row["spotify_track_id"] for row in read_references(args.references).values()]
+            references = (json.loads(args.references.read_text()) if args.references.suffix == ".json"
+                          else read_references(args.references))
+            ids = [r["spotify_track_id"] for r in references.values() if r.get("spotify_track_id")]
             progress = lambda a, b: print(f"References {a}/{b}", file=sys.stderr, flush=True)
             resolve_recordings(ids, args.provider_cache, args.refresh, args.workers, progress)
             if args.albums:
@@ -112,10 +130,23 @@ def main():
             write_json(args.output.with_suffix(".report.json"), result)
             print(json.dumps(result, indent=2))
             return
+        elif args.command == "discover-editions":
+            source = args.html.read_text() if args.html else fetch(INDEX_URL).decode("utf-8")
+            registry = discover(source, [e["edition_id"] for e in catalogue["editions"]])
+            write_json(args.data / "registry.json", registry)
+            print(f"Discovered {len(registry['editions'])} editions")
+            return
+        elif args.command == "statistics":
+            path = args.data / "registry.json"
+            registry = json.loads(path.read_text()) if path.exists() else None
+            result = statistics(catalogue, registry)
+            write_json(args.data / "reports/catalogue.json", result)
+            print(json.dumps(result, indent=2))
+            return
         elif args.command == "validate":
             validate(catalogue)
         result = report(catalogue)
-        write_json(args.data / "reports/original-france.json", result)
+        write_json(args.data / "reports/import-validation.json", result)
         print(json.dumps({key: value for key, value in result.items() if key != "issues"}, indent=2))
     except (OSError, ValueError, KeyError) as error:
         parser.exit(2, f"Error: {error}\n")

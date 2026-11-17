@@ -10,7 +10,7 @@ import re
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 
 MAX_PAGE = 2_000_000
 MAX_AUDIO = 10_000_000
@@ -23,7 +23,7 @@ def now():
 def fetch(url, limit=MAX_PAGE):
     for attempt in range(3):
         try:
-            with urlopen(url, timeout=25) as response:
+            with urlopen(Request(url, headers={"User-Agent": "UltimateHitster/0.3 (+https://github.com/OpenDecksLibrary/ultimate-hitster)"}), timeout=25) as response:
                 data = response.read(limit + 1)
             if len(data) > limit:
                 raise ValueError("Response exceeds the size limit")

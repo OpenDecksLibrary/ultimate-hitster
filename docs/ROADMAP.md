@@ -32,9 +32,22 @@ from the stable production identities defined in schema v1.
 
 ## 0.3 — Multi-edition support
 
-- [ ] Add Belgian and Dutch editions.
-- [ ] Resolve duplicate recordings and conflicting game-card years.
-- [ ] Build individual editions, country collections and an optional global collection.
+- [x] Discover and classify all Hitify-listed editions without importing the world.
+- [x] Generalize import and selection configuration; retain schema v1 and published IDs.
+- [x] Add complete Original Refresh France and Guilty Pleasures France source imports.
+- [x] Deduplicate exact recording/year studies; preserve distinct versions and year conflicts.
+- [x] Build individual, country, family, custom and imported-global selections.
+- [x] Add hierarchical tags and document one-card/one-deck behavior.
+- [x] Test overlapping imports, scheduling/history, user decks, modes and beta compatibility.
+- [x] Prepare candidate artifacts and a disabled v0.3.0-beta.1 publication plan.
+- [ ] Complete Desktop, AnkiDroid and AnkiMobile manual checks with recorded results.
+- [ ] Review and merge the v0.3 PR, then explicitly authorize candidate publication.
+- [ ] Add further countries/editions in separately reviewed imports.
+
+See [multi-edition rules](MULTI_EDITION.md), [statistics](../data/reports/catalogue.json)
+and [manual validation](MANUAL_VALIDATION.md). Radio Contact Belgium remains
+available in the registry; its complete per-card reference source was not
+available in the complementary source used for this import.
 
 ## 1.0 — Stable community release
 

@@ -1,0 +1,1411 @@
+[
+  {
+    "id": "hitster-ar",
+    "name": "Hitster Argentina",
+    "matcher": "/ar/aaas0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-au",
+    "name": "Hitster Australia",
+    "matcher": "/au/aaah0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-baltics",
+    "name": "Hitster Baltics",
+    "matcher": "/ee/aaal0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-baltics-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (Baltics)",
+    "matcher": "/ee/aaal0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-ca",
+    "name": "Hitster Bingo Canada",
+    "matcher": "/ca/aaad0005/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-deutschland",
+    "name": "Hitster Bingo Deutschland",
+    "matcher": "/de/aaaa0019/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-fr",
+    "name": "Hitster Bingo France",
+    "matcher": "/fr/aaaa0018/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-il",
+    "name": "Hitster Bingo Israel",
+    "matcher": "/il/aaaj0004/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-bingo-nl",
+    "name": "Hitster Bingo Nederland",
+    "matcher": "/nl/aaaa0020/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-nordics",
+    "name": "Hitster Bingo Nordics",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0035/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-pl",
+    "name": "Hitster Bingo Polska",
+    "matcher": "/pl/aaae0005/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-uk",
+    "name": "Hitster Bingo UK",
+    "matcher": "/gb/aaaa0021/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-bingo-us",
+    "name": "Hitster Bingo USA",
+    "matcher": "/us/aaaa0070/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-br",
+    "name": "Hitster Brasil",
+    "matcher": "/br/aaaq0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-br-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (BR)",
+    "matcher": "/br/aaaq0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-ca",
+    "name": "Hitster Canada",
+    "matcher": "/ca/aaad0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-ca-franco",
+    "name": "Hitster Canada (Franco)",
+    "matcher": "/ca/aaad0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-ca-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (CA)",
+    "matcher": "/ca/aaad0003/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-ca-rock",
+    "name": "Hitster Rock (CA)",
+    "matcher": "/ca/aaad0007/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-ca-soundtracks-expansion",
+    "name": "Hitster Soundtracks Expansion (CA)",
+    "matcher": "/ca/aaad0008/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de",
+    "name": "Hitster Deutsch",
+    "matcher": "/de/(\\d{5})$/",
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    },
+    "available": true
+  },
+  {
+    "id": "hitster-de-battle-of-generations",
+    "name": "Hitster Battle of Generations (DE)",
+    "matcher": "/de/aaaa0064/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-bayern-1-expansion",
+    "name": "Hitster Bayern 1 Expansion (DE)",
+    "matcher": "/de/aaaa0025/(\\d{5})$/",
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    },
+    "available": true
+  },
+  {
+    "id": "hitster-de-celebration",
+    "name": "Hitster Celebration (DE)",
+    "matcher": "/de/aaaa0040/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-christmas-expansion",
+    "name": "Hitster Christmas Expansion (DE)",
+    "matcher": "/de/aaaa0042/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-flying-mic",
+    "name": "Hitster Flying Mic (DE)",
+    "matcher": "/de/aaaa0079/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-de-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (DE)",
+    "matcher": "/de/aaaa0015/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-hip-hop",
+    "name": "Hitster Hip Hop (DE)",
+    "matcher": "/de/aaaa0059/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-refresh",
+    "name": "Hitster Original Refresh (DE)",
+    "matcher": "/de/aaaa0075/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-rock",
+    "name": "Hitster Rock (DE)",
+    "matcher": "/de/aaaa0039/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-schlager-party",
+    "name": "Hitster Schlager Party (DE)",
+    "matcher": "/de/aaaa0007/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "full",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-soundtracks-expansion",
+    "name": "Hitster Soundtracks Expansion (DE)",
+    "matcher": "/de/aaaa0026/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "full",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-summer-party",
+    "name": "Hitster Summer Party (DE)",
+    "matcher": "/de/aaaa0012/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-de-wacken-open-air-2026",
+    "name": "Hitster Wacken Open Air 2026 (DE)",
+    "matcher": "/de/aaaa0080/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-dk",
+    "name": "Hitster Danmark",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0047/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es",
+    "name": "Hitster España",
+    "matcher": "/es/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es-battle-of-generations",
+    "name": "Hitster Battle of Generations (ES)",
+    "matcher": "/es/aaaa0066/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es-bingo",
+    "name": "Hitster Bingo España",
+    "matcher": "/es/aaaa0017/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es-refresh",
+    "name": "Hitster Original Refresh (ES)",
+    "matcher": "/es/aaaa0076/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es-rock",
+    "name": "Hitster Rock (ES)",
+    "matcher": "/es/aaaa0061/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-es-summer-party",
+    "name": "Hitster Summer Party (ES)",
+    "matcher": "/es/aaaa0013/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-es-temazos",
+    "name": "Hitster Temazos (ES)",
+    "matcher": "/es/aaaa0008/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fi",
+    "name": "Hitster Suomi",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0050/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr",
+    "name": "Hitster France",
+    "matcher": "/fr/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-100-francais",
+    "name": "Hitster 100% Français",
+    "matcher": "/fr/aaaa0010/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-battle-of-generations",
+    "name": "Hitster Battle of Generations (FR)",
+    "matcher": "/fr/aaaa0067/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (FR)",
+    "matcher": "/fr/aaaa0058/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-hip-hop",
+    "name": "Hitster Hip Hop (FR)",
+    "matcher": "/fr/aaaa0057/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-refresh",
+    "name": "Hitster Original Refresh (FR)",
+    "matcher": "/fr/aaaa0077/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-rock",
+    "name": "Hitster Rock (FR)",
+    "matcher": "/fr/aaaa0085/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-fr-summer-party",
+    "name": "Hitster Summer Party (FR)",
+    "matcher": "/fr/aaaa0031/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-guilty-pleasures-nor",
+    "name": "Hitster Guilty Pleasures (NOR)",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0024/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-hu",
+    "name": "Hitster Hungary",
+    "matcher": "/hu/aaae0003/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-hu-rock",
+    "name": "Hitster Rock (HU)",
+    "matcher": "/hu/aaae0011/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-il",
+    "name": "Hitster Israel",
+    "matcher": "/il/aaaj0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-il-100-israeli",
+    "name": "Hitster 100% Israeli",
+    "matcher": "/il/aaaj0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-it",
+    "name": "Hitster Italia",
+    "matcher": "/it/aaac0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-jp",
+    "name": "Hitster Japan",
+    "matcher": "/jp/aaat0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-jp-anime",
+    "name": "Hitster Anime (JP)",
+    "matcher": "/jp/aaat0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-kp",
+    "name": "Hitster K-Pop",
+    "matcher": "/(?:kp|kr)/aaag0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-kr",
+    "name": "Hitster Korea",
+    "matcher": "/(?:kr|kp)/aaag0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-menart",
+    "name": "Hitster Menart",
+    "matcher": "/hr/aaak0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-mx",
+    "name": "Hitster México",
+    "matcher": "/mx/aaab0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-nl",
+    "name": "Hitster Nederland",
+    "matcher": "/nl/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nl-battle-of-generations",
+    "name": "Hitster Battle of Generations (NL)",
+    "matcher": "/nl/aaaa0063/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nl-christmas-expansion",
+    "name": "Hitster Christmas Expansion (NL)",
+    "matcher": "/nl/aaaa0037/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nl-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (NL)",
+    "matcher": "/nl/aaaa0006/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nl-rock",
+    "name": "Hitster Rock (NL)",
+    "matcher": "/nl/aaaa0036/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nl-soundtracks-expansion",
+    "name": "Hitster Soundtracks Expansion (NL)",
+    "matcher": "/nl/aaaa0027/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-no",
+    "name": "Hitster Norge",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0046/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nordics",
+    "name": "Hitster Nordics",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0049/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nordics-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (Nordics)",
+    "available": false,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "partial",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nordics-rock",
+    "name": "Hitster Rock (Nordics)",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0048/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nordics-soundtracks-expansion",
+    "name": "Hitster Soundtracks Expansion (Nordics)",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0028/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-nordics-summer-party",
+    "name": "Hitster Summer Party (Nordics)",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0062/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-nz",
+    "name": "Hitster New Zealand",
+    "matcher": "/nz/aaai0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-pe",
+    "name": "Hitster Perú",
+    "matcher": "/pe/aaan0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-pe-temazos",
+    "name": "Hitster Temazos (PE)",
+    "matcher": "/pe/aaan0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-pl",
+    "name": "Hitster Polska (2nd Edition)",
+    "matcher": "/pl/aaae0002/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-pl-1st-edition",
+    "name": "Hitster Polska (1st Edition)",
+    "matcher": "/pl/aaae0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-pl-rock",
+    "name": "Hitster Rock (PL)",
+    "matcher": "/pl/aaae0010/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-pl-soundtracks-expansion",
+    "name": "Hitster Soundtracks Expansion (PL)",
+    "matcher": "/pl/aaae0009/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-pl-summer-party",
+    "name": "Hitster Summer Party (PL)",
+    "matcher": "/pl/aaae0004/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-platinum",
+    "name": "Hitster Platinum Edition",
+    "matcher": "/de/aaaa0054/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "no",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "no",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-se-forlang-festen",
+    "name": "Hitster Förläng Festen (SE)",
+    "matcher": "/(?:dk|se|no|fi)/aaaa0045/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-uk",
+    "name": "Hitster UK",
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    },
+    "available": true,
+    "matcher": "/gb/aaaa0005/(\\d{5})$/"
+  },
+  {
+    "id": "hitster-uk-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (UK)",
+    "matcher": "/gb/aaaa0051/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "no",
+      "youtubeMusic": "no"
+    }
+  },
+  {
+    "id": "hitster-uk-summer-party",
+    "name": "Hitster Summer Party (UK)",
+    "matcher": "/gb/aaaa0016/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us",
+    "name": "Hitster USA",
+    "matcher": "/us/aaab0001/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "full",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us-2",
+    "name": "Hitster USA (vol 2)",
+    "matcher": "/us/aaaa0023/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "no",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us-all-american",
+    "name": "Hitster All American (US)",
+    "matcher": "/us/aaaa0055/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us-amazon",
+    "name": "Hitster Amazon Edition (US)",
+    "matcher": "/us/aaab0003/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us-guilty-pleasures",
+    "name": "Hitster Guilty Pleasures (US)",
+    "matcher": "/us/aaaa0038/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  },
+  {
+    "id": "hitster-us-latino",
+    "name": "Hitster Latino (US)",
+    "matcher": "/us/aaaa0053/(\\d{5})$/",
+    "available": true,
+    "support": {
+      "appleMusic": "full",
+      "amazonMusic": "no",
+      "deezer": "full",
+      "spotify": "full",
+      "tidal": "full",
+      "youtube": "full",
+      "youtubeMusic": "full"
+    }
+  }
+]
