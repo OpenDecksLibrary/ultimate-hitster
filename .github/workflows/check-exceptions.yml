@@ -1,0 +1,28 @@
+name: Check release exceptions
+on:
+  push:
+    branches: [release/v0.3.0-beta.1]
+    paths: [tools/check_release_exceptions.py, .github/workflows/check-exceptions.yml]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: release/v0.3.0-beta.1
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e . -r prototype/requirements-test.txt
+      - run: python tools/check_release_exceptions.py
+      - name: Save exact-reference recheck evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/reports/v0.3-exception-recheck.json
+          git commit -m 'Record bounded live checks of the twelve existing release exceptions'
+          git push origin HEAD:release/v0.3.0-beta.1
