@@ -1,8 +1,8 @@
-name: Check release exceptions
+name: Resolve release exceptions
 on:
   push:
     branches: [release/v0.3.0-beta.1]
-    paths: [tools/check_release_exceptions.py, .github/workflows/check-exceptions.yml]
+    paths: [tools/resolve_release_exceptions.py, data/sources/guilty-pleasures-france.reviews.json, .github/workflows/check-exceptions.yml]
 permissions:
   contents: read
 jobs:
@@ -17,12 +17,14 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python -m pip install -e . -r prototype/requirements-test.txt
-      - run: python tools/check_release_exceptions.py
-      - name: Save exact-reference recheck evidence
+      - run: python tools/resolve_release_exceptions.py
+      - run: python -m unittest discover -s tests -v
+      - name: Save bounded credit decisions without changing identities
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/reports/v0.3-exception-recheck.json
-          git commit -m 'Record bounded live checks of the twelve existing release exceptions'
+          git add data
+          git commit -m 'Resolve two credit-only references and retain ten explicit exceptions'
           git push origin HEAD:release/v0.3.0-beta.1

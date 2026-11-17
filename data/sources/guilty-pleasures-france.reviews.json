@@ -1,0 +1,43 @@
+{
+  "221": {
+    "spotify_id": "3de9qG6m9dXJEAn7ukU5wh",
+    "catalogue_title": "Jamais nous",
+    "provider_title": "Jamais nous",
+    "catalogue_artist": "Elsa",
+    "provider_artists": [
+      "Elsa Lunghini"
+    ],
+    "source_checks": {
+      "title": true,
+      "artist": false
+    },
+    "review_kind": "credit_only",
+    "reason": "Elsa is the performance name of Elsa Lunghini. The pinned track, song title and 1988 Elsa album are unchanged; credit-name difference only. No physical-card listening validation claimed.",
+    "sources": [
+      "https://www.universalmusic.fr/artistes/30037542001",
+      "https://musicbrainz.org/artist/747b136c-4cea-4916-b8d3-72b50c34341e",
+      "https://open.spotify.com/track/3de9qG6m9dXJEAn7ukU5wh"
+    ]
+  },
+  "225": {
+    "spotify_id": "5rb9QrpfcKFHM1EUbSIurX",
+    "catalogue_title": "Yeah!",
+    "provider_title": "Yeah! (feat. Lil Jon & Ludacris)",
+    "catalogue_artist": "USHER, Lil Jon, Ludacris",
+    "provider_artists": [
+      "USHER",
+      "Lil Jon",
+      "Ludacris"
+    ],
+    "source_checks": {
+      "title": false,
+      "artist": true
+    },
+    "review_kind": "credit_only",
+    "reason": "The provider repeats the same credited guest artists in the title. The pinned Spotify recording and all three artist credits are unchanged. No edit, mix or remaster qualifier is removed; no physical-card listening validation claimed.",
+    "sources": [
+      "https://open.spotify.com/track/5rb9QrpfcKFHM1EUbSIurX",
+      "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-225"
+    ]
+  }
+}

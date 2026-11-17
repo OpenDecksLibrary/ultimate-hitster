@@ -111,6 +111,7 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
                           css=(ROOT / "templates/production/card.css").read_text(encoding="utf-8"))
     deck = genanki.Deck(config["deck_id"], config["deck_name"])
     media, missing, playable = {}, [], 0
+    suspended_studies = []
     for study_id, item in sorted(notes.items()):
         track = item["track"]
         audio = track["audio"]
@@ -152,7 +153,12 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
             tags.append("audio::missing")
         values = [study_id, track["recording_id"], html.escape(track["artist"]), html.escape(track["title"]),
                   str(item["year"]), html.escape((track.get("album") or {}).get("name", "")), playback]
-        deck.add_note(genanki.Note(model=model, fields=values, guid=note_guid(study_id), tags=sorted(set(tags))))
+        note = genanki.Note(model=model, fields=values, guid=note_guid(study_id), tags=sorted(set(tags)))
+        if not available:
+            for card in note.cards:
+                card.suspend = True
+            suspended_studies.append(study_id)
+        deck.add_note(note)
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
     package = genanki.Package(deck)
@@ -161,4 +167,5 @@ def build_package(catalogue, config, mode, output, media_dir, missing_policy="in
     return {"mode": mode, "notes": len(notes), "playable": playable,
             "media_files": len(media), "missing_cards": missing, "bytes": output.stat().st_size,
             "output": output.name, "deck_id": config["deck_id"], "model_id": MODEL_ID,
-            "edition_ids": edition_ids}
+            "edition_ids": edition_ids, "suspended_studies": suspended_studies,
+            "suspended_cards": len(suspended_studies)}
