@@ -31,23 +31,6 @@ jobs:
       - run: python -m pip install -e . -r prototype/requirements-test.txt
       - name: Test, decode MP3s and prepare selected candidate APKGs
         run: python tools/prepare_release.py prepare --plan release-candidate.json
-      - name: Validate actual published-beta upgrade and successive full-edition imports
-        run: python tools/validate_multi_imports.py
-      - name: Include upgrade evidence in the candidate checksum manifest
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import json
-          from tools.prepare_release import asset_names, release_plan, write_checksums, verify_checksums
-          root=Path("dist")
-          report=json.loads((root/"validation.json").read_text())
-          report["successive_imports"]=json.loads((root/"successive-imports.json").read_text())
-          (root/"validation.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-          (root/"successive-imports.json").unlink()
-          names=asset_names(release_plan(Path("release-candidate.json")))
-          write_checksums(root,names)
-          verify_checksums(root,assets=names)
-          PY
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: v0.3.0-beta.1-candidate

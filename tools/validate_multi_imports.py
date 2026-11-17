@@ -18,9 +18,9 @@ from ultimate_hitster.registry import select_editions
 COLUMNS = "id,nid,did,ord,type,queue,due,ivl,factor,reps,lapses,left,odue,odid,flags,data"
 
 
-def validate(directory):
+def validate(directory, catalogue=None):
     directory = Path(directory)
-    catalogue = load(ROOT / "data")
+    catalogue = catalogue or load(ROOT / "data")
     baseline = json.loads((ROOT / "tests/fixtures/v0.2.0-online-asset.json").read_text())
     with tempfile.TemporaryDirectory() as temporary:
         root = Path(temporary)
@@ -35,7 +35,7 @@ def validate(directory):
         try:
             def importing(path):
                 return collection.import_anki_package(ImportAnkiPackageRequest(
-                    package_path=str(Path(path).resolve()), options=ImportAnkiPackageOptions(with_scheduling=False)))
+                    package_path=str(Path(path).resolve()), options=ImportAnkiPackageOptions(with_scheduling=True)))
             importing(package)
             if collection.card_count() != 308:
                 raise ValueError("Published beta import is incomplete")
@@ -58,9 +58,11 @@ def validate(directory):
                 ids = select_editions(catalogue, config)
                 selected = selected_notes(catalogue, ids)
                 seen.update(selected)
-                path = root / f"{name}-{mode}.apkg"
-                build_package(catalogue, config, mode, path, ROOT / "build/media",
-                              timestamp=allocate_timestamp(ROOT / "build/anki-build-epoch.txt"))
+                path = directory / f"ultimate-hitster-{name}-{mode}.apkg"
+                if not path.exists():
+                    path = root / f"{name}-{mode}.apkg"
+                    build_package(catalogue, config, mode, path, ROOT / "build/media",
+                                  timestamp=allocate_timestamp(ROOT / "build/anki-build-epoch.txt"))
                 before = {row[0]: row for row in collection.db.all(f"select {COLUMNS} from cards")}
                 history = collection.db.all("select * from revlog")
                 imported = importing(path)
@@ -75,6 +77,9 @@ def validate(directory):
                                "collection_cards": collection.card_count(), "new": len(imported.log.new),
                                "updated": len(imported.log.updated), "history_preserved": True,
                                "scheduling_preserved": True, "user_deck_preserved": True})
+            unavailable = collection.find_cards("tag:audio::missing Playback:*unavailable*")
+            if any(collection.get_card(cid).queue != -1 for cid in unavailable):
+                raise ValueError("New unavailable cards are active in the normal review queue")
             if collection.media.check().missing:
                 raise ValueError("Imported offline media is missing")
             guids = collection.db.list("select guid from notes")
@@ -83,7 +88,8 @@ def validate(directory):
         finally:
             collection.close()
     output = {"baseline_package_sha256": baseline["sha256"], "baseline_cards": 308,
-              "actual_review_rows": 5, "sequence": result, "manual_device_results": "pending"}
+              "actual_review_rows": 5, "sequence": result, "manual_device_results": "pending",
+              "unavailable_cards_suspended": len(unavailable), "actual_release_packages_used_when_available": True}
     (directory / "successive-imports.json").write_text(json.dumps(output, indent=2) + "\n")
     print(json.dumps(output, indent=2))
     return output

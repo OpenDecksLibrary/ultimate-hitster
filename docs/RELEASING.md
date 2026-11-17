@@ -5,12 +5,13 @@ release assets, never committed to Git.
 
 ## Candidate preparation (no publication)
 
-release-candidate.json currently describes v0.3.0-beta.1 with publish: false.
-It is separate from the active release.json. Prepare and validate it with:
+release-candidate.json retains the reviewable v0.3.0-beta.1 package selection
+with publish: false. The active release.json promotes the same ten APKGs with
+publish: true following explicit authorization to publish the beta with the
+listed manual checks pending. This does not authorize a stable release. Prepare and validate it with:
 
 ~~~sh
 python tools/prepare_release.py prepare --plan release-candidate.json --live
-python tools/validate_multi_imports.py
 python tools/prepare_release.py verify --plan release-candidate.json --directory dist
 ~~~
 
@@ -25,11 +26,16 @@ Cache reuse still verifies content hashes. --live forces fresh network retrieval
 and decoding. Preparation never imports new editions or saves changes to
 canonical data. Missing/uncertain references are included only when the plan
 explicitly chooses missing_policy: include; every affected card is reported.
-Use error for strict publication gates.
+Use error for strict publication gates. Unavailable new cards are suspended in
+the APKGs; retaining suspension requires importing learning progress. Existing
+collections must apply the current-missing filter after an upgrade. See
+MISSING_AUDIO.md for the observed importer behavior and recovery procedure.
 
 Actions artifacts expire (currently seven days); they are validation downloads,
-not a release. Record actual manual results using MANUAL_VALIDATION.md before
-approving publication. Automated engine success is not a manual playback result.
+not a release. Record actual manual results using MANUAL_VALIDATION.md when available. For
+v0.3.0-beta.1 the user explicitly authorized beta publication with the named
+manual checks still pending; do not turn those pending results into passes.
+Automated engine success is not a manual playback result.
 
 ## Maintainer publication procedure
 
@@ -45,13 +51,14 @@ approving publication. Automated engine success is not a manual playback result.
    manual dispatch on main, invokes the publication gate.
 5. The job tests, retrieves and fully decodes selected audio, builds both modes,
    verifies Anki imports, creates a draft prerelease at the checked-out commit,
-   uploads all configured APKGs plus validation.json/SHA256SUMS, downloads and
+   uploads all configured APKGs, validation.json, exceptions.json,
+   successive-imports.json and SHA256SUMS, downloads and
    checks the bytes, then makes the complete prerelease public.
 6. Public assets are downloaded without authentication and compared again.
 
 The published v0.2.0-beta.1 plan remains backward compatible; absent publish
-authorization now defaults to disabled. The v0.3 candidate is not promoted or
-published by this implementation PR. Only the publication job receives contents:
+authorization now defaults to disabled. The v0.3 publication records the accepted remaining exceptions and pending
+manual checks in its English notes and machine-readable reports. Only the publication job receives contents:
 write. No personal token or custom secret is needed.
 
 Tags/releases are never moved or overwritten. Inspect any existing draft or

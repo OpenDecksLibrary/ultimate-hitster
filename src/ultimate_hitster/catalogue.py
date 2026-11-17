@@ -184,6 +184,8 @@ def import_edition(catalogue, rows, references, edition, metadata, albums=None, 
                              and review.get("catalogue_artist") == row["artist"]
                              and review.get("provider_artists") == evidence.get("artists")
                              and review.get("source_checks") == reference.get("source_checks"))
+        if review and review.get("review_kind") == "credit_only" and not credit_review:
+            raise ValueError("The credit review no longer matches the exact artist and source evidence")
         if review:
             if (review["spotify_id"] != provider or review["catalogue_title"] != row["title"]
                     or review["provider_title"] != evidence.get("title") or (not matches["artist"] and not credit_review)):

@@ -20,8 +20,14 @@ those prototypes. They do not validate these full selections or mobile clients.
 3. Import the published v0.2.0-beta.1 Original France online APKG.
 4. Review several cards with different answers; record their card IDs, due dates,
    intervals, review counts and history. Move one card into a personally named deck.
-5. Keep the existing deck and notes. For equal/older-timestamp mode packages, use
-   Update existing notes: Always. Leave deck placement/scheduling overrides off.
+5. Enable Import learning progress / Include scheduling for new-card suspension.
+   Keep existing deck placement/scheduling overrides off. The engine tests verify
+   that existing progress survives this option; actual client UI checks remain pending.
+6. After an upgrade, find tag:audio::missing Playback:*unavailable* in Browse and
+   suspend any active results. Test an import with learning progress disabled as
+   well: it requires this manual suspension step. See MISSING_AUDIO.md.
+7. Keep the existing deck and notes. For equal/older-timestamp mode packages, use
+   Update existing notes: Always. Leave deck placement overrides off.
 
 ## Import sequence
 
@@ -83,5 +89,6 @@ Result: pending / pass / fail
 ~~~
 
 Do not replace pending results with pass until these checks have real results.
-Candidate publication needs PR review/merge and recorded validation; creating this
-procedure does not authorize publishing v0.3.0-beta.1.
+The user explicitly authorized v0.3.0-beta.1 publication with these manual checks
+pending. This procedure records the outstanding work; it does not claim passes
+or authorize a stable release.

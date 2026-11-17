@@ -39,9 +39,11 @@ from the stable production identities defined in schema v1.
 - [x] Build individual, country, family, custom and imported-global selections.
 - [x] Add hierarchical tags and document one-card/one-deck behavior.
 - [x] Test overlapping imports, scheduling/history, user decks, modes and beta compatibility.
-- [x] Prepare candidate artifacts and a disabled v0.3.0-beta.1 publication plan.
+- [x] Publish v0.3.0-beta.1 with ten APKGs, checksums and validation reports.
+- [x] Recheck the twelve exceptions, resolve two credit-only cases and suspend unavailable new cards.
 - [ ] Complete Desktop, AnkiDroid and AnkiMobile manual checks with recorded results.
-- [ ] Review and merge the v0.3 PR, then explicitly authorize candidate publication.
+- [x] Merge the multi-edition PR and explicitly authorize beta publication.
+- [ ] Resolve remaining musical-version uncertainty and absent previews when exact evidence becomes available.
 - [ ] Add further countries/editions in separately reviewed imports.
 
 See [multi-edition rules](MULTI_EDITION.md), [statistics](../data/reports/catalogue.json)

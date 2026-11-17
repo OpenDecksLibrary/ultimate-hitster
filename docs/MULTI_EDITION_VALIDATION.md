@@ -1,4 +1,22 @@
-# Multi-edition validation snapshot
+# Multi-edition validation snapshots
+
+## Publication follow-up — 2026-11-17
+
+The twelve initial exceptions were rechecked against unchanged Spotify IDs.
+Two bound credit-only reviews restore Elsa's Jamais nous and USHER's Yeah!.
+The catalogue remains 643 studies / 924 memberships, now with 633 checked audio
+recordings and ten unavailable records (six absent previews, four unresolved
+versions). The current reference counts are 905 verified, nine explicitly
+reviewed, six source conflicts and four provider metadata mismatches.
+
+New unavailable cards are suspended in APKGs. The Anki engine honors that state
+when learning-progress import is enabled; it resets suspension otherwise.
+Existing scheduling is preserved, so previously imported active exception cards
+need the current-missing search and manual suspension described in
+MISSING_AUDIO.md. exceptions.json records every remaining identity and reason.
+Full v0.3 Desktop/mobile and physical-card validation are still pending.
+
+## Initial PR #5 import snapshot — 2026-11-16
 
 Source import checked on 2026-11-16. This is automated source/audio evidence,
 not a manual Desktop/mobile or physical-card validation result.
@@ -109,4 +127,4 @@ Consult the successful workflow's validation.json for exact run/commit results;
 this document does not infer a successful run before it completes.
 Desktop full-selection playback, AnkiDroid, AnkiMobile, physical QR verification
 and listening to disputed versions remain pending. Follow MANUAL_VALIDATION.md.
-v0.3.0-beta.1 is not published by this PR.
+This initial snapshot preceded the separately authorized beta publication.

@@ -25,5 +25,9 @@
       "stem": "ultimate-hitster-imported-catalogue",
       "config": "configs/imported-catalogue.json"
     }
+  ],
+  "extra_reports": [
+    "exceptions.json",
+    "successive-imports.json"
   ]
 }

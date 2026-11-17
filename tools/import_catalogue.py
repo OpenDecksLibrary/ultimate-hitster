@@ -90,7 +90,9 @@ def run(plan, root, refresh=False, audio=False):
                                {"url": reference_url, "snapshot": f"{slug}.references.json", "upstream_sha256": digest(raw),
                                 "retrieved_on": now()[:10], "matcher": candidates[0].get("matcher")}],
                    "reference_playlist_check": playlist_checks, "reference_source_issues": source_issues}
-        catalogue = import_edition(catalogue, rows, refs, edition, metadata, albums)
+        review_path = root / "sources" / f"{slug}.reviews.json"
+        reviews = json.loads(review_path.read_text()) if review_path.exists() else {}
+        catalogue = import_edition(catalogue, rows, refs, edition, metadata, albums, reviews)
         # A positional/source conflict is never declared verified solely by a
         # matching title. Keep the original ID, metadata and explicit issue.
         uncertain = {issue["card_number"] for issue in source_issues}
@@ -99,7 +101,7 @@ def run(plan, root, refresh=False, audio=False):
             if member["edition_id"] == edition_id:
                 member["reference"]["source_checks"] = refs[member["card_number"]]["source_checks"]
                 member["reference"]["source_markets"] = refs[member["card_number"]]["source_markets"]
-                if member["card_number"] in uncertain and member["reference"]["status"] != "unresolved":
+                if member["card_number"] in uncertain and member["reference"]["status"] not in ("unresolved", "reviewed"):
                     member["reference"]["status"] = "source_conflict"
         save(root, catalogue)
         print("IMPORTED", edition_id, len(rows), "SOURCE ISSUES", len(source_issues), "PLAYLIST", playlist_checks, flush=True)
