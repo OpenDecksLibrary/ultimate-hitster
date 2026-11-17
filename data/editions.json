@@ -172,7 +172,11 @@
             "artist": true
           }
         }
-      ]
+      ],
+      "credit_reviews": {
+        "snapshot": "guilty-pleasures-france.reviews.json",
+        "sha256": "b5f1267d73d8fbd7eb6f7d25a0d0887fc1a524544e372ff1511d040c7a7076e7"
+      }
     }
   ]
 }

@@ -10,13 +10,13 @@
   "conflicting_years": [],
   "reference_status": {
     "verified": 905,
-    "reviewed": 7,
-    "source_conflict": 8,
+    "reviewed": 9,
+    "source_conflict": 6,
     "metadata_mismatch": 4
   },
   "audio_status": {
-    "verified": 631,
-    "unavailable": 12
+    "verified": 633,
+    "unavailable": 10
   },
   "editions": [
     {
@@ -307,52 +307,6 @@
         "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-208",
         "source_checks": {
           "title": true,
-          "artist": true
-        },
-        "source_markets": [
-          "FR"
-        ]
-      },
-      "audio_status": "unavailable"
-    },
-    {
-      "edition_id": "hitster-guilty-pleasures-france",
-      "card_number": "221",
-      "recording_id": "rec_142078df3a6e5e2d8601b34c942c80d9",
-      "reference": {
-        "spotify_id": "3de9qG6m9dXJEAn7ukU5wh",
-        "qr_url": null,
-        "status": "source_conflict",
-        "checks": {
-          "title": true,
-          "artist": false
-        },
-        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-221",
-        "source_checks": {
-          "title": true,
-          "artist": false
-        },
-        "source_markets": [
-          "FR"
-        ]
-      },
-      "audio_status": "unavailable"
-    },
-    {
-      "edition_id": "hitster-guilty-pleasures-france",
-      "card_number": "225",
-      "recording_id": "rec_8f42cdfcf7db5159b74ad4906c1899f4",
-      "reference": {
-        "spotify_id": "5rb9QrpfcKFHM1EUbSIurX",
-        "qr_url": null,
-        "status": "source_conflict",
-        "checks": {
-          "title": false,
-          "artist": true
-        },
-        "source_url": "https://www.hitster4all.com/data/playlists/hitster-fr-guilty-pleasures.json#card-225",
-        "source_checks": {
-          "title": false,
           "artist": true
         },
         "source_markets": [
